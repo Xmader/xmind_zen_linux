@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="36px" viewBox="0 0 44 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Timeline_Vertical</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="edit-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Timeline_Vertical" transform="translate(-24.000000, -12.000000)">
+            <rect id="Rectangle-4-Copy-4" x="0" y="0" width="94" height="58"></rect>
+            <g id="Group-2" transform="translate(46.000000, 29.000000) scale(-1, 1) translate(-46.000000, -29.000000) translate(24.000000, 10.000000)">
+                <path d="M30.5984533,32.0299991 C30.5984533,32.7674058 30.015303,33.3651921 29.2959506,33.3651921 L21.9151017,33.3651921 C21.1957493,33.3651921 20.612599,32.7674058 20.612599,32.0299991 L20.612599,9.77678219" id="Path" stroke="#072850" stroke-width="0.5"></path>
+                <path d="M20.5,23.5238095 L12.923913,23.5238095 C12.1855323,23.5238095 11.5869565,22.9276604 11.5869565,22.1922731" id="Path" stroke="#072850" stroke-width="0.5" transform="translate(16.043478, 11.761905) scale(-1, 1) translate(-16.043478, -11.761905) "></path>
+                <rect id="Rectangle-3-Copy" fill="#E4E9EC" x="25.0859396" y="29.694806" width="18" height="8" rx="0.492380952"></rect>
+                <rect id="Rectangle-3-Copy-4" fill="#E4E9EC" x="0" y="19.9047619" width="18" height="8" rx="0.492380952"></rect>
+                <rect id="Rectangle-6" fill="#FF9971" x="6" y="2" width="30" height="14" rx="0.492380952"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="30" viewBox="0 0 34 30">
+    <defs>
+        <ellipse id="a" cx="29.354" cy="11.009" rx="2.76" ry="2.75"/>
+        <ellipse id="b" cx="4.784" cy="18.699" rx="2.76" ry="2.75"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <ellipse cx="17" cy="15" stroke="#2B2B2B" stroke-width="1.425" rx="5.308" ry="14.287" transform="rotate(-120 17 15)"/>
+        <ellipse cx="16.99" cy="14.696" stroke="#2B2B2B" stroke-width="1.425" rx="5.308" ry="14.287" transform="rotate(120 16.99 14.696)"/>
+        <ellipse cx="17" cy="15" stroke="#2B2B2B" stroke-width="1.425" rx="5.308" ry="14.287"/>
+        <use fill="#FC4F31" xlink:href="#a"/>
+        <ellipse cx="29.354" cy="11.009" stroke="#FFF" stroke-width="1.514" rx="3.517" ry="3.507"/>
+        <g>
+            <use fill="#FC4F31" xlink:href="#b"/>
+            <ellipse cx="4.784" cy="18.699" stroke="#FFF" stroke-width="1.514" rx="3.517" ry="3.507"/>
+        </g>
+    </g>
+</svg>

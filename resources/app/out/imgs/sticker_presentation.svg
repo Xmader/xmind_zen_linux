@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>presentation</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="10" y="10.6666667" width="45.3333333" height="6.66666667" rx="3.33333333"></rect>
+        <path d="M13.3333333,16 L52,16 L52,39.3333333 L52,39.3333333 C52,41.1742825 50.5076158,42.6666667 48.6666667,42.6666667 L16.6666667,42.6666667 L16.6666667,42.6666667 C14.8257175,42.6666667 13.3333333,41.1742825 13.3333333,39.3333333 L13.3333333,16 Z" id="path-2"></path>
+        <rect id="path-3" x="52" y="45.3333333" width="6.66666667" height="10.6666667" rx="1.66666667"></rect>
+    </defs>
+    <g id="Sticker-size-64*64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="presentation">
+            <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+            <g id="Rectangle-64">
+                <use fill="#BDF3FB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#2B2B2B" stroke-width="1.66666667" x="10.8333333" y="11.5" width="43.6666667" height="5" rx="2.5"></rect>
+            </g>
+            <g id="Rectangle-64-Copy">
+                <use fill="#E9F4F5" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <path stroke="#2B2B2B" stroke-width="1.66666667" d="M14.1666667,16.8333333 L14.1666667,39.3333333 C14.1666667,40.7140452 15.2859548,41.8333333 16.6666667,41.8333333 L48.6666667,41.8333333 C50.0473785,41.8333333 51.1666667,40.7140452 51.1666667,39.3333333 L51.1666667,16.8333333 L14.1666667,16.8333333 Z"></path>
+            </g>
+            <rect id="Rectangle" fill="#2B2B2B" x="32" y="41.3333333" width="1.66666667" height="8"></rect>
+            <rect id="Rectangle-Copy" fill="#2B2B2B" x="31.8666662" y="8" width="1.66666667" height="4"></rect>
+            <path d="M25.3333333,53.3333333 C29.9829938,53.3333333 30.0666529,49.2704056 32.6612987,49.3340739 C35.2559446,49.3977421 35.8810579,53.3333333 40,53.3333333" id="Path-37" stroke="#2B2B2B" stroke-width="1.66666667" stroke-linecap="round"></path>
+            <circle id="Oval-2" fill="#8497DD" cx="24.6666667" cy="28.6666667" r="6"></circle>
+            <path d="M25.3333333,22.6666667 C25.3333333,25.6121853 27.721148,28 30.6666667,28 L30.6666667,22.6666667" id="Oval-2" fill="#FFC55D" transform="translate(28.000000, 25.333333) rotate(-180.000000) translate(-28.000000, -25.333333) "></path>
+            <g id="Rectangle-69">
+                <use fill="#FFC55D" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#2B2B2B" stroke-width="1.66666667" x="52.8333333" y="46.1666667" width="5" height="9" rx="1.66666667"></rect>
+            </g>
+            <rect id="Rectangle-2" fill="#2B2B2B" x="53.3333333" y="50.6666667" width="4" height="1.66666667"></rect>
+            <rect id="Rectangle-117" fill="#8497DD" x="36" y="25.3333333" width="12" height="1.66666667" rx="0.833333333"></rect>
+            <rect id="Rectangle-117-Copy" fill="#8497DD" x="36" y="30.6666667" width="6.66666667" height="1.66666667" rx="0.833333333"></rect>
+        </g>
+    </g>
+</svg>

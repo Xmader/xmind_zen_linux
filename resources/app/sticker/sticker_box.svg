@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>box</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="23.6923077 6.66666667 43.9260442 2.60864258 43.9260442 33.3406576 25.3680889 38.3648682 23.6923077 37.9921468 23.6923077 36.280721"></polygon>
+        <polygon id="path-2" points="0 1.66666667 25.3846154 6.66666667 25.3846154 38.3333333 0 32.3372396"></polygon>
+    </defs>
+    <g id="Sticker-size-64*64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="box">
+            <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+            <g id="Group-21" transform="translate(8.000000, 12.000000)">
+                <g id="Group-16">
+                    <polygon id="Path-45" stroke="#2B2B2B" stroke-width="1.66666667" fill="#BDCFD1" points="0.849045974 2.41088867 0.849045974 3.48185221 24.4872296 7.47395833 43.0852614 3.90553792 43.0852614 3.19732666 19.6548978 0.253499349"></polygon>
+                    <g id="Rectangle-103-Copy">
+                        <use fill="#BDCFD1" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#2B2B2B" stroke-width="1.66666667" d="M24.525641,7.34946335 L24.525641,37.3237972 L25.3485484,37.5068254 L43.0927108,32.7029336 L43.0927108,3.62570147 L24.525641,7.34946335 Z"></path>
+                    </g>
+                </g>
+                <g id="Rectangle-103">
+                    <use fill="#E9F4F5" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#2B2B2B" stroke-width="1.66666667" d="M0.833333333,2.68015303 L0.833333333,31.6778153 L24.5512821,37.2802261 L24.5512821,7.3518702 L0.833333333,2.68015303 Z"></path>
+                </g>
+            </g>
+            <g id="Group-21-Copy" transform="translate(38.666667, 33.333333)">
+                <g id="Group-16">
+                    <polygon id="Path-45" stroke="#2B2B2B" stroke-width="1.66666667" fill="#E9F4F5" points="0.878702799 1.47594105 0.878702799 1.92927017 10.3283529 3.75973973 17.8700765 2.03755755 17.8700765 1.47594105 8.84724935 0.573804451"></polygon>
+                    <polygon id="Rectangle-103-Copy" fill="#BDCFD1" points="9.50055401 2.85983862 18.697707 0.966094046 18.697707 14.7233665 10.2622728 17.6523327 9.50055401 17.478396 9.50055401 16.6797307"></polygon>
+                    <path d="M17.0310403,13.5091379 L17.0310403,3.0405919 L11.1672207,4.24798474 L11.1672207,15.5451836 L17.0310403,13.5091379 Z M11.1672207,17.3381151 L11.1672207,15.5451836 L11.1672207,17.3381151 Z M9.50055401,2.85983862 L18.697707,0.966094046 L18.697707,14.7233665 L10.2622728,17.6523327 L9.50055401,17.478396 L9.50055401,2.85983862 Z" id="Rectangle-103-Copy" fill="#2B2B2B" fill-rule="nonzero"></path>
+                </g>
+                <polygon id="Rectangle-103" fill="#E9F4F5" points="0 0.777777778 11.5384615 3.11111111 11.5384615 17.1549923 10.1994432 17.6181096 0 15.6147313"></polygon>
+                <path d="M9.87179487,4.50418971 L1.66666667,2.84493045 L1.66666667,14.2138406 L9.87179487,15.8254949 L9.87179487,4.50418971 Z M-9.02056208e-17,0.777777778 L11.5384615,3.11111111 L11.5384615,17.1549923 L10.1994432,17.6181096 L-9.02056208e-17,15.6147313 L-9.02056208e-17,0.777777778 Z" id="Rectangle-103" fill="#2B2B2B" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

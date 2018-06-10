@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Snowbrush v1.3.6 build57</title>
+    <link rel="stylesheet" type="text/css" href="/ui/css/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/range.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/body.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/bottom-bar.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/top-bar.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/left-bottom-bar.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/context-menu.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/ui-modules.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/insert-popup.css">
+
+    <!-- define favicon below-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/ui/images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/ui/images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/ui/images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/ui/images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/ui/images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/ui/images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/ui/images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/ui/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/ui/images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/ui/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/ui/images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/ui/images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/ui/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/ui/images/favicon/manifest.json">
+    <link rel="mask-icon" href="/ui/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/ui/images/favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        #page_content {
+            position: absolute;
+            overflow: scroll;
+            top: 57px;
+            right: 320px;
+            left: 50px;
+            bottom: 20px;
+            width: auto;
+            height: auto;
+        }
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="./font-face.css">
+    <!-- favicon end -->
+    <!--<link href="https://fonts.googleapis.com/css?family=Arvo|Droid+Serif|Indie+Flower|Lobster|Open+Sans|Poiret+One|Raleway|Roboto|Roboto+Mono|Roboto+Slab" rel="stylesheet">-->
+</head>
+
+<body>
+    <div class="ui active inverted dimmer loading-mask" id="loading_mask">
+        <div class="ui loader">
+            <div class="ui loader animate"></div>
+            <div class="ui loader label">Loading...</div>
+        </div>
+    </div>
+
+    <div class="ui active inverted dimmer hidden" id="loading_sync" style="height: 100%;">
+        <div class="ui large text loader">Sync Your Data</div>
+    </div>
+
+    <div id="top-bar"></div>
+
+    <div id="page_content" style=" top: 57px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: stretch;">
+        <div id="mind-map" style="margin-left: 40px;
+        margin-bottom: 30px;
+        width: 100%;
+        position:relative;
+        border: 1px solid;
+        overflow: hidden;
+        "></div>
+    </div>
+
+    <div id="left-bottom-bar"></div>
+
+    <!-- modal for adding image -->
+    <div class="ui modal imageModal hidden">
+        <i class="close icon"></i>
+        <div class="header">
+            Add Image From Web
+        </div>
+        <div class="content">
+            <div class="ui fluid input">
+                <input id="imageAddress" type="text" placeholder="http://">
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui black deny button">
+                Cancel
+            </div>
+            <div class="ui positive right labeled icon button">
+                Add
+                <i class="checkmark icon"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal for adding sheet -->
+    <div class="ui modal addSheetModal hidden">
+        <i class="close icon"></i>
+        <div class="header">
+            Add A New Sheet
+        </div>
+        <div class="content">
+            <div class="ui fluid input">
+                <input id="sheet-name" type="text" placeholder="newSheet">
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui black deny button">
+                Cancel
+            </div>
+            <div class="ui positive right labeled icon button">
+                Add
+                <i class="checkmark icon"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="image_popup" style="display:none"></div>
+    <div id="label_popup" style="display:none"></div>
+    <div id="hyperlink_popup" style="display:none"></div>
+
+    <script src="/bundle.js"></script>
+    <!--entry is js/expose.js-->
+    <script src="/interface_bundle.js"></script>
+    <!-- entry is ui/src/index.js-->
+    <script>
+        const isEdge = navigator.userAgent.includes('Edge');
+        const tempFileMap = {};
+        const Snowbrush = window.Snowbrush;
+        const Backbone = window.Backbone;
+        const hashCreator = (function () {
+            let count = 1;
+            return function () {
+                count++;
+                return "HASH" + count;
+            }
+        }());
+
+        function arrayBufferToBase64(buffer) {
+            var binary = '';
+            var bytes = new Uint8Array(buffer);
+            console.log(bytes.length);
+            var len = bytes.byteLength;
+
+            for (var i = 0; i < len; i++) {
+                binary += String.fromCharCode(bytes[i]);
+            }
+            console.log(bytes.length);
+            return window.btoa(binary);
+        }
+
+        const demoConstant = {
+            [Snowbrush.constant.CONFIG.URL_PREFIX]: "/", //indicate snowbrush root directory
+            [Snowbrush.constant.CONFIG.XAP_LOADER]: function (xap) {
+                const arrayBufferToBase64 = (buffer) => {
+                    // turn Uint8Array into base64
+                    let binary = ''
+                    const bytes = new Uint8Array(buffer)
+                    const len = bytes.byteLength
+                    for (let i = 0; i < len; i++) {
+                        binary += String.fromCharCode(bytes[i])
+                    }
+                    return window.btoa(binary)
+                }
+                return new Promise(function (resolve, reject) {
+                    //xap: {string} - format: xap:resource/<HASH>.xxx
+                    let name = xap.match(/(resources\/[^\/]*)$/)[1];//get xxx
+                    let filetype = (name.match(/\.([^\/]*)$/)[1]).toLowerCase()
+                    filetype = filetype === 'svg' ? filetype + '+xml' : filetype
+                    let result = 'data:image/' + filetype + ';base64,' + arrayBufferToBase64(window.resources[name])
+                    resolve(result);
+                });
+            },
+            [Snowbrush.constant.CONFIG.XAP_GENERATOR]: function ({ type, data }) {
+                return new Promise(resolve => {
+                    if (type === 'file') {
+                        let url = URL.createObjectURL(data);
+                        //Edge: "blob:D564D70D-1C33-4E91-B700-83F537B63740"
+                        //Chrome: "blob:http://10.0.1.68:8686/3cee71dd-a1df-487f-991c-30e0dee52970"
+                        let hash = url.match(/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/)[0];
+                        tempFileMap[hash] = 1;
+                        resolve('xap:resources/' + hash);
+                    } else if (/x\-image/.test(type)) {
+                        resolve('xap:resources/xmind.png')
+                    } else if (type === "x-data") {
+                        const { ext, content, encode } = data;
+                        //x-data: {ext: String, encode: String, content: any}
+                        let hash = hashCreator();
+                        let b64;
+                        if (encode === "ArrayBuffer") {
+                            b64 = arrayBufferToBase64(content);
+                        }
+                        else if (encode === "base64") {
+                            b64 = content;
+                        }
+                        tempFileMap[hash + "." + ext] = `data:image/${ext};base64,${b64}`;
+                        resolve('xap:resources/' + hash + "." + data.ext);
+                    }
+                    else {
+                        resolve("");
+                    }
+                })
+            },
+            [Snowbrush.constant.CONFIG.LANGUAGE]: Snowbrush.constant.LANGS.ZH_CN,
+            [Snowbrush.constant.CONFIG.MAX_SCALE]: 400,
+            [Snowbrush.constant.CONFIG.NO_ANIMATION]: true,
+            [Snowbrush.constant.CONFIG.MIN_SCALE]: 50,
+            [Snowbrush.constant.CONFIG.NO_KEYBIND]: false,
+            [Snowbrush.constant.CONFIG.INFO_ITEM_STYLE]: Snowbrush.constant.INFO_ITEM_STYLE_TYPE.FASHION,
+            [Snowbrush.constant.CONFIG.NO_EDIT_RECEIVER]: false,
+            [Snowbrush.constant.CONFIG.FAKE_IMAGE]: false,
+            // [Snowbrush.constant.CONFIG.CLIPBOARD_READER]: function(type){
+            //     if(type === "image/*"){
+            //         return "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAHUElEQVR4Xu3bv4vk9R3H8c93FGU1eLE9T1MIgYCQwtT+C6kkJwoKGlDRxiI2MQnYmKQQgoIQUUELFUXFwj/ANoIiBIQUgb3z0orJ6f2Y71dmdu9W0+wIL18gPJaFPY7Z13t4FE9mhrtp+CJAgMCPRGDa9Xne8vcvnp2X8avVPD929uGbP9n19zyOAAECKYGdgnXyxf/+eSzr3y3L5uz0v+Wa5e7/PHjig9STsEOAAIFdBI4N1smXv/zTWMYfx6ZW87L9Mcbq/Li8vuvcoz/9aJcjHkOAAIGEwNVg3fr6hV/vn77+vW+Pnnr1/JPLev3MNlLztlSH0drEa/rw3MMn7ko8CRsECBDYReBqsE69/vWZaSxP7Z/ee3nzi6de+/rxZV7/bWw6tcyb74OvK6+0xnj63G9P/GGXIx5DgACBhMBRsN64sD/mcXKM9V+XsVyc5tXvl3metsE6fHW1HMZqLKu/fP7QT55MPAEbBAgQ2FXgW6+wLv57jPlnB4Gax/bn9gXVcvDnKz/H/OzZB256YtcDHkeAAIGUwNFnWG9e+NdYltu/83nVplWbeB2+FZyW6bkz99/4eOq4HQIECHwfgaNgvXXxszEvP9+2afMW8Mrbv+1fbL6XF87ed+Mj32fcYwkQIJAUOArW25f+OZb5F2Pzgmo5/OcLV94eTuPtM/fs3T2m6fCNYvIp2CJAgMBuAleDdds7lz5d5uWO7Qfsh59Zbd8ebqO1ev7Mvdc9ttukRxEgQOCHETh6hfXO+uMxr3+5PfP/0RpjmabVQ/u/ue6lH+ZpWCVAgMDxAkevsN5d/2Ms853ffTt48A7w4DOtMU/z8uD+vXuvHD/rEQQIEMgLXA3WyfeXG264Zlx7+cJYXd4bq/nSWM1fjWnv+rGaL4/VfO2Yxvkx9u+ZPs8/DYsECBA4XuDY/0t4/IRHECBAoCMgWB1nVwgQCAgIVgDRBAECHQHB6ji7QoBAQECwAogmCBDoCAhWx9kVAgQCAoIVQDRBgEBHQLA6zq4QIBAQEKwAogkCBDoCgtVxdoUAgYCAYAUQTRAg0BEQrI6zKwQIBAQEK4BoggCBjoBgdZxdIUAgICBYAUQTBAh0BASr4+wKAQIBAcEKIJogQKAjIFgdZ1cIEAgICFYA0QQBAh0Bweo4u0KAQEBAsAKIJggQ6AgIVsfZFQIEAgKCFUA0QYBAR0CwOs6uECAQEBCsAKIJAgQ6AoLVcXaFAIGAgGAFEE0QINAREKyOsysECAQEBCuAaIIAgY6AYHWcXSFAICAgWAFEEwQIdAQEq+PsCgECAQHBCiCaIECgIyBYHWdXCBAICAhWANEEAQIdAcHqOLtCgEBAQLACiCYIEOgICFbH2RUCBAICghVANEGAQEdAsDrOrhAgEBAQrACiCQIEOgKC1XF2hQCBgIBgBRBNECDQERCsjrMrBAgEBAQrgGiCAIGOgGB1nF0hQCAgIFgBRBMECHQEBKvj7AoBAgEBwQogmiBAoCMgWB1nVwgQCAgIVgDRBAECHQHB6ji7QoBAQECwAogmCBDoCAhWx9kVAgQCAoIVQDRBgEBHQLA6zq4QIBAQEKwAogkCBDoCgtVxdoUAgYCAYAUQTRAg0BEQrI6zKwQIBAQEK4BoggCBjoBgdZxdIUAgICBYAUQTBAh0BASr4+wKAQIBAcEKIJogQKAjIFgdZ1cIEAgICFYA0QQBAh0Bweo4u0KAQEBAsAKIJggQ6AgIVsfZFQIEAgKCFUA0QYBAR0CwOs6uECAQEBCsAKIJAgQ6AoLVcXaFAIGAgGAFEE0QINAREKyOsysECAQEBCuAaIIAgY6AYHWcXSFAICAgWAFEEwQIdAQEq+PsCgECAQHBCiCaIECgIyBYHWdXCBAICAhWANEEAQIdAcHqOLtCgEBAQLACiCYIEOgICFbH2RUCBAICghVANEGAQEdAsDrOrhAgEBAQrACiCQIEOgKC1XF2hQCBgIBgBRBNECDQERCsjrMrBAgEBAQrgGiCAIGOgGB1nF0hQCAgIFgBRBMECHQEBKvj7AoBAgEBwQogmiBAoCMgWB1nVwgQCAgIVgDRBAECHQHB6ji7QoBAQECwAogmCBDoCAhWx9kVAgQCAoIVQDRBgEBHQLA6zq4QIBAQEKwAogkCBDoCgtVxdoUAgYCAYAUQTRAg0BEQrI6zKwQIBAQEK4BoggCBjoBgdZxdIUAgICBYAUQTBAh0BASr4+wKAQIBAcEKIJogQKAjIFgdZ1cIEAgICFYA0QQBAh0Bweo4u0KAQEBAsAKIJggQ6AgIVsfZFQIEAgKCFUA0QYBAR0CwOs6uECAQEBCsAKIJAgQ6AoLVcXaFAIGAgGAFEE0QINAREKyOsysECAQEBCuAaIIAgY6AYHWcXSFAICAgWAFEEwQIdAQEq+PsCgECAQHBCiCaIECgIyBYHWdXCBAICAhWANEEAQIdAcHqOLtCgEBAQLACiCYIEOgICFbH2RUCBAICghVANEGAQEfgG1iK85cFXJjBAAAAAElFTkSuQmCC";
+            //     }
+            //     else if(type === "text/plain"){
+            //         return `{
+            //             "type": "marker",
+            //             "dataArr":[
+            //                 {
+            //                     "markerId": "flag-red"
+            //                 },
+            //                 {
+            //                     "markerId": "arrow-up-left"
+            //                 }]
+            //             }`;
+            //     }
+            // }
+        };
+        Snowbrush.config(demoConstant);
+        devMethod.initWorkbookEditor(document.getElementById("mind-map")).then((we) => {
+            Backbone.trigger("workbookLoaded", we);
+            window.workbookeditor = we;
+            // we.on("afterModifiStatusChange", ()=> {
+            //     console.log(we.isWorkBookModified())
+            // })
+        });  //devMethod is in `js/expose.js`
+
+    </script>
+
+</body>
+
+</html>

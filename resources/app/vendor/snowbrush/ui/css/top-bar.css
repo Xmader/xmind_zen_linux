@@ -1,0 +1,609 @@
+.common-dropdown {
+  position: relative;
+  outline: none;
+}
+.common-dropdown .dropdown-wrapper {
+  position: absolute;
+  top: 100%;
+  transition: height 0.2s;
+  overflow: hidden;
+  display: none;
+}
+.common-dropdown .dropdown-wrapper .arrow {
+  position: relative;
+  z-index: 2;
+  top: 1px;
+  display: block;
+  width: 16px;
+  height: 10px;
+  overflow: hidden;
+  margin-left: 25px;
+}
+.common-dropdown .dropdown-wrapper .arrow::after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: #fafafa;
+  box-shadow: 0 0 4px 0 rgba(32, 40, 49, 0.5);
+  transform: translateY(4px) rotate(45deg);
+}
+.common-dropdown .dropdown-wrapper .list-wrapper {
+  padding: 2px;
+}
+.common-dropdown .dropdown-wrapper .dropdown-list {
+  list-style: none;
+  background-color: #fafafa;
+  overflow: hidden;
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 4px 0 rgba(32, 40, 49, 0.5);
+  padding: 8px 0;
+  position: relative;
+}
+.common-dropdown .dropdown-wrapper .dropdown-list .separator {
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid rgba(32, 40, 49, 0.15);
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+.common-dropdown .dropdown-wrapper .dropdown-list > .sheet-item.active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.common-dropdown .dropdown-wrapper .dropdown-list > .dropdown-item {
+  padding-left: 20px;
+  height: 36px;
+  line-height: 36px;
+  color: #434343;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.common-dropdown .dropdown-wrapper .dropdown-list > .dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.common-dropdown .dropdown-wrapper .dropdown-list > .dropdown-item.disabled {
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+.common-dropdown .dropdown-wrapper .dropdown-list > .dropdown-item a {
+  text-decoration: none;
+}
+.common-dropdown .dropdown-wrapper .dropdown-list > .dropdown-item .icon {
+  display: inline-block;
+  width: 20px;
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.common-dropdown .dropdown-wrapper .dropdown-list > .dropdown-item > span {
+  vertical-align: middle;
+}
+
+#top-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 56px;
+  background-color: #f1f1f1;
+  z-index: 1;
+  box-shadow: 0 1px 0 0 #dedfe0;
+}
+#top-bar .header {
+  min-width: 320px;
+  width: 100%;
+  height: 40px;
+  margin: 8px auto;
+}
+#top-bar .header > div {
+  height: 100%;
+}
+#top-bar .header > div > * {
+  float: left;
+}
+#top-bar .header > div.left {
+  float: left;
+}
+#top-bar .header > div.left .logo {
+  background-image: url("../images/cloudlogo.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  text-indent: -10000px;
+  color: transparent;
+  margin: 0 24px;
+}
+#top-bar .header > div.left .sheet {
+  width: 260px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+}
+#top-bar .header > div.left .sheet > * {
+  float: left;
+}
+#top-bar .header > div.left .sheet .sheet-name p, #top-bar .header > div.left .sheet .sheet-name input {
+  width: 226px;
+  padding: 10px;
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+#top-bar .header > div.left .sheet .sheet-name .sheet-name-current {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#top-bar .header > div.left .sheet .sheet-name .sheet-name-edit {
+  border: 0 none;
+  line-height: 20px;
+  background-color: transparent;
+  display: none;
+  outline: none;
+}
+#top-bar .header > div.left .sheet .sheet-name .sheet-name-edit:focus {
+  border-radius: 3px;
+  box-shadow: inset 0 0 4px 0 #1c69d9;
+}
+#top-bar .header > div.left .sheet .more-sheets {
+  height: 100%;
+}
+#top-bar .header > div.left .sheet .more-sheets .dropdown-wrapper {
+  margin-top: 5px;
+}
+#top-bar .header > div.left .sheet .more-sheets .more-sheets-icon {
+  width: 34px;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+  position: relative;
+}
+#top-bar .header > div.left .sheet .more-sheets .more-sheets-icon:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -3px;
+  border-width: 9px 5px;
+  border-style: solid;
+  border-color: #888 transparent transparent transparent;
+}
+#top-bar .header > div.left .ss-shortcut-menu {
+  display: none;
+}
+#top-bar .header > div.left .shortcut-menu {
+  margin-left: 24px;
+  list-style: none;
+}
+#top-bar .header > div.left .shortcut-menu > * {
+  float: left;
+}
+#top-bar .header > div.left .shortcut-menu .menu {
+  margin: 0 12px;
+}
+#top-bar .header > div.left .shortcut-menu .menu.has-sub-menu {
+  position: relative;
+}
+#top-bar .header > div.left .shortcut-menu .menu.has-sub-menu:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  left: 100%;
+  width: 0;
+  height: 0;
+  border-width: 6px 3px;
+  border-style: solid;
+  border-color: #888 transparent transparent transparent;
+}
+#top-bar .header > div.left .shortcut-menu .menu > a {
+  display: block;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+#top-bar .header > div.left .shortcut-menu .menu > a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+#top-bar .header > div.left .shortcut-menu .menu.menu-undo a {
+  background-image: url("../images/actionicons/undo.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+#top-bar .header > div.left .shortcut-menu .menu.menu-redo a {
+  background-image: url("../images/actionicons/redo.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+#top-bar .header > div.left .shortcut-menu .menu.menu-topic a {
+  background-image: url("../images/actionicons/topic.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+#top-bar .header > div.left .shortcut-menu .menu.menu-relationship a {
+  background-image: url("../images/actionicons/relationship.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+#top-bar .header > div.left .shortcut-menu .menu.menu-boundary a {
+  background-image: url("../images/actionicons/boundary.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+#top-bar .header > div.left .shortcut-menu .menu.menu-summary a {
+  background-image: url("../images/actionicons/summary.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+#top-bar .header > div.left .shortcut-menu .menu.menu-marker a {
+  background-image: url("../images/actionicons/marker.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+#top-bar .header > div.left .shortcut-menu .menu.menu-more a {
+  background-image: url("../images/actionicons/more.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+#top-bar .header > div.left .shortcut-menu .menu.press a {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+#top-bar .header > div.left .shortcut-menu .menu.disabled a {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+#top-bar .header > div.left .shortcut-menu .menu .menu-subtopic i {
+  background-image: url("../images/actionicons/subtopic.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+#top-bar .header > div.left .shortcut-menu .menu .menu-topicafter i {
+  background-image: url("../images/actionicons/topicafter.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+#top-bar .header > div.left .shortcut-menu .menu .menu-label i {
+  background-image: url("../images/actionicons/label.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+#top-bar .header > div.left .shortcut-menu .menu .menu-image i {
+  background-image: url("../images/actionicons/image.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+#top-bar .header > div.left .shortcut-menu .menu .menu-link i {
+  background-image: url("../images/actionicons/link.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+#top-bar .header > div.left .shortcut-menu .menu .menu-notes i {
+  background-image: url("../images/actionicons/notes.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+#top-bar .header > div.right {
+  float: right;
+}
+#top-bar .header > div.right .sync-icon {
+  width: 22px;
+  line-height: 50px;
+}
+#top-bar .header > div.right > * {
+  float: right;
+  height: 100%;
+}
+#top-bar .header > div.right .menu a {
+  display: block;
+  text-indent: -10000px;
+  margin: 0 24px;
+  border-radius: 3px;
+  overflow: hidden;
+  border: 0.5px solid #acacac;
+}
+#top-bar .header > div.right .menu a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#top-bar .header > div.right .menu.menu-format a {
+  background-image: url("../images/actionicons/format.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+#top-bar .header > div.right .menu.press a {
+  background-image: url("../images/actionicons/formatselected.svg");
+  background-color: #595959;
+  border: 0 none;
+}
+#top-bar .header > div.right .menu a.select {
+  background-image: url("../images/actionicons/formatselected.svg");
+  background-color: #737373;
+  border: 0 none;
+}
+#top-bar .header > div.right .menu.disabled a {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+#top-bar .header > div.right .sync-text {
+  margin-right: 8px;
+  font-size: 14px;
+  line-height: 40px;
+  color: #000;
+}
+@media screen and (max-width: 1140px) {
+  #top-bar .header > div.left .sheet {
+    width: auto;
+    background-color: transparent;
+    border-radius: 0;
+  }
+  #top-bar .header > div.left .sheet .sheet-name {
+    display: none;
+  }
+  #top-bar .header > div.left .sheet .more-sheets .more-sheets-icon {
+    background-image: url("../images/actionicons/sheet.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+  }
+  #top-bar .header > div.left .sheet .more-sheets .more-sheets-icon:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }
+  #top-bar .header > div.left .sheet .more-sheets .more-sheets-icon.press {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+  }
+  #top-bar .header > div.left .sheet .more-sheets .more-sheets-icon:after {
+    display: none;
+  }
+  #top-bar .header > div.left .shortcut-menu {
+    margin-left: 12px;
+  }
+}
+@media screen and (max-width: 910px) {
+  #top-bar .header > div.right .sync-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 760px) {
+  #top-bar .header > div.left {
+    position: relative;
+    float: none;
+    width: 100%;
+  }
+  #top-bar .header > div.left .shortcut-menu {
+    display: none;
+  }
+  #top-bar .header > div.left .sheet {
+    width: 260px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+  }
+  #top-bar .header > div.left .sheet .sheet-name {
+    display: block;
+  }
+  #top-bar .header > div.left .sheet .more-sheets .more-sheets-icon {
+    width: 34px;
+    height: 100%;
+    background: none;
+  }
+  #top-bar .header > div.left .sheet .more-sheets .more-sheets-icon:hover {
+    background-color: transparent;
+    border-radius: 0;
+  }
+  #top-bar .header > div.left .sheet .more-sheets .more-sheets-icon.press {
+    background-color: transparent;
+    border-radius: 0;
+  }
+  #top-bar .header > div.left .sheet .more-sheets .more-sheets-icon:after {
+    display: block;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu > * {
+    float: left;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu {
+    margin: 0 12px;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu.has-sub-menu {
+    position: relative;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu.has-sub-menu:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-width: 6px 3px;
+    border-style: solid;
+    border-color: #888 transparent transparent transparent;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu > a {
+    display: block;
+    text-indent: -10000px;
+    overflow: hidden;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu > a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu.menu-undo a {
+    background-image: url("../images/actionicons/undo.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu.menu-redo a {
+    background-image: url("../images/actionicons/redo.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu.menu-more {
+    margin-right: 30px;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu.menu-more a {
+    background-image: url("../images/actionicons/more.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu.press a {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu.disabled a {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu .menu-subtopic i {
+    background-image: url("../images/actionicons/subtopic.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu .menu-topicafter i {
+    background-image: url("../images/actionicons/topicafter.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu .menu-relationship i {
+    background-image: url("../images/actionicons/relationship.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu .menu-boundary i {
+    background-image: url("../images/actionicons/boundary.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu .menu-summary i {
+    background-image: url("../images/actionicons/summary.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+  #top-bar .header > div.right {
+    display: none;
+  }
+}
+@media screen and (max-width: 580px) {
+  #top-bar .header > div.left .sheet {
+    width: auto;
+    background-color: transparent;
+    border-radius: 0;
+    position: absolute;
+    right: 224px;
+  }
+  #top-bar .header > div.left .sheet .sheet-name {
+    display: none;
+  }
+  #top-bar .header > div.left .sheet .more-sheets .more-sheets-icon {
+    background-image: url("../images/actionicons/sheet.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+  }
+  #top-bar .header > div.left .sheet .more-sheets .more-sheets-icon:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }
+  #top-bar .header > div.left .sheet .more-sheets .more-sheets-icon.press {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+  }
+  #top-bar .header > div.left .sheet .more-sheets .more-sheets-icon:after {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  #top-bar .header > div.left .logo {
+    margin: 0 16px;
+  }
+  #top-bar .header > div.left .sheet {
+    right: 198px;
+  }
+  #top-bar .header > div.left .ss-shortcut-menu .menu {
+    margin: 0 8px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #top-bar .header {
+    margin: 4px 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  #top-bar {
+    height: 48px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .side-panel {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=top-bar.css.map */

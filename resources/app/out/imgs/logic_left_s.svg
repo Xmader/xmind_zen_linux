@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="17px" viewBox="0 0 23 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Logic_Chart_Left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F5F2F6" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="1.1875" y="11.5" width="14" height="6" rx="0.5"></rect>
+    </defs>
+    <g id="Artboard-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-168.000000, -97.000000)">
+        <g id="Logic_Chart_Left" transform="translate(179.000000, 106.000000) scale(-1, 1) translate(-179.000000, -106.000000) translate(165.000000, 92.000000)">
+            <rect id="Rectangle-2" x="0" y="0" width="28" height="28"></rect>
+            <g id="Group-14" transform="translate(2.333333, 5.562500)">
+                <g id="ic-org-chart(right）" transform="translate(11.416667, 8.500000) rotate(-270.000000) translate(-11.416667, -8.500000) translate(2.916667, -2.500000)">
+                    <g id="Group-22" transform="translate(0.000000, 0.000000)">
+                        <path d="M14.875,1.875 L14.875,4.20980959 C14.875,4.85332648 13.9779399,5.375 12.8691413,5.375 L2.88085866,5.375 C1.77305351,5.375 0.875,4.85791825 0.875,4.20980959 L0.875,1.875 L0.875,1.875" id="Rectangle-11" stroke="#434B54" stroke-width="0.5" stroke-linecap="round"></path>
+                        <path d="M8.4375,8.04166667 L8.4375,1.04166667 L8.4375,8.04166667 Z" id="Rectangle-8" stroke="#434B54" stroke-width="0.5" stroke-linecap="round"></path>
+                        <circle id="Oval-5" stroke="#919191" stroke-width="0.5" fill="url(#linearGradient-1)" cx="1.5" cy="1.5" r="1.5"></circle>
+                        <circle id="Oval-5-Copy" stroke="#919191" stroke-width="0.5" fill="url(#linearGradient-1)" cx="8.5" cy="1.5" r="1.5"></circle>
+                        <circle id="Oval-5-Copy-2" stroke="#919191" stroke-width="0.5" fill="url(#linearGradient-1)" cx="14.625" cy="1.5" r="1.5"></circle>
+                        <g id="Rectangle-89" transform="translate(8.187500, 14.500000) rotate(-90.000000) translate(-8.187500, -14.500000) ">
+                            <use fill="#FF9971" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#E3701C" stroke-width="0.5" x="0.9375" y="11.25" width="14.5" height="6.5" rx="0.5"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>upparcase</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="16"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图标-copy" transform="translate(-611.000000, -1218.000000)">
+            <g id="Group-28-Copy" transform="translate(611.000000, 1218.000000)">
+                <g id="Rectangle-80" opacity="0">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="15" height="15"></rect>
+                </g>
+                <path d="M8.42578125,10.3095253 L6.23779297,4.24951172 L4.93798828,4.24951172 L2.13964844,12 L3.39111328,12 L4.10009766,9.90527344 L7.05419922,9.90527344 L7.76318359,12 L8.42578125,12 L9.06689453,12 L9.77587891,9.90527344 L12.7299805,9.90527344 L13.4389648,12 L14.7119141,12 L11.9135742,4.24951172 L10.6137695,4.24951172 L8.42578125,10.3095253 Z M5.56103516,5.53857422 L5.59326172,5.53857422 L6.74804688,8.93847656 L4.40625,8.93847656 L5.56103516,5.53857422 Z M11.2368164,5.53857422 L11.269043,5.53857422 L12.4238281,8.93847656 L10.0820312,8.93847656 L11.2368164,5.53857422 Z" id="AA" fill="#434B54"></path>
+            </g>
+        </g>
+    </g>
+</svg>

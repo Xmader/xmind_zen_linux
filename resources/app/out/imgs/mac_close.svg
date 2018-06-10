@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_Close</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FD5F58" offset="0%"></stop>
+            <stop stop-color="#FF5C5F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#E1453F" offset="0%"></stop>
+            <stop stop-color="#E0443E" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-3" cx="6" cy="6" r="6"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="XMind-UI-Kit" transform="translate(-1857.000000, -2651.000000)">
+            <g id="Group-10" transform="translate(1857.000000, 2651.000000)">
+                <g id="Close">
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <circle stroke="url(#linearGradient-2)" stroke-width="0.5" cx="6" cy="6" r="5.75"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

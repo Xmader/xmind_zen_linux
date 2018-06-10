@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="9px" viewBox="0 0 21 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Fishbone_Left_Headed</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7,1 C3.68650737,1 0.0382956371,3.28245698 0.000390859752,4.5 C-0.0375139176,5.71754302 3.68650737,8 7,8 L7,1 Z" id="path-1"></path>
+        <path d="M18.7974729,4.64860232 L16.047088,6.48219226 L16.047088,2.48219226 L18.7974729,4.3157822 C18.8893786,4.3770527 18.9142134,4.50122657 18.8529429,4.5931323 C18.8382959,4.61510276 18.8194433,4.63395535 18.7974729,4.64860232 Z" id="path-2"></path>
+    </defs>
+    <g id="Artboard-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-632.000000, -100.000000)">
+        <g id="Fishbone_Left_Headed" transform="translate(642.000000, 105.000000) scale(-1, 1) translate(-642.000000, -105.000000) translate(628.000000, 91.000000)">
+            <rect id="Rectangle-2" x="0" y="0" width="28" height="28"></rect>
+            <g id="Group-45" transform="translate(3.500000, 9.187500)">
+                <path d="M6.5,4.3125 L16.5,4.3125" id="Path-2" stroke="#434B54" stroke-width="0.5"></path>
+                <path d="M12.2334806,0.271778789 L10.0805875,4.22551414" id="Path-8" stroke="#434B54" stroke-width="0.5" stroke-linecap="round"></path>
+                <path d="M14.1844095,4.62403593 L12.0315164,8.57777128" id="Path-8" stroke="#434B54" stroke-width="0.5" stroke-linecap="round" transform="translate(13.107963, 6.600904) scale(1, -1) translate(-13.107963, -6.600904) "></path>
+                <g id="Oval-11">
+                    <use fill="#FF9971" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#E3701C" stroke-width="0.5" d="M7.25,0.75 L7.25,8.25 L7,8.25 C3.81874414,8.25 -0.297377499,6.03048148 -0.249488077,4.49222072 C-0.201421927,2.94828327 3.84649863,0.75 7,0.75 L7.25,0.75 Z"></path>
+                </g>
+                <g id="Triangle" transform="translate(17.547088, 4.482192) scale(-1, 1) translate(-17.547088, -4.482192) ">
+                    <use fill="#FF9971" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#E3701C" stroke-width="0.5" d="M18.9361479,4.8566149 L15.797088,6.94932154 L15.797088,2.01506299 L18.9361479,4.10776963 C19.1429358,4.24562824 19.1988141,4.52501944 19.0609555,4.73180735 C19.0279998,4.78124088 18.9855815,4.82365921 18.9361479,4.8566149 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

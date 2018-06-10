@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Matrix_Column</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F5F2F6" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="5.6875" y="7.875" width="16.625" height="12.25" rx="1"></rect>
+        <path d="M6.6875,7.875 L11.375,7.875 L11.375,20.125 L6.6875,20.125 C6.13521525,20.125 5.6875,19.6772847 5.6875,19.125 L5.6875,8.875 C5.6875,8.32271525 6.13521525,7.875 6.6875,7.875 Z" id="path-3"></path>
+    </defs>
+    <g id="Artboard-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-862.000000, -98.000000)">
+        <g id="Matrix_Column" transform="translate(857.000000, 91.000000)">
+            <rect id="ic_tree-chart-left" x="0" y="0" width="28" height="28" rx="1.16666667"></rect>
+            <g id="Rectangle-24">
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#919191" stroke-width="0.5" x="5.4375" y="7.625" width="17.125" height="12.75" rx="1"></rect>
+            </g>
+            <g id="Rectangle-24">
+                <use fill="#FF9971" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <path stroke="#E3701C" stroke-width="0.5" d="M6.6875,7.625 L11.625,7.625 L11.625,20.375 L6.6875,20.375 C5.99714406,20.375 5.4375,19.8153559 5.4375,19.125 L5.4375,8.875 C5.4375,8.18464406 5.99714406,7.625 6.6875,7.625 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

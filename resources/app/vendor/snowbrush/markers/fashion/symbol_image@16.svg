@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>marker image</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="8.00097656" cy="8.00097656" r="7.50097656"></circle>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-236.000000, -203.000000)">
+            <g id="Group-8" transform="translate(238.000000, 205.000000)">
+                <circle id="Oval-29" fill="#0078F0" cx="10" cy="10" r="10"></circle>
+                <g id="Path-2" transform="translate(2.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <path d="M3.75386967,14.618497 C4.34839112,14.2306214 10.5140648,8.10169096 11.2135668,8.06771041 C11.6799015,8.04505671 13.6879768,9.214669 17.237793,11.5765473 L12.615886,15.0036098 L7.7923058,16.104248 L3.16211086,16.104248 C3.1602691,15.372331 3.35752203,14.8770806 3.75386967,14.618497 Z" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+            <circle id="Oval-32" fill="#FFFFFF" cx="246.5" cy="212.5" r="1.5"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>atom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="52.6666667" cy="26" r="3.33333333"></circle>
+        <circle id="path-2" cx="12.6666667" cy="36.6666667" r="3.33333333"></circle>
+    </defs>
+    <g id="Sticker-size-64*64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="atom">
+            <circle id="Oval-45" fill="#ED6969" cx="32" cy="32" r="6.66666667"></circle>
+            <ellipse id="Oval-44" stroke="#2B2B2B" stroke-width="1.66666667" transform="translate(32.666667, 32.000000) rotate(-120.000000) translate(-32.666667, -32.000000) " cx="32.6666667" cy="32" rx="9.16666667" ry="24.5"></ellipse>
+            <ellipse id="Oval-44" stroke="#2B2B2B" stroke-width="1.66666667" transform="translate(31.333333, 32.000000) rotate(-240.000000) translate(-31.333333, -32.000000) " cx="31.3333333" cy="32" rx="9.16666667" ry="24.5"></ellipse>
+            <ellipse id="Oval-44" stroke="#2B2B2B" stroke-width="1.66666667" cx="32.6666667" cy="32" rx="9.16666667" ry="24.5"></ellipse>
+            <g id="Oval-46">
+                <use fill="#BDCFD1" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <circle stroke="#FFFFFF" stroke-width="2.5" cx="52.6666667" cy="26" r="4.58333333"></circle>
+                <use stroke="#2B2B2B" stroke-width="1.66666667" xlink:href="#path-1"></use>
+            </g>
+            <g id="Oval-46">
+                <use fill="#B8D3D5" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <circle stroke="#FFFFFF" stroke-width="2.5" cx="12.6666667" cy="36.6666667" r="4.58333333"></circle>
+                <use stroke="#2B2B2B" stroke-width="1.66666667" xlink:href="#path-2"></use>
+            </g>
+            <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+        </g>
+    </g>
+</svg>

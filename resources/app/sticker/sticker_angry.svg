@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>angry</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Sticker-size-64*64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="angry">
+            <circle id="Oval-2" fill="#F56060" cx="32" cy="32" r="25"></circle>
+            <path d="M31.8235294,44.5991211 C37.6712503,44.5991211 42.1938477,46.8347599 42.1938477,45.9433594 C42.1938477,45.0519589 37.6712503,40 31.8235294,40 C25.9758085,40 21.7543945,45.0164149 21.7543945,45.9433594 C21.7543945,46.8703039 25.9758085,44.5991211 31.8235294,44.5991211 Z" id="Oval-3-Copy" fill="#602E2D"></path>
+            <path d="M7.32825656,36.0615544 C9.26843591,47.937035 19.5758335,57 32,57 C45.8071187,57 57,45.8071187 57,32 C57,29.1793298 56.5328672,26.4677644 55.6717434,23.9384456 C55.8877077,25.2603228 56,26.6170477 56,28 C56,41.8071187 44.8071187,53 31,53 C20.0135514,53 10.6823147,45.9131959 7.32825656,36.0615544 Z" id="Combined-Shape" fill="#EE4848"></path>
+            <ellipse id="Oval-3" fill="#602E2D" cx="25.1499991" cy="32.0882353" rx="2.8499999" ry="3.91176471"></ellipse>
+            <ellipse id="Oval-3-Copy" fill="#602E2D" cx="38.7647059" cy="32.0882353" rx="2.88235294" ry="3.91176471"></ellipse>
+            <path d="M16.2000008,29.9562988 C18.2717781,27.3835834 21.4494877,25.0778809 27.1120605,25.7148437" id="Path-34" stroke="#602E2D" stroke-width="3" stroke-linecap="round" transform="translate(21.656031, 27.782033) scale(-1, 1) translate(-21.656031, -27.782033) "></path>
+            <path d="M37.1088867,29.5812988 C39.1806641,27.0085834 42.157959,25.3762207 47.7099609,25.7148438" id="Path-34" stroke="#602E2D" stroke-width="3" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

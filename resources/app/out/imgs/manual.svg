@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_manual</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图标-copy" transform="translate(-419.000000, -1218.000000)">
+            <g id="Group-24" transform="translate(419.000000, 1218.000000)">
+                <rect id="ic_manual" x="0" y="0" width="16" height="16"></rect>
+                <polygon id="M" fill="#434B54" points="5.08935547 12 5.08935547 6.40332031 5.16455078 6.40332031 7.43652344 11.7744141 8.34960938 11.7744141 10.621582 6.40332031 10.6967773 6.40332031 10.6967773 12 11.8139648 12 11.8139648 4.24951172 10.4067383 4.24951172 7.93603516 10.1362305 7.84472656 10.1362305 5.37939453 4.24951172 3.97216797 4.24951172 3.97216797 12"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

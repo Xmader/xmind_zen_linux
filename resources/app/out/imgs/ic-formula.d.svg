@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_formula disable</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="修改" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.400000006">
+        <g id="notes-Full-functions-Copy" transform="translate(-660.000000, -576.000000)">
+            <g id="Group-8" transform="translate(366.000000, 576.000000)">
+                <g id="Group-12" transform="translate(294.000000, 0.000000)">
+                    <rect id="Rectangle-3" opacity="0.170516304" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M3.91748047,12 L2.71435547,12 L2.71435547,4.24951172 L7.55371094,4.24951172 L7.55371094,5.28613281 L3.91748047,5.28613281 L3.91748047,7.74072266 L7.24755859,7.74072266 L7.24755859,8.75585938 L3.91748047,8.75585938 L3.91748047,12 Z M7.42304689,12 L9.99580079,8.11669922 L9.99580079,8.07910156 L7.44990236,4.24951172 L8.88398439,4.24951172 L10.7960938,7.24658203 L10.8390625,7.24658203 L12.7726563,4.24951172 L14.131543,4.24951172 L11.5050781,8.12207031 L11.5050781,8.15429688 L14.0832031,12 L12.6759766,12 L10.7477539,9.04589844 L10.7101563,9.04589844 L8.75507814,12 L7.42304689,12 Z" id="FX" fill="#363B3F"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

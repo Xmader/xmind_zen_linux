@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>marker car chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-276.000000, -171.000000)">
+            <g id="Group-9-Copy-7" transform="translate(278.000000, 173.000000)">
+                <rect id="Rectangle-Copy-9" fill="#00AAEF" x="-1.42108547e-14" y="0" width="20" height="20" rx="10"></rect>
+                <path d="M13.1,5 L14.4,5 L14.4,5 C14.7313708,5 15,5.26862916 15,5.60000002 L15,15 L12.5,15 L12.5,5.60000002 L12.5,5.60000002 C12.5,5.26862916 12.7686292,5 13.1,5 Z" id="Rectangle-4" fill="#FFFFFF"></path>
+                <path d="M9.10000002,8 L10.4,8 L10.4,8 C10.7313708,8 11,8.26862916 11,8.60000002 L11,15 L8.5,15 L8.5,8.60000002 L8.5,8.60000002 C8.5,8.26862916 8.76862916,8 9.10000002,8 Z" id="Rectangle-4" fill="#FFFFFF"></path>
+                <path d="M5.10000002,11 L6.39999998,11 L6.39999998,11 C6.73137084,11 7,11.2686292 7,11.6 L7,15 L4.5,15 L4.5,11.6 L4.5,11.6 C4.5,11.2686292 4.76862916,11 5.10000002,11 Z" id="Rectangle-4" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

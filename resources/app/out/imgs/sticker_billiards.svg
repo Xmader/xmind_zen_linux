@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>billiards</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16.6666667,10.6666667 L43.3333333,10.6666667 L43.3333333,10.6666667 C48.8561808,10.6666667 53.3333333,15.1438192 53.3333333,20.6666667 L53.3333333,50.6666667 L6.66666667,50.6666667 L6.66666667,20.6666667 L6.66666667,20.6666667 C6.66666667,15.1438192 11.1438192,10.6666667 16.6666667,10.6666667 Z" id="path-1"></path>
+        <rect id="path-2" x="2.66666667" y="49.3333333" width="53.3333333" height="6.66666667" rx="3.33333333"></rect>
+    </defs>
+    <g id="Sticker-size-64*64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="billiards">
+            <g id="Rectangle-63">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#2B2B2B" stroke-width="1.66666667" d="M7.5,49.8333333 L52.5,49.8333333 L52.5,20.6666667 C52.5,15.6040565 48.3959435,11.5 43.3333333,11.5 L16.6666667,11.5 C11.6040565,11.5 7.5,15.6040565 7.5,20.6666667 L7.5,49.8333333 Z"></path>
+            </g>
+            <g id="Rectangle-115">
+                <use fill="#BDCFD1" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#2B2B2B" stroke-width="1.66666667" x="3.5" y="50.1666667" width="51.6666667" height="5" rx="2.5"></rect>
+            </g>
+            <g id="Group" transform="translate(13.333333, 10.666667)">
+                <rect id="Rectangle-116" fill="#2B2B2B" x="3.2" y="0" width="1.6" height="19.7647059"></rect>
+                <ellipse id="Oval-50" stroke="#2B2B2B" stroke-width="1.66666667" fill="#07EBF5" cx="4" cy="23.8823529" rx="4" ry="4.11764706"></ellipse>
+            </g>
+            <g id="Group-Copy" transform="translate(24.000000, 10.666667)">
+                <rect id="Rectangle-116" fill="#2B2B2B" x="3.2" y="0" width="1.6" height="19.7647059"></rect>
+                <ellipse id="Oval-50" stroke="#2B2B2B" stroke-width="1.66666667" fill="#07EBF5" cx="4" cy="23.8823529" rx="4" ry="4.11764706"></ellipse>
+            </g>
+            <g id="Group-Copy-2" transform="translate(41.333333, 24.666667) rotate(-15.000000) translate(-41.333333, -24.666667) translate(37.333333, 10.666667)">
+                <rect id="Rectangle-116" fill="#2B2B2B" x="3.2" y="0" width="1.6" height="19.7647059"></rect>
+                <ellipse id="Oval-50" stroke="#2B2B2B" stroke-width="1.66666667" fill="#07EBF5" cx="4" cy="23.8823529" rx="4" ry="4.11764706"></ellipse>
+            </g>
+            <path d="M61.3333333,20 C60.8942402,24.1840654 57.7849128,26.2304621 56,26.6666667" id="Path-65" stroke="#2B2B2B" stroke-width="1.66666667" stroke-linecap="round"></path>
+            <path d="M62.6666667,25.3333333 C62.4349568,27.6490413 60.9880344,29.5669722 59.2768319,30.9557652 M57.0834925,32.3990453 C56.2074776,32.8592165 55.3632493,33.1759808 54.6666667,33.3333333" id="Path-65-Copy" stroke="#2B2B2B" stroke-width="1.66666667" stroke-linecap="round"></path>
+            <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+        </g>
+    </g>
+</svg>

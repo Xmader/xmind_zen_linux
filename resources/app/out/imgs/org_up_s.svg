@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="17px" viewBox="0 0 23 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Org_Chart_Down_to_up</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F5F2F6" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="7.03515625" y="5.59375" width="14" height="6" rx="0.5"></rect>
+    </defs>
+    <g id="Artboard-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-386.000000, -31.000000)">
+        <g id="Org_Chart_Down_to_up" transform="translate(397.000000, 39.000000) scale(1, -1) translate(-397.000000, -39.000000) translate(383.000000, 25.000000)">
+            <rect id="Rectangle-2" x="0" y="0" width="28" height="28"></rect>
+            <path d="M23.3125,14.46875 L23.3125,17.1371038 C23.3125,17.8725517 23.1387288,18.46875 21.7131307,18.46875 L6.9118693,18.46875 C5.48754839,18.46875 5.3125,17.8777994 5.3125,17.1371038 L5.3125,14.46875" id="Rectangle-11" stroke="#333333" stroke-width="0.5" stroke-linecap="round" transform="translate(14.312500, 16.468750) rotate(-180.000000) translate(-14.312500, -16.468750) "></path>
+            <path d="M13,20.21875 L13,10.3229167 L13,20.21875 Z" id="Rectangle-8" stroke="#333333" stroke-width="0.5" stroke-linecap="round" transform="translate(13.656250, 15.270833) rotate(-180.000000) translate(-13.656250, -15.270833) "></path>
+            <circle id="Oval-5" stroke="#919191" stroke-width="0.5" fill="url(#linearGradient-1)" transform="translate(5.500000, 19.500000) rotate(-180.000000) translate(-5.500000, -19.500000) " cx="5.5" cy="19.5" r="1.5"></circle>
+            <circle id="Oval-5" stroke="#919191" stroke-width="0.5" fill="url(#linearGradient-1)" transform="translate(14.500000, 19.531250) rotate(-180.000000) translate(-14.500000, -19.531250) " cx="14.5" cy="19.53125" r="1.5"></circle>
+            <circle id="Oval-5" stroke="#919191" stroke-width="0.5" fill="url(#linearGradient-1)" transform="translate(23.500000, 19.500000) rotate(-180.000000) translate(-23.500000, -19.500000) " cx="23.5" cy="19.5" r="1.5"></circle>
+            <g id="Rectangle-89" transform="translate(14.035156, 8.593750) rotate(-180.000000) translate(-14.035156, -8.593750) ">
+                <use fill="#FF9971" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#E3701C" stroke-width="0.5" x="6.78515625" y="5.34375" width="14.5" height="6.5" rx="0.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

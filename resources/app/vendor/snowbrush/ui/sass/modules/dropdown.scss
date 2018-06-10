@@ -1,0 +1,93 @@
+@mixin dropdown {
+  position: relative;
+  outline: none;
+  & .dropdown-wrapper {
+    position: absolute;
+    top: 100%;
+    transition: height 0.2s;
+    overflow: hidden;
+    display: none;
+
+    .arrow {
+      position: relative;
+      z-index: 2;
+      top: 1px;
+      display: block;
+      width: 16px;
+      height: 10px;
+      overflow: hidden;
+      margin-left: 25px;
+      &::after {
+        content: "";
+        display: block;
+        width: 14px;
+        height: 14px;
+        background: #fafafa;
+        box-shadow: 0 0 4px 0 rgba(32, 40, 49, 0.5);
+        transform: translateY(4px) rotate(45deg);
+      }
+    }
+
+    .list-wrapper{
+        padding: 2px;
+    }
+
+    .dropdown-list {
+      list-style: none;
+      background-color: #fafafa;
+      overflow: hidden;
+      width: 200px;
+      border-radius: 3px;
+      box-shadow: 0 0 4px 0 rgba(32, 40, 49, 0.5);
+      padding: 8px 0;
+      position: relative;
+
+      .separator {
+        width: 100%;
+        height: 0;
+        border-bottom: 1px solid rgba(32, 40, 49, 0.15);;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+      }
+
+      > .sheet-item.active {
+        background-color: rgba(0,0,0,0.1);
+      }
+
+      > .dropdown-item {
+        padding-left: 20px;
+        height: 36px;
+        line-height: 36px;
+        color: #434343;
+        font-size: 14px;
+        vertical-align: middle;
+        &:hover {
+          background-color: rgba(0,0,0,0.1);
+          cursor: pointer;
+        }
+        &.disabled {
+          background-color: transparent;
+          cursor: not-allowed;
+          opacity: 0.3;
+        }
+        a {
+          text-decoration: none;
+        }
+        .icon {
+          display: inline-block;
+          width: 20px;
+          margin-right: 5px;
+          font-size: 18px;
+          vertical-align: middle;
+        }
+        & > span {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+.common-dropdown {
+  @include dropdown();
+}

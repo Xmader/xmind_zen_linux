@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>music</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="5.33333333" y="13.3333333" width="53.3333333" height="37.3333333" rx="3.33333333"></rect>
+        <rect id="path-2" x="45.3333333" y="18.6666667" width="10.6666667" height="12" rx="3.33333333"></rect>
+        <circle id="path-3" cx="27.3333333" cy="32.6666667" r="15.3333333"></circle>
+    </defs>
+    <g id="Sticker-size-64*64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="music">
+            <g id="Rectangle-104">
+                <use fill="#E9F4F5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#2B2B2B" stroke-width="1.66666667" x="6.16666667" y="14.1666667" width="51.6666667" height="35.6666667" rx="3.33333333"></rect>
+            </g>
+            <g id="Rectangle">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#2B2B2B" stroke-width="1.66666667" x="46.1666667" y="19.5" width="9" height="10.3333333" rx="3.33333333"></rect>
+            </g>
+            <g id="Oval-43">
+                <use fill="#2B2B2B" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <circle stroke="#2B2B2B" stroke-width="1.66666667" cx="27.3333333" cy="32.6666667" r="14.5"></circle>
+            </g>
+            <circle id="Oval-43-Copy" fill="#ED6969" cx="26.6666667" cy="32" r="6.66666667"></circle>
+            <circle id="Oval-43-Copy-2" fill="#FFFFFF" cx="27.3333333" cy="32.6666667" r="2"></circle>
+            <polyline id="Path-46" stroke="#2B2B2B" stroke-width="1.66666667" stroke-linecap="round" points="50.6666667 17.3333333 50.6666667 38.7760304 48 42.6666667"></polyline>
+            <path d="M49.1157907,42.1613279 L49.1632844,42.2430343 L49.1632844,42.2430343 C49.5247745,42.8649268 49.3136765,43.6621158 48.691784,44.0236058 C48.6384661,44.0545982 48.5830143,44.0817645 48.5258471,44.1048997 L45.4251864,45.3597171 L44.0052902,42.5931053 L47.0904997,41.4380363 L47.0904997,41.4380363 C47.8516497,41.15307 48.7073519,41.4586667 49.1157907,42.1613279 Z" id="Path-47" fill="#2B2B2B" transform="translate(46.672601, 43.345866) scale(-1, -1) rotate(-28.000000) translate(-46.672601, -43.345866) "></path>
+            <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+        </g>
+    </g>
+</svg>

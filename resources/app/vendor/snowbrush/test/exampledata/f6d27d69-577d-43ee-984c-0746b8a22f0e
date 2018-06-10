@@ -1,0 +1,479 @@
+{
+  "relationships": [
+    {
+      "end1Id": "2a7debe7-2240-4bb0-965d-e6d96dcdc885",
+      "end2Id": "d8d8ef03-bf69-4063-8eaa-2fc2a360f39f",
+      "id": "c85833c4-50ae-482e-8626-1237f12409a8",
+      "controlPoints": {
+        "0": {
+          "amount": 0.3,
+          "angle": 0.2617993877991494
+        },
+        "1": {
+          "amount": 0.3,
+          "angle": 0.2617993877991494
+        }
+      }
+    }
+  ],
+  "rootTopic": {
+    "extensions": [
+      {
+        "provider": "org.xmind.ui.map.unbalanced",
+        "content": [
+          {
+            "name": "right-number",
+            "content": "1"
+          }
+        ]
+      }
+    ],
+    "structureClass": "org.xmind.ui.map.unbalanced",
+    "children": {
+      "detached": [],
+      "attached": [
+        {
+          "structureClass": "org.xmind.ui.spreadsheet",
+          "children": {
+            "summary": [],
+            "attached": [
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {
+                        "attached": [
+                          {
+                            "children": {},
+                            "id": "ee6380ab-78f7-4afe-95c1-f46e53f5c655",
+                            "title": "Subtopic 1.1.1"
+                          }
+                        ]
+                      },
+                      "id": "7699c1e8-a2fe-42b1-bff2-3c141ba14ea3",
+                      "title": "Subtopic 1.1",
+                      "labels": [
+                        "ss"
+                      ]
+                    },
+                    {
+                      "children": {
+                        "attached": [
+                          {
+                            "children": {},
+                            "id": "d8d8ef03-bf69-4063-8eaa-2fc2a360f39f",
+                            "title": "Subtopic 1.2.1"
+                          }
+                        ]
+                      },
+                      "id": "1a496cab-ff86-4613-a217-31b1cd5d0c1a",
+                      "title": "Subtopic 1.2",
+                      "labels": [
+                        "ss"
+                      ]
+                    }
+                  ]
+                },
+                "id": "b1c87245-3562-4ee9-aecd-336c299f673d",
+                "title": "Subtopic 1"
+              },
+              {
+                "children": {
+                  "summary": [],
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "64febbf6-ffea-4180-a302-c6b36479958a",
+                      "title": "Subtopic 2.1",
+                      "labels": [
+                        "ss"
+                      ]
+                    },
+                    {
+                      "children": {},
+                      "id": "379f30e7-001a-4067-a139-2a83fc49c26b",
+                      "title": "ssdfdsam 2.2",
+                      "labels": [
+                        "ss"
+                      ]
+                    },
+                    {
+                      "children": {},
+                      "id": "7e94ff36-34a8-4e27-9aa8-da858c8c23c8",
+                      "title": "Subtopic 2.3",
+                      "labels": [
+                        "df"
+                      ]
+                    },
+                    {
+                      "children": {},
+                      "id": "088fa303-3493-492f-87bb-abb2b9c86cf8",
+                      "title": "Subtopic 2.4"
+                    },
+                    {
+                      "children": {},
+                      "id": "a84090cd-87e3-4331-9f8a-fbbd51fa31e0",
+                      "title": "Subtopic 2.5"
+                    }
+                  ]
+                },
+                "boundaries": [
+                  {
+                    "range": "(2,2)",
+                    "id": "8f7a2cae-f18a-4260-bd0c-c5de1c18854e"
+                  }
+                ],
+                "id": "2a7debe7-2240-4bb0-965d-e6d96dcdc885",
+                "title": "Subtopic 2",
+                "labels": [
+                  "sdf"
+                ]
+              },
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "f93b82fc-a354-4cd4-8ccd-5755b89b6912",
+                      "title": "Subtopic 3.1",
+                      "labels": [
+                        "df"
+                      ]
+                    },
+                    {
+                      "children": {},
+                      "id": "8799ae91-9863-4989-83fd-f6b3d63a0868",
+                      "title": "Subtopic 3.2",
+                      "labels": [
+                        "df"
+                      ]
+                    },
+                    {
+                      "children": {},
+                      "id": "aaca7f67-a3b5-4eea-891d-be7b635bf040",
+                      "title": "Subtopic 3.3",
+                      "labels": [
+                        "df"
+                      ]
+                    }
+                  ]
+                },
+                "boundaries": [
+                  {
+                    "range": "(0,1)",
+                    "id": "75bf5f0c-ff50-4a64-ad3c-931baed4a0e7"
+                  }
+                ],
+                "id": "42a7cf2f-2455-41ee-8e73-174beb40dfa4",
+                "title": "Subtopic 3"
+              },
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "095ef172-9804-4148-a72a-59b6e0e846c8",
+                      "title": "Subtopic 4.1",
+                      "labels": [
+                        "df"
+                      ]
+                    }
+                  ]
+                },
+                "id": "9fd7ac3c-841a-4adc-8ab9-17c3e6fb034c",
+                "title": "Subtopic 4"
+              }
+            ]
+          },
+          "id": "0cdda9f7-597f-4a4b-9709-43be7ca278dc",
+          "title": "Main Topic 1"
+        },
+        {
+          "structureClass": "org.xmind.ui.spreadsheet.column",
+          "children": {
+            "summary": [],
+            "attached": [
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {
+                        "attached": [
+                          {
+                            "children": {},
+                            "id": "ee6380ab-78f7-4afe-95c1-f46e53f5c654",
+                            "title": "Subtopic 1.1.1"
+                          }
+                        ]
+                      },
+                      "id": "7699c1e8-a2fe-42b1-bff2-3c141ba14ea2",
+                      "title": "Subtopic 1.1",
+                      "labels": [
+                        "ss"
+                      ]
+                    },
+                    {
+                      "children": {
+                        "attached": [
+                          {
+                            "children": {},
+                            "id": "d8d8ef03-bf69-4063-8eaa-2fc2a560f39f",
+                            "title": "Subtopic 1.2.1"
+                          }
+                        ]
+                      },
+                      "id": "1a496cab-ff86-4613-a217-31b1cd5d0c1b",
+                      "title": "Subtopic 1.2",
+                      "labels": [
+                        "ss"
+                      ]
+                    }
+                  ]
+                },
+                "id": "b1c87245-3562-4ee9-aecd-336c299f6733",
+                "title": "Subtopic 1"
+              },
+              {
+                "children": {
+                  "summary": [],
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "64febbf6-ffea-4180-a302-c6b36479958b",
+                      "title": "Subtopic 2.1",
+                      "labels": [
+                        "ss"
+                      ]
+                    },
+                    {
+                      "children": {},
+                      "id": "379f30e7-001a-4067-a139-2a83fc49c26c",
+                      "title": "ssdfdsam 2.2",
+                      "labels": [
+                        "ss"
+                      ]
+                    },
+                    {
+                      "children": {},
+                      "id": "7e94ff36-34a8-4e27-9aa8-da858c8c23c9",
+                      "title": "Subtopic 2.3",
+                      "labels": [
+                        "df"
+                      ]
+                    },
+                    {
+                      "children": {},
+                      "id": "088fa303-3493-492f-87bb-abb2b9c86cf9",
+                      "title": "Subtopic 2.4"
+                    },
+                    {
+                      "children": {},
+                      "id": "a84090cd-87e3-4331-9f8a-fbbd51fa31e1",
+                      "title": "Subtopic 2.5"
+                    }
+                  ]
+                },
+                "boundaries": [
+                  {
+                    "range": "(2,2)",
+                    "id": "8f7a2cae-f18a-4260-bd0c-c5de1c18854c"
+                  }
+                ],
+                "id": "2a7debe7-2240-4bb0-965d-e6d96dcdc883",
+                "title": "Subtopic 2",
+                "labels": [
+                  "sdf"
+                ]
+              },
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "f93b82fc-a354-4cd4-8ccd-5755b79b6912",
+                      "title": "Subtopic 3.1",
+                      "labels": [
+                        "df"
+                      ]
+                    },
+                    {
+                      "children": {},
+                      "id": "8799ae91-9863-4989-83fd-f6b3d53a0868",
+                      "title": "Subtopic 3.2",
+                      "labels": [
+                        "df"
+                      ]
+                    },
+                    {
+                      "children": {},
+                      "id": "aaca7f67-a3b5-4eea-891d-be7b625bf040",
+                      "title": "Subtopic 3.3",
+                      "labels": [
+                        "df"
+                      ]
+                    }
+                  ]
+                },
+                "boundaries": [
+                  {
+                    "range": "(0,1)",
+                    "id": "75bf5f0c-ff50-4a64-ad3c-931baed3a0e7"
+                  }
+                ],
+                "id": "42a7cf2f-2455-41ee-8e73-174beb40dfa3",
+                "title": "Subtopic 3"
+              },
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "095ef172-9804-4148-a72a-59b6e2e846c8",
+                      "title": "Subtopic 4.1",
+                      "labels": [
+                        "df"
+                      ]
+                    }
+                  ]
+                },
+                "id": "9fd7ac3c-841a-4adc-8ab9-17c3e6fb034b",
+                "title": "Subtopic 4"
+              }
+            ]
+          },
+          "id": "0cdda9f7-597f-4a4b-9709-43be7ca278db",
+          "title": "Main Topic 1"
+        },
+        {
+          "children": {},
+          "id": "2631a701-9b5b-4bc4-b94b-0a6b091f3dd2",
+          "title": "Main Topic 2"
+        }
+      ]
+    },
+    "id": "593682bd-96da-4988-a01c-edab5d78b0b3",
+    "title": "Central Topic"
+  },
+  "theme": {
+    "subTopic": {
+      "type": "topic",
+      "properties": {
+        "line-width": "1pt",
+        "fo:font-family": "Open Sans",
+        "border-line-width": "3pt",
+        "line-class": "org.xmind.branchConnection.curve",
+        "border-line-color": "#558ED5",
+        "line-color": "#558ED5"
+      }
+    },
+    "summary": {
+      "type": "summary",
+      "properties": {
+        "line-width": "5pt",
+        "shape-class": "org.xmind.summaryShape.square",
+        "line-color": "#C3D69B"
+      }
+    },
+    "boundary": {
+      "type": "boundary",
+      "properties": {
+        "fo:font-style": "italic",
+        "line-width": "3pt",
+        "svg:fill": "#C3D69B",
+        "fo:font-family": "Georgia",
+        "fo:font-size": "10pt",
+        "shape-class": "org.xmind.boundaryShape.roundedRect",
+        "fo:color": "#FFFFFF",
+        "line-pattern": "dot",
+        "svg:opacity": ".2",
+        "line-color": "#77933C"
+      }
+    },
+    "calloutTopic": {
+      "type": "topic",
+      "properties": {
+        "svg:fill": "#FBF09C",
+        "fo:font-family": "Open Sans",
+        "border-line-width": "2pt",
+        "border-line-color": "#F1BD51"
+      }
+    },
+    "centralTopic": {
+      "type": "topic",
+      "properties": {
+        "line-width": "1pt",
+        "svg:fill": "#DCE6F2",
+        "fo:font-family": "Open Sans",
+        "border-line-width": "5pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "fo:color": "#376092",
+        "line-class": "org.xmind.branchConnection.curve",
+        "border-line-color": "#558ED5",
+        "line-color": "#558ED5"
+      }
+    },
+    "mainTopic": {
+      "type": "topic",
+      "properties": {
+        "line-width": "1pt",
+        "svg:fill": "#DCE6F2",
+        "fo:font-family": "Open Sans",
+        "border-line-width": "2pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "fo:color": "#17375E",
+        "line-class": "org.xmind.branchConnection.curve",
+        "border-line-color": "#558ED5",
+        "line-color": "#558ED5"
+      }
+    },
+    "summaryTopic": {
+      "type": "topic",
+      "properties": {
+        "fo:font-style": "italic",
+        "svg:fill": "#77933C",
+        "fo:font-family": "Georgia",
+        "border-line-width": "0pt",
+        "fo:font-size": "10pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "fo:color": "#FFFFFF",
+        "line-class": "org.xmind.branchConnection.curve"
+      }
+    },
+    "floatingTopic": {
+      "type": "topic",
+      "properties": {
+        "svg:fill": "#558ED5",
+        "fo:font-family": "Open Sans",
+        "border-line-width": "0pt",
+        "fo:color": "#FFFFFF",
+        "fo:font-weight": "bold",
+        "line-color": "#558ED5"
+      }
+    },
+    "relationship": {
+      "type": "relationship",
+      "properties": {
+        "fo:font-style": "italic",
+        "line-width": "3pt",
+        "fo:font-family": "Georgia",
+        "fo:text-decoration": "none",
+        "fo:font-size": "10pt",
+        "fo:color": "#595959",
+        "fo:font-weight": "normal",
+        "arrow-end-class": "org.xmind.arrowShape.triangle",
+        "line-pattern": "dash",
+        "line-color": "#77933C"
+      }
+    },
+    "map": {
+      "type": "map",
+      "properties": {
+        "line-tapered": "none",
+        "multi-line-colors": "none",
+        "svg:fill": "#FFFFFF",
+        "color-gradient": "none"
+      }
+    }
+  },
+  "id": "f6d27d69-577d-43ee-984c-0746b8a22f0e"
+}

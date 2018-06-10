@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <g transform="translate(32, 32)">
+    <circle cx="0" cy="0" r="30.5" fill="none" stroke-width="3px" stroke="#E6E7E8"></circle>
+    <path d="M 0 -30.5 A 30.5 30.5 0 0 1 30.5 0" stroke-width="3px" stroke="#FB5151" fill="none" style="animation-name: infiRotate; animation-iteration-count: infinite; animation-duration: 1s; animation-play-state: running; animation-timing-function:linear"></path>
+  </g>
+  <style>
+    @keyframes infiRotate{
+      0% {
+        transform: rotate(0)
+      }
+
+      100%{
+        transform: rotate(360deg)
+      }
+    }
+  </style>
+</svg>

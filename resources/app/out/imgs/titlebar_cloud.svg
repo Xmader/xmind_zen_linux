@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud_file</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.5326887,17 L17.0079212,17 C17.0079212,17 19,16.4361356 19,14.4560537 C19,12.4759719 16.6300412,11.7359744 16.6300412,11.7359744 C16.6300412,11.7359744 16.0573777,8.46931613 13.4030349,8.04850403 C10.7486922,7.62769192 9.13310207,10.0834226 9.13310207,10.0834226 C9.13310207,10.0834226 8.20342819,9.03854496 6.97517902,9.66499471 C5.74692984,10.2914445 6.06498349,11.7359744 6.06498349,11.7359744 C6.06498349,11.7359744 4,12.4846146 4,14.4560537 C4,16.4274929 6.06498349,17 6.06498349,17 L9.47065044,17 L13.5326887,17 Z" id="path-1"></path>
+        <filter x="-33.3%" y="-55.6%" width="166.7%" height="211.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.196078431   0 0 0 0 0.243137255   0 0 0 0 0.4  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-283.000000, -188.000000)">
+            <g id="Group" transform="translate(283.000000, 188.000000)">
+                <rect id="Rectangle-3" x="0" y="0" width="24" height="24"></rect>
+                <g id="Path-3" stroke-linecap="round">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#434B54" stroke-width="1" fill="#FAFAFB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

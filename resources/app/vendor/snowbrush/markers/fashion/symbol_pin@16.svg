@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>marker pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-356.000000, -203.000000)">
+            <g id="Group-28-Copy-2" transform="translate(358.000000, 205.000000)">
+                <g id="Group-23" fill="#0078F0">
+                    <g id="Group-10-Copy-3">
+                        <circle id="Oval-29" cx="10" cy="10" r="10"></circle>
+                    </g>
+                </g>
+                <g id="maps-and-flags" transform="translate(5.195312, 3.359375)" fill-rule="nonzero" fill="#FFFFFF">
+                    <path d="M4.80935704,0 C2.15746325,0 0,2.15773621 0,4.80993958 C0,8.10140686 4.30390341,12.9334732 4.48714592,13.1375687 C4.65926159,13.3292908 4.95976373,13.3289536 5.13156817,13.1375687 C5.31481067,12.9334732 9.61871409,8.10140686 9.61871409,4.80993958 C9.61866221,2.15773621 7.4612249,0 4.80935704,0 Z M4.80935704,7.22995453 C3.47512338,7.22995453 2.38967416,6.14434204 2.38967416,4.80993958 C2.38967416,3.47553711 3.47514932,2.38995056 4.80935704,2.38995056 C6.14356477,2.38995056 7.22901399,3.47556305 7.22901399,4.80996552 C7.22901399,6.14436798 6.14356477,7.22995453 4.80935704,7.22995453 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

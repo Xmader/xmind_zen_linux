@@ -1,0 +1,293 @@
+html, body, div, ul, li, input,
+i, p, a, img, span, label {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+html, body{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*
+menu_bar setting
+ */
+#menu_bar {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(18, 146, 255);
+}
+
+/*marker select list*/
+#marker_div {
+  position: absolute;
+  background-color: #fff;
+  width: 352px;
+  overflow: hidden;
+  height: auto;
+  box-shadow: rgba(20, 20, 20, 0.1) 1px 2px 3px 2px;
+}
+
+#marker_ul li {
+  display: inline-block;
+  list-style: none;
+  height: 44px;
+  width: 44px;
+  text-align: center;
+  position: relative;
+}
+
+#marker_ul li span {
+  height: 4px;
+  position: absolute;
+  width: 4px;
+  border-radius: 10px;
+  background: #807eff;
+  display: inline-block;
+  bottom: 10%;
+  left: 44.8%;
+}
+
+#marker_ul li img {
+  margin-top: 14px;
+}
+
+#marker_ul li:hover {
+  background-color: #f3f3f3;
+}
+
+#marker_ul li:active {
+  background-color: #807eff;
+}
+
+/*右键菜单*/
+#right_click_menu {
+  border: 1px #dcdcdc solid;
+  -moz-border-radius: 5px; /* Gecko browsers */
+  -webkit-border-radius: 5px; /* Webkit browsers */
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px #222;
+  -moz-box-shadow: 0 0 10px #222;
+  box-shadow: 0 0 10px #222;
+}
+
+#right_click_menu_ul li:hover {
+  fill: #6596fb;
+  background-color: #6596fb;
+}
+
+.fatal-error {
+  text-align: center;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.extend-collapse.mouseover {
+  background-color: #6596fb;
+  fill: #6596fb;
+}
+
+section {
+  width: 30%;
+  height: 210px;
+  margin: auto;
+  text-align: left;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  background-color: #384748;
+  color: #fff;
+  overflow: scroll;
+}
+
+#link_btns {
+  height: 24px;
+}
+
+.link_btn {
+  display: inline-block;
+  margin-right: 10px;
+  width: 30px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.evo-cp-wrap {
+  display: inline-block;
+  margin-right: 20px;
+  width: 30px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+#modal_overlay {
+  position: fixed;
+  /*display: block;*/
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.8)
+
+}
+
+.modal_data {
+  width: 600px;
+  border-radius: 6px;
+  position: relative;
+  margin: 200px auto;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 5px 15px 0px;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 15px;
+  text-align: center;
+}
+
+.modal_data > input[type=text] {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  font: 20px "微软雅黑";
+}
+
+.modal_data > input[type=button] {
+  width: 50px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+#full-editor {
+  height: 300px;
+}
+
+.text_input {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+/* rightClick menu start */
+.right-menu {
+  position: absolute;
+}
+
+.right-menu li {
+  display: block;
+  padding: 5px 5px 5px 20px;
+  font-size: 14px;
+}
+
+/* rightClick menu end */
+
+/* Loading mask*/
+.loading-mask {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 10;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: rgb(202, 221, 254);
+  color: #fff;
+}
+
+.ui.loader.label {
+  position: relative;
+  line-height: 20px;
+  width: 20px;
+  left: -10px;
+}
+
+.ui.loader.animate {
+  position: relative;
+  top: -5px;
+  left: -5px;
+  width: 60px;
+  height: 60px;
+  border-top: solid 5px white;
+  border-left: solid 5px white;
+  border-bottom: solid 5px white;
+  border-right: solid 5px #29333e;
+  border-radius: 100%;
+  display: inline-block;
+  animation: loader-rotate 1s 0s linear infinite;
+  -webkit-animation: loader-rotate 1s 0s linear infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes loader-rotate {
+  0% {
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    -webkit-transform: rotate(180deg) scale(1);
+    transform: rotate(180deg) scale(1);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) scale(1);
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+/* Loading mask end*/
+
+/* sync indicator's css */
+.circ{
+  opacity: 0;
+  stroke-dasharray: 130;
+  stroke-dashoffset: 130;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.tick{
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  -webkit-transition: stroke-dashoffset 1s 0.5s ease-out;
+  -moz-transition: stroke-dashoffset 1s 0.5s ease-out;
+  -ms-transition: stroke-dashoffset 1s 0.5s ease-out;
+  -o-transition: stroke-dashoffset 1s 0.5s ease-out;
+  transition: stroke-dashoffset 1s 0.5s ease-out;
+}
+.drawn > svg .path{
+  opacity: 1;
+  stroke-dashoffset: 0;
+}
+

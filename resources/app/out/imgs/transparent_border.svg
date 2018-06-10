@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="16px" viewBox="0 0 33 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>border</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1,0 L41,0 L41,24 L1,24 L1,24 C0.44771525,24 6.76353751e-17,23.5522847 0,23 L0,1 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" id="path-1"></path>
+        <rect id="path-2" x="9" y="8" width="23" height="8"></rect>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Color-Picker" transform="translate(-643.000000, -300.000000)">
+            <g id="Group-8-Copy-4" transform="translate(639.000000, 296.000000)">
+                <g id="color-control-copy-15">
+                    <g id="Rectangle-33">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#FAFAFB" stroke-width="4" d="M2,2 L2,22 L39,22 L39,2 L2,2 Z"></path>
+                        <path stroke="#D1D1D1" stroke-width="1" d="M40.5,23.5 L40.5,0.5 L1,0.5 C0.723857625,0.5 0.5,0.723857625 0.5,1 L0.5,23 C0.5,23.2761424 0.723857625,23.5 1,23.5 L40.5,23.5 Z"></path>
+                    </g>
+                    <path d="M9.67456055,19.8413086 L31.5456543,4.13232422" id="Path-6" stroke="#CCCCCC"></path>
+                    <g id="Rectangle-16">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke-opacity="0.1" stroke="#000000" stroke-width="1" x="9.5" y="8.5" width="22" height="7"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

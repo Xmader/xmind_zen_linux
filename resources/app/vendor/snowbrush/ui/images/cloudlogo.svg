@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>D178C570-52B7-49A7-8DC2-94C1DA79FDB4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#676767" offset="0%"></stop>
+            <stop stop-color="#888888" offset="100%"></stop>
+        </linearGradient>
+        <path d="M18.6916504,12.3502197 C21.8369141,9.80749512 23.2094727,8.06201172 26.9928712,8.63846823 C26.8031256,3.83551252 22.8494788,0 18,0 C14.4856579,0 11.4417777,2.01428703 9.95989166,4.95132884 C14.2764893,5.78088379 14.2514648,7.27416992 18.6916504,12.3502197 Z" id="path-2"></path>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="17.0329795" height="12.3502197" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <path d="M19.4221199,13.6334294 C20.0769451,13.0449247 21.3865954,11.8679154 21.3865954,11.8679154 C22.6203189,10.7147087 24.312046,10 26.1789474,10 C29.9461107,10 33,12.9101491 33,16.5 C33,19.9076856 30.2481832,22.7029016 26.7466201,22.9778105" id="path-4"></path>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="13.5778801" height="12.9778105" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <path d="M14.3123034,9.27744465 C12.848323,7.28274512 10.5651503,6 8,6 C3.581722,6 0,9.80557963 0,14.5 C0,19.1944204 3.581722,23 8,23 L25,23 L14.3123034,9.27744465 Z" id="path-6"></path>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="25" height="17" fill="white">
+            <use xlink:href="#path-6"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="snowbrush_sidebar&amp;menu" transform="translate(-24.000000, -8.000000)" fill="url(#linearGradient-1)" stroke="#585858">
+            <g id="nav-bar">
+                <g id="Group-2" transform="translate(24.000000, 8.000000)">
+                    <g id="Group-4">
+                        <g id="Group-2-Copy" transform="translate(4.000000, 8.000000)">
+                            <use id="Oval-5" mask="url(#mask-3)" xlink:href="#path-2"></use>
+                            <use id="Combined-Shape" mask="url(#mask-5)" xlink:href="#path-4"></use>
+                            <use id="Combined-Shape" mask="url(#mask-7)" xlink:href="#path-6"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

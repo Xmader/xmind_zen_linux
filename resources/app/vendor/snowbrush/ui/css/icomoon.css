@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?htko5y');
+  src:  url('../fonts/icomoon.eot?htko5y#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?htko5y') format('truetype'),
+    url('../fonts/icomoon.woff?htko5y') format('woff'),
+    url('../fonts/icomoon.svg?htko5y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bold:before {
+  content: "\e900";
+}
+.icon-incline:before {
+  content: "\e901";
+}
+.icon-line-through:before {
+  content: "\e902";
+}
+.icon-text-center:before {
+  content: "\e903";
+}
+.icon-text-left:before {
+  content: "\e904";
+}
+.icon-text-right:before {
+  content: "\e905";
+}
+.icon-underline:before {
+  content: "\e906";
+}
+.icon-icdelete:before {
+  content: "\e907";
+}
+.icon-icparenttopic:before {
+  content: "\e908";
+}
+.icon-icsubtopic:before {
+  content: "\e909";
+}
+.icon-ictopicafter:before {
+  content: "\e90a";
+}
+.icon-ictopicbefore:before {
+  content: "\e90b";
+}
+.icon-icboundary:before {
+  content: "\e90c";
+}
+.icon-icrelationship:before {
+  content: "\e90d";
+}
+.icon-icsummary:before {
+  content: "\e90e";
+}
+.icon-copy:before {
+  content: "\e90f";
+}
+.icon-paste:before {
+  content: "\e910";
+}
+.icon-edit:before {
+  content: "\e911";
+}
+.icon-ichyperlink:before {
+  content: "\e912";
+}
+.icon-icimage:before {
+  content: "\e913";
+}
+.icon-iclabel:before {
+  content: "\e914";
+}
+.icon-icformat:before {
+  content: "\e915";
+}
+.icon-icmarker:before {
+  content: "\e916";
+}
+.icon-icnote:before {
+  content: "\e917";
+}
+.icon-ictheme:before {
+  content: "\e918";
+}
+

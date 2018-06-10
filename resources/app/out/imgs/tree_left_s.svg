@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Tree_Chart_Left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F5F2F6" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="1.43884904e-13" width="14" height="6" rx="0.5"></rect>
+    </defs>
+    <g id="Artboard-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-604.000000, -29.000000)">
+        <g id="Tree_Chart_Left" transform="translate(612.000000, 39.000000) scale(-1, 1) translate(-612.000000, -39.000000) translate(598.000000, 25.000000)">
+            <rect id="Rectangle-2" x="0" y="0" width="28" height="28"></rect>
+            <g id="Group-50" transform="translate(7.000000, 5.302632)">
+                <path d="M11.8125,16.125 L8.15209472,16.125 C6.68738325,16.125 6.5,15.1779234 6.5,14.0137661 L6.5,4.12061404 L6.5,3.55532248" id="Rectangle-33" stroke="#333333" stroke-width="0.5" stroke-linecap="round"></path>
+                <path d="M11.8125,10.7697368 L8.15209472,10.7697368 C6.68738325,10.7697368 6.5,9.95795692 6.5,8.96010777 L6.5,4.06795462" id="Rectangle-33" stroke="#333333" stroke-width="0.5" stroke-linecap="round"></path>
+                <circle id="Oval-5" stroke="#919191" stroke-width="0.5" fill="url(#linearGradient-1)" cx="12.5" cy="11.1973684" r="1.5"></circle>
+                <circle id="Oval-5-Copy-3" stroke="#919191" stroke-width="0.5" fill="url(#linearGradient-1)" cx="12.5" cy="16.1973684" r="1.5"></circle>
+                <g id="Rectangle-89">
+                    <use fill="#FF9971" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#E3701C" stroke-width="0.5" x="-0.25" y="-0.25" width="14.5" height="6.5" rx="0.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

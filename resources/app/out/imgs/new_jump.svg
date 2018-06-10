@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Note/Comment/Task/Label" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Note" transform="translate(-301.000000, -30.000000)" fill="#9E9E9E">
+            <g id="note" transform="translate(7.000000, 18.000000)">
+                <g id="button" transform="translate(155.000000, 12.000000)">
+                    <path d="M149.666667,10.6666667 L140.333333,10.6666667 L140.333333,1.33333333 L145,1.33333333 L145,0 L140.333333,0 C139.596667,0 139,0.596666667 139,1.33333333 L139,10.6666667 C139,11.4033333 139.596667,12 140.333333,12 L149.666667,12 C150.403333,12 151,11.4033333 151,10.6666667 L151,6 L149.666667,6 L149.666667,10.6666667 Z M146.333333,0 L146.333333,1.33333333 L148.723333,1.33333333 L142.17,7.88666667 L143.113333,8.83 L149.666667,2.27666667 L149.666667,4.66666667 L151,4.66666667 L151,0 L146.333333,0 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

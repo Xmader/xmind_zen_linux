@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_code</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="修改" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="notes-Full-functions-Copy" transform="translate(-806.000000, -531.000000)">
+            <g id="Group-Copy-13" transform="translate(806.000000, 531.000000)">
+                <rect id="Rectangle-3" opacity="0.170516304" x="0" y="0" width="16" height="16"></rect>
+                <path d="M15.131728,8.59619408 L15.4852814,8.24264069 L11.2426407,4 L10.5355339,4.70710678 L14.0710678,8.24264069 L10.5355339,11.7781746 L11.2426407,12.4852814 L15.131728,8.59619408 Z M2.41421356,8.24264069 L5.94974747,4.70710678 L5.24264069,4 L1.35355339,7.8890873 L1,8.24264069 L5.24264069,12.4852814 L5.94974747,11.7781746 L2.41421356,8.24264069 Z" id="Combined-Shape" fill="#434B54"></path>
+                <polygon id="Path-14" fill="#E83E26" points="7.23503736 13.6988303 10.2142367 2.99146757 9.25083335 2.72341177 6.27163398 13.4307745"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

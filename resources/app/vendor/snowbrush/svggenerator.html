@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Generator</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .base-container {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .base-container .cell {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    hr {
+      margin: 30px 0;
+    }
+
+    .result-container {
+
+    }
+
+    .result-container .result-row {
+      margin: 30px 10px;
+    }
+
+    .result-row .type {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .result-row .result-list {
+      border: 1px solid;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .result-list .list-item {
+      padding: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="base-container">
+    <div class="cell">
+      <div class="structure topic-style-A">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="40" viewBox="0 0 64 40">
+          <g fill="none" fill-rule="evenodd">
+            <path class="topic-path" fill="#8493A7" d="M8 8h48a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3V11a3 3 0 0 1 3-3z"/>
+            <text fill="#363B3F" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="13" font-weight="400" transform="translate(5 8)">
+              <tspan x="15.079" y="16">Abc</tspan>
+            </text>
+          </g>
+        </svg>
+      </div>
+      <div class="name">topic-style-A</div>
+    </div>
+    <div class="cell">
+      <div class="structure boundary-style-A">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="40" viewBox="0 0 64 40">
+          <defs>
+            <rect id="a" width="40" height="24" x="12" y="8" rx="6"/>
+            <mask id="b" width="40" height="24" x="0" y="0" fill="#fff">
+              <use xlink:href="#a"/>
+            </mask>
+          </defs>
+          <g fill="none" fill-rule="evenodd">
+            <use class="boundary-use" fill="#89D6EC" fill-opacity=".1" stroke="#89D6EC" stroke-dasharray="2" stroke-width="2" mask="url(#b)" xlink:href="#a"/>
+          </g>
+        </svg>
+      </div>
+      <div class="name">boundary-style-A</div>
+    </div>
+    <div class="cell">
+      <div class="structure relationship-style-A">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="40" viewBox="0 0 64 40">
+          <g fill="none" fill-rule="evenodd">
+            <path class="arrow" fill="#89D6EC" d="M49.916 11.906l2.345 4.77-6.761-1.812z"/>
+            <path class="line" stroke="#89D6EC" d="M14.22 27.78c2.833-7.148 8.594-12.591 18.23-6.614 9.637 5.977 16.701-2.805 16.701-7.684"/>
+          </g>
+        </svg>
+      </div>
+      <div class="name">relationship-style-A</div>
+    </div>
+    <div class="cell">
+      <div class="structure relationship-style-B">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="40" viewBox="0 0 64 40">
+          <g fill="none" fill-rule="evenodd">
+            <g transform="translate(12 11)">
+              <circle class="arrow" cx="2" cy="17" r="2" fill="#F3B8B3"/>
+              <path class="arrow" fill="#F3B8B3" d="M37.916.906l2.345 4.77L33.5 3.863z"/>
+              <path class="line" stroke="#F3B8B3" d="M2.22 16.78c2.833-7.148 8.594-12.591 18.23-6.614 9.637 5.977 16.701-2.805 16.701-7.684"/>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="name">relationship-style-B</div>
+    </div>
+    <div class="cell">
+      <div class="structure summary-style-A">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="40" viewBox="0 0 64 40">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h64v40H0z"/>
+            <rect class="topic" width="32" height="13" x="26.5" y="13.5" stroke="#89D6EC" rx="3"/>
+            <text fill="#89D6EC" font-family="Helvetica-BoldOblique, Helvetica" font-size="10" font-style="italic" font-weight="bold">
+              <tspan x="33.054" y="23">Abc</tspan>
+            </text>
+            <g class="select" fill="#89D6EC">
+              <path d="M17 5h1v30h-1z"/>
+              <path d="M12 34v1h6v-1zM17.5 19.5v1h6v-1zM12 5v1h6V5z"/>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="name">summary-style-A</div>
+    </div>
+    <div class="cell">
+      <div class="structure summary-style-B">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="40" viewBox="0 0 64 40">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h64v40H0z"/>
+            <rect class="topic" width="32" height="13" x="26.5" y="13.5" stroke="#F3B8B3" rx="3"/>
+            <path class="select" fill="#F3B8B3" d="M11 6v1.056h1.753c1.786 0 2.696.9 2.696 2.732v7.08c0 1.8.843 3.011 2.529 3.632-1.686.621-2.529 1.832-2.529 3.633v7.11c0 1.8-.91 2.701-2.696 2.701H11V35h1.854c1.18 0 2.124-.342 2.831-1.025.675-.683 1.012-1.583 1.012-2.763v-7.08c0-.993.236-1.738.707-2.235.472-.497 1.315-.776 2.596-.776v-1.242c-1.28-.031-2.157-.31-2.63-.807-.471-.466-.673-1.18-.673-2.174V9.82c0-1.18-.337-2.111-1.012-2.794C14.978 6.342 14.034 6 12.854 6H11z"/>
+            <text fill="#F3B8B3" font-family="Helvetica-BoldOblique, Helvetica" font-size="10" font-style="italic" font-weight="bold">
+              <tspan x="33.054" y="23">Abc</tspan>
+            </text>
+          </g>
+        </svg>
+      </div>
+      <div class="name">summary-style-B</div>
+    </div>
+    <div class="cell">
+      <div class="structure summary-style-C">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="40" viewBox="0 0 64 40">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h64v40H0z"/>
+            <rect class="topic" width="32" height="13" x="28.5" y="13.5" stroke="#F1DE99" rx="3"/>
+            <path class="stroke-select" stroke="#F1DE99" d="M9 32c6.627 0 12-5.373 12-12S15.627 8 9 8"/>
+            <path class="select" fill="#F1DE99" d="M21.5 19.5v1h4v-1z"/>
+            <text fill="#F1DE99" font-family="Helvetica-BoldOblique, Helvetica" font-size="10" font-style="italic" font-weight="bold">
+              <tspan x="34.054" y="23">Abc</tspan>
+            </text>
+          </g>
+        </svg>
+      </div>
+      <div class="name">summary-style-C</div>
+    </div>
+  </div>
+  <hr />
+  <span>点击上传data数据: </span><input id="upload-btn" type="file">
+  <hr />
+  <div class="result-container"></div>
+  <hr />
+  <span class="hint-span-1">请上传数据</span><button disabled id="download-btn">下载</button>
+  <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jszip/3.1.3/jszip.min.js"></script>
+  <script src="https://cdn.bootcss.com/FileSaver.js/2014-11-29/FileSaver.min.js"></script>
+  <script>
+    /**
+     * @typedef {Object} topicStyleA
+     * @property {string} fill
+     * @property {string} stroke
+     * @property {string} strokeWidth
+     * @property {string} textColor
+     * @property {string} fontSize
+     * */
+
+    /**
+     * @typedef {Object} boundaryStyleA
+     * @property {string} fill
+     * @property {string} fillOpacity
+     * @property {string} stroke
+     * @property {string} strokeWidth
+     * @property {string} strokeDashArray
+     * */
+
+    /**
+     * @typedef {Object} relationshipStyleA
+     * @property {string} stroke
+     * @property {string} strokeDashArray
+     * */
+
+    /**
+     * @typedef {Object} relationshipStyleB
+     * @property {string} stroke
+     * @property {string} strokeDashArray
+     * */
+
+    /**
+     * @typedef {Object} summaryStyleA
+     * @property {string} fill
+     * @property {string} stroke
+     * @property {string} strokeWidth
+     * @property {string} textColor
+     * @property {string} fontSize
+     * */
+
+    new class {
+
+      startReadData() {
+        this.generateTopicStyleA();
+        this.generateBoundaryStyleA();
+        this.generateRelationShipStyleA();
+        this.generateRelationShipStyleB();
+        this.generateSummaryStyleA();
+        this.generateSummaryStyleB();
+        this.generateSummaryStyleC();
+
+
+        this.showResultInContainer();
+
+        this.hintSpan1Elem.innerHTML = '解析数据完毕: ';
+
+        this.downloadBtnElem.removeAttribute('disabled');
+      }
+
+      generateTopicStyleA() {
+        this.generateSVG('topic-style-A', function($structure, info) {
+          $structure.find('.topic-path').attr({
+            fill: info.fill,
+            stroke: info.stroke,
+            'stroke-width': info.strokeWidth
+          });
+          $structure.find('text').attr({
+            fill: info.textColor,
+            'font-size': info.fontSize
+          });
+
+          return $structure;
+        });
+      }
+
+      generateBoundaryStyleA() {
+        this.generateSVG('boundary-style-A', function($structure, info) {
+          $structure.find('.boundary-use').attr({
+            fill: info.fill,
+            'fill-opacity': info.fillOpacity,
+            stroke: info.stroke,
+            'stroke-dasharray': info.strokeDashArray,
+            'stroke-width': info.strokeWidth
+          });
+
+          return $structure;
+        });
+      }
+
+      generateRelationShipStyleA() {
+        this.generateSVG('relationship-style-A', function($structure, info) {
+          $structure.find('.arrow').attr({
+            fill: info.stroke
+          });
+
+          $structure.find('.line').attr({
+            stroke: info.stroke,
+            'stroke-dasharray': info.strokeDashArray
+          });
+
+          return $structure;
+        });
+      }
+
+      generateRelationShipStyleB() {
+        this.generateSVG('relationship-style-B', function($structure, info) {
+          $structure.find('.arrow').attr({
+            fill: info.stroke
+          });
+
+          $structure.find('.line').attr({
+            stroke: info.stroke,
+            'stroke-dasharray': info.strokeDashArray
+          });
+
+          return $structure;
+        });
+      }
+
+      generateSummaryStyleA() {
+        this.generateSVG('summary-style-A', function($structure, info) {
+          $structure.find('.topic').attr({
+            fill: info.fill,
+            stroke: info.stroke,
+            'stroke-width': info.strokeWidth
+          });
+
+          $structure.find('.select').attr({
+            fill: info.stroke
+          });
+
+          $structure.find('text').attr({
+            fill: info.textColor,
+            'font-size': info.fontSize
+          });
+
+          return $structure;
+        });
+      }
+
+      generateSummaryStyleB() {
+        this.generateSVG('summary-style-B', function($structure, info) {
+          $structure.find('.topic').attr({
+            fill: info.fill,
+            stroke: info.stroke,
+            'stroke-width': info.strokeWidth
+          });
+
+          $structure.find('.select').attr({
+            fill: info.stroke
+          });
+
+          $structure.find('text').attr({
+            fill: info.textColor,
+            'font-size': info.fontSize
+          });
+
+          return $structure;
+        });
+      }
+
+      generateSummaryStyleC() {
+        this.generateSVG('summary-style-C', function($structure, info) {
+          $structure.find('.topic').attr({
+            fill: info.fill,
+            stroke: info.stroke,
+            'stroke-width': info.strokeWidth
+          });
+
+          $structure.find('.select').attr({
+            fill: info.stroke
+          });
+
+          $structure.find('.stroke-select').attr({
+            stroke: info.stroke
+          });
+
+          $structure.find('text').attr({
+            fill: info.textColor,
+            'font-size': info.fontSize
+          });
+
+          return $structure;
+        });
+      }
+
+      constructor() {
+        /** 上传data按钮 */
+        this.uploadBtnElem = document.querySelector('#upload-btn');
+
+        /** 提示语span */
+        this.hintSpan1Elem = document.querySelector('.hint-span-1');
+
+        /** 点击下载按钮 */
+        this.downloadBtnElem = document.querySelector('#download-btn');
+
+        /** 解析结果容器 */
+        this.resultContainerElem = document.querySelector('.result-container');
+
+        /** data信息 */
+        this.data = {};
+
+        /** 解析出的结果对象 */
+        this.resultMap = {};
+
+        /** zip对象 */
+        this.zip = new JSZip();
+
+        this.initListener();
+      }
+
+      /** 稳定 */
+      initListener() {
+        this.uploadBtnElem.addEventListener('change', (e) => {
+
+          if (!e.target.files.length) return;
+
+          this.hintSpan1Elem.innerHTML = '正在解析数据: ';
+
+          const fileReader = new FileReader();
+          fileReader.readAsText(e.target.files[0]);
+
+          fileReader.onload = (e) => {
+            this.data = JSON.parse(e.target.result);
+
+            // 开始解析data数据
+            this.startReadData();
+          };
+        });
+
+        this.downloadBtnElem.addEventListener('click', () => {
+          this.zip.generateAsync({type:"blob"})
+            .then(function(content) {
+              saveAs(content, "result.zip");
+            });
+        });
+      }
+
+
+      /** 稳定 */
+      showResultInContainer() {
+        Object.keys(this.resultMap).forEach(type => {
+          const $resultRow = $(`<div class="result-row">`);
+
+          const $rowType = $(`<div class="type">${type}</div>`);
+
+          const $resultList = $(`<div class="result-list">`);
+
+          this.resultMap[type].forEach(($result) => {
+            const $listItem = $('<div class="list-ietm">');
+            $listItem.append($result);
+            $resultList.append($listItem);
+          });
+
+          $resultRow.append($rowType).append($resultList);
+
+          this.resultContainerElem.appendChild($resultRow[0]);
+        })
+      }
+
+      /**
+       * 稳定
+       * @param {string} key
+       * @param {Function} callback
+       * */
+      generateSVG(key, callback) {
+        const infoList = this.data[key];
+
+        if (!infoList || !infoList.length) {
+          return console.error(`没有${key}的数据`)
+        }
+
+        this.resultMap[key] = [];
+
+        const topicStyleAFolder = this.zip.folder(key);
+
+        const $structure = $(`.${key}`).find('svg');
+
+        infoList.forEach((info, index) => {
+          const $cloneStructure = callback($structure.clone(), info);
+          if (!$cloneStructure) throw new Error('未返回structure结果');
+
+          topicStyleAFolder.file(`${key}-${index}.svg`, $cloneStructure[0].outerHTML);
+
+          this.resultMap[key].push($cloneStructure);
+        });
+      }
+    }
+  </script>
+</body>
+</html>

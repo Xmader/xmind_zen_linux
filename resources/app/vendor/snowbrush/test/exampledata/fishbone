@@ -1,0 +1,362 @@
+{
+    "id": "ad73efeb-a85e-40d9-95df-57d1c4413133",
+    "class": "sheet",
+    "title": "Sheet 1",
+    "rootTopic": {
+        "id": "462c87f6-eac5-4d30-8aa0-ac15e7e98309",
+        "class": "topic",
+        "title": "Central Topic",
+        "structureClass": "org.xmind.ui.map",
+        "children": {
+            "attached": [{
+                "id": "87b1e9fa-ae06-44c8-a72f-bce45e41e115",
+                "title": "分支主题 1",
+                "structureClass": "org.xmind.ui.fishbone.leftHeaded",
+                "children": {
+                    "attached": [{
+                        "id": "2d2d382e-8b4d-4ba7-9c52-f2bfbbe8caf1",
+                        "title": "子主题 1"
+                    }, {
+                        "id": "f0de8edc-8b45-4dfd-a1a7-7d57b91fbb75",
+                        "title": "子主题 2",
+                        "children": {
+                            "attached": [{
+                                "id": "d908eef4-6051-47f3-a316-fba2b181cafe",
+                                "title": "子主题 1"
+                            }, {
+                                "id": "88b85df6-7008-4ad5-94ad-e13808ba9898",
+                                "title": "子主题 2",
+                                "children": {
+                                    "attached": [{
+                                        "id": "9b7aa0fe-4e6e-49b3-bed1-1bb3eeb1c971",
+                                        "title": "子主题 1"
+                                    }, {
+                                        "id": "6c87304d-ba2a-4b8e-a3b1-3a0438a11135",
+                                        "title": "子主题 2",
+                                        "children": {
+                                            "attached": [{
+                                                "id": "219153dd-5ab4-40e7-9c93-738ac69ebba5",
+                                                "title": "子主题 1"
+                                            }]
+                                        }
+                                    }]
+                                }
+                            }]
+                        }
+                    }, {
+                        "id": "71a26d85-d0f0-4579-8888-9b1e043dc871",
+                        "title": "子主题 3",
+                        "children": {
+                            "attached": [{
+                                "id": "61b72bef-aa75-472a-b4a8-ac31bc10f86f",
+                                "title": "子主题 1"
+                            }, {
+                                "id": "c49d8374-b0bf-4051-9b9f-0028046f08d3",
+                                "title": "子主题 2",
+                                "children": {
+                                    "attached": [{
+                                        "id": "0f93f043-c4f7-4d81-8117-5fb7d9423bb8",
+                                        "title": "子主题 1",
+                                        "children": {
+                                            "attached": [{
+                                                "id": "43ab3d7a-33bf-4012-b532-99ce624323db",
+                                                "title": "子主题 1"
+                                            }, {
+                                                "id": "ccc569b7-c394-46b9-b9be-b0984339368c",
+                                                "title": "子主题 2"
+                                            }]
+                                        }
+                                    }]
+                                }
+                            }]
+                        }
+                    }, {
+                        "id": "e5458a95-e8ed-4bcc-ae30-9a3dafa529a8",
+                        "title": "子主题 4",
+                        "children": {
+                            "attached": [{
+                                "id": "89a906f8-8061-4483-993a-531b14b1a2bc",
+                                "title": "子主题 1"
+                            }, {
+                                "id": "f3a6b9c1-e3aa-4868-8b9c-3fe795b396d2",
+                                "title": "子主题 2"
+                            }]
+                        }
+                    }]
+                }
+            }],
+            "detached": [{
+                "id": "a8cde7d1-3369-447b-82e8-39dd057c5079",
+                "title": "分支主题 1",
+                "structureClass": "org.xmind.ui.fishbone.rightHeaded",
+                "children": {
+                    "attached": [{
+                        "id": "dc2bae87-bb8c-44dd-9fff-b0153fed3a6c",
+                        "title": "子主题 1"
+                    }, {
+                        "id": "520cbeba-df2d-4c2d-a4db-d4ea94b8e959",
+                        "title": "子主题 2",
+                        "children": {
+                            "attached": [{
+                                "id": "614bc4bc-e40b-483a-9000-b090f316af9f",
+                                "title": "子主题 1"
+                            }, {
+                                "id": "4dc1c265-6359-422f-a8df-c8fe57c42e78",
+                                "title": "子主题 2",
+                                "children": {
+                                    "attached": [{
+                                        "id": "de59da6f-7650-4519-bcab-c48b33a01eb2",
+                                        "title": "子主题 1"
+                                    }, {
+                                        "id": "b796fe5a-508d-4944-9dfd-06fb3000a633",
+                                        "title": "子主题 2",
+                                        "children": {
+                                            "attached": [{
+                                                "id": "c628057f-4a13-4058-9c6a-e04f6466910f",
+                                                "title": "子主题 1"
+                                            }]
+                                        }
+                                    }]
+                                }
+                            }]
+                        }
+                    }, {
+                        "id": "ae4f9223-ac63-4574-96d1-8fbdfb5867eb",
+                        "title": "子主题 3",
+                        "children": {
+                            "attached": [{
+                                "id": "1784c631-44cf-44b1-b7c2-9bd85e1d304f",
+                                "title": "子主题 1"
+                            }, {
+                                "id": "ddae5be6-c4ff-417c-9a62-7b3ac58339b6",
+                                "title": "子主题 2",
+                                "children": {
+                                    "attached": [{
+                                        "id": "8e7374b7-1596-4370-a102-4cf4e89cb1ab",
+                                        "title": "子主题 1",
+                                        "children": {
+                                            "attached": [{
+                                                "id": "6ba5c52e-e0c3-4af1-9c69-b18f5b5eb996",
+                                                "title": "子主题 1"
+                                            }, {
+                                                "id": "d08506dd-13bb-4691-9d15-886c0c16d3d7",
+                                                "title": "子主题 2"
+                                            }]
+                                        }
+                                    }]
+                                }
+                            }]
+                        }
+                    }, {
+                        "id": "28fa8f83-6c17-409e-a7db-588dc1b1d99e",
+                        "title": "子主题 4",
+                        "children": {
+                            "attached": [{
+                                "id": "d1a02d63-5558-4432-9d59-43243b08e16a",
+                                "title": "子主题 1"
+                            }, {
+                                "id": "ef9b58a1-f2df-448e-9a68-a77467b83906",
+                                "title": "子主题 2"
+                            }]
+                        }
+                    }]
+                },
+                "position": {
+                    "x": 512.0047630533409,
+                    "y": 367
+                }
+            }]
+        }
+    },
+    "theme": {
+        "class": "theme",
+        "id": "e460614c-dbc0-4a27-aff4-027096ed9c5e",
+        "name": "Icy web",
+        "boundary": {
+            "properties": {
+                "fo:color": "#344581",
+                "fo:font-family": "Arial",
+                "fo:font-size": "12pt",
+                "fo:font-style": "italic",
+                "fo:font-weight": "bold",
+                "fo:text-align": "center",
+                "fo:text-decoration": "none",
+                "fo:text-transform": "manual",
+                "line-color": "#82BAE1",
+                "line-pattern": "dash",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.boundaryShape.waves",
+                "svg:fill": "#acd4f9",
+                "svg:opacity": ".5"
+            },
+            "styleId": "70ci8ubng7ohgt84b4i38l2bdd",
+            "type": "boundary"
+        },
+        "calloutTopic": {
+            "properties": {
+                "border-line-color": "#4c78ca",
+                "border-line-width": "0pt",
+                "callout-shape-class": "org.xmind.calloutTopicShape.balloon.roundedRect",
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Arial",
+                "fo:font-size": "12pt",
+                "fo:font-style": "italic",
+                "fo:font-weight": "bold",
+                "fo:text-align": "center",
+                "fo:text-decoration": "none",
+                "fo:text-transform": "manual",
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "line-color": "#4c78ca",
+                "line-width": "1pt",
+                "svg:fill": "#4c78ca"
+            },
+            "styleId": "55mpe45e03kj3pdafeetjsvep3",
+            "type": "calloutTopic"
+        },
+        "centralTopic": {
+            "properties": {
+                "border-line-color": "#4c78ca",
+                "border-line-width": "3pt",
+                "fo:color": "#16183c",
+                "fo:font-family": "Arial",
+                "fo:font-size": "24pt",
+                "fo:font-style": "normal",
+                "fo:font-weight": "normal",
+                "fo:text-align": "center",
+                "fo:text-decoration": "none",
+                "fo:text-transform": "manual",
+                "line-class": "org.xmind.branchConnection.curve",
+                "line-color": "#4c78ca",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.topicShape.roundedRect",
+                "svg:fill": "#FFFFFF"
+            },
+            "styleId": "6blscbkpv4sabn8b3erc7p39pl",
+            "type": "centralTopic"
+        },
+        "floatingTopic": {
+            "properties": {
+                "border-line-color": "#4c78ca",
+                "border-line-width": "2pt",
+                "fo:color": "#16183c",
+                "fo:font-family": "Arial",
+                "fo:font-size": "14pt",
+                "fo:font-style": "italic",
+                "fo:font-weight": "normal",
+                "fo:text-align": "center",
+                "fo:text-decoration": "none",
+                "fo:text-transform": "manual",
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "line-color": "#4c78ca",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.topicShape.roundedRect",
+                "svg:fill": "#FFFFFF"
+            },
+            "styleId": "4ovedbeb7rkasm4l2v2of8rc1e",
+            "type": "floatingTopic"
+        },
+        "mainTopic": {
+            "properties": {
+                "border-line-color": "#4c78ca",
+                "border-line-width": "2pt",
+                "fo:color": "#16183c",
+                "fo:font-family": "Arial",
+                "fo:font-size": "16pt",
+                "fo:font-style": "normal",
+                "fo:font-weight": "normal",
+                "fo:text-align": "center",
+                "fo:text-decoration": "none",
+                "fo:text-transform": "manual",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.topicShape.roundedRect",
+                "svg:fill": "#FFFFFF"
+            },
+            "styleId": "54e7vkqsa1tp97pv7mc97ndi1n",
+            "type": "mainTopic"
+        },
+        "map": {
+            "properties": {
+                "background": "",
+                "color-gradient": "none",
+                "line-tapered": "none",
+                "multi-line-colors": "none",
+                "svg:fill": "#FFFFFF",
+                "svg:opacity": "1.0"
+            },
+            "styleId": "5sr2hp8eovp9ndi7m95muae1aa",
+            "type": "map"
+        },
+        "relationship": {
+            "properties": {
+                "arrow-begin-class": "org.xmind.arrowShape.none",
+                "arrow-end-class": "org.xmind.arrowShape.triangle",
+                "fo:color": "#344581",
+                "fo:font-family": "Verdana",
+                "fo:font-size": "12pt",
+                "fo:font-style": "italic",
+                "fo:font-weight": "bold",
+                "fo:text-align": "center",
+                "fo:text-decoration": "none",
+                "fo:text-transform": "manual",
+                "line-color": "#344581",
+                "line-pattern": "dash",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.relationshipShape.curved"
+            },
+            "styleId": "15fjaeeqcch954vnfa8r5m1i9r",
+            "type": "relationship"
+        },
+        "subTopic": {
+            "properties": {
+                "border-line-color": "#4c78ca",
+                "border-line-width": "1pt",
+                "fo:color": "#16183c",
+                "fo:font-family": "Arial",
+                "fo:font-size": "12pt",
+                "fo:font-style": "normal",
+                "fo:font-weight": "normal",
+                "fo:text-align": "center",
+                "fo:text-decoration": "none",
+                "fo:text-transform": "manual",
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "line-color": "#4c78ca",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.topicShape.underline",
+                "svg:fill": "none"
+            },
+            "styleId": "77mgt9sppglb947i60kabjkrul",
+            "type": "subTopic"
+        },
+        "summary": {
+            "properties": {
+                "line-color": "#acd4f9",
+                "line-width": "3pt",
+                "shape-class": "org.xmind.summaryShape.square"
+            },
+            "styleId": "4f8t474ch7jk4pv38mf5lmjlii",
+            "type": "summary"
+        },
+        "summaryTopic": {
+            "properties": {
+                "border-line-color": "#4c78ca",
+                "border-line-width": "0pt",
+                "fo:color": "#344581",
+                "fo:font-family": "Arial",
+                "fo:font-size": "12pt",
+                "fo:font-style": "italic",
+                "fo:font-weight": "bold",
+                "fo:text-align": "center",
+                "fo:text-decoration": "none",
+                "fo:text-transform": "manual",
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "line-color": "#4c78ca",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.topicShape.ellipse",
+                "svg:fill": "none"
+            },
+            "styleId": "6l5tus0sruc588qaqmt0f0fk10",
+            "type": "summaryTopic"
+        }
+    },
+    "topicPositioning": "fixed"
+}

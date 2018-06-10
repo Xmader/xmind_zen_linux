@@ -1,0 +1,43 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    ".git": true,
+    "**/.DS_Store": true
+  },
+  "files.associations": {
+    "*.vue": "vue",
+    "*.tpl": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html",
+    "tpl": "html"
+  },
+  "eslint.validate": [
+    "javascript",
+    "html",
+    "vue"
+  ],
+  "eslint.options": {
+    "plugin": [
+      "html"
+    ]
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    ".dev/**": true,
+    "*bundle.js*": true,
+    "**/dist/**": true
+  },
+  "html.format.endWithNewline": true,
+  "html.format.wrapLineLength": 0,
+  "javascript.validate.enable": false,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.insertSpaceAfterConstructor": true
+}

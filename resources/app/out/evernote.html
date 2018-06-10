@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  
+      <title>Evernote</title>
+      <style>
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+          /* display: flex; */
+          /* justify-content: center; */
+        }
+
+        body * {
+          box-sizing: border-box;
+        }
+
+        .selection {
+          width: 320px;
+          position: fixed;
+          top: 14px;
+          left: 50%;
+          transform: translateX(-50%);
+          display: inline-block;
+          font-family: '.SFNSDisplay', 'Segoe UI', system-ui;
+          margin: 0 auto;
+          font-size: 12px;
+          height: 28px;
+          border: 1px solid #00c253;
+          border-radius: 14px;
+          font-size: 13px;
+        }
+
+        .selection div {
+          float: left;
+          padding: 5px 10px;
+          cursor: pointer;
+          height: 100%;
+          width: 50%;
+          color: #00c253;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .internation {
+          border-top-left-radius: 14px;
+          border-bottom-left-radius: 14px;
+          border-right: 1px solid #00c253;
+        }
+
+        .china {
+          border-top-right-radius: 14px;
+          border-bottom-right-radius: 14px;
+        }
+
+        .active {
+          background: #00c253;
+          color: #fff!important;
+        }
+
+        #webview {
+          position: fixed;
+          z-index: 99;
+          width: 800px;
+          top: 56px;
+          /* margin-top: 45px; */
+          height: 435px;
+          /* background: #e7ebec; */
+        }
+
+        .spiner {
+          position: fixed;
+          z-index: 999;
+          width: 800px;
+          top: 45px;
+          height: 435px;
+          background: #ffffff;
+        }
+
+        .spiner::after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          width: 64px;
+          height: 64px;
+          border-radius: 50%;
+          border: solid 3px #e6e7e8;
+          border-top-color: #00c253;
+          ;
+          transform-origin: center;
+          animation: rotating 1000ms linear infinite;
+        }
+
+        .hide {
+          display: none;
+        }
+
+        .show {
+          visibility: visible;
+        }
+
+        @keyframes rotating {
+          0% {
+            transform: translate(-50%, -50%) rotate(0deg);
+          }
+          100% {
+            transform: translate(-50%, -50%) rotate(360deg);
+          }
+        }
+
+      </style>
+</head>
+
+<body>
+  <webview id='webview' frameborder="0"></webview>
+  <div class="spiner"></div>
+  <div class="selection">
+    <div class="internation active">Evernote</div>
+    <div class="china">印象笔记</div>
+  </div>
+<script type="text/javascript" src="evernote.js"></script></body>
+
+</html>

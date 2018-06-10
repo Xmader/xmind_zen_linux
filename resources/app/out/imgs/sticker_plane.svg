@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>plane</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Sticker-size-64*64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="plane">
+            <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+            <g id="Group-2" transform="translate(5.333333, 5.333333)">
+                <polygon id="Rectangle-28" fill="#BDCFD1" transform="translate(14.271063, 40.979076) rotate(-45.000000) translate(-14.271063, -40.979076) " points="10.9674918 40.0647323 17.5746347 36.9060918 17.5746347 41.893419 10.9674918 45.0520595"></polygon>
+                <polygon id="Rectangle-28" fill="#BDCFD1" transform="translate(40.667612, 14.582527) rotate(-45.000000) translate(-40.667612, -14.582527) " points="43.9711834 13.6681837 37.3640405 10.5095431 37.3640405 15.4968703 43.9711834 18.6555108"></polygon>
+                <polyline id="Path-11" stroke="#2B2B2B" stroke-width="1.5625" transform="translate(14.762300, 35.130323) rotate(-45.000000) translate(-14.762300, -35.130323) " points="24.2916838 26.4906032 4.49800011 40.3330337 4.49800011 43.7700419 25.0265994 35.5846826"></polyline>
+                <polygon id="Path-11" stroke="#2B2B2B" stroke-width="1.5625" transform="translate(34.819005, 15.073617) rotate(-45.000000) translate(-34.819005, -15.073617) " points="25.2896209 6.43389798 45.0833046 20.2763285 45.0833046 23.7133367 24.5547053 15.5279774"></polygon>
+                <polyline id="Path-12" stroke="#2B2B2B" stroke-width="1.5625" fill="#BDCFD1" transform="translate(34.058658, 43.110876) rotate(-45.000000) translate(-34.058658, -43.110876) " points="37.7887258 44.5651885 30.3285905 47.5549873 30.3285905 43.3604658 36.8602416 38.666765"></polyline>
+                <polygon id="Path-12" stroke="#2B2B2B" stroke-width="1.5625" fill="#BDCFD1" transform="translate(42.799886, 34.369648) rotate(-45.000000) translate(-42.799886, -34.369648) " points="39.0698188 35.8239602 39.9983031 29.9255366 46.5299542 34.6192375 46.5299542 38.8137589"></polygon>
+                <g id="Group" transform="translate(24.822399, 24.510935) rotate(-45.000000) translate(-24.822399, -24.510935) translate(17.774779, -2.974779)">
+                    <path d="M4.03478401,49.0920219 L9.1795017,49.0920219 L11.9980484,6.54105917 C12.0059221,6.422192 12.0098621,6.30309693 12.0098621,6.18396927 C12.0098621,3.20012981 9.59098232,0.78125 6.60714286,0.78125 C6.4880152,0.78125 6.36892013,0.785190071 6.25005296,0.793063751 C3.27273805,0.990279054 1.01902203,3.56374426 1.21623734,6.54105917 L4.03478401,49.0920219 Z" id="Rectangle-26" stroke="#2B2B2B" stroke-width="1.5625"></path>
+                    <path d="M6.52455357,3.32488479 L6.52455357,3.32488479 L6.52455357,3.32488479 C8.28480647,3.32488479 9.7117734,4.75185171 9.7117734,6.51210462 C9.7117734,6.57639657 9.70982807,6.64067381 9.70594009,6.70484809 L7.43303571,44.2209677 L5.78125,44.2209677 L3.35676366,6.70399689 L3.35676366,6.70399689 C3.24370303,4.95447483 4.57031714,3.44455323 6.31983919,3.3314926 C6.38798848,3.32708854 6.45626213,3.32488479 6.52455357,3.32488479 Z" id="Rectangle-26" fill="#BDF3FB"></path>
+                    <path d="M9.00829401,5.86851959 C8.68125189,4.84540544 7.72915786,4.10613479 6.60714286,4.10613479 C5.48512785,4.10613479 4.53303383,4.84540544 4.20599171,5.86851959 L9.00829401,5.86851959 Z" id="Oval" stroke="#2B2B2B" stroke-width="1.5625"></path>
+                    <rect id="Rectangle-27" fill="#2B2B2B" x="5.78125" y="44.2209677" width="1.65178571" height="9.97465438"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

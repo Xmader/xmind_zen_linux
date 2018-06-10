@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes</title>
+  
+      <style>
+        body {
+          background-color: #ededed;
+        }
+
+        * {
+          outline: none;
+        }
+
+        .win7-style {
+          border: 0.5px solid #bdbdbd;
+        }
+
+        #quill-toolbar>button {
+          cursor: default!important;
+        }
+
+      </style>
+<link href="notes.css" rel="stylesheet"></head>
+
+<body style="overflow-x:hidden;">
+  <div id="titlebar"></div>
+  <div class="ff-container">
+    <div class="ff-toolbar">
+      <span class="ff-topic">Topic</span>
+      <div id="quill-toolbar" style="flex:1 0 450px;">
+        <button class="ff-h1 ql-header" value="1"></button>
+        <button class="ff-h2 ql-header" value="2"></button>
+        <button class="ff-h3 ql-header" value="3"><i class="fa fa-header"><sub>3</sub></i></button>
+        <i class="ff-sep"></i>
+        <button class="ff-b ql-bold"></button>
+        <button class="ff-i ql-italic"></button>
+        <button class="ff-u ql-underline"></button>
+        <button class="ff-s ql-strike"></button>
+        <i class="ff-sep"></i>
+        <button class="ff-ul ql-list" value="bullet"></button>
+        <button class="ff-ol ql-list" value="ordered"></button>
+        <i class="ff-sep"></i>
+        <button class="ff-formula ql-formula"></button>
+        <button class="ff-link ql-link"></button>
+        <button class="ff-image vn-image"><i class="fa fa-picture-o" aria-hidden="true"></i></button>
+        <i class="ff-sep"></i>
+        <button class="ff-hr vn-hr"><i class="fa fa-minus" aria-hidden="true"></i></button>
+        <button class="ff-quote ql-blockquote"></button>
+        <button class="ff-code ql-code-block"></button>
+        <!--<button id="ff-code-block" class="ql-code-block"></button>-->
+      </div>
+      <div class="ff-etc">
+        <a title="Toggle Markdown Mode" class="toggle-markdown"><span style="position:relative;left: 1px;">Markdown</span></a>
+        <button class="ff-help">
+          <div class="ff-sample-container">
+          <ul class="ff-sample">
+            <!-- <li class="ff-sample-ang"></li> -->
+            <li><i class="ff-h1"></i><span>#</span> Heading 1</li>
+            <li><i class="ff-h2"></i><span>##</span> Heading 2</li>
+            <li><i class="ff-h3"></i><span>###</span> Heading 3</li>
+            <li class="ff-sample-sep"></li>
+            <li><i class="ff-b"></i><span>**</span>Bold<span>**</span></li>
+            <li><i class="ff-i"></i><span>*</span>Italic<span>*</span></li>
+            <li><i class="ff-u"></i><span>++</span>Underline<span>++</span></li>
+            <li><i class="ff-s"></i><span>~~</span>Strike<span>~~</span></li>
+            <li class="ff-sample-sep"></li>
+            <li><i class="ff-ul"></i><span>-</span> Unordered List</li>
+            <li><i class="ff-ol"></i><span>1.</span> Ordered List</li>
+            <li class="ff-sample-sep"></li>
+            <li><i class="ff-formula"></i><span>$</span>E=mc^2<span>$</span></li>
+            <li><i class="ff-link"></i><span>[Link](</span>http://...<span>)</span></li>
+            <li><i class="ff-image"></i><span>![Image](</span>http://...<span>)</span></li>
+            <li class="ff-sample-sep"></li>
+            <li><i class="ff-hr"></i><span>---</span></li>
+            <li><i class="ff-quote"></i><span>></span>Quote</li>
+            <li><i class="ff-code"></i><span>```</span>Code<span>```</span></li>
+          </ul>
+        </div>
+        </button>
+        <button title="all notes" class="ff-panel" style="display: none!important"></button>
+        <button class="ff-basic"></button>
+      </div>
+    </div>
+    <!-- <div class="container"> -->
+    <div id="editor-container" data-model="full">
+      <div id="quill-editor"></div>
+      <div id="ace-editor"></div>
+    </div>
+    <!-- </div> -->
+  </div>
+  <script>
+    var os = require('os')
+    if (os.platform() == 'win32') {
+      var releaseNum = os.release()
+      if (releaseNum && (releaseNum.startsWith('6.0') || releaseNum.startsWith('6.1')))
+        document.body.classList.add('win7-style')
+    }
+  </script>
+<script type="text/javascript" src="notes.js"></script></body>
+
+</html>

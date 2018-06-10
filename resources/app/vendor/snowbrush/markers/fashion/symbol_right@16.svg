@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>marker right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-316.000000, -139.000000)">
+            <g id="Group-42" transform="translate(318.000000, 141.000000)">
+                <circle id="Oval-2-Copy-8" fill="#7FACB3" cx="9.88235294" cy="9.88235294" r="9.88235294"></circle>
+                <path d="M8.40348068,11.7330457 L6.06085408,9.39041908 L6.06085408,9.39041908 C5.86559194,9.19515693 5.54900945,9.19515693 5.3537473,9.39041908 L4.58884751,10.1553189 L4.58884751,10.1553189 C4.39358536,10.350581 4.39358536,10.6671635 4.58884751,10.8624257 L8.40348068,14.6770588 L15.6079207,7.47261879 L15.6079207,7.47261879 C15.8031829,7.27735664 15.8031829,6.96077415 15.6079207,6.76551201 L14.8430209,6.00061221 L14.8430209,6.00061221 C14.6477588,5.80535007 14.3311763,5.80535007 14.1359141,6.00061221 L8.40348068,11.7330457 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

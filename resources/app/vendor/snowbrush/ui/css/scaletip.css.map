@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAW;EACT,OAAO,EAAE,IAAI;;;AAGf,oCAAoC;EAClC,UAAW;IACT,QAAQ,EAAE,QAAQ;IAClB,IAAI,EAAE,IAAI;IACV,MAAM,EAAE,IAAI;IACZ,KAAK,EAAE,IAAI;IACX,gBAAgB,EAAE,kBAAc;IAChC,aAAa,EAAE,GAAG;IAClB,OAAO,EAAE,QAAQ;IACjB,OAAO,EAAE,CAAC;IACV,OAAO,EAAE,IAAI",
+"sources": ["../sass/scaletip.scss"],
+"names": [],
+"file": "scaletip.css"
+}

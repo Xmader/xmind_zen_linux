@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="22px" viewBox="0 0 75 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Fishbone_Left_Headed</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="edit-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fishbone_Left_Headed" transform="translate(37.000000, 11.000000) scale(-1, 1) translate(-37.000000, -11.000000) translate(-10.000000, -18.000000)">
+            <rect id="Rectangle-4-Copy-4" x="0" y="0" width="94" height="58"></rect>
+            <g id="Group-17" transform="translate(46.500000, 29.500000) scale(-1, 1) translate(-46.500000, -29.500000) translate(9.000000, 19.000000)">
+                <polygon id="Rectangle-Copy" fill="#E4E9EC" points="0 4.52619543 6.96183206 10.3096674 0 16.0931393"></polygon>
+                <polyline id="Rectangle-28" stroke="#072850" stroke-width="0.5" transform="translate(27.854063, 10.563520) rotate(90.000000) translate(-27.854063, -10.563520) " points="27.6040632 31.6857657 27.6040632 -10.558725 27.6040632 -10.558725"></polyline>
+                <path d="M45,2 C68.9484979,1.84014221 75,10 75,10 C75,10 68.9484979,18 45,18 L45,2 Z" id="Rectangle" fill="#FF9971"></path>
+                <polyline id="Path-2" stroke="#072850" stroke-width="0.5" points="22.8902622 20.3766836 33.9094675 20.3766836 37.7578062 10.2195358"></polyline>
+                <polyline id="Path-2" stroke="#072850" stroke-width="0.5" transform="translate(20.368260, 5.078574) scale(1, -1) translate(-20.368260, -5.078574) " points="12.9344885 10.1571479 23.9536938 10.1571479 27.8020325 0"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

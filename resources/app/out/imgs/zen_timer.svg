@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_ chronograph</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Zen-mode-day" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1151.000000, -48.000000)">
+        <g id="Group-6-Copy-4" transform="translate(1147.000000, 44.000000)">
+            <g id="Group-4" transform="translate(3.500000, 3.500000)">
+                <ellipse id="Oval" stroke="#434B54" cx="12.4705882" cy="12.5555556" rx="8.47058824" ry="8.44444444"></ellipse>
+                <g id="Group-2" transform="translate(14.084687, 10.864045) rotate(-315.000000) translate(-14.084687, -10.864045) translate(13.084687, 6.864045)" fill="#434B54">
+                    <rect id="Rectangle-3" x="0.476460376" y="0.645833333" width="1" height="6.38999987" rx="0.5"></rect>
+                    <ellipse id="Oval-2" cx="1" cy="5.2191358" rx="1" ry="1"></ellipse>
+                </g>
+                <g id="Group-5" transform="translate(10.000000, 2.000000)">
+                    <rect id="Rectangle-6" fill="#434B54" x="0.352941176" y="0" width="4.23529412" height="1" rx="0.5"></rect>
+                    <path d="M2.48852765,3.30515618 L2.48852765,1.07967726" id="Path-2" stroke="#434B54" stroke-linecap="round"></path>
+                </g>
+                <path d="M12.4918882,20.8724101 L12.4918882,19.7024868" id="Path-2" stroke="#434B54" stroke-linecap="round"></path>
+                <path d="M19.7693876,12.5638021 L20.9429331,12.5638021" id="Path-2" stroke="#434B54" stroke-linecap="round"></path>
+                <path d="M4.03644876,12.5555556 L5.20999418,12.5555556" id="Path-2" stroke="#434B54" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

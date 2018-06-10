@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>marker pie chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-316.000000, -171.000000)">
+            <g id="Group-23-Copy-2" transform="translate(318.000000, 173.000000)">
+                <g id="Group-10-Copy-3" fill="#00AAEF">
+                    <circle id="Oval-29" cx="10" cy="10" r="10"></circle>
+                </g>
+                <g id="business" transform="translate(4.140625, 4.140625)" fill-rule="nonzero" fill="#FFFFFF">
+                    <path d="M7.02807617,6.44403076 C9.2045653,8.80689482 10.1974551,9.76611394 10.2234266,9.73697414 C10.988915,8.87810327 11.5294105,7.64678144 11.682373,6.44403076 C11.0421558,6.4379722 7.71252075,6.44759956 7.02807617,6.44403076 Z" id="Shape"></path>
+                    <path d="M5.62525276,6.08102022 L5.62525276,6.08102022 L5.61746324,0.00390625 C2.49317555,0.120772059 0,2.69186581 0,5.8472886 C0,9.0806296 2.61783088,11.6984835 5.85119485,11.6984835 C7.26139706,11.6984835 8.55473346,11.1998392 9.55981158,10.373989 L5.62525276,6.08102022 Z" id="Shape"></path>
+                    <path d="M6.57462526,5.61355699 L11.6945772,5.61355699 C11.5840445,2.73229693 9.38958458,0.387686756 6.57462526,0.0431544132 C6.54118048,0.0390609939 6.54118048,1.89586185 6.57462526,5.61355699 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

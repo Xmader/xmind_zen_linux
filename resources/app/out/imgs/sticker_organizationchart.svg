@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>organizationchart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="22.6666667" y="10.6666667" width="20" height="10.6666667" rx="1.66666667"></rect>
+        <rect id="path-2" x="40" y="46.6666667" width="14.6666667" height="10.6666667" rx="1.66666667"></rect>
+        <rect id="path-3" x="9.33333333" y="46.6666667" width="14.6666667" height="10.6666667" rx="1.66666667"></rect>
+        <path d="M28.6447538,25.5079081 L38.4814192,22.7298319 L38.4814192,22.7298319 C39.3672442,22.4796567 40.2881542,22.9949527 40.5383294,23.8807777 C40.6221476,24.1775629 40.6219775,24.4917841 40.537838,24.7884784 L37.7451232,34.6361998 L37.7451232,34.6361998 C37.5872062,35.1930494 37.1516891,35.6280952 36.5946688,35.7854092 L26.7580034,38.5634855 L26.7580034,38.5634855 C25.8721784,38.8136606 24.9512684,38.2983646 24.7010932,37.4125397 C24.617275,37.1157545 24.6174451,36.8015333 24.7015846,36.504839 L27.4942995,26.6571176 L27.4942995,26.6571176 C27.6522164,26.1002679 28.0877335,25.6652221 28.6447538,25.5079081 Z" id="path-4"></path>
+    </defs>
+    <g id="Sticker-size-64*64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="organizationchart">
+            <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+            <g id="Rectangle">
+                <use fill="#ED6969" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#2B2B2B" stroke-width="1.66666667" x="23.5" y="11.5" width="18.3333333" height="9" rx="1.66666667"></rect>
+            </g>
+            <g id="Rectangle-Copy">
+                <use fill="#FFC55D" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#2B2B2B" stroke-width="1.66666667" x="40.8333333" y="47.5" width="13" height="9" rx="1.66666667"></rect>
+            </g>
+            <g id="Rectangle-Copy-2">
+                <use fill="#FFC55D" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#2B2B2B" stroke-width="1.66666667" x="10.1666667" y="47.5" width="13" height="9" rx="1.66666667"></rect>
+            </g>
+            <rect id="Rectangle-74" fill="#2B2B2B" x="31.7333323" y="21.3333333" width="1.66666667" height="21.3333333"></rect>
+            <rect id="Rectangle-2" fill="#2B2B2B" x="16" y="41.3333333" width="32" height="1.66666667"></rect>
+            <rect id="Rectangle-3" fill="#2B2B2B" x="16" y="42.6666667" width="1.66666667" height="5.33333333"></rect>
+            <rect id="Rectangle-4" fill="#2B2B2B" x="46.3333333" y="42.6666667" width="1.66666667" height="5.33333333"></rect>
+            <g id="Rectangle-73" transform="translate(32.619711, 30.646659) rotate(-315.000000) translate(-32.619711, -30.646659) ">
+                <use fill="#BDF3FB" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <path stroke="#2B2B2B" stroke-width="1.66666667" d="M28.8712449,26.3098721 C28.5927348,26.3885291 28.3749762,26.606052 28.2960177,26.8844769 L25.5033029,36.7321983 C25.4612331,36.8805454 25.4611481,37.037656 25.5030572,37.1860486 C25.6281448,37.6289611 26.0885998,37.8866091 26.5315123,37.7615215 L36.3681777,34.9834452 C36.6466878,34.9047883 36.8644464,34.6872653 36.9434049,34.4088405 L39.7361197,24.5611191 C39.7781895,24.412772 39.7782745,24.2556614 39.7363654,24.1072688 C39.6112778,23.6643563 39.1508228,23.4067083 38.7079103,23.5317959 L28.8712449,26.3098721 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,387 @@
+{
+    "id": "a0ba6844-15e0-45e2-a277-121d6c66f70c",
+    "legend": {},
+    "relationships": [
+        {
+            "controlPoints": {
+                "0": {
+                    "x": 7,
+                    "y": 33
+                }
+            },
+            "end1Id": "37c382fe-0fe3-4c90-8fe0-50394436d47e",
+            "end2Id": "5113fad4-7d7e-4e2c-803a-84d46e49acf5",
+            "id": "00e207d8-4a26-4d14-ba42-54785bdd23f5",
+            "style": {
+                "properties": {
+                    "shape-class": "org.xmind.relationshipShape.straight"
+                },
+                "type": "relationship"
+            },
+            "title": "join in"
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": 4,
+                    "y": 29
+                },
+                "1": {
+                    "x": 7,
+                    "y": -38
+                }
+            },
+            "end1Id": "362b83cb-2b08-4c12-86ab-44f7b24c8d33",
+            "end2Id": "37c382fe-0fe3-4c90-8fe0-50394436d47e",
+            "id": "e152b5f4-ca09-47ef-b4da-4496eb21dc4f",
+            "style": {
+                "properties": {
+                    "shape-class": "org.xmind.relationshipShape.straight"
+                },
+                "type": "relationship"
+            },
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": 5,
+                    "y": 40
+                },
+                "1": {
+                    "x": 4,
+                    "y": -33
+                }
+            },
+            "end1Id": "264b16df-d159-45ab-b54f-2f0dcdb87c1e",
+            "end2Id": "362b83cb-2b08-4c12-86ab-44f7b24c8d33",
+            "id": "6cd70e9d-250b-41e2-84a7-efec588092f1",
+            "style": {
+                "properties": {
+                    "shape-class": "org.xmind.relationshipShape.straight"
+                },
+                "type": "relationship"
+            },
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": -2,
+                    "y": 45
+                },
+                "1": {
+                    "x": 0,
+                    "y": -52
+                }
+            },
+            "end1Id": "53da4f22-46b7-4534-b7cb-ddbf50bf8bb8",
+            "end2Id": "264b16df-d159-45ab-b54f-2f0dcdb87c1e",
+            "id": "fef016bd-8a16-4749-94a9-8a31641f7a60",
+            "style": {
+                "properties": {
+                    "shape-class": "org.xmind.relationshipShape.straight"
+                },
+                "type": "relationship"
+            },
+            "title": "YES"
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": 1,
+                    "y": 58
+                },
+                "1": {
+                    "x": -2,
+                    "y": -43
+                }
+            },
+            "end1Id": "79973845-ce03-4aac-b9e6-f050375e7b27",
+            "end2Id": "8dc4742b-2687-4de1-a9ed-0603368256a8",
+            "id": "284161c3-43c4-4a86-a1a2-630164f66319",
+            "style": {
+                "properties": {
+                    "shape-class": "org.xmind.relationshipShape.straight"
+                },
+                "type": "relationship"
+            },
+            "title": "make an application"
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": -1,
+                    "y": 46
+                },
+                "1": {
+                    "x": 1,
+                    "y": -42
+                }
+            },
+            "end1Id": "8dc4742b-2687-4de1-a9ed-0603368256a8",
+            "end2Id": "53da4f22-46b7-4534-b7cb-ddbf50bf8bb8",
+            "id": "38aae77d-cf82-4474-886f-7afed4dee4be",
+            "style": {
+                "properties": {
+                    "shape-class": "org.xmind.relationshipShape.straight"
+                },
+                "type": "relationship"
+            },
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": -5.439282232972801,
+                    "y": -190.9591395507558
+                },
+                "1": {
+                    "x": 206.4616480367945,
+                    "y": -12.313947744064066
+                }
+            },
+            "end1Id": "0b1259a7-8722-4257-b90b-b1ee23329c8d",
+            "end2Id": "79973845-ce03-4aac-b9e6-f050375e7b27",
+            "id": "4c4ea131-8cb9-4b9b-9828-59b17fa23144",
+            "style": {
+                "properties": {
+                    "shape-class": "org.xmind.relationshipShape.zigzag"
+                },
+                "type": "relationship"
+            },
+            "title": "make an rnannouncement"
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": 210.10329693678872,
+                    "y": -9.99318992512596
+                },
+                "1": {
+                    "x": -285.0967030632112,
+                    "y": -51.5934173802126
+                }
+            },
+            "end1Id": "53da4f22-46b7-4534-b7cb-ddbf50bf8bb8",
+            "end2Id": "0b1259a7-8722-4257-b90b-b1ee23329c8d",
+            "id": "fce84d6a-95ca-4d0b-9dba-202c16f068f2",
+            "style": {
+                "properties": {
+                    "shape-class": "org.xmind.relationshipShape.straight"
+                },
+                "type": "relationship"
+            },
+            "title": "NO"
+        }
+    ],
+    "rootTopic": {
+        "children": {
+            "detached": [
+                {
+                    "children": {},
+                    "id": "37c382fe-0fe3-4c90-8fe0-50394436d47e",
+                    "position": {
+                        "x": 5,
+                        "y": 583
+                    },
+                    "title": "the participants of conference"
+                },
+                {
+                    "children": {},
+                    "id": "5113fad4-7d7e-4e2c-803a-84d46e49acf5",
+                    "position": {
+                        "x": 21,
+                        "y": 752.0000000000001
+                    },
+                    "title": "conference"
+                },
+                {
+                    "children": {},
+                    "id": "362b83cb-2b08-4c12-86ab-44f7b24c8d33",
+                    "position": {
+                        "x": 5,
+                        "y": 452
+                    },
+                    "title": "establish the conference"
+                },
+                {
+                    "children": {},
+                    "id": "264b16df-d159-45ab-b54f-2f0dcdb87c1e",
+                    "position": {
+                        "x": 7,
+                        "y": 346
+                    },
+                    "title": "the applicant"
+                },
+                {
+                    "children": {},
+                    "id": "53da4f22-46b7-4534-b7cb-ddbf50bf8bb8",
+                    "position": {
+                        "x": 3,
+                        "y": 240.99999999999997
+                    },
+                    "title": "approval or not"
+                },
+                {
+                    "children": {},
+                    "id": "8dc4742b-2687-4de1-a9ed-0603368256a8",
+                    "position": {
+                        "x": -1,
+                        "y": 136
+                    },
+                    "title": "the leading experts"
+                },
+                {
+                    "children": {
+                        "attached": []
+                    },
+                    "id": "0b1259a7-8722-4257-b90b-b1ee23329c8d",
+                    "position": {
+                        "x": 510.013620149748,
+                        "y": 268.6027240299495
+                    },
+                    "title": "call off"
+                }
+            ]
+        },
+        "id": "79973845-ce03-4aac-b9e6-f050375e7b27",
+        "structureClass": "org.xmind.ui.map.clockwise",
+        "title": "The head of institutions"
+    },
+    "theme": {
+        "boundary": {
+            "properties": {
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Raleway",
+                "fo:font-size": "10pt",
+                "fo:font-style": "italic",
+                "line-color": "#0F110C",
+                "line-pattern": "dot",
+                "line-width": "4pt",
+                "shape-class": "org.xmind.boundaryShape.roundedRect",
+                "svg:fill": "#13150D",
+                "svg:opacity": ".1"
+            },
+            "type": "boundary"
+        },
+        "calloutTopic": {
+            "properties": {
+                "border-line-color": "#0D0E0B",
+                "border-line-width": "0pt",
+                "callout-shape-class": "org.xmind.calloutTopicShape.balloon.roundedRect",
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Verdana",
+                "fo:font-style": "italic",
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "svg:fill": "#66685F"
+            },
+            "type": "topic"
+        },
+        "centralTopic": {
+            "properties": {
+                "border-line-color": "#13150D",
+                "border-line-width": "5pt",
+                "fo:color": "#373A45",
+                "fo:font-family": "Arial",
+                "fo:font-size": "20pt",
+                "fo:font-weight": "normal",
+                "fo:text-align": "center",
+                "fo:text-transform": "uppercase",
+                "line-class": "org.xmind.branchConnection.elbow",
+                "line-color": "#1F1400",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.topicShape.rect",
+                "svg:fill": "#FFFFFF"
+            },
+            "type": "topic"
+        },
+        "floatingTopic": {
+            "properties": {
+                "border-line-color": "#53564C",
+                "border-line-width": "3pt",
+                "fo:color": "#000000",
+                "fo:font-family": "Roboto",
+                "fo:font-size": "14pt",
+                "fo:font-style": "normal",
+                "fo:font-weight": "normal",
+                "fo:text-transform": "manual",
+                "line-class": "org.xmind.branchConnection.elbow",
+                "line-color": "#0F110C",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.topicShape.rect"
+            },
+            "type": "topic"
+        },
+        "mainTopic": {
+            "properties": {
+                "border-line-color": "#13150D",
+                "border-line-width": "3pt",
+                "fo:color": "#1F1400",
+                "fo:font-family": "Roboto",
+                "fo:font-size": "14pt",
+                "fo:text-transform": "manual",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.topicShape.rect",
+                "svg:fill": "#797B73"
+            },
+            "type": "topic"
+        },
+        "map": {
+            "properties": {
+                "background": "",
+                "color-gradient": "none",
+                "line-tapered": "none",
+                "multi-line-colors": "none",
+                "svg:fill": "#EBE9DC",
+                "svg:opacity": "1.0"
+            },
+            "type": "map"
+        },
+        "relationship": {
+            "properties": {
+                "arrow-begin-class": "org.xmind.arrowShape.none",
+                "arrow-end-class": "org.xmind.arrowShape.triangle",
+                "fo:color": "#1F1400",
+                "fo:font-family": "Raleway",
+                "fo:font-size": "12pt",
+                "fo:font-style": "italic",
+                "line-color": "#1F1400",
+                "line-pattern": "solid",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.relationshipShape.straight"
+            },
+            "type": "relationship"
+        },
+        "subTopic": {
+            "properties": {
+                "fo:color": "#0D0E0B",
+                "fo:font-family": "Verdana",
+                "fo:font-size": "10pt",
+                "fo:text-transform": "manual",
+                "svg:fill": "none"
+            },
+            "type": "topic"
+        },
+        "summary": {
+            "properties": {
+                "line-color": "#0F110C",
+                "shape-class": "org.xmind.summaryShape.curly"
+            },
+            "type": "summary"
+        },
+        "summaryTopic": {
+            "properties": {
+                "border-line-width": "0pt",
+                "fo:color": "#1F1400",
+                "fo:font-family": "Courier New",
+                "fo:font-size": "14pt",
+                "fo:font-style": "italic",
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "shape-class": "org.xmind.topicShape.rect",
+                "svg:fill": "#666859"
+            },
+            "type": "topic"
+        }
+    }
+}

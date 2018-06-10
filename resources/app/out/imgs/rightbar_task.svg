@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_task</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="formal-panel-slice" transform="translate(-591.000000, -67.000000)">
+            <g id="Group-26" transform="translate(414.000000, 58.000000)">
+                <rect id="bg" fill="#F7F7F7" x="0" y="0" width="248" height="762"></rect>
+                <g id="tab">
+                    <rect id="Rectangle-15" x="0" y="0" width="248" height="32"></rect>
+                    <g id="Group-4" transform="translate(16.000000, 8.000000)">
+                        <g id="task" transform="translate(160.400000, 1.000000)">
+                            <rect id="ic_task" x="1" y="0" width="16" height="16"></rect>
+                            <rect id="Rectangle-14" stroke="#363B3F" x="4.1" y="3.2" width="8.9" height="10.7"></rect>
+                            <path d="M6.93,2.88 L5.85,2.88 L5.85,3.78472876 C5.85,4.18764771 6.16606713,4.5 6.5559557,4.5 L10.5440443,4.5 C10.928377,4.5 11.25,4.17976216 11.25,3.78472876 L11.25,2.88 L10.17,2.88 L10.17,1.8 L6.93,1.8 L6.93,2.88 Z" id="Combined-Shape" fill="#363B3F"></path>
+                            <polygon id="Combined-Shape" fill="#363B3F" transform="translate(11.250000, 8.100000) rotate(-315.000000) translate(-11.250000, -8.100000) " points="11.7 9.9 9 9.9 9 11.7 13.5 11.7 13.5 4.5 11.7 4.5"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <rect id="border" stroke="#BDBDBD" x="0.5" y="0.5" width="247" height="761"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

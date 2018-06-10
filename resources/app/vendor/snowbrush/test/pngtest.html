@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title>XMind Cloud</title>
+    <link rel="stylesheet" type="text/css" href="/ui/css/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/range.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/body.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/bottom-bar.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/top-bar.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/left-bottom-bar.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/context-menu.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/ui-modules.css">
+    <link rel="stylesheet" type="text/css" href="/ui/css/insert-popup.css">
+
+    <!-- define favicon below-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/ui/images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/ui/images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/ui/images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/ui/images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/ui/images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/ui/images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/ui/images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/ui/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/ui/images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/ui/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/ui/images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/ui/images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/ui/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/ui/images/favicon/manifest.json">
+    <link rel="mask-icon" href="/ui/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/ui/images/favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="./font-face.css">
+    <!-- favicon end -->
+    <!--<link href="https://fonts.googleapis.com/css?family=Arvo|Droid+Serif|Indie+Flower|Lobster|Open+Sans|Poiret+One|Raleway|Roboto|Roboto+Mono|Roboto+Slab" rel="stylesheet">-->
+</head>
+
+<body>
+    <div class="ui active inverted dimmer loading-mask" id="loading_mask">
+        <div class="ui loader">
+            <div class="ui loader animate"></div>
+            <div class="ui loader label">Loading.</div>
+        </div>
+    </div>
+
+    <div class="ui active inverted dimmer hidden" id="loading_sync" style="height: 100%;">
+        <div class="ui large text loader">Sync Your Data</div>
+    </div>
+
+    <div id="top-bar"></div>
+
+    <div id="page_content" style=" top: 57px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: stretch;">
+        <div id="mind-map" style="margin-left: 40px;
+        margin-bottom: 30px;
+        width: 100%;
+        position:relative;
+        border: 1px solid
+        "></div>
+    </div>
+
+    <div id="left-bottom-bar"></div>
+
+    <!-- modal for adding image -->
+    <div class="ui modal imageModal hidden">
+        <i class="close icon"></i>
+        <div class="header">
+            Add Image From Web
+        </div>
+        <div class="content">
+            <div class="ui fluid input">
+                <input id="imageAddress" type="text" placeholder="http://">
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui black deny button">
+                Cancel
+            </div>
+            <div class="ui positive right labeled icon button">
+                Add
+                <i class="checkmark icon"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal for adding sheet -->
+    <div class="ui modal addSheetModal hidden">
+        <i class="close icon"></i>
+        <div class="header">
+            Add A New Sheet
+        </div>
+        <div class="content">
+            <div class="ui fluid input">
+                <input id="sheet-name" type="text" placeholder="newSheet">
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui black deny button">
+                Cancel
+            </div>
+            <div class="ui positive right labeled icon button">
+                Add
+                <i class="checkmark icon"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="image_popup" style="display:none"></div>
+    <div id="label_popup" style="display:none"></div>
+    <div id="hyperlink_popup" style="display:none"></div>
+    <div style="position: absolute; right:320px; bottom:0px; height:250px; width: 250px; border:1px solid; background-color:white; overflow:auto;">
+        <img id="pngtest" style="max-width:100%; max-height:100%" />
+        <br/>
+        <button id="png_refresh">snap png</button>
+        <button id="render_svg">show svg</button>
+        <br/> hide collapse open:
+        <input id='hideCollapseOpen' type="checkbox">
+        <br/> hide collapse close:
+        <input id='hideCollapseClose' type="checkbox">
+        <br/> areas:
+        <br/>
+        <label>full</label>
+        <input name="area" value="full" type="radio" checked=true>
+        <label>inview</label>
+        <input name="area" value="inview" type="radio">
+        <br/>
+        <label>scale</label>
+        <input id="png_scale" value="0.8" type="number" step="0.1" min="0.1" max="2">
+        <br>
+        <label>width</label>
+        <input id="png_width" value="" type="number" step="100" min="0" max="2000">
+        <br>
+        <label>height</label>
+        <input id="png_height" value="" type="number" step="100" min="0" max="2000">
+        <br> maxScale:
+        <input id='maxScale' type="number" value="1" step="0.5">
+        <br/> noBackground:
+        <input id='noBackground' type="checkbox">
+        <br/> useCurrentSheet:
+        <input id='useCurrentSheet' type="checkbox">
+        <br/>
+    </div>
+
+    <script src="/bundle.js"></script>
+    <!--entry is js/expose.js-->
+    <script>
+        let tempFileMap = {};
+        const demoConstant = {
+            [Snowbrush.constant.CONFIG.URL_PREFIX]: "/", //indicate snowbrush root directory
+            [Snowbrush.constant.CONFIG.XAP_LOADER]: function (xap) {
+                return new Promise(function (resolve, reject) {
+                    //xap: {string} - format: xap:resource/<HASH>.xxx
+                    let name = xap.match(/\/([^\/]*)$/)[1];//get xxx
+                    if (name in tempFileMap) {
+                        resolve('blob:' + window.location.origin + '/' + name);
+                    } else
+                        resolve("/test/data/" + name);
+                });
+            },
+            [Snowbrush.constant.CONFIG.XAP_GENERATOR]: function ({ type, data }) {
+                return new Promise(resolve => {
+                    if (type == 'file') {
+                        let url = URL.createObjectURL(data);
+                        let hash = url.match(/\/([^\/]*)$/)[1];
+                        tempFileMap[hash] = 1;
+                        resolve('xap:resources/' + hash);
+                    } else {
+                        resolve('');
+                    }
+                })
+            },
+        };
+        Snowbrush.config(demoConstant);
+
+        Snowbrush.$.get("/test/data/workbook", function (workbookData) {
+            var workbookModel = new Snowbrush.Model.Workbook(JSON.parse(workbookData));
+            workbookModel.get("sheets").forEach(function (item, index) {
+                let sheetId = item.id;
+                Snowbrush.$.get(`/test/data/${sheetId}`, function (sheetData) {
+                    workbookModel.addSheet(sheetId, JSON.parse(sheetData));
+                    if (index === 0) {
+                        window.we = window.workbookeditor = new Snowbrush.WorkbookEditor({
+                            el: document.getElementById("mind-map"),
+                            model: workbookModel
+                        });
+                        workbookeditor.switchTo(0);
+
+                        Backbone.trigger("workbookLoaded", workbookeditor);
+                    }
+                })
+            });
+        });
+
+        let $ = Snowbrush.$;
+        const insNum = (id) => parseFloat((`#${id}`).val())
+
+        Snowbrush.Backbone.on("workbookLoaded", (workbookEditor) => {
+            const $img = $("#pngtest");
+            const firstStheet = workbookEditor.getCurrentSheetEditor()
+
+            let hasDelayed = false;
+            let isWaiting = false;
+            const snapshot = () => { //delay the execution of this cb for test;
+                if (isWaiting) return;
+                if (!hasDelayed) {
+                    isWaiting = true;
+                    return setTimeout(() => {
+                        isWaiting = false;
+                        hasDelayed = true;
+                        snapshot();
+                    }, 0);
+                }
+                hasDelayed = false;
+
+                let area = 'full'
+                $('[name="area"]').each((i, radio) => {
+                    if (radio.checked) area = radio.value;
+                });
+                let config = {
+                    area,
+                    scale: parseFloat($('#png_scale').val()),
+                    hidpi: 96,
+                    hideCollapseOpen: $('#hideCollapseOpen').get(0).checked,
+                    hideCollapseClose: $('#hideCollapseClose').get(0).checked,
+                    width: parseInt($('#png_width').val()),
+                    height: parseInt($('#png_height').val()),
+                    maxScale: parseFloat($('#maxScale').val()),
+                    noBackground: $('#noBackground').get(0).checked,
+                }
+                var useCurrentSheet = $('#useCurrentSheet').get(0).checked;
+                var sheet = useCurrentSheet ? workbookEditor.getCurrentSheetEditor() : firstStheet;
+                //当不使用currentsheet的时候，导出的是切换到后台的sheet，这种情况也需要测试。
+                sheet.exportImage(config).then((info) => {
+                    let { data, scale } = info;
+                    console.log(info);
+                    $img.attr("src", data);
+                });
+            }
+
+            $('#png_refresh').on('click', snapshot);
+
+            $('#render_svg').on('click', () => {
+                let config = {
+                    hideCollapseOpen: $('#hideCollapseOpen').get(0).checked,
+                    hideCollapseClose: $('#hideCollapseClose').get(0).checked,
+                    format: 'SVG',
+                    width: parseInt($('#png_width').val()),
+                    height: parseInt($('#png_height').val()),
+                    maxScale: parseFloat($('#maxScale').val()),
+                    noBackground: $('#noBackground').get(0).checked,
+                }
+                workbookEditor.getCurrentSheetEditor().exportImage(config).then(({ data }) => {
+                    // data = '<svg viewBox="0 0 2000 1000" ' + data.slice(4)
+                    dataUri = `data:image/svg+xml;utf8,${data}`
+                    // window.open(dataUri);
+                    $img.attr('src', dataUri);
+                })
+            })
+
+            // workbookEditor.on(Snowbrush.constant.EVENTS.AFTER_SHEET_CONTENT_CHANGE, ()=>{
+            //})
+        })
+    </script>
+    <script src="/interface_bundle.js"></script>
+    <!-- entry is ui/src/index.js-->
+</body>
+
+</html>

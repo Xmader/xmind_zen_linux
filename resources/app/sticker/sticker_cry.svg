@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>cry</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Sticker-size-64*64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cry">
+            <circle id="Oval-17" fill="#FBDC67" cx="32" cy="32" r="25"></circle>
+            <path d="M7.32825656,36.0615544 C9.26843591,47.937035 19.5758335,57 32,57 C45.8071187,57 57,45.8071187 57,32 C57,29.1793298 56.5328672,26.4677644 55.6717434,23.9384456 C55.8877077,25.2603228 56,26.6170477 56,28 C56,41.8071187 44.8071187,53 31,53 C20.0135514,53 10.6823147,45.9131959 7.32825656,36.0615544 Z" id="Combined-Shape" fill="#F2CC5B"></path>
+            <g id="Group-44-Copy-4" transform="translate(17.000000, 21.000000)">
+                <g id="Group-34">
+                    <circle id="Oval-3-Copy" fill="#4C4023" cx="17.6470588" cy="21.2941176" r="3.52941176"></circle>
+                    <rect id="Rectangle-6" fill="#4C4023" x="2.28261854e-13" y="0.117647059" width="14.1176471" height="3.52941176" rx="1.76470588"></rect>
+                    <rect id="Rectangle-6-Copy" fill="#4C4023" x="21.1764706" y="0.117647059" width="14.1176471" height="3.52941176" rx="1.76470588"></rect>
+                    <path d="M10.5882353,35.6119613 L10.5882353,3.64705882 L3.52941176,3.64705882 L3.52941176,33.2190481 C5.71412318,34.3491942 8.08681398,35.1665816 10.5882353,35.6119613 L10.5882353,35.6119613 Z M31.7647059,29.5460093 L31.7647059,3.64705882 L24.7058824,3.64705882 L24.7058824,34.0460378 C27.3140286,32.9462749 29.6965467,31.4166884 31.7647059,29.5460093 L31.7647059,29.5460093 Z" id="Combined-Shape" fill="#69CDFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,537 @@
+{
+    "id": "10b1d381-4758-440b-8bad-be01658d851f",
+    "legend": {},
+    "relationships": [
+        {
+            "controlPoints": {
+                "0": {
+                    "x": -116,
+                    "y": 74
+                },
+                "1": {
+                    "x": 90,
+                    "y": -65
+                }
+            },
+            "end1Id": "208f35d5-8d89-473f-b0f6-7845034429fe",
+            "end2Id": "2c4e029a-71e2-4979-800f-b81624e3e83c",
+            "id": "842be432-7a73-4c22-beb4-b4e1f6e57949",
+            "title": ""
+        },
+        {
+            "end1Id": "87d7c501-9df4-4fe0-8629-2cb2407e5644",
+            "end2Id": "5a8e8588-24cc-416b-b4a6-b99e5edd0d2a",
+            "id": "873aa9e7-97a1-4974-ace0-e3a65d75b8d5",
+            "title": ""
+        },
+        {
+            "end1Id": "87d7c501-9df4-4fe0-8629-2cb2407e5644",
+            "end2Id": "3fcacc2d-5836-436a-89cf-2d76b26d8870",
+            "id": "9aa60bf5-b989-42c1-90bb-a2a73ff71a1c",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": 0,
+                    "y": 64
+                },
+                "1": {
+                    "x": -17,
+                    "y": -104
+                }
+            },
+            "end1Id": "208f35d5-8d89-473f-b0f6-7845034429fe",
+            "end2Id": "e40a1a68-e610-4aeb-93cb-b86337e97de9",
+            "id": "4bd758af-4f7a-4aad-b012-f0e884cde517",
+            "title": ""
+        },
+        {
+            "end1Id": "87d7c501-9df4-4fe0-8629-2cb2407e5644",
+            "end2Id": "67af0dd7-4914-4371-a6d1-a9d780f42ad4",
+            "id": "40368fb6-b1a5-4db8-9def-51cc7fd49b7b",
+            "title": ""
+        },
+        {
+            "end1Id": "9b53ec01-3773-4927-a05d-b499cd864553",
+            "end2Id": "0397b461-e496-4f4a-aaeb-bfbb7a019922",
+            "id": "85b89d0d-730a-4819-a17e-16daf308670f",
+            "title": ""
+        },
+        {
+            "end1Id": "9b53ec01-3773-4927-a05d-b499cd864553",
+            "end2Id": "646f5eaf-2601-46e8-b580-7878819ae3cf",
+            "id": "9c6c9494-1c42-4a43-9c46-18d23958fb40",
+            "title": ""
+        },
+        {
+            "end1Id": "87d7c501-9df4-4fe0-8629-2cb2407e5644",
+            "end2Id": "d0d7a1c3-f665-4a6d-8f38-1967398484ca",
+            "id": "fa945d82-50b0-4a35-99b7-2bc779a6d2a8",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": -61,
+                    "y": -66
+                },
+                "1": {
+                    "x": 84,
+                    "y": 47
+                }
+            },
+            "end1Id": "208f35d5-8d89-473f-b0f6-7845034429fe",
+            "end2Id": "87d7c501-9df4-4fe0-8629-2cb2407e5644",
+            "id": "95641dce-2857-4f12-ae03-3a4ffd1f51db",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494,
+                    "x": 173,
+                    "y": 81
+                },
+                "1": {
+                    "x": -138,
+                    "y": -92
+                }
+            },
+            "end1Id": "9b53ec01-3773-4927-a05d-b499cd864553",
+            "end2Id": "999ace0c-cd13-46b4-a212-c3f79d0507c0",
+            "id": "2b519c2b-23fd-4c0a-9caf-83e58d1ea728",
+            "style": {
+                "properties": {
+                    "shape-class": "org.xmind.relationshipShape.straight"
+                },
+                "type": "relationship"
+            },
+            "title": ""
+        },
+        {
+            "end1Id": "87d7c501-9df4-4fe0-8629-2cb2407e5644",
+            "end2Id": "ffcd60b9-a239-42ef-adff-bc74ed162eb7",
+            "id": "159e04b3-456b-4316-98b3-ec8d5e777327",
+            "title": ""
+        },
+        {
+            "end1Id": "9b53ec01-3773-4927-a05d-b499cd864553",
+            "end2Id": "0bff02d7-d1d1-488a-bb27-511321593434",
+            "id": "d7545a8b-a0a5-493a-af93-7618b386c4e4",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": 105,
+                    "y": -45
+                },
+                "1": {
+                    "x": -65,
+                    "y": 30
+                }
+            },
+            "end1Id": "208f35d5-8d89-473f-b0f6-7845034429fe",
+            "end2Id": "9b53ec01-3773-4927-a05d-b499cd864553",
+            "id": "69c422de-e096-47ba-ae88-488e7b053adc",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": 122,
+                    "y": 38
+                },
+                "1": {
+                    "x": -72,
+                    "y": -35
+                }
+            },
+            "end1Id": "208f35d5-8d89-473f-b0f6-7845034429fe",
+            "end2Id": "7882dd4a-d504-4c4f-9d5a-eec852e0946a",
+            "id": "f7f0d104-5bae-4260-b34e-aab36ef305ab",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": 47,
+                    "y": -87
+                },
+                "1": {
+                    "x": -33,
+                    "y": 68
+                }
+            },
+            "end1Id": "9b53ec01-3773-4927-a05d-b499cd864553",
+            "end2Id": "36d8da73-840d-423a-a6b0-356714e845ae",
+            "id": "2c3cd8f1-ba4f-4d3b-b6a0-9b2ef5d6008a",
+            "title": ""
+        }
+    ],
+    "rootTopic": {
+        "children": {
+            "detached": [
+                {
+                    "boundaries": [
+                        {
+                            "id": "9b53ec01-3773-4927-a05d-b499cd864553",
+                            "range": "master",
+                            "title": ""
+                        }
+                    ],
+                    "children": {},
+                    "id": "4de9b84f-d5ff-4383-9f67-1da5a2234c69",
+                    "position": {
+                        "x": 193,
+                        "y": -96
+                    },
+                    "title": "Sporting"
+                },
+                {
+                    "boundaries": [
+                        {
+                            "id": "87d7c501-9df4-4fe0-8629-2cb2407e5644",
+                            "range": "master",
+                            "title": ""
+                        }
+                    ],
+                    "children": {},
+                    "id": "4870f987-f22b-4ccb-8470-ebecd3f48a8c",
+                    "image": {
+                        "height": 64,
+                        "src": "xap:resources/d4723c29555b830ad0ffb9f61d3e0aa69c04821bd026aa9b97c61fbcab810ec7.png",
+                        "width": 64
+                    },
+                    "position": {
+                        "x": -171,
+                        "y": -130
+                    },
+                    "title": "Traveling"
+                },
+                {
+                    "boundaries": [
+                        {
+                            "id": "2c4e029a-71e2-4979-800f-b81624e3e83c",
+                            "range": "master",
+                            "title": ""
+                        }
+                    ],
+                    "children": {},
+                    "id": "f87a8ff3-a4a4-44d6-8b5a-9e50b9ef2f55",
+                    "image": {
+                        "height": 64,
+                        "src": "xap:resources/c211e1be740292b6313aed0aa01ca6bbf0cc572eb5a2a5ccf25a290af89e2310.png",
+                        "width": 64
+                    },
+                    "position": {
+                        "x": -229,
+                        "y": 161
+                    },
+                    "title": "Eating"
+                },
+                {
+                    "boundaries": [
+                        {
+                            "id": "7882dd4a-d504-4c4f-9d5a-eec852e0946a",
+                            "range": "master",
+                            "title": ""
+                        }
+                    ],
+                    "children": {},
+                    "id": "78c7cb09-74f6-4e1c-a797-cb08e9303252",
+                    "position": {
+                        "x": 216,
+                        "y": 71
+                    },
+                    "title": "Working"
+                },
+                {
+                    "children": {},
+                    "id": "67af0dd7-4914-4371-a6d1-a9d780f42ad4",
+                    "image": {
+                        "height": 64,
+                        "src": "xap:resources/eae107f99afdcb5961e573e29cb56ec381f84cbea264f6eb025e9d795f3c8b89.png",
+                        "width": 64
+                    },
+                    "position": {
+                        "x": -243,
+                        "y": -414
+                    },
+                    "title": "Hawaii"
+                },
+                {
+                    "children": {},
+                    "id": "3fcacc2d-5836-436a-89cf-2d76b26d8870",
+                    "position": {
+                        "x": -431,
+                        "y": -328
+                    },
+                    "title": "Maldives"
+                },
+                {
+                    "children": {},
+                    "id": "d0d7a1c3-f665-4a6d-8f38-1967398484ca",
+                    "position": {
+                        "x": -449,
+                        "y": -133
+                    },
+                    "title": "HongKong"
+                },
+                {
+                    "children": {},
+                    "id": "5a8e8588-24cc-416b-b4a6-b99e5edd0d2a",
+                    "image": {
+                        "height": 64,
+                        "src": "xap:resources/abce760305dcf2f0155201a115bc084b4af0e8781ed8fcee7072a437621b27c6.png",
+                        "width": 64
+                    },
+                    "position": {
+                        "x": -60,
+                        "y": -444
+                    },
+                    "title": "Japan"
+                },
+                {
+                    "children": {},
+                    "id": "ffcd60b9-a239-42ef-adff-bc74ed162eb7",
+                    "image": {
+                        "height": 64,
+                        "src": "xap:resources/236ee08ebd6903e81b1ecfffff7cd8772caae38f4401f897896cfd576bbc648d.png",
+                        "width": 64
+                    },
+                    "position": {
+                        "x": 17,
+                        "y": -298
+                    },
+                    "title": "Yellow Mountain"
+                },
+                {
+                    "children": {},
+                    "id": "36d8da73-840d-423a-a6b0-356714e845ae",
+                    "image": {
+                        "height": 64,
+                        "src": "xap:resources/72d6eadd190f0da16cb3655b8be27199c0777228aa761c7fd168fb33ac68425e.png",
+                        "width": 64
+                    },
+                    "position": {
+                        "x": 282,
+                        "y": -285
+                    },
+                    "title": "Running"
+                },
+                {
+                    "children": {},
+                    "id": "0bff02d7-d1d1-488a-bb27-511321593434",
+                    "position": {
+                        "x": 526,
+                        "y": -338
+                    },
+                    "title": "Yoga"
+                },
+                {
+                    "children": {},
+                    "id": "646f5eaf-2601-46e8-b580-7878819ae3cf",
+                    "position": {
+                        "x": 684,
+                        "y": -57
+                    },
+                    "title": "Basketball"
+                },
+                {
+                    "children": {},
+                    "id": "0397b461-e496-4f4a-aaeb-bfbb7a019922",
+                    "position": {
+                        "x": 587,
+                        "y": -247
+                    },
+                    "title": "Riding"
+                },
+                {
+                    "children": {},
+                    "id": "999ace0c-cd13-46b4-a212-c3f79d0507c0",
+                    "position": {
+                        "x": 661,
+                        "y": 65
+                    },
+                    "title": "Swimming"
+                },
+                {
+                    "boundaries": [
+                        {
+                            "id": "e40a1a68-e610-4aeb-93cb-b86337e97de9",
+                            "range": "master",
+                            "title": ""
+                        }
+                    ],
+                    "children": {},
+                    "id": "651a05ba-3e49-4586-a4d3-6ca3b9c83ba3",
+                    "image": {
+                        "height": 64,
+                        "src": "xap:resources/a963c1f93baba6adacc7e0895643ffc62ab73b843c101b675c58c4847281232b.png",
+                        "width": 64
+                    },
+                    "position": {
+                        "x": 38,
+                        "y": 191
+                    },
+                    "title": "Reading Book"
+                }
+            ]
+        },
+        "id": "208f35d5-8d89-473f-b0f6-7845034429fe",
+        "structureClass": "org.xmind.ui.map.clockwise",
+        "title": "Personal\nManagement",
+        "width": 500
+    },
+    "settings": {
+        "infoItems/infoItem": [
+            {
+                "mode": "icon",
+                "type": "label"
+            },
+            {
+                "mode": "card",
+                "type": "note"
+            },
+            {
+                "mode": "card",
+                "type": "href"
+            },
+            {
+                "mode": "card",
+                "type": "task"
+            }
+        ]
+    },
+    "theme": {
+        "boundary": {
+            "properties": {
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Verdana",
+                "fo:font-size": "10pt",
+                "fo:font-style": "italic",
+                "line-color": "#585F6B",
+                "line-pattern": "dash",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.boundaryShape.waves",
+                "svg:fill": "#585F6B",
+                "svg:opacity": "0.2"
+            },
+            "type": "boundary"
+        },
+        "calloutTopic": {
+            "properties": {
+                "border-line-color": "#D21E16",
+                "border-line-width": "1pt",
+                "callout-shape-class": "org.xmind.calloutTopicShape.balloon.roundedRect",
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Georgia",
+                "fo:font-size": "12pt",
+                "fo:font-style": "italic",
+                "fo:font-weight": "normal",
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "svg:fill": "#F1622C"
+            },
+            "type": "topic"
+        },
+        "centralTopic": {
+            "properties": {
+                "border-line-color": "#C7604D",
+                "border-line-width": "0pt",
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Georgia",
+                "fo:font-style": "italic",
+                "fo:font-weight": "bold",
+                "line-class": "org.xmind.branchConnection.curve",
+                "line-color": "#C3664F",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.topicShape.roundedRect",
+                "svg:fill": "#C81435"
+            },
+            "type": "topic"
+        },
+        "floatingTopic": {
+            "properties": {
+                "fo:color": "#535353",
+                "fo:font-family": "Georgia",
+                "fo:font-style": "italic",
+                "fo:font-weight": "normal",
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "line-color": "#AA001F",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.topicShape.roundedRect",
+                "svg:fill": "#FFFFFF"
+            },
+            "type": "topic"
+        },
+        "mainTopic": {
+            "properties": {
+                "border-line-width": "2pt",
+                "fo:color": "#515151",
+                "fo:font-family": "Georgia",
+                "line-color": "#C81435",
+                "line-width": "2pt",
+                "svg:fill": "#FFFFFF"
+            },
+            "type": "topic"
+        },
+        "map": {
+            "properties": {
+                "background": "xap:resources/3f4513acb0e3ac66aa0eb3dd9c510abc68ac895566c7072baf3e49d69f0c0483.png",
+                "color-gradient": "none",
+                "line-tapered": "none",
+                "multi-line-colors": "none",
+                "svg:fill": "#CBD9E9",
+                "svg:opacity": "0.49"
+            },
+            "type": "map"
+        },
+        "relationship": {
+            "properties": {
+                "arrow-begin-class": "org.xmind.arrowShape.none",
+                "arrow-end-class": "org.xmind.arrowShape.spearhead",
+                "fo:color": "#7E8690",
+                "fo:font-family": "Droid Serif",
+                "fo:font-size": "11pt",
+                "fo:font-style": "italic",
+                "line-color": "#6B737E",
+                "line-pattern": "dash",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.relationshipShape.curved"
+            },
+            "type": "relationship"
+        },
+        "subTopic": {
+            "properties": {
+                "fo:color": "#515151",
+                "fo:font-family": "Georgia",
+                "fo:font-size": "11pt",
+                "svg:fill": "none"
+            },
+            "type": "topic"
+        },
+        "summary": {
+            "properties": {
+                "line-color": "#585F6B",
+                "shape-class": "org.xmind.summaryShape.angle"
+            },
+            "type": "summary"
+        },
+        "summaryTopic": {
+            "properties": {
+                "border-line-width": "0pt",
+                "fo:color": "#2B5966",
+                "fo:font-family": "Droid Serif",
+                "fo:font-size": "12pt",
+                "fo:font-style": "italic",
+                "line-class": "org.xmind.branchConnection.curve",
+                "shape-class": "org.xmind.topicShape.ellipse",
+                "svg:fill": "none"
+            },
+            "type": "topic"
+        }
+    }
+}

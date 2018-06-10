@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>marker lock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-276.000000, -75.000000)">
+            <g id="Group-12" transform="translate(278.000000, 77.000000)">
+                <g id="Group-11-Copy-2">
+                    <g id="Group-10-Copy-2">
+                        <circle id="Oval-29" fill="#E74643" cx="10" cy="10" r="10"></circle>
+                        <rect id="Rectangle" fill="#FFFFFF" x="5" y="8" width="10" height="7" rx="0.800000012"></rect>
+                    </g>
+                </g>
+                <path d="M12.4892578,9 C12.4892578,6.43031183 12.2744141,4.34716797 10,4.34716797 C7.72558594,4.34716797 7.67724609,6.43031183 7.67724609,9 L12.4892578,9 Z" id="Oval-30" stroke="#FFFFFF" stroke-width="1.3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

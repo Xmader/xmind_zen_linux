@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Snowbrush v1.2.15 build30</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/body.css">-->
+    <style type="text/css">
+        html, body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            overflow: scroll;
+        }
+    </style>
+    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">-->
+</head>
+
+<body>
+<div id="page_content">
+</div>
+
+<script src="../bundle.js"></script><!--entry is js/expose.js-->
+<script type="text/javascript">
+    let tempFileMap = {};
+    const demoConstant = {
+        [Snowbrush.constant.CONFIG.READONLY]: localStorage.getItem('sheetReadOnly') === 'true',
+        [Snowbrush.constant.CONFIG.URL_PREFIX]: "/", //indicate snowbrush root directory
+        [Snowbrush.constant.CONFIG.XAP_LOADER]: function(xap){
+            return new Promise(function(resolve, reject){
+                //xap: {string} - format: xap:resource/<HASH>.xxx
+                let name = xap.match(/\/([^\/]*)$/)[1];//get xxx
+                if(name in tempFileMap) {
+                    resolve('blob:' + window.location.origin + '/' + name);
+                } else
+                    resolve("..//test/data/"+name);
+            });
+        },
+        [Snowbrush.constant.CONFIG.XAP_GENERATOR]: function({type, data}) {
+            return new Promise(resolve => {
+                if(type == 'file') {
+                    let url = URL.createObjectURL(data);
+                    let hash = url.match(/\/([^\/]*)$/)[1];
+                    tempFileMap[hash] = 1;
+                    resolve('xap:resources/' + hash);
+                } else {
+                    resolve('');
+                }
+            })
+        },
+        [Snowbrush.constant.CONFIG.LANGUAGE]: Snowbrush.constant.LANGS.ZH_CN
+    };
+    Snowbrush.config(demoConstant);
+
+    Snowbrush.$.get("../test/data/workbook", function (workbookData) {
+        var workbookModel = new Snowbrush.Model.Workbook(JSON.parse(workbookData));
+        let sheets = workbookModel.get('sheets');
+        var previous = 0;
+
+        sheets.forEach(function (item, index) {
+            let sheetId = item.id;
+            Snowbrush.$.get(`../test/data/${sheetId}`, function (sheetData) {
+                if (index === previous) {
+                    var snapshot = localStorage.getItem('sheetSnapshot');
+                    workbookModel.addSheet(sheetId, JSON.parse(snapshot || sheetData));
+                    window.we = window.workbookeditor = new Snowbrush.WorkbookEditor({
+                        el: document.getElementById("page_content"),
+                        model: workbookModel,
+                        scrollContainer: document.body
+                    });
+                    workbookeditor.switchTo(previous);
+
+                    Backbone.trigger("workbookLoaded", workbookeditor); 
+                } else {
+                    workbookModel.addSheet(sheetId, JSON.parse(sheetData));
+                }
+            })
+        });
+    });
+</script>
+</body>
+</html>

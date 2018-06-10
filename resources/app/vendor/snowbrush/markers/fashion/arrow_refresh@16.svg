@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>mk-arrows-refresh</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-856.000000, -629.000000)">
+            <g id="Group-76" transform="translate(666.000000, 631.000000)">
+                <g id="Group-61-Copy" transform="translate(192.000000, 0.000000)">
+                    <g id="Group-57">
+                        <circle id="Oval-21" fill="#FD9850" cx="10" cy="10" r="10"></circle>
+                        <g id="Triangle-28-+-Oval-94" transform="translate(5.000000, 4.000000)" stroke="#FFFFFF">
+                            <polygon id="Triangle-28" stroke-width="0.9" fill="#FFFFFF" points="8.72513968 0.0934792051 10.9050189 3.49301117 6.59758215 3.98486075"></polygon>
+                            <path d="M10.1057596,6.82252665 C10.0873901,6.94060785 10.0648971,7.05733748 10.0384313,7.17256598 C9.99748809,7.35082644 9.94703676,7.5254943 9.88763499,7.69601587 C9.19907727,9.67262263 7.30790621,11.0921179 5.08278149,11.0921179 C2.27563879,11.0921179 0,8.83292033 0,6.04605893 C0,3.25919754 2.27563879,1 5.08278149,1 C6.57559612,1 7.91810027,1.63890603 8.84799035,2.65630961" id="Oval-94" stroke-width="2.7"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

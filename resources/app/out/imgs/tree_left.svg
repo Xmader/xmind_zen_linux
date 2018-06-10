@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="40px" viewBox="0 0 37 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Tree_Chart_Left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="edit-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tree_Chart_Left" transform="translate(-29.000000, -11.000000)">
+            <rect id="Rectangle-4-Copy-4" x="0" y="0" width="94" height="58"></rect>
+            <g id="Group-2" transform="translate(47.500000, 29.500000) scale(-1, 1) translate(-47.500000, -29.500000) translate(29.000000, 8.000000)">
+                <path d="M25.329972,36.4015779 C25.329972,37.2166064 24.6757058,37.8773176 23.8686275,37.8773176 L15.5876751,37.8773176 C14.7805968,37.8773176 14.1263305,37.2166064 14.1263305,36.4015779 L14.1263305,11.8059172" id="Path" stroke="#072850" stroke-width="0.5"></path>
+                <path d="M23.8686275,26.0714004 L15.5876751,26.0714004 C14.7805968,26.0714004 14.1263305,25.4106893 14.1263305,24.5956607" id="Path" stroke="#072850" stroke-width="0.5"></path>
+                <rect id="Rectangle-3-Copy" fill="#E4E9EC" x="18.0232493" y="34.9258383" width="18" height="8" rx="0.547089947"></rect>
+                <rect id="Rectangle-3-Copy-4" fill="#E4E9EC" x="18.0232493" y="23.1199211" width="18" height="8" rx="0.547089947"></rect>
+                <rect id="Rectangle-6" fill="#FF9971" x="0" y="3.4433925" width="30" height="14" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

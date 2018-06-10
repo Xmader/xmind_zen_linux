@@ -1,0 +1,103 @@
+{
+  "name": "snowbrush",
+  "version": "1.3.6",
+  "build": "57",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack-dev-server",
+    "test:w": "mocha -w --recursive --compilers js:babel-register test/node",
+    "test": "mocha --recursive --compilers js:babel-register test/node",
+    "dist": "babel-node ./scripts/dist.js --nodemodule",
+    "publish-web-test": "run-s build run-web-test",
+    "build": "npm test && webpack --optimize-minimize --progress --profile --colors",
+    "build:ios": "npm test && webpack --progress --profile --colors",
+    "run-web-test": "node scripts/publishwebtest.js",
+    "release": "node scripts/release.js",
+    "build-jsdoc": "node scripts/createwikirunner.js",
+    "edge-server": "node scripts/serverforedge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://xmindltd.git.beanstalkapp.com/snowbrush.git"
+  },
+  "author": "XMind.ltd",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/backbone": "^1.3.34",
+    "@types/hammerjs": "^2.0.34",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-transform-strict-mode": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1",
+    "chai": "^4.0.2",
+    "cheerio": "^0.22.0",
+    "crypto-js": "^3.1.9-1",
+    "dat.gui": "^0.6.1",
+    "eslint": "^4.2.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "file-saver": "^1.3.3",
+    "fs-extra": "^3.0.0",
+    "gitty": "^3.6.0",
+    "js-beautify": "^1.6.14",
+    "jsdoc-to-markdown": "^3.0.0",
+    "jszip": "^3.1.4",
+    "koa": "^2.2.0",
+    "koa-static": "^3.0.0",
+    "minimist": "^1.2.0",
+    "mocha": "^3.4.2",
+    "npm-run-all": "^4.0.2",
+    "webpack": "2.3.3",
+    "webpack-dev-server": "^2.4.5",
+    "write-file-webpack-plugin": "^4.0.2",
+    "xml2js": "^0.4.17",
+    "xmldom": "^0.1.27"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "backbone": "^1.3.3",
+    "dateformat": "1.0.2-1.2.3",
+    "element-resize-event": "^2.0.9",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.1.1",
+    "path": "^0.12.7",
+    "underscore": "^1.8.3"
+  },
+  "main": "dist/index.js",
+  "description": "",
+  "babel": {
+    "plugins": [
+      "transform-runtime",
+      "transform-object-rest-spread",
+      [
+        "transform-strict-mode",
+        {
+          "strict": false
+        }
+      ],
+      "transform-class-properties",
+      "transform-decorators"
+    ],
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "uglify": true
+          },
+          "loose": true,
+          "debug": false,
+          "exclude": [],
+          "useBuiltIns": false
+        }
+      ]
+    ]
+  }
+}

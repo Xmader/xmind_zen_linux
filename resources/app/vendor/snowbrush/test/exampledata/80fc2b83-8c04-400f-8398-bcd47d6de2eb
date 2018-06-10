@@ -1,0 +1,1255 @@
+{
+    "id": "80fc2b83-8c04-400f-8398-bcd47d6de2eb",
+    "legend": {
+        "position": {
+            "x": 856,
+            "y": 109
+        }
+    },
+    "relationships": [
+        {
+            "controlPoints": {
+                "0": {
+                    "x": -471,
+                    "y": -78
+                },
+                "1": {
+                    "x": -337,
+                    "y": -358
+                }
+            },
+            "end1Id": "21a774b8-6e8c-4ca6-b809-e5d48a4c8063",
+            "end2Id": "6a6b1a95-a36b-40bb-b6b3-f954c3d449ce",
+            "id": "6256acdd-ef30-40ba-bb99-8b73e5a46181",
+            "title": "Lifes Adventure"
+        },
+        {
+            "end1Id": "0eaea725-0f85-4729-aa21-1aedc21aacb4",
+            "end2Id": "cbdf53e5-1a24-4fab-b660-c7961296ab0d",
+            "id": "16a1959f-114d-409e-b2ce-c2f364019f84",
+            "style": {
+                "properties": {
+                    "arrow-end-class": "org.xmind.arrowShape.normal",
+                    "line-color": "#D0AAFF"
+                },
+                "type": "relationship"
+            },
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": -350,
+                    "y": 54
+                },
+                "1": {
+                    "x": -303,
+                    "y": -98
+                }
+            },
+            "end1Id": "407e3602-466b-4ed0-be41-12e9fbcdc0b5",
+            "end2Id": "0d633588-061c-4b70-b8af-ea27928709b9",
+            "id": "6c614e78-f759-4a86-9a80-a9796f05b483",
+            "style": {
+                "properties": {
+                    "line-pattern": "solid",
+                    "line-width": "2pt"
+                },
+                "type": "relationship"
+            },
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": -203,
+                    "y": 14
+                },
+                "1": {
+                    "x": -326,
+                    "y": -252
+                }
+            },
+            "end1Id": "407e3602-466b-4ed0-be41-12e9fbcdc0b5",
+            "end2Id": "cbdf53e5-1a24-4fab-b660-c7961296ab0d",
+            "id": "bdc50c19-694b-48a5-925f-63ac7df13cfe",
+            "style": {
+                "properties": {
+                    "line-pattern": "solid"
+                },
+                "type": "relationship"
+            },
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494,
+                    "x": 9,
+                    "y": 298
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "cf24f8f7-69cc-4dbf-831c-1dc8a82dbb7a",
+            "end2Id": "8a3f80b6-a748-4056-b077-fb5f765a3d1f",
+            "id": "23e18939-ec5b-423f-922f-82339392fb99",
+            "title": ""
+        }
+    ],
+    "rootTopic": {
+        "children": {
+            "attached": [
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "href": "http://en.wikipedia.org/wiki/Monomyth",
+                                "id": "588c5468-ab41-4b9a-83d5-2b9522204017",
+                                "title": "Monomyth link"
+                            },
+                            {
+                                "children": {},
+                                "href": "https://www.academia.edu/6662859/Conceptual_metaphors_for_the_notion_of_Christian_life_in_John_Henry_Newmans_Parochial_and_Plain_Sermons",
+                                "id": "f8787322-73e9-485d-85e6-054405847ee4",
+                                "notes": {
+                                    "plain": {
+                                        "content": "NOMA (Non-overlappping magisteria)\r\nParamatman - Supersoul or Oversoul"
+                                    }
+                                },
+                                "title": "Interesting notes"
+                            },
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "href": "xap:resources/48f85ee4def0032302f3ccda22807d97a8049958b0e70140eaa43aa8d0415acb.rtf",
+                                            "id": "1be0bb7c-7d69-45f0-8950-4ec3830e5647",
+                                            "title": "Kiosk Lyrics.rtf"
+                                        }
+                                    ]
+                                },
+                                "id": "c19f9ffc-4d47-4b78-838e-6437d00385e4",
+                                "title": "Kiosk Project Notes"
+                            },
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "href": "xap:resources/d9647dab3479d1d9050c5a6a0c7f42ba57df0a025443afe3887d3160334ebc86.rtf",
+                                            "id": "3d92c3be-4f5a-4c51-b9dc-6277c3b01fb2",
+                                            "title": "Notes and links.rtf"
+                                        }
+                                    ]
+                                },
+                                "id": "cfc3de4c-ae49-4f10-9ef3-0fb85456c484",
+                                "title": "Supporting Notes and links"
+                            },
+                            {
+                                "children": {},
+                                "id": "51e1ad10-72a3-4b78-94a6-68a0b959df97",
+                                "title": "KEY STACKHOLDERS"
+                            },
+                            {
+                                "children": {},
+                                "extensions": [
+                                    {
+                                        "provider": "org.xmind.ui.taskInfo"
+                                    }
+                                ],
+                                "id": "215e09db-0fa3-43dd-98c4-7612278a44e5",
+                                "title": "BACKGROUND"
+                            },
+                            {
+                                "children": {},
+                                "href": "xap:resources/6ed7f0131bb0fb85a63d5a317eaa538110d9d93b74f39d71ea0e7f1e091f4dc7.pdf",
+                                "id": "437a3b4f-47d6-4006-9193-c7f3f1520a53",
+                                "title": "quantum-theory.pdf"
+                            },
+                            {
+                                "children": {},
+                                "href": "https://en.wikipedia.org/wiki/Cognitive_dissonance",
+                                "id": "ff413a4a-36b7-491a-8831-441f8c274c67",
+                                "title": "Cognitive Dissonance"
+                            }
+                        ]
+                    },
+                    "extensions": [
+                        {
+                            "provider": "org.xmind.ui.taskInfo"
+                        }
+                    ],
+                    "href": "http://www.academia.edu/635955/Determinism_Indeterminism_Quantum_Theory_and_Divine_Action",
+                    "id": "49213889-465b-4d14-9155-791edba87d71",
+                    "markers": [
+                        {
+                            "markerId": "task-start"
+                        }
+                    ],
+                    "title": "INFORMATION"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "ef4070f2-fdee-4d1e-a6a3-5d3f6c5ff721",
+                                "title": "Album theme instead of concept / story ?"
+                            },
+                            {
+                                "children": {},
+                                "id": "163b8f8b-7d56-4cf3-abde-8308ca0938f6",
+                                "title": "Align concept headers to Bible passages ?"
+                            },
+                            {
+                                "children": {},
+                                "href": "http://www.mikegarrigan.com/page1/blog.php?id=91044760133",
+                                "id": "4f1b663b-69d0-4d3f-8525-2838c8ecc5d1",
+                                "title": "Sequencing an album"
+                            },
+                            {
+                                "children": {},
+                                "id": "f20e3422-1eba-49a3-959d-d400e9c6d3bb",
+                                "title": "Identify song subjects then eliminate story line ?"
+                            }
+                        ],
+                        "summary": [
+                            {
+                                "children": {},
+                                "id": "98083368-1937-4a92-803a-7cce6ba2e41a",
+                                "title": "Summary"
+                            }
+                        ]
+                    },
+                    "id": "342dfbba-484f-4a02-a4e6-193659a2487e",
+                    "markers": [
+                        {
+                            "markerId": "star-yellow"
+                        }
+                    ],
+                    "summaries": [
+                        {
+                            "id": "f367cf40-a6b1-4690-a95c-b18d2a72e1c1",
+                            "range": "(0,3)",
+                            "style": {
+                                "properties": {
+                                    "shape-class": "org.xmind.summaryShape.square"
+                                },
+                                "type": "summary"
+                            },
+                            "topicId": "98083368-1937-4a92-803a-7cce6ba2e41a"
+                        }
+                    ],
+                    "title": "CONSIDERATIONS"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "56f95ab6-45c7-4c30-89ff-120d057d5196",
+                                "title": "BUDGET"
+                            },
+                            {
+                                "children": {},
+                                "id": "d6c93bc0-38f3-4dc8-a66e-ac7d999d6666",
+                                "title": "PEOPLE"
+                            },
+                            {
+                                "children": {},
+                                "id": "1092726b-0a34-417e-b358-1bb5c29b0cae",
+                                "title": "ASSETS"
+                            }
+                        ]
+                    },
+                    "id": "1620ad47-f47f-48ba-ac43-f75350909ea6",
+                    "title": "Guests"
+                },
+                {
+                    "children": {},
+                    "id": "d9052464-3d79-4283-8712-d76c816ef5a7",
+                    "image": {
+                        "height": 64,
+                        "src": "xap:resources/f9b5d58df88ed006eb30263c19fe5763d58799587518ec847bb6d1a74a6dc74a.png",
+                        "width": 64
+                    },
+                    "notes": {
+                        "plain": {
+                            "content": "'No one left to catch me'\r\nVia Crucis (Way of the Cross)\r\n"
+                        }
+                    },
+                    "title": "Remain organic"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "href": "http://www.informationphilosopher.com/freedom/laplaces_demon.html",
+                                "id": "a0437b4d-7193-4884-ab4d-558a783504c1",
+                                "title": "Laplace's Demon"
+                            },
+                            {
+                                "children": {},
+                                "id": "1e57682d-8f25-4201-8c35-d76fcd1cc323",
+                                "title": "Mystery Box"
+                            },
+                            {
+                                "children": {},
+                                "id": "ab3b8a49-47ea-4d9a-a971-e6bab5e80d3d",
+                                "title": "Darkly Through The Glass"
+                            },
+                            {
+                                "children": {},
+                                "id": "0eaea725-0f85-4729-aa21-1aedc21aacb4",
+                                "title": "Abstract Human"
+                            },
+                            {
+                                "children": {},
+                                "id": "2fd0c2a1-4c15-4896-854d-521a61bf7b23",
+                                "title": "The Labours Of Theseus"
+                            },
+                            {
+                                "children": {},
+                                "id": "0c958988-bb83-4eac-b3ad-a516139a0ac8",
+                                "title": "Edge Of A Cloud"
+                            },
+                            {
+                                "children": {},
+                                "id": "4c7dccb0-659f-4118-b1f0-3761e8d527d3",
+                                "title": "Another Dead End"
+                            },
+                            {
+                                "children": {},
+                                "id": "031daebb-95ba-4336-85e0-e05bdeb0c971",
+                                "title": "Invincible Summer"
+                            },
+                            {
+                                "children": {},
+                                "id": "87ff1a5a-bd4b-47f3-8074-59f25511ff50",
+                                "title": "River and Weir"
+                            },
+                            {
+                                "children": {},
+                                "id": "e4d95b77-78ec-4670-8bf7-70bac3be1b1a",
+                                "title": "In Our Own Time"
+                            },
+                            {
+                                "children": {},
+                                "id": "85b3d4ff-2b2f-4173-b053-47834e174e1e",
+                                "title": "Teleology"
+                            },
+                            {
+                                "children": {},
+                                "id": "c9d1eb12-0af7-4251-8d47-db36fd09762d",
+                                "title": "Endure rewind"
+                            }
+                        ]
+                    },
+                    "id": "6d2389ca-125c-47b9-bfeb-48fcd2b12778",
+                    "title": "Working track title suggestions"
+                },
+                {
+                    "boundaries": [
+                        {
+                            "id": "70cb1ad7-342c-41de-a99f-d6655605f82f",
+                            "range": "(2,3)",
+                            "title": ""
+                        },
+                        {
+                            "id": "3090e98e-c095-4609-87ec-7c77ee8b162c",
+                            "range": "(0,1)",
+                            "title": ""
+                        },
+                        {
+                            "id": "30b88b49-1364-4592-8bba-821a9b9c7c1d",
+                            "range": "(4,5)",
+                            "title": ""
+                        }
+                    ],
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "id": "0834dc60-d550-4277-9048-6862fcba33fc",
+                                            "title": "TOP PRIORITIES"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "a5aaef57-6930-4345-b30e-29bb9625732e",
+                                            "title": "MID PRIORITIES"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "0e9a97df-5293-4a60-a2e8-5637cba440bd",
+                                            "title": "LOW PRIORITIES"
+                                        }
+                                    ]
+                                },
+                                "id": "caf14b17-b076-4d23-b254-92288726df25",
+                                "title": "PHASE 1"
+                            },
+                            {
+                                "children": {},
+                                "id": "5b4b6f49-6ae2-422d-945a-a42f098530f4",
+                                "title": "MILESTONE 1"
+                            },
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "id": "0cdc7b9b-92f1-43ef-b6c3-c42b632762a4",
+                                            "title": "TOP PRIORITIES"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "270e2d31-d51e-4a3d-8fe5-68b596e93abe",
+                                            "title": "MID PRIORITIES"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "e695e08e-9f88-4e6f-a540-55a156a5be92",
+                                            "title": "LOW PRIORITIES"
+                                        }
+                                    ]
+                                },
+                                "id": "985a917f-1df1-40db-b3c6-f8fad06cb731",
+                                "title": "PHASE 2"
+                            },
+                            {
+                                "children": {},
+                                "id": "b73b0270-f896-484b-a7c6-a7501f6589c4",
+                                "title": "MILESTONE 2"
+                            },
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "id": "64b3ead8-c9d6-49c1-8046-b2f2f9533037",
+                                            "title": "TOP PRIORITIES"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "330d9da1-c208-48f7-ba4c-bce6b8937ae4",
+                                            "title": "MID PRIORITIES"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "67f2e1e1-1a12-4574-a99e-7af47660ca7b",
+                                            "title": "LOW PRIORITIES"
+                                        }
+                                    ]
+                                },
+                                "id": "6a35af59-b34a-4478-b7c1-e2cfc5d01846",
+                                "title": "PHASE 3"
+                            },
+                            {
+                                "children": {},
+                                "id": "eb79fa7a-de78-4e14-8820-306e4065d54a",
+                                "title": "MILESTONE 3"
+                            }
+                        ]
+                    },
+                    "id": "4a927bb9-a743-4b62-9569-353ab8cf347d",
+                    "title": "SCHEDULE"
+                },
+                {
+                    "children": {},
+                    "href": "https://en.wikipedia.org/wiki/Aevum",
+                    "id": "4e28aa8d-0e56-4da6-9dd8-fab510d52779",
+                    "title": "Aevum (Improper Eternity)"
+                },
+                {
+                    "children": {},
+                    "href": "http://stoney.sb.org/eno/oblique.html",
+                    "id": "68a482a8-5e0e-49ba-acb1-a24098ffaa8a",
+                    "title": "Oblique Strategies"
+                },
+                {
+                    "children": {},
+                    "href": "https://en.wikipedia.org/wiki/Anglo-Saxon_runes",
+                    "id": "f3a660d4-6e59-4738-a34e-72053146bea6",
+                    "image": {
+                        "align": "bottom",
+                        "height": 64,
+                        "src": "xap:resources/8e1ec28ac75f7b6fec765cf0af0549f785aa01520c1010f5a04db03b2207d278.png",
+                        "width": 64
+                    },
+                    "notes": {
+                        "plain": {
+                            "content": "Pascal's Wager\r\nDirac Sea\r\nOccams Razor\r\n"
+                        }
+                    },
+                    "structureClass": "org.xmind.ui.map.floating",
+                    "title": "Items for research"
+                },
+                {
+                    "children": {},
+                    "id": "f6d0bdc5-b733-4b27-a038-0302a8559645",
+                    "notes": {
+                        "plain": {
+                            "content": "http://popdose.com/jason-myles-goss-this-town-is-only-going-to-break-your-heart/\r\n\r\nhttps://www.youtube.com/watch?v=WqXV38WWN6I Bjork - Harm of Will\r\n\r\n"
+                        }
+                    },
+                    "position": {
+                        "x": 7,
+                        "y": 731
+                    },
+                    "structureClass": "org.xmind.ui.map.unbalanced",
+                    "title": "Arrangement inspirations"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "id": "131ac74e-7b83-44d4-ade6-dd79a17c643a",
+                                            "title": "Adopted and grows up to become..."
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "89418e22-0200-4d18-af3d-1141eefe9152",
+                                            "title": "Finds love"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "4520b7d3-ffdb-49db-8dd7-b5b7ee8e8b2a",
+                                            "title": "Project to upload works  - but saboteurs at large"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "4ed784c4-84d4-406f-bcd2-836165219e18",
+                                            "title": "Succeeds and meets himself"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "410492f2-3e74-4300-82f1-59a90d08a59b",
+                                            "title": "Has to fight the would be saboteur(s) again"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "26698f7d-971c-4bec-9b18-de0eec5f6e76",
+                                            "title": "Upload finds 'Soul'"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "9d719fbf-e980-4c90-a7b1-b7d6f8b5dbde",
+                                            "title": "Upload escapes confines"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "8c5d1f6d-451f-4348-b241-cb151b2f33ce",
+                                            "title": "Grows in knowledge and power and controls his own time clock"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "5bf2a17e-beec-49d7-bf49-8b9400d2d0ed",
+                                            "title": "Revisits lost family"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "3424fef6-b552-47f6-83f6-e168bac0365b",
+                                            "title": "Creates new simulated universe"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "2532eb55-e322-4afa-8fb7-4134497b77ac",
+                                            "structureClass": "org.xmind.ui.map.unbalanced",
+                                            "title": "Child found abandoned"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "15b0594f-222e-4a56-872b-2bec78e629bc",
+                                            "title": "'Programs' an abandoned child with his knowledge"
+                                        }
+                                    ]
+                                },
+                                "id": "508ed378-accf-40f7-b9e6-26badd22bb72",
+                                "title": "Version 2"
+                            }
+                        ]
+                    },
+                    "id": "db104bdd-5032-468e-a3f1-1f9526abeecb",
+                    "image": {
+                        "height": 64,
+                        "src": "xap:resources/c9c06d3ca7d9a93d72d5e11bca8432c7521f7110a5fa5a1aa4f11606c10c0873.png",
+                        "width": 64
+                    },
+                    "markers": [
+                        {
+                            "markerId": "smiley-boring"
+                        }
+                    ],
+                    "position": {
+                        "x": -339,
+                        "y": 769
+                    },
+                    "title": "STORY ARC 3\r\nDifferent ARC"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "eb69ed9f-f60a-4a45-9cb5-5f59e87642d8",
+                                "title": "TASKS DONE"
+                            },
+                            {
+                                "children": {},
+                                "id": "7a714927-6506-43a1-bfdb-d0ff9e0316d1",
+                                "title": "TASKS CANCELED"
+                            },
+                            {
+                                "children": {},
+                                "id": "c64776bd-73c8-48fa-b0e2-c01c407a189e",
+                                "title": "TASKS DELAYED"
+                            },
+                            {
+                                "children": {},
+                                "id": "e6819508-1fcb-4689-a3a7-e8528a6482fd",
+                                "title": "TASKS ON HOLD"
+                            },
+                            {
+                                "children": {},
+                                "id": "f26338fe-058a-4422-9a17-88749231df63",
+                                "title": "TASKS IN PROGRESS"
+                            },
+                            {
+                                "children": {},
+                                "id": "b365ff51-7792-444b-8d6d-2637781d4679",
+                                "title": "Patches used"
+                            },
+                            {
+                                "children": {},
+                                "id": "f5dee245-670f-45b7-89cc-d36d7a7ac0e8",
+                                "notes": {
+                                    "plain": {
+                                        "content": "Reaktor - Prism - Patch 016 Stacked Harmony Summer feeling but proggy and weird enough"
+                                    }
+                                },
+                                "title": "Patches suggested"
+                            },
+                            {
+                                "children": {},
+                                "id": "cd31d56f-4a12-4eb8-800e-d04e8d208607",
+                                "notes": {
+                                    "plain": {
+                                        "content": "https://docs.google.com/spreadsheets/d/1ajBqtlFca2P62fLAk7kuviuTac7r4DucEGbeMYlclsA/edit#gid=0\r\n"
+                                    }
+                                },
+                                "title": "Arrangement sheets"
+                            },
+                            {
+                                "children": {},
+                                "href": "https://docs.google.com/spreadsheets/d/1ajBqtlFca2P62fLAk7kuviuTac7r4DucEGbeMYlclsA/edit#gid=0",
+                                "id": "b96e682d-f8af-4dcb-9a32-06abb03135d5",
+                                "title": "Google Sheet Hyperlink"
+                            }
+                        ]
+                    },
+                    "id": "4c5d9a60-3303-45d4-bd1c-7866f903d386",
+                    "image": {
+                        "height": 64,
+                        "src": "xap:resources/1857a48d011ab14db1c85bedb7fb30bb3aeb71fd4d1029a4ff02e2aec933652b.png",
+                        "width": 64
+                    },
+                    "position": {
+                        "x": -237,
+                        "y": 537
+                    },
+                    "title": "Recording Notes"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "href": "http://www.sandersweb.net/bible/verse.php",
+                                "id": "c9b593bc-7981-4691-a4e2-9309c0647dd9",
+                                "title": "Random Bible verse"
+                            }
+                        ]
+                    },
+                    "href": "https://www.biblegateway.com/",
+                    "id": "39893d71-4211-422d-9133-9e3edf118eba",
+                    "title": "Bible link"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "boundaries": [
+                                    {
+                                        "id": "b0370dda-6cb4-4715-a954-11c7e0cbd69d",
+                                        "range": "(4,7)",
+                                        "title": ""
+                                    },
+                                    {
+                                        "id": "4423cc61-7a4c-4727-b9be-9c8ea00bbea6",
+                                        "range": "(8,11)",
+                                        "title": ""
+                                    },
+                                    {
+                                        "id": "006be181-ddf8-49b2-bf3e-e65d52018c70",
+                                        "range": "(1,3)",
+                                        "style": {
+                                            "properties": {
+                                                "shape-class": "org.xmind.boundaryShape.roundedRect"
+                                            },
+                                            "type": "boundary"
+                                        },
+                                        "title": ""
+                                    }
+                                ],
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "id": "0d633588-061c-4b70-b8af-ea27928709b9",
+                                            "title": "Entrance - Meta?)"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "cbdf53e5-1a24-4fab-b660-c7961296ab0d",
+                                            "title": "We are created from love - a blank page"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "e69e6956-d689-4b0f-9aef-b09f4efa4efe",
+                                            "image": {
+                                                "height": 64,
+                                                "src": "xap:resources/77ff3410ee392413f6599333bc8e028477e029009048f2d6e9abd2e8f4816856.png",
+                                                "width": 64
+                                            },
+                                            "title": ""
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "6a6b1a95-a36b-40bb-b6b3-f954c3d449ce",
+                                            "title": "Grow up through trials and tribulations"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "c9c1bed6-956a-4cb5-b86c-1450acffec65",
+                                            "title": "Finds love"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "049bc125-b632-4773-a5be-9737913428e7",
+                                            "title": "We can become cynical - the world takes us over"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "e4c90079-2700-4d2e-83c2-0bfb528af0c0",
+                                            "title": "The innerself gets lost - the demons within"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "6c6b7b91-010e-414e-82c0-889bddfc09ab",
+                                            "title": "We long for the simple past but the machine drives us forward into.?..."
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "8efaa8d9-4822-4d02-952b-fad7b59226e9",
+                                            "title": "The journey reveals how fortune plays a part"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "880abc10-90c6-41ce-bb56-b18e94564947",
+                                            "title": "Love of family can open up our spirituality"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "596e1a83-91f0-437a-9301-4805f83aface",
+                                            "title": "Faith is not easy but sustains in times good and bad"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "7a561ba9-661c-45c9-aaa8-28402000255b",
+                                            "title": "Wisdom points to us being connected to the universe"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "88dc2baa-f254-49d5-88ba-f2171ee9ee0a",
+                                            "title": "There is a miracle and design in nature"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "5291244e-de9e-4bca-aa8a-6275a1b45249",
+                                                        "title": "We can exit this stage as part of an epic journey the way we came in (Innocence / Love)"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "5626f212-da21-434d-b386-29131cb757c7",
+                                            "structureClass": "org.xmind.ui.map.unbalanced"
+                                        }
+                                    ]
+                                },
+                                "id": "030555e1-1235-40e1-b7e1-7f8402da0206",
+                                "title": "Version 2"
+                            }
+                        ]
+                    },
+                    "id": "da3982ea-67b3-4c62-95e6-d0927b8050cd",
+                    "markers": [
+                        {
+                            "markerId": "smiley-boring"
+                        }
+                    ],
+                    "title": "Album Arc"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "582e5c18-10d3-4d8e-9ba9-0543dde44954",
+                                "image": {
+                                    "height": 64,
+                                    "src": "xap:resources/7ff933df2421d2d82e21a353e534a51ba712c6c75aca48f1238c25ccdd382268.png",
+                                    "width": 64
+                                },
+                                "title": "Finding your way home"
+                            },
+                            {
+                                "children": {},
+                                "id": "231b177d-e423-4779-be16-bedc27146c66",
+                                "title": "Alienation"
+                            },
+                            {
+                                "children": {},
+                                "id": "bfa7a98f-e75c-4ea3-80ac-0831e29e44e0",
+                                "title": "4 Per Cent Universe"
+                            },
+                            {
+                                "children": {},
+                                "id": "ed82680b-ac7c-4d4f-afc7-cfcc4a00ffef",
+                                "title": "Simulacra"
+                            }
+                        ]
+                    },
+                    "id": "0fdf3895-b62a-4fc2-ae68-a9cbb6d14600",
+                    "title": "Other ideas"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "id": "407e3602-466b-4ed0-be41-12e9fbcdc0b5",
+                                            "structureClass": "org.xmind.ui.map.unbalanced",
+                                            "title": "The Ordinary World"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "21a774b8-6e8c-4ca6-b809-e5d48a4c8063",
+                                            "title": "The Call To Adventure"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "b844a089-8dda-4ccb-91f6-c247da3b67b8",
+                                            "title": "Refusal Of The Call"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "6ad76cc2-a747-4177-b380-da19643ff68b",
+                                            "title": "Meeting With The Mentor"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "ec59e6af-9d79-4e00-b944-0af9492c0600",
+                                            "title": "Crossing The Threshold"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "7f07dbf1-495a-4c37-9b36-79b2326f65f2",
+                                            "title": "Tests, Allies and Enemies"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "93157760-3067-452c-a561-716663623a54",
+                                            "title": "Approach"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "66d627b6-3f06-4f8c-b3bf-85962acc75e2",
+                                            "title": "The Ordeal"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "2054a588-0ab4-4421-8e44-f88c7e818a78",
+                                            "title": "The Reward"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "0e2a1ba1-db42-42af-8944-7857e8a4de83",
+                                            "title": "The Road Back"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "55cb2778-09c7-4748-a723-54e2bfa009fe",
+                                            "title": "Return With The Elixir"
+                                        }
+                                    ]
+                                },
+                                "id": "be699b78-89cb-4aa5-aed8-e88e104f7589",
+                                "title": "Version 2"
+                            }
+                        ]
+                    },
+                    "id": "0f5510e2-eae7-4c1e-b1c3-e98e126de63b",
+                    "markers": [
+                        {
+                            "markerId": "smiley-boring"
+                        }
+                    ],
+                    "title": "MonoMyth Arc"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "391bf11d-0ea8-4822-812c-949f471b8c84",
+                                "style": {
+                                    "properties": {
+                                        "fo:color": "#1B47BF",
+                                        "fo:font-weight": "bold"
+                                    },
+                                    "type": "topic"
+                                },
+                                "title": "MonoMyth"
+                            },
+                            {
+                                "children": {},
+                                "id": "ab7322e1-dc6c-475f-ab46-9920b674641d",
+                                "title": "Simultaneous Equation"
+                            },
+                            {
+                                "children": {},
+                                "id": "4dc1e589-5bb0-484b-b7e1-63f258ad4999",
+                                "title": "This Life"
+                            },
+                            {
+                                "children": {},
+                                "id": "0e0b7f55-8088-416b-b416-a20af3196e6c",
+                                "title": "From The Earth To The Moon"
+                            },
+                            {
+                                "children": {},
+                                "id": "cdf7ad81-c806-4825-b2da-e28e313fc9ea",
+                                "title": "Plans"
+                            },
+                            {
+                                "children": {},
+                                "id": "5809f79f-c9e7-4261-bd6b-68a83d235c31",
+                                "title": "Triune"
+                            }
+                        ]
+                    },
+                    "id": "e3dad405-1cf7-4478-af31-57972b11f0a0",
+                    "image": {
+                        "height": 64,
+                        "src": "xap:resources/6130fd93f4463fe47bab0828bd412366e388d8fc1acf56fbe3fe74908ee744f8.png",
+                        "width": 64
+                    },
+                    "title": "Working album title suggestions"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "5eafc5fe-385b-44a2-851b-214240f8c6ca",
+                                "style": {
+                                    "properties": {
+                                        "fo:color": "#1B47BF",
+                                        "fo:font-weight": "bold"
+                                    },
+                                    "type": "topic"
+                                },
+                                "title": "MonoMyth"
+                            },
+                            {
+                                "children": {},
+                                "id": "887bbdaf-7d14-4561-89ee-4888ca9ce33e",
+                                "title": "MondoMyth"
+                            },
+                            {
+                                "children": {},
+                                "id": "06c91cc3-ef41-4d9e-bd7e-5217566a6d1d",
+                                "title": "Apophenia"
+                            },
+                            {
+                                "children": {},
+                                "id": "893a62ad-2725-47b4-961b-f7252087e606",
+                                "title": "Simultaneous Equation"
+                            },
+                            {
+                                "children": {},
+                                "id": "60de66ac-077a-4e5c-8ca9-00f00a47f637",
+                                "title": "This Life"
+                            },
+                            {
+                                "children": {},
+                                "id": "61eaefef-5061-423d-b198-a53cc8827e33",
+                                "title": "From The Earth To The Moon"
+                            },
+                            {
+                                "children": {},
+                                "id": "b5464d2e-b7d1-437c-b99c-04adffc04335",
+                                "title": "Plans"
+                            },
+                            {
+                                "children": {},
+                                "id": "3cd29ffd-cb41-489c-98ae-8c0ceb15e62e",
+                                "title": "Pure Abstract Consciousness"
+                            }
+                        ]
+                    },
+                    "id": "f7590a1a-cd76-4609-b5a6-b103cf7d0e03",
+                    "title": "Working album title suggestions"
+                },
+                {
+                    "children": {},
+                    "id": "cf24f8f7-69cc-4dbf-831c-1dc8a82dbb7a",
+                    "title": "Create 2 albums simultaneously ? 2 styles"
+                }
+            ],
+            "detached": [
+                {
+                    "children": {},
+                    "id": "eeaf57b8-967d-49b2-a076-8a91848411d9",
+                    "position": {
+                        "x": -916,
+                        "y": 525
+                    },
+                    "title": "Floating Topic"
+                },
+                {
+                    "children": {},
+                    "id": "4cb042de-c967-4bda-a7e6-2b22861a1e68",
+                    "position": {
+                        "x": 699,
+                        "y": 575
+                    },
+                    "title": "Current track WIP"
+                },
+                {
+                    "children": {},
+                    "id": "a257fff0-2d8e-44c7-b734-8ef103e95478",
+                    "position": {
+                        "x": 684,
+                        "y": -253
+                    },
+                    "title": "Floating Topic"
+                },
+                {
+                    "children": {},
+                    "id": "7ce2041f-2eaa-4631-99f7-0725c8700f18",
+                    "position": {
+                        "x": 1228,
+                        "y": 283
+                    },
+                    "title": "Properties of"
+                },
+                {
+                    "children": {},
+                    "id": "28c45a51-7a2f-4019-b846-53816847abc6",
+                    "position": {
+                        "x": -408,
+                        "y": 243
+                    },
+                    "title": "Floating Topic"
+                },
+                {
+                    "children": {},
+                    "id": "4b6d89fa-6a78-47a2-aa6c-9011e948b597",
+                    "position": {
+                        "x": -421,
+                        "y": 248
+                    },
+                    "title": "Floating Topic"
+                }
+            ]
+        },
+        "extensions": [
+            {
+                "content": [
+                    {
+                        "content": [
+                            {
+                                "content": "Time is an illusion",
+                                "name": "idea"
+                            },
+                            {
+                                "content": "Objective relationship",
+                                "name": "idea"
+                            },
+                            {
+                                "content": "Your reality",
+                                "name": "idea"
+                            },
+                            {
+                                "content": "Five senses decieved",
+                                "name": "idea"
+                            }
+                        ],
+                        "name": "ideas"
+                    }
+                ],
+                "provider": "org.xmind.ui.ideafactory"
+            },
+            {
+                "content": [
+                    {
+                        "content": "-1",
+                        "name": "right-number"
+                    }
+                ],
+                "provider": "org.xmind.ui.map.unbalanced"
+            }
+        ],
+        "href": "https://docs.google.com/spreadsheets/d/1ajBqtlFca2P62fLAk7kuviuTac7r4DucEGbeMYlclsA/edit#gid=0",
+        "id": "8a3f80b6-a748-4056-b077-fb5f765a3d1f",
+        "image": {
+            "height": 64,
+            "src": "xap:resources/f822ad9dfcfd537647d9442294dcf71405700afc96b50750e3f338cce1e52f0e.png",
+            "width": 64
+        },
+        "markers": [
+            {
+                "markerId": "arrow-up"
+            }
+        ],
+        "structureClass": "org.xmind.ui.timeline.vertical",
+        "title": "MonoMyth(ical)",
+        "width": 500
+    },
+    "settings": {
+        "info-items/info-item": [
+            {
+                "mode": "card",
+                "type": "org.xmind.ui.infoItem.notes"
+            },
+            {
+                "mode": "card",
+                "type": "org.xmind.ui.infoItem.hyperlink"
+            },
+            {
+                "mode": "card",
+                "type": "org.xmind.ui.infoItem.taskInfo"
+            }
+        ],
+        "infoItems/infoItem": [
+            {
+                "mode": "icon",
+                "type": "label"
+            },
+            {
+                "mode": "card",
+                "type": "note"
+            },
+            {
+                "mode": "card",
+                "type": "href"
+            },
+            {
+                "mode": "card",
+                "type": "task"
+            }
+        ]
+    },
+    "style": {
+        "properties": {
+            "background": "xap:resources/913e6b2303c5516164242db2dd8254852b5c36ed55e6d4308dc2875de75ae45c.png",
+            "color-gradient": "gradient",
+            "legendFillColor": "#CCC1DA",
+            "line-tapered": "tapered",
+            "multi-line-colors": "#488dfd #8d8a6b #7a6c6b #b0ad9b #7781d8 #fbc01e",
+            "svg:fill": "#558ED5",
+            "svg:opacity": "0.1"
+        },
+        "type": "map"
+    },
+    "theme": {
+        "boundary": {
+            "properties": {
+                "line-color": "#808080",
+                "shape-class": "org.xmind.boundaryShape.rect",
+                "svg:fill": "#EFEFEF",
+                "svg:opacity": ".77"
+            },
+            "type": "boundary"
+        },
+        "centralTopic": {
+            "properties": {
+                "line-class": "org.xmind.branchConnection.curve",
+                "line-color": "#808080",
+                "line-tapered": "tapered",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.topicShape.roundedRect",
+                "svg:fill": "#F8EC9A"
+            },
+            "type": "topic"
+        },
+        "floatingTopic": {
+            "properties": {
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.topicShape.rect"
+            },
+            "type": "topic"
+        },
+        "mainTopic": {
+            "properties": {
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.topicShape.rect"
+            },
+            "type": "topic"
+        },
+        "map": {
+            "properties": {
+                "spinylines": "true",
+                "svg:fill": "#F5F5F5"
+            },
+            "type": "map"
+        },
+        "relationship": {
+            "properties": {
+                "line-color": "#8B7C74",
+                "line-pattern": "dash"
+            },
+            "type": "relationship"
+        },
+        "subTopic": {
+            "properties": {
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "line-width": "2pt",
+                "svg:fill": "$none$"
+            },
+            "type": "topic"
+        }
+    }
+}

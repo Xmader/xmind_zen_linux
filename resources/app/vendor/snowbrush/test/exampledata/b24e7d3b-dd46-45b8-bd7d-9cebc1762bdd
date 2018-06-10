@@ -1,0 +1,444 @@
+{
+  "rootTopic": {
+    "structureClass": "org.xmind.ui.logic.right",
+    "children": {
+      "attached": [
+        {
+          "children": {
+            "attached": [
+              {
+                "children": {},
+                "style": {
+                  "type": "topic",
+                  "properties": {
+                    "fo:font-style": "normal"
+                  }
+                },
+                "id": "e674907f-96e4-431b-a32c-ec31747fbee5",
+                "title": "目的"
+              },
+              {
+                "children": {},
+                "style": {
+                  "type": "topic",
+                  "properties": {
+                    "fo:font-style": "normal"
+                  }
+                },
+                "id": "af005695-ff64-4b2e-9456-ae806664b0d3",
+                "title": "目標"
+              },
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "9b7c5c88-46ff-4e4b-85a1-256290a25910",
+                      "title": "〜仕事以外であせかきたい〜\n努力、友情、勝利"
+                    }
+                  ]
+                },
+                "style": {
+                  "type": "topic",
+                  "properties": {
+                    "fo:font-style": "normal"
+                  }
+                },
+                "id": "5696e1e6-c052-4d87-8203-c9e1c9f259d2",
+                "title": "コンセプト"
+              }
+            ]
+          },
+          "id": "c9d950c3-31c5-44b4-8e95-119aad8e092a",
+          "title": "なんで？",
+          "markers": [
+            {
+              "markerId": "flag-red"
+            }
+          ]
+        },
+        {
+          "children": {
+            "attached": [
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "a7277d3a-d8c1-4b4f-ac3c-943829961cb2",
+                      "title": "DD"
+                    },
+                    {
+                      "children": {},
+                      "id": "d2b27292-692c-4720-9e75-06132ec09d57",
+                      "title": "4D"
+                    }
+                  ]
+                },
+                "id": "f39fb95a-90f8-4d82-bcdc-6d410b75ddfd",
+                "title": "参加者？"
+              },
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "7d1fe63e-df33-4bcd-9d2c-9ea7dfb70c95",
+                      "title": "石田さん"
+                    },
+                    {
+                      "children": {},
+                      "id": "2a004ecb-ba78-4974-be16-734cabac0550",
+                      "title": "宮本"
+                    },
+                    {
+                      "children": {
+                        "attached": [
+                          {
+                            "children": {},
+                            "id": "9d0d25be-3418-4f72-887a-d5908ab44b4a",
+                            "title": "樋本さん"
+                          },
+                          {
+                            "children": {},
+                            "id": "5f9f0fec-65dd-43ce-9e23-ee8e8b0cce7b",
+                            "title": "松原さん"
+                          }
+                        ]
+                      },
+                      "id": "feeee146-6796-457b-ba91-47f6c76ee499",
+                      "title": "新卒二人"
+                    },
+                    {
+                      "children": {},
+                      "id": "51ed0843-f129-490e-91c3-315185713b59",
+                      "title": "実行委員みたいの作る？"
+                    }
+                  ]
+                },
+                "id": "cfd3d030-d01c-47c1-9148-ddff387dda6f",
+                "title": "委員会"
+              }
+            ]
+          },
+          "id": "c57a9172-3e6f-463a-bd42-a5d0ec485772",
+          "title": "誰が？"
+        },
+        {
+          "children": {
+            "attached": [
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "48ec70b6-2925-4c9d-9723-2d7a05f5cd6f",
+                      "title": "大玉転がし"
+                    },
+                    {
+                      "children": {},
+                      "id": "14d828aa-ad3c-4eac-bab5-3f8d04b0a024",
+                      "title": "玉入れ"
+                    },
+                    {
+                      "children": {},
+                      "id": "d25bf973-6ffe-44e6-811b-b4d787762d89",
+                      "title": "球技"
+                    },
+                    {
+                      "children": {},
+                      "id": "1a1814b1-ce35-47f4-b268-f10490a852a7",
+                      "title": "パン食い競争"
+                    },
+                    {
+                      "children": {},
+                      "id": "d135fdcd-d7bd-4a3b-b83a-f470c2bc35c7",
+                      "title": "リレー"
+                    },
+                    {
+                      "children": {},
+                      "id": "f159d44d-5d1f-4b47-8318-0c85e54e89a7",
+                      "title": "ホークダンス"
+                    },
+                    {
+                      "children": {},
+                      "id": "aa025e46-d970-40d5-9875-c583d9dd3130",
+                      "title": "組体操"
+                    },
+                    {
+                      "children": {},
+                      "id": "cb23737f-7f7b-43fa-9bb6-4eda2a0c31af",
+                      "title": "棒倒し"
+                    },
+                    {
+                      "children": {},
+                      "id": "6d2eabba-ce13-492b-a7e7-776a00747177",
+                      "title": "騎馬戦"
+                    },
+                    {
+                      "children": {},
+                      "id": "c52c9e5d-ea1a-4939-81ee-174dfc8d7b66",
+                      "title": "綱引き"
+                    },
+                    {
+                      "children": {},
+                      "id": "77353487-b689-4baf-a2ad-18202ca3da03",
+                      "title": "出し物？"
+                    }
+                  ]
+                },
+                "id": "1392a9af-73cf-4b0e-80bf-abdd97782be1",
+                "title": "運動会"
+              },
+              {
+                "children": {},
+                "id": "49a93fd9-e2f0-453d-a67d-54d5711a6df0",
+                "title": "温泉"
+              },
+              {
+                "children": {},
+                "id": "853f37e7-342b-44ea-9300-d1ffbff71a6e",
+                "title": "飲み会？"
+              }
+            ]
+          },
+          "id": "9669138f-182f-458f-a28d-eb3eef7abfd6",
+          "title": "何する？"
+        },
+        {
+          "children": {
+            "attached": [
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {
+                        "attached": [
+                          {
+                            "children": {},
+                            "id": "2d4bb70d-5cb0-4da5-afdc-43f555bb418a",
+                            "title": "熱海"
+                          },
+                          {
+                            "children": {},
+                            "id": "4c8198d8-9bd5-43ae-8be0-020261b0f306",
+                            "title": "沖縄"
+                          }
+                        ]
+                      },
+                      "id": "77bbb3ab-ab6b-452a-bdef-f39701d1d065",
+                      "title": "社員旅行で",
+                      "markers": [
+                        {
+                          "markerId": "flag-red"
+                        }
+                      ]
+                    },
+                    {
+                      "children": {
+                        "attached": [
+                          {
+                            "children": {},
+                            "id": "2d623c19-7b9a-40a7-866f-f34c0fcbcc9a",
+                            "title": "目黒？"
+                          }
+                        ]
+                      },
+                      "id": "c44a55c1-5096-45dc-b8f7-bdd5878b8ca1",
+                      "title": "近場"
+                    },
+                    {
+                      "children": {},
+                      "id": "0393330c-49b1-4fce-b78c-3012d1ed4965",
+                      "title": "その他？"
+                    }
+                  ]
+                },
+                "id": "0a6adf1f-39a0-4a74-a647-9b6c2c15a9aa",
+                "title": "　場所"
+              },
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "e517dd7d-2f35-4083-946b-69e46ea1df61",
+                      "title": "社員旅行じゃない場合どうする？"
+                    }
+                  ]
+                },
+                "id": "a65c8931-8d8f-4c7f-8824-66e2df660189",
+                "title": "いつ？"
+              }
+            ]
+          },
+          "id": "9932cdfa-b0cd-47a0-9a5a-9ee18a3a9639",
+          "title": "いつ/どこで？"
+        },
+        {
+          "children": {
+            "attached": [
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "bad010c6-a0cb-47a3-a432-ce572e64528b",
+                      "title": "社員旅行費用"
+                    },
+                    {
+                      "children": {},
+                      "id": "72c23090-ec1a-4538-bfbf-acaca252bf6a",
+                      "title": "自腹"
+                    }
+                  ]
+                },
+                "id": "2505d1bc-0d85-4eb5-b311-7c13114043e1",
+                "title": "どこから出す？",
+                "markers": [
+                  {
+                    "markerId": "flag-red"
+                  }
+                ]
+              },
+              {
+                "children": {
+                  "attached": [
+                    {
+                      "children": {},
+                      "id": "fdb43ecb-0ca7-41d3-8a4c-3ec1ed44be96",
+                      "title": "場所代"
+                    },
+                    {
+                      "children": {},
+                      "id": "25c5fe31-32e6-4494-a9e1-f39e7adb5a0b",
+                      "title": "道具レンタル"
+                    },
+                    {
+                      "children": {},
+                      "id": "857a56dd-147e-4449-afff-2294ad24bf75",
+                      "title": "外注？"
+                    }
+                  ]
+                },
+                "id": "75fc442e-25b6-454d-a84f-f067488e3578",
+                "title": "いくらかかる？"
+              }
+            ]
+          },
+          "id": "24e0fcef-b6f6-4e09-add7-1a103c556f33",
+          "title": "お金は？"
+        }
+      ]
+    },
+    "id": "09cc6711-fa6e-4a5f-b6ad-a9b5e617e265",
+    "title": "運動会運動会"
+  },
+  "theme": {
+    "summary": {
+      "type": "summary",
+      "properties": {
+        "line-color": "#808080"
+      }
+    },
+    "subTopic": {
+      "type": "topic",
+      "properties": {
+        "svg:fill": "none",
+        "fo:font-family": "Courier New",
+        "border-line-width": "0pt",
+        "fo:font-size": "9pt",
+        "shape-class": "org.xmind.topicShape.rect"
+      }
+    },
+    "boundary": {
+      "type": "boundary",
+      "properties": {
+        "fo:font-style": "italic",
+        "line-width": "2pt",
+        "svg:fill": "none",
+        "fo:font-family": "Raleway",
+        "fo:font-size": "11pt",
+        "shape-class": "org.xmind.boundaryShape.roundedRect",
+        "line-pattern": "dash",
+        "line-color": "#739E73"
+      }
+    },
+    "calloutTopic": {
+      "type": "topic",
+      "properties": {
+        "fo:font-style": "italic",
+        "svg:fill": "none",
+        "fo:font-family": "Georgia",
+        "fo:font-size": "12pt",
+        "border-line-color": "#7F7F7F"
+      }
+    },
+    "centralTopic": {
+      "type": "topic",
+      "properties": {
+        "svg:fill": "none",
+        "fo:font-family": "Roboto Condensed",
+        "border-line-width": "0pt",
+        "shape-class": "org.xmind.topicShape.rect",
+        "line-class": "org.xmind.branchConnection.curve"
+      }
+    },
+    "mainTopic": {
+      "type": "topic",
+      "properties": {
+        "svg:fill": "none",
+        "fo:font-family": "Roboto Slab",
+        "border-line-width": "0pt",
+        "fo:font-size": "13pt",
+        "shape-class": "org.xmind.topicShape.rect",
+        "fo:font-weight": "normal"
+      }
+    },
+    "summaryTopic": {
+      "type": "topic",
+      "properties": {
+        "fo:font-style": "italic",
+        "svg:fill": "none",
+        "fo:font-family": "Droid Serif",
+        "fo:text-decoration": "normal",
+        "border-line-width": "0pt",
+        "fo:font-size": "11pt",
+        "shape-class": "org.xmind.topicShape.rect",
+        "fo:color": "#739E73",
+        "fo:font-weight": "normal",
+        "line-class": "org.xmind.branchConnection.roundedElbow"
+      }
+    },
+    "relationship": {
+      "type": "relationship",
+      "properties": {
+        "fo:font-style": "italic",
+        "line-width": "2pt",
+        "fo:font-family": "Raleway",
+        "fo:font-size": "12pt",
+        "line-pattern": "dash",
+        "line-color": "#40E0D0"
+      }
+    },
+    "floatingTopic": {
+      "type": "topic",
+      "properties": {
+        "svg:fill": "none",
+        "fo:font-family": "Georgia",
+        "border-line-width": "1pt",
+        "fo:font-size": "13pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "line-color": "#CACACA"
+      }
+    },
+    "map": {
+      "type": "map",
+      "properties": {
+        "multi-line-colors": "#017c98 #00b2a1 #ffdd00 #fc8f00 #ff1500 #00b04c",
+        "svg:fill": "#FFFFFF"
+      }
+    }
+  },
+  "id": "b24e7d3b-dd46-45b8-bd7d-9cebc1762bdd"
+}

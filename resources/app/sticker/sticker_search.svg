@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="18.2068966" cy="16.5517241" r="16.5517241"></circle>
+    </defs>
+    <g id="Sticker-size-64*64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="search">
+            <g id="Group-2" transform="translate(6.666667, 10.666667)">
+                <g id="Group" transform="translate(0.000000, 3.310345)" fill="#F0ECFF">
+                    <path d="M29.2611053,27.1557182 C31.6598942,24.2837597 33.1034483,20.586322 33.1034483,16.5517241 C33.1034483,7.41045931 25.692989,0 16.5517241,0 C7.41045931,0 0,7.41045931 0,16.5517241 C0,25.692989 7.41045931,33.1034483 16.5517241,33.1034483 C19.8691513,33.1034483 22.958629,32.1274808 25.5486965,30.4470068 L37.3028631,43.083798 C37.9012726,43.7231749 38.9079149,43.7388958 39.5258761,43.1186021 L41.6456088,40.9905566 C42.26357,40.3701721 42.24782,39.3595822 41.6108502,38.7589169 L29.2611053,27.1557182 Z" id="Combined-Shape"></path>
+                </g>
+                <g id="Oval-35">
+                    <use fill="#FFF9ED" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#2B2B2B" stroke-width="1.66666667" cx="18.2068966" cy="16.5517241" r="15.7183908"></circle>
+                </g>
+                <path d="M44.4913933,45.6199635 L46.6111261,43.4919181 C47.2290873,42.8715335 47.2133373,41.8609437 46.5763675,41.2602783 L30.8678664,26.5013615 L27.5839914,29.7981144 L42.2683804,45.5851595 C42.8667899,46.2245364 43.8734321,46.2402573 44.4913933,45.6199635 Z" id="Shape" stroke="#2B2B2B" stroke-width="1.66666667" fill="#FFC55D" fill-rule="nonzero"></path>
+                <path d="M29.4151111,4.30470083 C26.8917483,5.0741328 24.5607112,6.73271554 23.0147809,9.0768307 M21.659115,11.9250623 C21.3951006,12.7618455 21.2193766,13.6524114 21.147432,14.5914398" id="Path-39" stroke="#2B2B2B" stroke-width="1.66666667" stroke-linecap="round" transform="translate(25.281272, 9.448070) rotate(94.000000) translate(-25.281272, -9.448070) "></path>
+            </g>
+            <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+        </g>
+    </g>
+</svg>

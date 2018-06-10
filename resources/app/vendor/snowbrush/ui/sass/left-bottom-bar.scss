@@ -1,0 +1,178 @@
+@import 'scaletip';
+
+$rangeLength: 80px;
+$rangeWidth: 2px;
+$iconWidth: 20px;
+$padding: 10px;
+$thumbWidth: 14px;
+$inputHeight: 18px;
+
+#left-bottom-bar {
+  position: fixed;
+  left: 39px;
+  bottom: 40px;
+  background: white;
+  padding: $padding;
+  border-radius: $iconWidth/2 + $padding;
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+  line-height: 0px;
+  .rotate-div {
+    transform: rotate(-90deg);
+    transform-origin: $iconWidth/2 $inputHeight/2 ;
+    position: absolute;
+    bottom: $iconWidth + $padding + $iconWidth/2 - $inputHeight/2;
+  }
+  .range-btn {
+    cursor: pointer;
+  }
+  div.topofrange{
+    margin-bottom: $rangeLength;
+  }
+  div.range-icon{
+    width: $iconWidth;
+    height: $iconWidth;
+    cursor: pointer;
+    i{
+      display: block;
+      width: $iconWidth;
+      height: $iconWidth;
+    }
+  }
+  div{
+    i.focus-center{
+      background-image: url("../images/actionicons/centre.svg");
+    }
+  }
+  div.zoom {
+    i.in{
+      background-image: url('../images/actionicons/zoomin.svg');
+    }
+    i.out{
+      background-image: url("../images/actionicons/zoomout.svg");
+    }
+  }
+  #range-tip {
+    position: absolute;
+    background: white;
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
+    padding: 3px 8px 3px 8px;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    left: $padding*2 + $iconWidth + 5px;
+    margin-top: ($inputHeight - 20px) / 2 ;
+    border-radius: 9px;
+  }
+  //#range-tip::before {
+  //  width: 0;
+  //  height: 0;
+  //  border-right: 8px solid #898989;
+  //  border-top: 10px solid transparent;
+  //  border-bottom: 9px solid transparent;
+  //  position: absolute;
+  //  display: block;
+  //  left: -8px;
+  //  top: 0px;
+  //  content: " ";
+  //}
+}
+
+/**
+*  generate by http://danielstern.ca/range.css/?ref=css-tricks#/
+**/
+input[type=range] {
+  -webkit-appearance: none;
+  width: $rangeLength;
+  height: $inputHeight;
+  //margin: 6px 0;
+  cursor: pointer;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: $rangeLength;
+  height: $rangeWidth;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background: rgba(41, 51, 62, 0.5);
+  border-radius: 0px;
+  border: 0px solid #010101;
+  margin-top: ($inputHeight ) / 2 - $rangeWidth / 2;
+  margin-bottom: ($inputHeight ) / 2 - $rangeWidth / 2;
+;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 2px solid #ffffff;
+  height: $thumbWidth;
+  width: $thumbWidth;
+  border-radius: $thumbWidth/2;
+  background: #29333e;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -6px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: rgba(51, 64, 77, 0.5);
+}
+input[type=range]::-moz-range-track {
+  width: $rangeLength;
+  height: $rangeWidth;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background: rgba(41, 51, 62, 0.5);
+  border-radius: 0px;
+  border: 0px solid #010101;
+}
+input[type=range]::-moz-range-thumb {
+  //box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 2px solid #ffffff;
+  height: $thumbWidth;
+  width: $thumbWidth;
+  border-radius: $thumbWidth/2;
+  background: #29333e;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+input[type=range]::-ms-track {
+  width: $rangeLength;
+  height: $rangeWidth;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: rgba(31, 38, 47, 0.5);
+  border: 0px solid #010101;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background: rgba(41, 51, 62, 0.5);
+  border: 0px solid #010101;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 2px solid #ffffff;
+  height: $thumbWidth;
+  width: $thumbWidth;
+  border-radius: $thumbWidth/2;
+  background: #29333e;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: rgba(41, 51, 62, 0.5);
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: rgba(51, 64, 77, 0.5);
+}
+
+@media screen and (max-width: 768px){
+  #left-bottom-bar {
+    display: none;
+  }
+}

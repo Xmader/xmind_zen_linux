@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="33px" viewBox="0 0 70 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Org_Chart_Up_to_down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="edit-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Org_Chart_Up_to_down" transform="translate(-12.000000, -13.000000)">
+            <rect id="Rectangle-4-Copy-4" x="0" y="0" width="94" height="58"></rect>
+            <g id="Group-2" transform="translate(12.000000, 13.000000)">
+                <path d="M11.5608466,27.5666667 C10.8113173,27.5666667 10.2037037,26.8495119 10.2037037,25.9648567 L10.2037037,20.0915535 C10.2037037,19.2068983 10.8113173,18.4897436 11.5608466,18.4897436 L59.5132275,18.4897436 C60.2627568,18.4897436 60.8703704,19.2068983 60.8703704,20.0915535 L60.8703704,25.9648567 C60.8703704,26.8495119 60.2627568,27.5666667 59.5132275,27.5666667" id="Rectangle-30" stroke="#072850" stroke-width="0.5"></path>
+                <rect id="Rectangle-3-Copy" fill="#E4E9EC" x="52" y="25" width="18" height="8" rx="0.5"></rect>
+                <rect id="Rectangle-3-Copy-4" fill="#E4E9EC" x="26.2883598" y="24.9444444" width="18" height="8" rx="0.5"></rect>
+                <polyline id="Rectangle-28" stroke="#072850" stroke-width="0.5" points="35.537037 24.8451278 35.537037 13.4051282 35.537037 13.4051282"></polyline>
+                <rect id="Rectangle-3-Copy" fill="#E4E9EC" transform="translate(9.150794, 28.944444) scale(-1, 1) translate(-9.150794, -28.944444) " x="0.150793651" y="24.9444444" width="18" height="8" rx="0.5"></rect>
+                <rect id="Rectangle-6" fill="#FF9971" x="20" y="0" width="30" height="14" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

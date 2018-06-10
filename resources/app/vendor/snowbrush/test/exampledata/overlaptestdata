@@ -1,0 +1,492 @@
+{
+  "id": "ad73efeb-a85e-40d9-95df-57d1c4413133",
+  "class": "sheet",
+  "title": "Sheet 1",
+  "topicOverlapping": "overlap",
+  "rootTopic": {
+    "id": "462c87f6-eac5-4d30-8aa0-ac15e7e98309",
+    "class": "topic",
+    "title": "Central Topic",
+    "structureClass": "org.xmind.ui.map",
+    "children": {
+      "attached": [{
+        "id": "34a24380-87b5-4e37-84d3-6ffe8526818c",
+        "class": "topic",
+        "title": "Main Topic 1"
+      }, {
+        "id": "c7511945-b063-4569-a963-e1b24739faca",
+        "class": "topic",
+        "title": "Main Topic 2"
+      }, {
+        "id": "1d9b92e6-8139-40a0-9a9f-45ee0b7e4bf8",
+        "class": "topic",
+        "title": "Main Topic 3"
+      }, {
+        "id": "5b5f41cf-885b-434d-b610-fbabfe427be2",
+        "class": "topic",
+        "title": "Main Topic 4"
+      }, {
+        "id": "18c78ff5-4faf-4dfc-bf34-239ca292c42d",
+        "class": "topic",
+        "title": "Main Topic 5"
+      }, {
+        "id": "74e604e3-610b-41cc-a9d4-344d671b0d1a",
+        "class": "topic",
+        "title": "Main Topic 6",
+        "children": {
+          "attached": [{
+            "id": "93398095-7cd4-442a-b5b8-d5fb953416cc",
+            "class": "topic",
+            "title": "Subtopic 1"
+          }, {
+            "id": "3a9f2588-e750-43b7-85f1-3edf4bcdc509",
+            "class": "topic",
+            "title": "Subtopic 2",
+            "children": {
+              "attached": [{
+                "id": "60513ed8-d26d-4981-bdfd-07e692de84a6",
+                "class": "topic",
+                "title": "Subtopic 1"
+              }, {
+                "id": "44cf3ee7-cf66-4773-9418-d9b8f2caaf85",
+                "class": "topic",
+                "title": "Subtopic 2"
+              }]
+            }
+          }]
+        }
+      }],
+      "detached": [{
+        "id": "9e148cce-d524-45dd-a737-37bf1242a97c",
+        "class": "topic",
+        "title": "Floating Topic",
+        "position": {
+          "x": 79.5,
+          "y": 169.5
+        },
+        "children": {
+          "attached": [{
+            "id": "2c16badf-1aae-4fdc-aad9-0bb6c46edba1",
+            "class": "topic",
+            "title": "Subtopic 1"
+          }, {
+            "id": "ea0da954-dfde-46d9-bf41-4c52d905bb8f",
+            "class": "topic",
+            "title": "Subtopic 2",
+            "children": {
+              "attached": [{
+                "id": "019fc674-a3dc-41a5-8d61-4920cbccd27a",
+                "class": "topic",
+                "title": "Subtopic 1"
+              }, {
+                "id": "bd1c949e-c72b-466f-863b-e8aeb705b061",
+                "class": "topic",
+                "title": "Subtopic 2"
+              }]
+            }
+          }]
+        }
+      }, {
+        "id": "703d8901-b083-493c-abb7-dc086162e914",
+        "class": "topic",
+        "title": "Floating Topic",
+        "position": {
+          "x": 85.84415782254155,
+          "y": 230.5
+        },
+        "children": {
+          "attached": [{
+            "id": "16de8410-242b-44b6-9bfe-90939083a1cf",
+            "class": "topic",
+            "title": "Subtopic 1"
+          }, {
+            "id": "eb1da5e6-5d02-44b1-8cb4-be7df76150ad",
+            "class": "topic",
+            "title": "Subtopic 2",
+            "children": {
+              "attached": [{
+                "id": "9995b473-0f0f-4a46-bc7b-79a038794598",
+                "class": "topic",
+                "title": "Subtopic 1"
+              }, {
+                "id": "f2523348-308a-4c86-854a-7c93cf18ff58",
+                "class": "topic",
+                "title": "Subtopic 2",
+                "children": {
+                  "attached": [{
+                    "id": "c0114786-f99c-4874-aed3-cccc2b66ec0f",
+                    "class": "topic",
+                    "title": "Subtopic 1"
+                  }, {
+                    "id": "df69d5b9-e4c9-4235-bc5d-f4e7218e39ea",
+                    "class": "topic",
+                    "title": "Subtopic 2"
+                  }, {
+                    "id": "25ab3449-934d-4d1c-a061-fc656948aca3",
+                    "class": "topic",
+                    "title": "Subtopic 3"
+                  }]
+                }
+              }]
+            }
+          }]
+        }
+      }, {
+        "id": "a33eecc1-f15a-400b-9640-ee2fc67f57b0",
+        "class": "topic",
+        "title": "Floating Topic",
+        "position": {
+          "x": -118.77593795934936,
+          "y": 225.5
+        },
+        "children": {
+          "attached": [{
+            "id": "767a6eff-6a08-4433-b187-7edc6f1eb026",
+            "class": "topic",
+            "title": "Subtopic 1"
+          }, {
+            "id": "92d9433b-097e-438f-a900-197871976c74",
+            "class": "topic",
+            "title": "Subtopic 2",
+            "children": {
+              "attached": [{
+                "id": "6e6c2f58-24d7-4440-9dcc-33b5e620eb89",
+                "class": "topic",
+                "title": "Subtopic 1"
+              }, {
+                "id": "d801f9ee-8e40-463b-a5bb-86572061436a",
+                "class": "topic",
+                "title": "Subtopic 2"
+              }]
+            }
+          }]
+        }
+      }, {
+        "id": "0c5f5686-95be-4397-98ec-f9346542d3c4",
+        "class": "topic",
+        "title": "Floating Topic",
+        "position": {
+          "x": 1.8614421298564707,
+          "y": 225.5
+        },
+        "children": {
+          "attached": [{
+            "id": "64f1559c-dae3-4581-a3c7-97cf4a2d6d7a",
+            "class": "topic",
+            "title": "Subtopic 1"
+          }, {
+            "id": "d95ce599-a2af-401c-8334-d4ff449c92f2",
+            "class": "topic",
+            "title": "Subtopic 2",
+            "children": {
+              "attached": [{
+                "id": "445ac959-1bef-4a50-b3f7-a03ad53dedd0",
+                "class": "topic",
+                "title": "Subtopic 1"
+              }, {
+                "id": "9f8cb250-1430-4378-9c6f-85cbdf2893a6",
+                "class": "topic",
+                "title": "Subtopic 2",
+                "children": {
+                  "attached": [{
+                    "id": "72af87c1-477c-46a5-a57a-0d4a297356f2",
+                    "class": "topic",
+                    "title": "Subtopic 1"
+                  }, {
+                    "id": "64a9c64a-327b-4f6c-b3af-029ff374da71",
+                    "class": "topic",
+                    "title": "Subtopic 2"
+                  }]
+                }
+              }]
+            }
+          }]
+        }
+      }, {
+        "id": "2d3da1a5-90ad-4535-8cf6-0c45087b14ab",
+        "class": "topic",
+        "title": "Floating Topic",
+        "position": {
+          "x": -46.13855787014353,
+          "y": 266.5
+        },
+        "children": {
+          "attached": [{
+            "id": "36866a98-2818-4be3-8a4c-5b7ce1e93c94",
+            "class": "topic",
+            "title": "Subtopic 1"
+          }, {
+            "id": "cd44f8fe-079d-4554-b790-5cc913a0c994",
+            "class": "topic",
+            "title": "Subtopic 2",
+            "children": {
+              "attached": [{
+                "id": "9c3ba63e-e7d3-494a-baf6-fc802f7a4d77",
+                "class": "topic",
+                "title": "Subtopic 1"
+              }, {
+                "id": "72240570-672d-4d3c-910f-8f79e76735c5",
+                "class": "topic",
+                "title": "Subtopic 2",
+                "children": {
+                  "attached": [{
+                    "id": "587aded4-d390-4bd9-8ae2-1baa639cc222",
+                    "class": "topic",
+                    "title": "Subtopic 1"
+                  }, {
+                    "id": "9e038b09-fb59-4753-a7af-6f25f32ed285",
+                    "class": "topic",
+                    "title": "Subtopic 2"
+                  }]
+                }
+              }]
+            }
+          }]
+        }
+      }, {
+        "id": "68a954cc-fe25-4516-a847-00943785f8b0",
+        "class": "topic",
+        "title": "Floating Topic",
+        "position": {
+          "x": 65.08730963528484,
+          "y": 390.85503380802527
+        },
+        "children": {
+          "attached": [{
+            "id": "89d7c072-6cad-4e63-ade2-98e0b04d1f3d",
+            "class": "topic",
+            "title": "Subtopic 1"
+          }, {
+            "id": "860778d9-3c3f-4d38-94df-4707f20f8d38",
+            "class": "topic",
+            "title": "Subtopic 2",
+            "children": {
+              "attached": [{
+                "id": "98e98d43-8ee3-45a4-9cd6-3aa85e5fac0a",
+                "class": "topic",
+                "title": "Subtopic 1"
+              }, {
+                "id": "9533be92-b894-41d4-af2f-10a38f2fb4b3",
+                "class": "topic",
+                "title": "Subtopic 2"
+              }]
+            }
+          }]
+        }
+      }, {
+        "id": "15f15b87-9bac-4336-8f9f-7854a8ebec2e",
+        "class": "topic",
+        "title": "Floating Topic",
+        "position": {
+          "x": 59.08730963528484,
+          "y": 39.85503380802527
+        }
+      }]
+    }
+  },
+  "theme": {
+    "class": "theme",
+    "id": "e460614c-dbc0-4a27-aff4-027096ed9c5e",
+    "name": "Icy web",
+    "boundary": {
+      "properties": {
+        "fo:color": "#344581",
+        "fo:font-family": "Arial",
+        "fo:font-size": "12pt",
+        "fo:font-style": "italic",
+        "fo:font-weight": "bold",
+        "fo:text-align": "center",
+        "fo:text-decoration": "none",
+        "fo:text-transform": "manual",
+        "line-color": "#82BAE1",
+        "line-pattern": "dash",
+        "line-width": "2pt",
+        "shape-class": "org.xmind.boundaryShape.waves",
+        "svg:fill": "#acd4f9",
+        "svg:opacity": ".5"
+      },
+      "styleId": "70ci8ubng7ohgt84b4i38l2bdd",
+      "type": "boundary"
+    },
+    "calloutTopic": {
+      "properties": {
+        "border-line-color": "#4c78ca",
+        "border-line-width": "0pt",
+        "callout-shape-class": "org.xmind.calloutTopicShape.balloon.roundedRect",
+        "fo:color": "#FFFFFF",
+        "fo:font-family": "Arial",
+        "fo:font-size": "12pt",
+        "fo:font-style": "italic",
+        "fo:font-weight": "bold",
+        "fo:text-align": "center",
+        "fo:text-decoration": "none",
+        "fo:text-transform": "manual",
+        "line-class": "org.xmind.branchConnection.roundedElbow",
+        "line-color": "#4c78ca",
+        "line-width": "1pt",
+        "svg:fill": "#4c78ca"
+      },
+      "styleId": "55mpe45e03kj3pdafeetjsvep3",
+      "type": "calloutTopic"
+    },
+    "centralTopic": {
+      "properties": {
+        "border-line-color": "#4c78ca",
+        "border-line-width": "3pt",
+        "fo:color": "#16183c",
+        "fo:font-family": "Arial",
+        "fo:font-size": "24pt",
+        "fo:font-style": "normal",
+        "fo:font-weight": "normal",
+        "fo:text-align": "center",
+        "fo:text-decoration": "none",
+        "fo:text-transform": "manual",
+        "line-class": "org.xmind.branchConnection.curve",
+        "line-color": "#4c78ca",
+        "line-width": "2pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "svg:fill": "#FFFFFF"
+      },
+      "styleId": "6blscbkpv4sabn8b3erc7p39pl",
+      "type": "centralTopic"
+    },
+    "floatingTopic": {
+      "properties": {
+        "border-line-color": "#4c78ca",
+        "border-line-width": "2pt",
+        "fo:color": "#16183c",
+        "fo:font-family": "Arial",
+        "fo:font-size": "14pt",
+        "fo:font-style": "italic",
+        "fo:font-weight": "normal",
+        "fo:text-align": "center",
+        "fo:text-decoration": "none",
+        "fo:text-transform": "manual",
+        "line-class": "org.xmind.branchConnection.roundedElbow",
+        "line-color": "#4c78ca",
+        "line-width": "1pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "svg:fill": "#FFFFFF"
+      },
+      "styleId": "4ovedbeb7rkasm4l2v2of8rc1e",
+      "type": "floatingTopic"
+    },
+    "mainTopic": {
+      "properties": {
+        "border-line-color": "#4c78ca",
+        "border-line-width": "2pt",
+        "fo:color": "#16183c",
+        "fo:font-family": "Arial",
+        "fo:font-size": "16pt",
+        "fo:font-style": "normal",
+        "fo:font-weight": "normal",
+        "fo:text-align": "center",
+        "fo:text-decoration": "none",
+        "fo:text-transform": "manual",
+        "line-width": "1pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "svg:fill": "#FFFFFF"
+      },
+      "styleId": "54e7vkqsa1tp97pv7mc97ndi1n",
+      "type": "mainTopic"
+    },
+    "map": {
+      "properties": {
+        "background": "",
+        "color-gradient": "none",
+        "line-tapered": "none",
+        "multi-line-colors": "none",
+        "svg:fill": "#FFFFFF",
+        "svg:opacity": "1.0"
+      },
+      "styleId": "5sr2hp8eovp9ndi7m95muae1aa",
+      "type": "map"
+    },
+    "relationship": {
+      "properties": {
+        "arrow-begin-class": "org.xmind.arrowShape.none",
+        "arrow-end-class": "org.xmind.arrowShape.triangle",
+        "fo:color": "#344581",
+        "fo:font-family": "Verdana",
+        "fo:font-size": "12pt",
+        "fo:font-style": "italic",
+        "fo:font-weight": "bold",
+        "fo:text-align": "center",
+        "fo:text-decoration": "none",
+        "fo:text-transform": "manual",
+        "line-color": "#344581",
+        "line-pattern": "dash",
+        "line-width": "2pt",
+        "shape-class": "org.xmind.relationshipShape.curved"
+      },
+      "styleId": "15fjaeeqcch954vnfa8r5m1i9r",
+      "type": "relationship"
+    },
+    "subTopic": {
+      "properties": {
+        "border-line-color": "#4c78ca",
+        "border-line-width": "1pt",
+        "fo:color": "#16183c",
+        "fo:font-family": "Arial",
+        "fo:font-size": "12pt",
+        "fo:font-style": "normal",
+        "fo:font-weight": "normal",
+        "fo:text-align": "center",
+        "fo:text-decoration": "none",
+        "fo:text-transform": "manual",
+        "line-class": "org.xmind.branchConnection.roundedElbow",
+        "line-color": "#4c78ca",
+        "line-width": "1pt",
+        "shape-class": "org.xmind.topicShape.underline",
+        "svg:fill": "none"
+      },
+      "styleId": "77mgt9sppglb947i60kabjkrul",
+      "type": "subTopic"
+    },
+    "summary": {
+      "properties": {
+        "line-color": "#acd4f9",
+        "line-width": "3pt",
+        "shape-class": "org.xmind.summaryShape.square"
+      },
+      "styleId": "4f8t474ch7jk4pv38mf5lmjlii",
+      "type": "summary"
+    },
+    "summaryTopic": {
+      "properties": {
+        "border-line-color": "#4c78ca",
+        "border-line-width": "0pt",
+        "fo:color": "#344581",
+        "fo:font-family": "Arial",
+        "fo:font-size": "12pt",
+        "fo:font-style": "italic",
+        "fo:font-weight": "bold",
+        "fo:text-align": "center",
+        "fo:text-decoration": "none",
+        "fo:text-transform": "manual",
+        "line-class": "org.xmind.branchConnection.roundedElbow",
+        "line-color": "#4c78ca",
+        "line-width": "1pt",
+        "shape-class": "org.xmind.topicShape.ellipse",
+        "svg:fill": "none"
+      },
+      "styleId": "6l5tus0sruc588qaqmt0f0fk10",
+      "type": "summaryTopic"
+    }
+  },
+  "settings": {
+    "infoItems/infoItem": [{
+      "type": "label",
+      "mode": "icon"
+    }, {
+      "type": "note",
+      "mode": "card"
+    }, {
+      "type": "href",
+      "mode": "card"
+    }, {
+      "type": "task",
+      "mode": "card"
+    }]
+  }
+}

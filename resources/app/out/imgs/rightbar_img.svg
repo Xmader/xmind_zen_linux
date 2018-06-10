@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_img</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="formal-panel-slice" transform="translate(-471.000000, -67.000000)">
+            <g id="Group-26" transform="translate(414.000000, 58.000000)">
+                <g id="tab">
+                    <g id="Group-4" transform="translate(16.000000, 8.000000)">
+                        <g id="img" transform="translate(40.600000, 1.000000)">
+                            <rect id="ic_img" x="1" y="1" width="16" height="16"></rect>
+                            <rect id="Rectangle-10" stroke="#363B3F" x="2.5" y="2.5" width="13" height="12"></rect>
+                            <polygon id="Path" fill="#363B3F" points="6.72222222 9.16666667 8.66666667 11.5038889 11.3888889 8 14.8888889 12.6666667 4 12.6666667"></polygon>
+                            <circle id="Oval-3" fill="#363B3F" cx="6" cy="6" r="1"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

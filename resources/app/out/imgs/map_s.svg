@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="17px" viewBox="0 0 27 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Map</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F5F2F6" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="5.625" y="4.46875" width="14" height="6" rx="0.5"></rect>
+    </defs>
+    <g id="Artboard-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-47.000000, -30.000000)">
+        <g id="Map" transform="translate(46.000000, 24.000000)">
+            <rect id="Rectangle-2" x="0" y="0" width="28" height="28"></rect>
+            <g id="Group-9" transform="translate(1.781250, 6.406250)">
+                <path d="M1,14 C4.64949004,14 7.76593792,12.4014437 9,10.1494622 M8.0561253,4.59712428 C6.51101101,3.02823118 3.92693849,2 1,2" id="Oval" stroke="#333333" stroke-width="0.5" stroke-linecap="round"></path>
+                <path d="M16,14 C19.64949,14 22.7659379,12.4014437 24,10.1494622 M23.0561253,4.59712428 C21.511011,3.02823118 18.9269385,2 16,2" id="Oval" stroke="#333333" stroke-width="0.5" stroke-linecap="round" transform="translate(20.000000, 8.000000) scale(-1, 1) translate(-20.000000, -8.000000) "></path>
+                <circle id="Oval-4" stroke="#919191" stroke-width="0.5" fill="url(#linearGradient-1)" cx="1.5" cy="1.5" r="1.5"></circle>
+                <circle id="Oval-4-Copy" stroke="#919191" stroke-width="0.5" fill="url(#linearGradient-1)" cx="1.5" cy="14.5" r="1.5"></circle>
+                <circle id="Oval-4-Copy-2" stroke="#919191" stroke-width="0.5" fill="url(#linearGradient-1)" cx="23.5" cy="14.5" r="1.5"></circle>
+                <circle id="Oval-4-Copy-3" stroke="#919191" stroke-width="0.5" fill="url(#linearGradient-1)" cx="23.625" cy="1.5" r="1.5"></circle>
+                <g id="Rectangle-45-Copy-4">
+                    <use fill="#FF9971" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#E3701C" stroke-width="0.5" x="5.375" y="4.21875" width="14.5" height="6.5" rx="0.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

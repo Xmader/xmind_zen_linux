@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link href="renderer.css" rel="stylesheet"></link>
+  
+      <script src="loader.js"></script>
+      <script>
+        const path = require('path')
+        window.electronRemote = require('electron').remote
+        const remoteApp = window.electronRemote.app
+        window.vanaLocalize = remoteApp.localizer.localize
+        window.vanaGlobal = {}
+
+        const workspace = remoteApp.workspace
+        window._vanaLoader.load({ //come from loader.js
+          sourcePathArr: [
+            path.join(workspace.appRoot, 'out/renderer.js')],
+          cachedDataDir: workspace.scriptCache
+        })
+
+      </script>
+</head>
+
+<body f10>
+  <div id='app'>
+    <div class="titlebar">
+      
+        <div class="mac-icons">
+          <span class="mac-icon mac-close"></span>
+          <span class="mac-icon mac-min"></span>
+          <span class="mac-icon mac-max"></span>
+          <span class="mac-icon mac-zen"></span>
+        </div>
+        
+          
+    </div>
+    <div class="workbench workbench-with-titlebar">
+      <div class="workbench-part topbar topbar-shorten">
+        <div id="toolbar" class="toolbar">
+          <div class="toolbar-icon-button toolbar_new" disabled="disabled">
+            <div class="toolbar-icon-common"></div>
+          </div>
+          <div class="toolbar_spacing_1"></div>
+          <div class="toolbar-icon-button toolbar_topic" disabled="disabled">
+            <div class="toolbar-icon-common"></div>
+          </div>
+          <div class="toolbar-icon-button toolbar_subtopic" disabled="disabled">
+            <div class="toolbar-icon-common"></div>
+          </div>
+          <div class="toolbar-icon-button toolbar_relationship" disabled="disabled">
+            <div class="toolbar-icon-common"></div>
+          </div>
+          <div class="toolbar-icon-button toolbar_boundary" disabled="disabled">
+            <div class="toolbar-icon-common"></div>
+          </div>
+          <div class="toolbar-icon-button toolbar_summary" disabled="disabled">
+            <div class="toolbar-icon-common"></div>
+          </div>
+          <div class="toolbar-icon-button toolbar_notes" disabled="disabled">
+            <div class="toolbar-icon-common"></div>
+          </div>
+          <div class="toolbar_spacing_2"></div>
+          <div class="toolbar-icon-button toolbar_zenmode" disabled="disabled">
+            <div class="toolbar-icon-common"></div>
+          </div>
+          <div class="toolbar_spacing_3"></div>
+          <div class="toolbar-icon-button toolbar_share" disabled="disabled">
+            <div class="toolbar-icon-common"></div>
+          </div>
+          <div class="toolbar_spacing_4"></div>
+          <!-- block content panel -->
+          <!-- <div class="toolbar-icon-button toolbar_content" disabled="disabled">
+            <div class="toolbar-icon-common"></div>
+          </div> -->
+          <div class="toolbar-icon-button toolbar_image" disabled="disabled">
+            <div class="toolbar-icon-common"></div>
+          </div>
+          <div class="toolbar-icon-button toolbar_format" disabled="disabled">
+            <div class="toolbar-icon-common"></div>
+          </div>
+        </div>
+      </div>
+      <div class="stack workbench-part editor-stack">
+        <div class="stack-page stack editor">
+          <div class="stack-page">
+            <div class="stack-page editor-info-page">
+              <div class="editor-info-page-spinner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var urllib = require('url')
+    var querystring = require('querystring')
+    var url = window.location.href
+    var session = querystring.parse(urllib.parse(url).query)
+
+    if (process.platform === 'win32') {
+      document.body.setAttribute('win32', true)
+    }
+
+  </script>
+</body>
+
+</html>

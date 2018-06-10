@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_close hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图标-copy" transform="translate(-663.000000, -930.000000)">
+            <g id="close-copy-4" transform="translate(663.000000, 930.000000)">
+                <rect id="ic_close" x="0" y="0" width="16" height="16"></rect>
+                <path d="M8.35355339,9.06066017 L12,12.7071068 L12.7071068,12 L9.06066017,8.35355339 L12.7071068,4.70710678 L12,4 L8.35355339,7.64644661 L4.70710678,4 L4,4.70710678 L7.64644661,8.35355339 L4,12 L4.70710678,12.7071068 L8.35355339,9.06066017 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

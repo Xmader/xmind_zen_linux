@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_image disable</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="修改" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.400000006">
+        <g id="notes-Full-functions-Copy" transform="translate(-708.000000, -576.000000)">
+            <g id="Group-8" transform="translate(366.000000, 576.000000)">
+                <g id="Group-4" transform="translate(342.000000, 0.000000)">
+                    <g id="img-copy-3">
+                        <rect id="Rectangle-2" x="0" y="0" width="16" height="16"></rect>
+                        <rect id="Rectangle-15" stroke="#434B54" x="2.5" y="2.5" width="12" height="10" rx="1"></rect>
+                    </g>
+                    <path d="M3.25512695,12.3890381 C5.13151042,9.21862793 6.12792969,7.64904785 6.24438477,7.68029785 C6.41906738,7.72717285 8.04321289,10.6174316 8.22485352,10.6174316 C8.40649414,10.6174316 10.196167,7.6763916 10.4824219,7.68029785 C10.6732585,7.68290202 11.8162842,9.2524821 13.911499,12.3890381" id="Path-27" stroke="#434B54" fill="#434B54"></path>
+                    <circle id="Oval" fill="#434B54" cx="8.5" cy="5" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

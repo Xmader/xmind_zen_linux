@@ -1,0 +1,455 @@
+{
+    "class": "sheet",
+    "id": "90c5dc27-d245-468d-b981-c4c2dc3d68f7",
+    "legend": {
+        "markers": {
+            "smiley-angry": { "name": "I'm angry!" },
+            "7fm03m2il6sucltcgir4hg1v7p": {
+                "resource": "xap:resources/xmind.png",
+                "name": "face plain.jpeg"
+            }
+        },
+        "visibility": "visible",
+        "groups": {
+            "26n2ag7c5ujskgm6sgqo6hdn10": {
+                "name": "define",
+                "markers": ["7fm03m2il6sucltcgir4hg1v7p"]
+            }
+        }
+    },
+    "relationships": [
+        {
+            "class": "relationship",
+            "controlPoints": {},
+            "end1Id": "12c1a03f-60f8-4850-9615-8a438a8518e0",
+            "end2Id": "8cf0b09a-ac8a-43a0-a825-8b123dd91fda",
+            "id": "12468237468723648",
+            "title": "relationship"
+        }
+    ],
+    "rootTopic": {
+        "boundaries": [
+            {
+                "class": "boundary",
+                "id": "1246781624187467",
+                "range": "(0,0)",
+                "title": "boundary"
+            }
+        ],
+        "children": {
+            "attached": [
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "class": "topic",
+                                "id": "8cf0b09a-ac8a-43a0-a825-8b69bdd91fda",
+                                "labels": [
+                                    "subtopic label"
+                                ],
+                                "title": "Subtopic 1.11",
+                                "href": "xap:resources/asjdlajsldjas.doc",
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "class": "topic",
+                                            "id": "111123431",
+                                            "title": "subsub topic",
+                                            "children": {
+                                                "callout":[
+                                                    {
+                                                        "class": "topic",
+                                                        "id": "callout-xxxb",
+                                                        "title": "subcallout2"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "callout": [
+                                        {
+                                            "class": "topic",
+                                            "id": "callout-aaa-bb",
+                                            "title": "subcallout"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "class": "topic",
+                                "id": "b09fc1a4-b0f8-4fe1-af7c-1b5865feb6c5",
+                                "labels": [
+                                    "s1.2"
+                                ],
+                                "title": "Subtopic 1.2"
+                            }
+                        ],
+                        "callout": [
+                            {
+                                "class": "topic",
+                                "id": "callout-aaa-cc-dd",
+                                "title": "maintopic1callout"
+                            }
+                        ]
+                    },
+                    "class": "topic",
+                    "href": "http://www.xmind.net",
+                    "id": "12c1a03f-60f8-4850-9615-8a438a8518e0",
+                    "title": "Main Topic 1"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "class": "topic",
+                                "id": "8cf0b09a-ac8a-43a0-a825-8b123dd91fda",
+                                "labels": [
+                                    "subtopic label"
+                                ],
+                                "title": "Subtopic 2.1"
+                            },
+                            {
+                                "class": "topic",
+                                "id": "b09fc1a4-b0f8-4fe1-af7c-1b1235feb6c5",
+                                "labels": [
+                                    "s2.2"
+                                ],
+                                "branch": "folded",
+                                "title": "Subtopic 2.2",
+                                "extensions": [
+                                    {
+                                        "provider": "org.xmind.ui.audionotes",
+                                        "content": [
+                                            {
+                                                "content": "3192",
+                                                "name": "duration"
+                                            },
+                                            {
+                                                "content": "03:48:47 PM, May 31 2016",
+                                                "name": "record-time"
+                                            },
+                                            {
+                                                "content": "9216",
+                                                "name": "file-size"
+                                            }
+                                        ],
+                                        "resourceRefs": [
+                                            "xap:resources/1f21941322ea4d995a550909eaee0a92c38f3be86997d8b552e99909567efe1c.mp3"
+                                        ]
+                                    },
+                                    {
+                                        "provider": "org.xmind.ui.taskInfo",
+                                        "content": [
+                                            {
+                                                "content": "Morse_Guo",
+                                                "name": "assigned-to"
+                                            },
+                                            {
+                                                "content": "1d",
+                                                "name": "duration"
+                                            },
+                                            {
+                                                "content": "2016-05-17",
+                                                "name": "start-date"
+                                            },
+                                            {
+                                                "content": "63",
+                                                "name": "progress"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "summary": [],
+                        "callout": [
+                            {
+                                "class": "topic",
+                                "id": "callout-aaa-bb",
+                                "title": "callout"
+                            }
+                        ]
+                    },
+                    "class": "topic",
+                    "href": "xmind:#3e720dc6-b4db-49d1-a166-6b238e1b9f97",
+                    "id": "2e3d1e2f-1489-4d7e-b954-64ee9c255df2",
+                    "labels": [
+                        "m2"
+                    ],
+                    "title": "Main Topic 2"
+                }
+            ],
+            "detached": [
+                {
+                    "id": "ac12cba2-0902-490f-a8d2-5c7eb48dc7b4",
+                    "title": "floating",
+                    "branch": "folded",
+                    "image": {
+                        "align": "up",
+                        "height": 100,
+                        "src": "xap:resources/xmind.png",
+                        "width": 100
+                    },
+                    "position": {
+                        "x": 333,
+                        "y": 222
+                    },
+                    "children": {
+                        "attached": [
+                            {
+                                "class": "topic",
+                                "id": "8cf0b09a-ac8a-43a0-a825-8aaaaaa",
+                                "title": "collapse topic 1"
+                            },
+                            {
+                                "class": "topic",
+                                "id": "8cf0b09a-ac8a-43a0-a825-8bbbbbc",
+                                "title": "collapse topic 2"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "summary": [
+                {
+                    "class": "topic",
+                    "id": "123183178318972",
+                    "title": "summary"
+                }
+            ]
+        },
+        "class": "topic",
+        "href": "http://www.xmind.net",
+        "id": "081f638d-aef7-4071-a66c-4c05616d967a",
+        "extensions": [
+            {
+                "provider": "org.xmind.ui.audionotes",
+                "content": [
+                    {
+                        "content": "3192",
+                        "name": "duration"
+                    },
+                    {
+                        "content": "03:48:47 PM, May 31 2016",
+                        "name": "record-time"
+                    },
+                    {
+                        "content": "9216",
+                        "name": "file-size"
+                    }
+                ],
+                "resourceRefs": [
+                    "xap:resources/1f21941322ea4d995a550909eaee0a92c38f3be86997d8b552e99909567efe1c.mp3"
+                ]
+            },
+            {
+                "provider": "org.xmind.ui.taskInfo",
+                "content": [
+                    {
+                        "content": "Morse_Guo",
+                        "name": "assigned-to"
+                    },
+                    {
+                        "content": "1d",
+                        "name": "duration"
+                    },
+                    {
+                        "content": "2016-05-17",
+                        "name": "start-date"
+                    },
+                    {
+                        "content": "63",
+                        "name": "progress"
+                    }
+                ]
+            }
+        ],
+        "image": {
+            "align": "up",
+            "height": 100,
+            "src": "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1458207514&di=c88bdeee2b25086a68d205a9ddf6f430&src=http://www.horsehr.com/ImageUpload/companylogo/2/2/4/6/2/1393919996773.jpg",
+            "width": 100
+        },
+        "title": "Central Topic",
+        "structureClass": "org.xmind.ui.map.unbalanced",
+        "labels": ["central topic label", "this is the second label"],
+        "numbering": {
+            "numberFormat": "org.xmind.numbering.arabic"
+        },
+        "markers": [
+            {
+                "markerId": "flag-red"
+            },
+            {
+                "markerId": "arrow-up-left"
+            },
+            {
+                "markerId": "month-jul"
+            },
+            {
+                "markerId": "7fm03m2il6sucltcgir4hg1v7p"
+            }
+        ],
+        "notes": {
+            "html": {},
+            "plain": {
+                "class": "note",
+                "content": "this is a note",
+                "id": "1283164141897498124"
+            },
+            "preview": ""
+        },
+        "summaries": [
+            {
+                "class": "summary",
+                "id": "12648124127423",
+                "range": "(1,1)",
+                "topicId": "123183178318972"
+            }
+        ]
+    },
+    "theme": {
+        "class": "theme",
+        "id": "7bac0880-a93d-40dc-92f3-e3a210506314",
+        "name": "professional",
+        "boundary": {
+            "properties": {
+                "fo:color": "#FFFFFF",
+                "svg:fill": "#4583C2",
+                "fo:font-family": "Georgia",
+                "fo:font-size": "10pt",
+                "fo:font-style": "italic",
+                "line-color": "#4583C2",
+                "line-pattern": "solid",
+                "line-width": "1pt",
+                "svg:opacity": ".2",
+                "shape-class": "org.xmind.boundaryShape.roundedPolygon"
+            },
+            "styleId": "6mfecvlsntgtrhm3f7j9o904ko",
+            "type": "boundary"
+        },
+        "calloutTopic": {
+            "properties": {
+                "border-line-color": "#F1BD51",
+                "border-line-width": "1pt",
+                "svg:fill": "#FBF09C",
+                "fo:font-family": "Open Sans"
+            },
+            "styleId": "0m7fapur4mp7l69rl6sao2e5n4",
+            "type": "calloutTopic"
+        },
+        "centralTopic": {
+            "properties": {
+                "border-line-color": "#3D537F",
+                "border-line-width": "1pt",
+                "svg:fill": "#CADDFE",
+                "fo:font-family": "Open Sans",
+                "line-class": "org.xmind.branchConnection.curve",
+                "line-color": "#7F7F7F",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.topicShape.roundedRect"
+            },
+            "styleId": "3mdd4fat7enea7r8u5bpqvshai",
+            "type": "centralTopic"
+        },
+        "floatingTopic": {
+            "properties": {
+                "border-line-width": "0pt",
+                "fo:color": "#FFFFFF",
+                "svg:fill": "#7F7F7F",
+                "fo:font-family": "Open Sans",
+                "fo:font-weight": "bold"
+            },
+            "styleId": "1lnhqq8a3ls241d9ai5qjhrajf",
+            "type": "floatingTopic"
+        },
+        "mainTopic": {
+            "properties": {
+                "border-line-color": "#8D867E",
+                "border-line-width": "1pt",
+                "svg:fill": "#FEF4EC",
+                "fo:font-family": "Open Sans",
+                "shape-class": "org.xmind.topicShape.roundedRect"
+            },
+            "styleId": "6404dq55olue08p1d0lbcj002c",
+            "type": "mainTopic"
+        },
+        "map": {
+            "properties": {
+                "color-gradient": "none",
+                "svg:fill": "#FFFFFF",
+                "line-tapered": "none",
+                "multi-line-colors": "none"
+            },
+            "styleId": "3ltr70o4bmouqv869u4ee7e0fr",
+            "type": "map"
+        },
+        "relationship": {
+            "properties": {
+                "arrow-end-class": "org.xmind.arrowShape.triangle",
+                "fo:color": "#595959",
+                "fo:font-family": "Georgia",
+                "fo:font-size": "10pt",
+                "fo:font-style": "italic",
+                "fo:font-weight": "normal",
+                "line-color": "#B62C25",
+                "line-pattern": "dash",
+                "line-width": "3pt",
+                "fo:text-decoration": "none"
+            },
+            "styleId": "5fhi0g3uqonmhu22d4maq7futh",
+            "type": "relationship"
+        },
+        "subTopic": {
+            "properties": {
+                "fo:font-family": "Open Sans"
+            },
+            "styleId": "553ra1b7s1r1lfg60afmf05iin",
+            "type": "subTopic"
+        },
+        "summary": {
+            "properties": {
+                "line-color": "#3076DC",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.summaryShape.curly"
+            },
+            "styleId": "7d9kt3gnubosn6kg9rmssmq840",
+            "type": "summary"
+        },
+        "summaryTopic": {
+            "properties": {
+                "border-line-width": "0pt",
+                "fo:color": "#FFFFFF",
+                "svg:fill": "#2A70D9",
+                "fo:font-family": "Georgia",
+                "fo:font-size": "10pt",
+                "fo:font-style": "italic",
+                "shape-class": "org.xmind.topicShape.roundedRect"
+            },
+            "styleId": "7a76ihfnjsosqk40vjavfnvfbr",
+            "type": "summaryTopic"
+        }
+    },
+    "title": "Sheet 1",
+    "settings": {
+        "infoItems/infoItem": [
+            {
+                "type": "label",
+                "mode": "icon"
+            },
+            {
+                "type": "note",
+                "mode": "card"
+            },
+            {
+                "type": "href",
+                "mode": "card"
+            },
+            {
+                "type": "task",
+                "mode": "card"
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_overview</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图标" transform="translate(-462.000000, -780.000000)">
+            <g id="Group-37" transform="translate(462.000000, 780.000000)">
+                <rect id="Rectangle-44" x="4" y="4" width="16" height="16"></rect>
+                <path d="M12,7 C8.36363636,7 5.25818182,9.28066667 4,12.5 C5.25818182,15.7193333 8.36363636,18 12,18 C15.6363636,18 18.7418182,15.7193333 20,12.5 C18.7418182,9.28066667 15.64,7 12,7 Z M12,16.1666667 C9.99272727,16.1666667 8.36363636,14.524 8.36363636,12.5 C8.36363636,10.476 9.99272727,8.83333333 12,8.83333333 C14.0072727,8.83333333 15.6363636,10.476 15.6363636,12.5 C15.6363636,14.524 14.0072727,16.1666667 12,16.1666667 Z M12,10.3 C10.7963636,10.3 9.81818182,11.2863333 9.81818182,12.5 C9.81818182,13.7136667 10.7963636,14.7 12,14.7 C13.2036364,14.7 14.1818182,13.7136667 14.1818182,12.5 C14.1818182,11.2863333 13.2036364,10.3 12,10.3 Z" id="overview" fill="#434B54"></path>
+            </g>
+        </g>
+    </g>
+</svg>

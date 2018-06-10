@@ -1,0 +1,56 @@
+.right-click-menu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.right-click-menu ul {
+  border: 1px #dcdcdc solid;
+  box-shadow: 0 1px 4px 0 rgba(32, 40, 49, 0.6);
+  width: 200px;
+  position: absolute;
+  list-style: none;
+  background: #fafafa;
+  overflow: auto;
+  padding: 8px 0;
+}
+.right-click-menu ul li {
+  padding: 8px 0 8px 20px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.right-click-menu ul li span {
+  padding-left: 10px;
+}
+.right-click-menu ul li .icon {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.right-click-menu ul li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.right-click-menu ul li:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.ui-mobile .right-click-menu ul {
+  border-radius: 2px;
+  background-color: #ffffff;
+  width: 120px;
+  box-shadow: 0 1px 5px 0 rgba(133, 133, 135, 0.5);
+}
+.ui-mobile .right-click-menu li:hover {
+  background-color: #807eff;
+}
+
+/*# sourceMappingURL=context-menu.css.map */

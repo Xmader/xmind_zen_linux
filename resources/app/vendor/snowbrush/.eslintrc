@@ -1,0 +1,68 @@
+{
+  "root": true,
+  "globals": {
+    "SVG": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  // "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    },
+    "allowImportExportEverywhere": true,
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".css",
+          ".json",
+          ".html",
+          ".less"
+        ]
+      },
+      "webpack": {
+        "config": "./webpack.config.js"
+      }
+    }
+  },
+  "rules": {
+    //sugguestions
+    "no-spaced-func": 1,
+    "no-unreachable": 1, // 不允许访问不到的语句
+    "no-unused-vars": [
+      1,
+      {
+        "args": "none"
+      }
+    ], // 未使用的变量，警告。  函数声明中未使用的变量不检查。
+    "no-console": 1, // warn
+    // "no-debugger": 1,
+    //enforced
+    "valid-typeof": 2,
+    "no-undef": 2,
+    "eqeqeq": 1
+    //not used yet.
+    // "semi": 1
+    // "indent": [2,2, {"SwitchCase":0, "VariableDeclarator": {"var":1, "let": 1, "const": 1}}]
+  }
+  // "overrides": [
+  //   {
+  //     "files": "test/node/*.js",
+  //     "globals": {
+  //       "describe": false,
+  //       "it": false,
+  //       "beforeEach": false,
+  //       "beforeAll": false
+  //     }
+  //   }
+  // ]
+}

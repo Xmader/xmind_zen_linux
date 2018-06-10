@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_Restore pressed</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图标-copy" transform="translate(-995.000000, -1387.000000)">
+            <g id="Group-33-Copy-3" transform="translate(995.000000, 1387.000000)">
+                <g id="Group-55" transform="translate(3.500000, 3.500000)">
+                    <path d="M2,2.48413086 L2,1 C2,0.4475 2.4475,0 3,0 L9,0 C9.5525,0 10,0.4475 10,1 L10,7 C10,7.5525 9.5525,8 9,8 L7.61157227,8 L7.61157227,7 L9,7 L9,1 L3,1 L3,2.48413086 L2,2.48413086 Z" id="Shape" fill="#FB5151" fill-rule="nonzero"></path>
+                    <path d="M7,2.5 L1,2.5 C0.723642375,2.5 0.5,2.72364237 0.5,3 L0.5,9 C0.5,9.27635763 0.723642375,9.5 1,9.5 L7,9.5 C7.27635763,9.5 7.5,9.27635763 7.5,9 L7.5,3 C7.5,2.72364237 7.27635763,2.5 7,2.5 Z" id="Shape" stroke="#FB5151"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

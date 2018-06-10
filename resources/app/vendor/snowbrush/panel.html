@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Snowbrush v1.2.0 build15</title>
+    <style type="text/css">
+        html, body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            border-top: 1px solid transparent;
+        }
+        #page_content{
+            width: calc(100% - 42px) ;
+            height: calc(100% - 42px);
+            margin: 20px auto 0;
+            position: relative;
+            border: solid 1px;
+        }
+        .dg .c .slider {
+            width: 60%;
+        }
+        .slider .slider-fg:after {
+            height: 1.5em;
+            width: 1.5em;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./font-face.css">
+</head>
+
+<body>
+<div id="page_content">
+</div>
+
+<script src="bundle.js"></script><!--entry is js/expose.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.5/dat.gui.js"></script>
+<script src="https://cdn.bootcss.com/FileSaver.js/2014-11-29/FileSaver.min.js"></script>
+<script type="text/javascript">
+    const Snowbrush = window.Snowbrush;
+    const dat = window.dat;
+
+    let tempFileMap = {};
+    const demoConstant = {
+        [Snowbrush.constant.CONFIG.READONLY]: localStorage.getItem('sheetReadOnly') === 'true',
+        [Snowbrush.constant.CONFIG.URL_PREFIX]: "/", //indicate snowbrush root directory
+        [Snowbrush.constant.CONFIG.XAP_LOADER]: function(xap){
+            return new Promise(function(resolve, reject){
+                //xap: {string} - format: xap:resource/<HASH>.xxx
+                let name = xap.match(/\/([^\/]*)$/)[1];//get xxx
+                if(name in tempFileMap) {
+                    resolve('blob:' + window.location.origin + '/' + name);
+                } else
+                    resolve("/test/data/"+name);
+            });
+        },
+        [Snowbrush.constant.CONFIG.XAP_GENERATOR]: function({type, data}) {
+            return new Promise(resolve => {
+                if(type == 'file') {
+                    let url = URL.createObjectURL(data);
+                    let hash = url.match(/\/([^\/]*)$/)[1];
+                    tempFileMap[hash] = 1;
+                    resolve('xap:resources/' + hash);
+                } else {
+                    resolve('');
+                }
+            })
+        },
+        [Snowbrush.constant.CONFIG.LANGUAGE]: Snowbrush.constant.LANGS.ZH_CN
+    };
+    Snowbrush.config(demoConstant);
+
+    Snowbrush.$.get("/test/data/workbook", function (workbookData) {
+        var workbookModel = new Snowbrush.Model.Workbook(JSON.parse(workbookData));
+        let sheets = workbookModel.get('sheets');
+        let titles = Snowbrush._.pluck(sheets, 'title');
+        gui.add(info, 'sheets', titles).onFinishChange(titile => {
+            localStorage.setItem('curSheet', titile);
+            window.we.switchTo(titles.indexOf(titile));
+        })
+        var previous = titles.indexOf(localStorage.getItem('curSheet'));
+        if(previous === -1) previous = 0;
+
+        sheets.forEach(function (item, index) {
+            let sheetId = item.id;
+            Snowbrush.$.get(`/test/data/${sheetId}`, function (sheetData) {
+                if (index === previous) {
+                    var snapshot = localStorage.getItem('sheetSnapshot');
+                    workbookModel.addSheet(sheetId, JSON.parse(snapshot || sheetData));
+                    window.we = window.workbookeditor = new Snowbrush.WorkbookEditor({
+                        el: document.getElementById("page_content"),
+                        model: workbookModel
+                    });
+                    workbookeditor.switchTo(previous);
+
+                    Backbone.trigger("workbookLoaded", workbookeditor); 
+                } else {
+                    workbookModel.addSheet(sheetId, JSON.parse(sheetData));
+                }
+            })
+        });
+    });
+
+    const constant = Snowbrush.constant;
+    const $ = Snowbrush.$;
+
+    let gui = new dat.GUI();
+    gui.close()
+    let info = {
+        debug: false,
+        title: 'Main topic',
+        scale: 100,
+        fgColor: '#f00',
+        sheets: '',
+        structure: 'map',
+        shape: '',
+        connection: '',
+        minimap: false,
+        tapered: false,
+        readonly: localStorage.getItem('sheetReadOnly') === 'true',
+        lineWidth: 1,
+        borderLine: 1,
+    }
+
+    // 组件的svg生成工具
+    const SVGGenerator = new class {
+
+      constructor() {
+
+        this.$svgContainer = $('<svg />');
+
+        this.$svgContainer.attr({
+          xmlns: 'http://www.w3.org/2000/svg',
+          version: '1.1',
+          width: '100%',
+          height: '100%'
+        });
+
+        this.svg = null;
+
+        this.$cover = null;
+
+        this.downloadBtn = document.createElement('button');
+        this.downloadBtn.innerText = '点击下载';
+        $(this.downloadBtn).css({
+          position: 'fixed',
+          right: 10,
+          top: 10
+        });
+
+        this.downloadBtn.addEventListener('click', () => {
+          this.downloadSVG();
+        });
+
+        this.cancelBtn = document.createElement('button');
+        this.cancelBtn.innerText = '重新绘制';
+        $(this.cancelBtn).css({
+          position: 'fixed',
+          right: 10,
+          top: 40
+        });
+
+        this.cancelBtn.addEventListener('click', () => {
+          this.endProcess();
+        });
+      }
+
+      startProcess(view) {
+        this.$svgContainer.empty();
+
+        if (!this[view.type]) {
+          return alert('找Morse.Guo');
+        }
+
+        this.svg = this[view.type](view);
+
+        this.coverEveryThing();
+      }
+
+      getSVGWrapped(html){
+        return `<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">${html}</svg>`;
+      }
+
+      /**
+       * @deprecated
+       * */
+      [constant.VIEW_TYPE.BRANCH](view) {
+
+        if (view.isSummaryBranch()) {
+          return this[constant.VIEW_TYPE.SUMMARY](view);
+        } else {
+          view.topicView.topicShapeGroup.attr({
+            transform: `translate(${view.topicView.shapeBounds.width / 2}, ${view.topicView.shapeBounds.height / 2})`
+          });
+
+          const topicShapeHTML = view.topicView.topicShapeGroup.node.outerHTML;
+
+          return this.getSVGWrapped(topicShapeHTML);
+        }
+
+      }
+
+      [constant.VIEW_TYPE.BOUNDARY](view) {
+        view.boundaryGroup.attr({
+          transform: `translate(${-view.position.x + view.bounds.width / 2}, ${-view.position.y + view.bounds.height / 2})`
+        })
+
+        const boundaryShapeHTML = view.boundaryGroup.node.outerHTML;
+
+        return this.getSVGWrapped(boundaryShapeHTML);
+      }
+
+      [constant.VIEW_TYPE.SUMMARY](view) {
+        const summaryTopicShape = view.topicView.topicShapeGroup;
+        const summaryConnectionLine = view.connection.connectionPath;
+
+        // 用比较hack的方式来对connection定位
+        const pathD = summaryConnectionLine.attr('d').split(' ');
+
+        summaryConnectionLine.attr({
+          transform: `translate(${-parseInt(pathD[1])}, ${-parseInt(pathD[2])})`
+        })
+
+        const bounds = view.topicView.shapeBounds;
+        summaryTopicShape.attr({
+          transform: `translate(${summaryConnectionLine.width() + bounds.width / 2 + 10}, ${summaryConnectionLine.height() / 2})`
+        });
+
+        const g = new window.SVG.G();
+        g.add(summaryTopicShape).add(summaryConnectionLine);
+
+        return this.getSVGWrapped(g.node.outerHTML);
+      }
+
+      [constant.VIEW_TYPE.RELATIONSHIP](view) {
+        const path = view.path;
+
+        path.attr('mask', null);
+
+        const arrow1 = view.arrowSelector.beginMarker;
+        const arrow2 = view.arrowSelector.endMarker;
+
+        const g = new window.SVG.G();
+        g.add(path).add(arrow1).add(arrow2);
+
+        const relationShipBounds = view.bounds;
+
+        g.attr({
+          transform: `translate(${-relationShipBounds.x}, ${-relationShipBounds.y})`
+        })
+
+        return this.getSVGWrapped(g.node.outerHTML);
+      }
+
+      coverEveryThing() {
+
+        const $cover = Snowbrush.$('<div />');
+        $cover.css({
+          position: 'fixed',
+          left: 0,
+          top: 0,
+          width: '100vw',
+          height: '100vh',
+          backgroundColor: '#fff'
+        });
+
+        $cover.append(this.svg).append(this.downloadBtn).append(this.cancelBtn);
+
+        this.$cover = $cover;
+
+
+        document.body.appendChild($cover[0])
+      }
+
+      downloadSVG() {
+        const fileName = prompt('输入文件名');
+
+        if (fileName) {
+          saveAs(new Blob([this.svg], {type: "text/plain;charset=utf-8"}), `${fileName}.svg`);
+          this.endProcess();
+        } else {
+
+        }
+      }
+
+      endProcess() {
+        this.svg = null;
+        this.$cover.remove();
+      }
+    }
+
+    /* ---- edit folder ------  */
+    let edit = {
+        undo() {
+            window.we.execAction("Undo")
+        },
+        redo() {
+            window.we.execAction("Redo")
+        },
+        printInfo() {
+            var branch = window.we.getSelections()[0];
+            if(!branch)return;
+            console.log('selected model: ', branch.model)
+            console.log('selected view: ', branch)
+        },
+        snapshot() {
+            var sheetObj = we.getCurrentSheetEditor().model.toJSON();
+            localStorage.setItem('sheetSnapshot', JSON.stringify(sheetObj));
+            console.log('snapshot')
+        },
+        clearSnapShot() {
+            localStorage.removeItem('sheetSnapshot');
+            console.log('clear snapshot')
+        },
+        addCalloutTopic() {
+            window.we.execAction("addCalloutTopic");
+        },
+        downloadSVG() {
+          const selection = we.getSelections()[0];
+          if (!selection) return;
+          SVGGenerator.startProcess(selection);
+        }
+    }
+    let editFolder = gui.addFolder('Edit');
+    Object.keys(edit).forEach(k => {
+        editFolder.add(edit, k);
+    })
+
+    /* ---- Align folder ------  */
+    let alignFolder = gui.addFolder('Align');
+    addActionsToFolder(alignFolder, [
+        'alignTop', 'alignMiddle', 'alignBottom', 'alignLeft', 'alignCenter', 'alignRight', 'divideVertical', 'divideHorizon'
+    ])
+
+    function addActionsToFolder(folder, actionArr) {
+        let obj = createActionObject(actionArr);
+        actionArr.forEach(action => {
+            folder.add(obj, action);
+        })
+    }
+    function createActionObject(actionNameArr) {
+        let ret = {};
+        actionNameArr.forEach(action => {
+            ret[action] = () => window.we.execAction(action);
+        })
+        return ret;
+    }
+
+    /* ---- misc folder (simple action without params) ------  */
+    let miscFolder = gui.addFolder('Misc');
+    addActionsToFolder(miscFolder, [
+        'fitMap', 'focusCenter', 'deleteItem', 'addSubTopic', 'resetPosition',
+    ])
+
+    /* ---- Color folder  ------  */
+    let colorFolder = gui.addFolder('Color');
+    let colorInfo = {
+        setBorder: false,
+        fill: '#ffffff',
+        color1: '#ffffff',
+        color2: '#ffffff',
+        direction: 0,
+        setGradient() {
+            let which = colorInfo.setBorder ?'changeBorderGradient' : 'changeFillGradient';
+            we.execAction(which,  {
+                "direction": colorInfo.direction,
+                "stops": [
+                    {"offset": 0, "color": colorInfo.color1, "opacity":1},
+                    {"offset": 1, "color": colorInfo.color2, "opacity":1}
+                ]
+            })
+        },
+        gradientTxt: '0,#aa9900,0.5; 0.5,#ffffff,0.1; 1,#00ff00,1;',
+        setGradient2() {
+            let which = colorInfo.setBorder ?'changeBorderGradient' : 'changeFillGradient';
+            let txt = colorInfo.gradientTxt;
+            let reg = /(\S+),(\S+),(\S+);/g;
+            let stops = [];
+            let m = null;
+            while(m = reg.exec(txt)) {
+                stops.push({
+                    offset: parseFloat(m[1]),
+                    color: m[2],
+                    opacity: parseFloat(m[3])
+                })
+            }
+            if(stops.length < 2) return;
+            we.execAction(which,  {
+                "direction": colorInfo.direction,
+                "stops": stops
+            })
+        },
+    }
+    colorFolder.addColor(colorInfo, 'fill').onFinishChange(value => {
+        we.execAction('changeColor', colorInfo.setBorder ? 'borderLineColor' : 'fill', value);
+    })
+    colorFolder.add(colorInfo, 'setBorder')
+    colorFolder.addColor(colorInfo, 'color1')
+    colorFolder.addColor(colorInfo, 'color2')
+    colorFolder.add(colorInfo, 'setGradient')
+    colorFolder.add(colorInfo, 'direction', 0, 360);
+    colorFolder.add(colorInfo, 'gradientTxt')
+    colorFolder.add(colorInfo, 'setGradient2')
+    
+
+
+
+    /* ---- boundary folder ------  */
+    let boundary = {
+        boundaryShape: '',
+        addBoundary() {
+            window.we.execAction("addBoundary")
+        },
+    }
+
+    let boundaryFolder = gui.addFolder('Boundary');
+    boundaryFolder.add(boundary, 'boundaryShape', Snowbrush.constant.BOUNDARYSHAPE).onFinishChange(value => {
+        window.we.execAction("changeShapeClass", value)
+    })
+    boundaryFolder.add(boundary, 'addBoundary');
+
+    /* ---- summary folder ------  */
+    let summary = {
+        addSummary() {
+            window.we.execAction("addSummary")
+        },
+        summaryShape: '',
+        summaryWidth: 1,
+    }
+
+    let summaryFolder = gui.addFolder('Summary');
+    summaryFolder.add(summary, 'addSummary');
+    summaryFolder.add(summary, 'summaryShape', Snowbrush.constant.SUMMARYCONNECTION).onFinishChange(value => {
+        window.we.execAction("changeSummaryLineStyle", value)
+    })
+    
+    summaryFolder.add(summary, 'summaryWidth', [1,2,3,4,5]).onFinishChange(value => {
+        window.we.execAction("changeSummaryLineWidth", value)
+    })
+
+
+    /* ---- relationship folder ------  */
+    let relationship = {
+        addRelation() {
+            window.we.execAction("addRelationship")
+        },
+        linePattern: '',
+        arrowBegin: '',
+        arrowEnd: '',
+    }
+
+    let relationshipFolder = gui.addFolder('Relationship');
+    relationshipFolder.add(relationship, 'addRelation');
+
+    relationshipFolder.add(relationship, 'linePattern', Snowbrush.constant.ARROWLINEPATTERN).onFinishChange(value => {
+        window.we.execAction("changeLinePattern", value)
+    })
+    relationshipFolder.add(relationship, 'arrowBegin', Snowbrush.constant.ARROWSHAPE).onFinishChange(value => {
+        window.we.execAction("changeStartArrowType", value)
+    })
+    relationshipFolder.add(relationship, 'arrowEnd', Snowbrush.constant.ARROWSHAPE).onFinishChange(value => {
+        window.we.execAction("changeEndArrowType", value)
+    })
+
+
+    /* ----------  */
+
+    gui.add(info, 'scale', 50, 300).onChange(value => {
+        window.we.execAction('zoom', value);
+    })
+    gui.add(info, 'structure', Snowbrush.constant.STRUCTURECLASS).onFinishChange(value => {
+        window.we.execAction('changeStructure', value);
+    })
+    var shapes = Object.assign({}, Snowbrush.constant.TOPICSHAPE, {
+        'calloutRect': Snowbrush.constant.CALLOUTSHAPE.RECT,
+        'calloutElli': Snowbrush.constant.CALLOUTSHAPE.ELLIPSE,
+        'calloutRoun': Snowbrush.constant.CALLOUTSHAPE.ROUNDEDRECT,
+    })
+    gui.add(info, 'shape', shapes).onFinishChange(value => {
+        window.we.execAction('changeShapeClass', value);
+    })
+    gui.add(info, 'connection', Snowbrush.constant.BRANCHCONNECTION).onFinishChange(value => {
+        window.we.execAction('changeBranchLineStyle', value);
+    })
+    gui.add(info, 'minimap').onFinishChange(value => {
+        window.we.execAction("setMiniMapDisplay", value)
+    })
+    gui.add(info, 'tapered').onFinishChange(value => {
+        window.we.execAction("changeLineTapered", value ? 'tapered' : 'none')
+    })
+    gui.add(info, 'readonly').onFinishChange(value => {
+        // window.isSheetReadOnly = value;
+        localStorage.setItem('sheetReadOnly', value ? 'true' : 'false')
+    })
+    gui.add(info, 'lineWidth', [0,1,2,3,4,5]).onFinishChange(value => {
+        window.we.execAction("changeLineWidth", value)
+    })
+    gui.add(info, 'borderLine', [0,1,2,3,4,5]).onFinishChange(value => {
+        window.we.execAction("changeBorderWidth", value)
+    })
+
+    const textFontArray = ["Arvo","DroidSerif","IndieFlower","Lobster","OpenSans","PoiretOne","Raleway","Roboto","RobotoCondensed","RobotoSlab","Arial","Arial Black","Comic Sans","Courier New","Georgia","Impact","Symbol","Times New Roman","Trebuchet","Verdana"];
+
+    // const newFontsToLoad = 'Lato,Lora,Noto Sans,Economica,Questrial,News Cycle,Poiret One,Teko,Khand,Forum,Eczar,Judson'.split(',');
+    // const newFontsToLoad = 'ABeeZee|Abhaya+Libre|Allerta+Stencil|Carme|Cinzel|Crushed|Droid+Sans+Mono|Fira+Sans+Extra+Condensed|Glegoo|Hind|Limelight|Marmelad|Montserrat|PT+Serif|Quattrocento+Sans|Ropa+Sans|Share|Taviraj|Tenali+Ramakrishna|Ubuntu'
+        // .split('|').map(font => font.replace(/\+/g, ' ')).concat(['Titillium Web', 'Rationale'])
+    const newFontsToLoad = "Roboto,Questrial,PT Sans Narrow,Montserrat,Ropa Sans,Slabo 27px,Average,Glegoo,Judson,Tenali Ramakrishna".split(',')
+    const loadedFonts = [];
+
+    /* ---- Text folder ------  */
+    let font = {
+        bold: false,
+        italic: false,
+        newFont: '',
+        font: ''
+    }
+    let textFolder = gui.addFolder('Text');
+    function makeFontList() {
+        if(window.fontControl) {
+            window.fontControl.remove();
+        }
+        window.fontControl = textFolder.add(font, 'font', textFontArray.concat(newFontsToLoad));
+        window.fontControl.onFinishChange(value => {
+            if(newFontsToLoad.includes(value) && !loadedFonts.includes(value)) {
+                Snowbrush.$('head').append(`<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=${value}">`);
+                loadedFonts.push(value);
+            }
+            window.we.execAction("changeFontFamily", value)
+        });
+    }
+    textFolder.add(font, 'bold').onFinishChange(value => {
+        window.we.execAction("changeFontWeight", value ? 'bold': 'normal')
+    })
+    textFolder.add(font, 'italic').onFinishChange(value => {
+        window.we.execAction("changeFontStyle", value ? 'italic': 'normal')
+    })
+    textFolder.add(font, 'newFont').onFinishChange(value => {
+        if(!value || textFontArray.includes(value)) return;
+        Snowbrush.$('head').append(`<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=${value}">`)
+        textFontArray.push(value);
+        makeFontList();
+    })
+    makeFontList();
+
+
+</script>
+</body>
+</html>

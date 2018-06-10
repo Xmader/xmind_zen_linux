@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>grape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Sticker-size-64*64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="grape">
+            <g id="grapes" transform="translate(15.000000, 4.000000)">
+                <g id="Layer_1">
+                    <path d="M17.7543132,12.2686492 C17.7543132,6.73226436 21.254069,2.56983997 25.9163411,4.42540323" id="Shape" stroke="#2B2B2B" stroke-width="1.667" stroke-linecap="round"></path>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="30.4061804" cy="24.3625806" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="17.4110886" cy="31.8103226" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="21.7395435" cy="24.3625806" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="26.4473463" cy="16.5505991" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="13.0826336" cy="24.3625806" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="9.11407261" cy="16.5505991" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="17.7807094" cy="16.5505991" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="4.41599676" cy="24.3625806" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="26.0777254" cy="31.8103226" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="8.74445174" cy="31.8103226" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="13.0826336" cy="39.238894" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="21.7395435" cy="39.238894" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <ellipse id="Oval" stroke="#2B2B2B" stroke-width="1.667" fill="#8497DD" cx="17.4110886" cy="46.6866359" rx="4.32845498" ry="4.26543779"></ellipse>
+                    <path d="M16.0919105,10.3191883 C15.8046941,10.3497366 15.513135,10.3658709 15.2179263,10.3658709 C10.701371,10.3658709 7.04032056,6.69319691 7.04032056,2.16261399 C7.04032056,1.53904798 7.11017277,0.93184879 7.24151525,0.348037389 C7.52877785,0.317442621 7.82019831,0.301354795 8.11554566,0.301354795 C12.6318699,0.301354795 16.2930128,3.97402881 16.2930128,8.50470473 C16.2930128,9.12827073 16.2232992,9.73546992 16.0919105,10.3191883 L16.0919105,10.3191883 Z" id="Shape" fill="#8BCB76" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,2161 @@
+{
+    "id": "878b5d5a-f423-4e80-9782-cbf947d1f096",
+    "legend": {
+        "markers": {
+            "smiley-surprise": {
+                "name": "Points that have problems"
+            }
+        },
+        "position": {
+            "x": 1091,
+            "y": 537
+        },
+        "visibility": "visible"
+    },
+    "relationships": [
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494,
+                    "x": -284,
+                    "y": 5
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494,
+                    "x": 63,
+                    "y": 222
+                }
+            },
+            "end1Id": "541bb839-661e-419d-a8cd-40d9827ceb55",
+            "end2Id": "34581e53-3d38-4630-8c06-9ee560f00b17",
+            "id": "a6d88b55-2015-4cce-8e0d-2eeaa57b7c71",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494,
+                    "x": -208,
+                    "y": -34
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "9e8791e2-a19d-484e-ba72-c9bf9792addc",
+            "end2Id": "34581e53-3d38-4630-8c06-9ee560f00b17",
+            "id": "ae4cb13a-77e0-4718-b01e-1476198a6d1b",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "x": 93,
+                    "y": -156
+                },
+                "1": {
+                    "x": -151,
+                    "y": -99
+                }
+            },
+            "end1Id": "596jckivoud975dhfmrp3uubsj",
+            "end2Id": "63aoh6es3tjciof7p6l59hok1k",
+            "id": "0184827e-8ebd-42bd-9909-36be63bdaaac",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "6ad4dd95-9df4-45d1-bbd0-c8e84523da63",
+            "end2Id": "8ab430d1-fbe7-496f-91a0-4a6eda48fc89",
+            "id": "21b76b2a-4d14-4ec4-9d7d-d21b333a2ef7",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "6ad4dd95-9df4-45d1-bbd0-c8e84523da63",
+            "end2Id": "05942951-7fc6-426f-bb2b-71af57e17e8d",
+            "id": "6fef93e3-c6d9-4a4a-a43f-1ef8b7c6b7cb",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494,
+                    "x": -177,
+                    "y": 2
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "1782efc6-1eb7-4ebe-86f9-a5ac523580d6",
+            "end2Id": "34581e53-3d38-4630-8c06-9ee560f00b17",
+            "id": "23f5758e-de0b-4060-a683-e0bb3d052099",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "6ad4dd95-9df4-45d1-bbd0-c8e84523da63",
+            "end2Id": "8bf726d1-aa6d-4db5-a844-175f698f3b34",
+            "id": "a95f7d51-f99f-451e-88e3-c6ac56db7a5f",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "6ad4dd95-9df4-45d1-bbd0-c8e84523da63",
+            "end2Id": "69f69d53-8594-46db-8146-72503bf7f010",
+            "id": "24debb56-dc66-4281-83fe-21567edaa99f",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "100f3813-b0b2-4ac1-b253-bc7862c63791",
+            "end2Id": "34581e53-3d38-4630-8c06-9ee560f00b17",
+            "id": "8df6ccb0-3731-4bb1-82a9-176f501dfcc8",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "a9e5b747-8834-4a2f-b9b8-c85d4f96d9a0",
+            "end2Id": "34581e53-3d38-4630-8c06-9ee560f00b17",
+            "id": "5a43808c-a5fe-4107-98dc-f43632a99b42",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "6ad4dd95-9df4-45d1-bbd0-c8e84523da63",
+            "end2Id": "1f7af708-3383-4cdd-989b-87ccd3a603df",
+            "id": "60bf0457-6394-4c17-ab5c-df2dc31e9cc9",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "6ad4dd95-9df4-45d1-bbd0-c8e84523da63",
+            "end2Id": "73cfa068-7e31-4b0e-839a-d3a56dccdddb",
+            "id": "7885e689-6674-43a9-ae68-5f612de8dfb0",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "6ad4dd95-9df4-45d1-bbd0-c8e84523da63",
+            "end2Id": "eecd7c3a-d5bd-4cfc-846a-cae9f39d1c68",
+            "id": "48d3830f-3ceb-48fd-adc8-7c1033385c43",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494,
+                    "x": 165,
+                    "y": -28
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494,
+                    "x": 283,
+                    "y": 1
+                }
+            },
+            "end1Id": "8dbc89c2-0b35-4a8d-b3be-02de2480fd5a",
+            "end2Id": "1c5d7fe5-d0a2-4ac2-b06a-b72cf792febc",
+            "id": "b61bb44c-065e-4e17-9a07-b50397a0ceb0",
+            "title": "Relationship"
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "6ad4dd95-9df4-45d1-bbd0-c8e84523da63",
+            "end2Id": "db1a167c-c49b-47c8-9ff0-0526ebf26d39",
+            "id": "381ad89c-5eeb-4dc4-8713-32e902249a10",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "6ad4dd95-9df4-45d1-bbd0-c8e84523da63",
+            "end2Id": "b72d322d-39c4-44e4-825d-db45ff790c85",
+            "id": "09b4635b-e2ad-456b-8d18-f0b7920c7227",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494,
+                    "x": -201,
+                    "y": 25
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494,
+                    "x": 133,
+                    "y": 49
+                }
+            },
+            "end1Id": "44782a0f-e0c3-45d4-bd9e-07cf3c8017fb",
+            "end2Id": "34581e53-3d38-4630-8c06-9ee560f00b17",
+            "id": "c18e709b-5ed0-4855-971a-8eeb005f2148",
+            "title": ""
+        },
+        {
+            "controlPoints": {
+                "0": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                },
+                "1": {
+                    "amount": 0.3,
+                    "angle": 0.2617993877991494
+                }
+            },
+            "end1Id": "6ad4dd95-9df4-45d1-bbd0-c8e84523da63",
+            "end2Id": "b0ce8e52-6f8f-4b29-8694-fc8ed40c3ce4",
+            "id": "76f8bbe2-7c63-40af-8492-1ee6021ae5ff",
+            "title": ""
+        }
+    ],
+    "rootTopic": {
+        "children": {
+            "attached": [
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "id": "1fd6fd3e-fa8f-4390-abac-066aa8bd918a",
+                                            "numbering": {
+                                                "numberFormat": "org.xmind.numbering.none"
+                                            },
+                                            "title": "Create a new map or choose a template",
+                                            "width": 500
+                                        },
+                                        {
+                                            "branch": "folded",
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "0d83248a-f3f1-4676-8c3a-f86467c4b384",
+                                                                    "image": {
+                                                                        "height": 26,
+                                                                        "src": "xap:resources/9d9df9108f65105f90374e5bb1c099071363959eb3b71f27a2e9139a38216ae4.png",
+                                                                        "width": 26
+                                                                    },
+                                                                    "title": "create topics"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "f2a50f05-a65f-4ba7-a886-bb67ee99413e",
+                                                                    "image": {
+                                                                        "height": 32,
+                                                                        "src": "xap:resources/30e97948ee7f839d5321aef664d644527c30b15c064a49ae3e76e86f464447f4.png",
+                                                                        "width": 32
+                                                                    },
+                                                                    "title": "created subtopics"
+                                                                }
+                                                            ],
+                                                            "summary": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "bae90ef1-5814-400d-a508-f3e77902c813",
+                                                                    "title": "After choosing a certain topic"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "799c2932-262e-4043-b0fb-b21e3daf9abc",
+                                                        "numbering": {
+                                                            "numberFormat": "org.xmind.numbering.none"
+                                                        },
+                                                        "summaries": [
+                                                            {
+                                                                "id": "c518787a-24d7-4879-b8ef-31d585e418f4",
+                                                                "range": "(0,1)",
+                                                                "topicId": "bae90ef1-5814-400d-a508-f3e77902c813"
+                                                            }
+                                                        ],
+                                                        "title": "Shortcut"
+                                                    },
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "3d4f3787-c9b3-4f02-816d-e8c11c05ac80",
+                                                                    "title": "choose a topic"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "f104744e-774e-4c74-b9ef-4273116953fd",
+                                                                    "title": "insert a topic"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "32390849-a2ec-4e41-aa91-6c5750c35be1",
+                                                        "numbering": {
+                                                            "numberFormat": "org.xmind.numbering.none"
+                                                        },
+                                                        "title": "Right-click"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "0b9357b9-66e0-4903-89f5-8df7b32814ad",
+                                            "numbering": {
+                                                "numberFormat": "org.xmind.numbering.none"
+                                            },
+                                            "title": "Add a New Topic"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "370bc597-c96b-4af9-b3ad-d6f390669e58",
+                                                                    "title": "choose a topic, double click or press the space bar, start editing",
+                                                                    "width": 500
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "da88d37d-f2d8-47c2-ae3d-6f000821814a",
+                                                        "title": "Edit the content"
+                                                    },
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "cb896e28-891f-46f3-9408-928a3e74f1db",
+                                                                    "numbering": {
+                                                                        "numberFormat": "org.xmind.numbering.none"
+                                                                    },
+                                                                    "structureClass": "org.xmind.ui.tree.right",
+                                                                    "title": "Open \"Format\" window"
+                                                                },
+                                                                {
+                                                                    "children": {
+                                                                        "attached": [
+                                                                            {
+                                                                                "children": {},
+                                                                                "id": "788bd77b-d209-48d7-9886-a29ccd3c6230",
+                                                                                "title": "Modify its styles, text, shape, etc.",
+                                                                                "width": 500
+                                                                            },
+                                                                            {
+                                                                                "children": {},
+                                                                                "id": "7acb53f0-86b6-4a47-b0cb-8f6debd2a3b2",
+                                                                                "numbering": {
+                                                                                    "numberFormat": "org.xmind.numbering.none"
+                                                                                },
+                                                                                "structureClass": "org.xmind.ui.logic.right",
+                                                                                "title": "Choose a mind map structure among 12 structures provided",
+                                                                                "width": 500
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "9c819d60-e9a2-4a34-a03c-8661149bbf49",
+                                                                    "title": "Choose topics"
+                                                                },
+                                                                {
+                                                                    "children": {
+                                                                        "attached": [
+                                                                            {
+                                                                                "boundaries": [
+                                                                                    {
+                                                                                        "id": "a014b84a-da78-42d8-bfb6-1612ff4bbdcd",
+                                                                                        "range": "(0,2)",
+                                                                                        "title": "按住这些按键的同时来移动主题"
+                                                                                    }
+                                                                                ],
+                                                                                "children": {},
+                                                                                "id": "b9d1ffca-3666-4231-89cd-34783122f25d",
+                                                                                "title": "1.Click the background"
+                                                                            },
+                                                                            {
+                                                                                "children": {},
+                                                                                "id": "a18a8cc3-a46e-4fc9-9468-a41db265ded7",
+                                                                                "image": {
+                                                                                    "align": "top",
+                                                                                    "height": 26,
+                                                                                    "src": "xap:resources/2bb1cbf882b862632cb7c7ef7645be65b81e06ff85a5f750843dc6edf55c1ca3.png",
+                                                                                    "width": 108
+                                                                                },
+                                                                                "title": "2.Choose \"Multi Branch Colors\" in Format window",
+                                                                                "width": 500
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "b5e3ccd3-5ac2-4b42-b84d-1b05d3bf5f4b",
+                                                                    "title": "Multi Branch Colors"
+                                                                },
+                                                                {
+                                                                    "children": {
+                                                                        "attached": [
+                                                                            {
+                                                                                "children": {},
+                                                                                "id": "0ef8a33c-fa30-492b-9916-4c3d70cf6a19",
+                                                                                "title": "Modify background colors"
+                                                                            },
+                                                                            {
+                                                                                "children": {},
+                                                                                "id": "97d3e2a1-0bf2-477a-b267-994bdc1eaa67",
+                                                                                "title": "Add background image"
+                                                                            },
+                                                                            {
+                                                                                "children": {},
+                                                                                "id": "e54a9e8b-262c-4b64-8243-7ff4cee1ffd0",
+                                                                                "title": "Add legends, etc"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "f4b20b26-0da8-4205-9518-9bb279f219f2",
+                                                                    "title": "Click the background"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "c300e05e-9bcb-4c0f-acd6-ded93ff8aedc",
+                                                        "numbering": {
+                                                            "numberFormat": "org.xmind.numbering.none"
+                                                        },
+                                                        "title": "Change mind map outlook"
+                                                    },
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "ba538460-a3c7-4a8b-a38e-bf9fe0193c05",
+                                                                    "title": "Image"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "4f4df31a-335c-4dc3-9ee2-6b9951b47816",
+                                                                    "title": "Attachment"
+                                                                }
+                                                            ],
+                                                            "summary": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "d10e7003-7f19-48e9-b716-a0069ac0410a",
+                                                                    "title": "Drag files to the topic/insert files into the map",
+                                                                    "width": 500
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "3b675042-5cc7-4c09-b187-ccd32f1def67",
+                                                        "numbering": {
+                                                            "numberFormat": "org.xmind.numbering.none"
+                                                        },
+                                                        "summaries": [
+                                                            {
+                                                                "id": "9deb71f7-5a70-4036-8d4e-140093dad3d1",
+                                                                "range": "(0,1)",
+                                                                "topicId": "d10e7003-7f19-48e9-b716-a0069ac0410a"
+                                                            }
+                                                        ],
+                                                        "title": "Others"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "a1de4048-7e2a-4b72-aabc-3ce5e9c6daa7",
+                                            "numbering": {
+                                                "numberFormat": "org.xmind.numbering.none"
+                                            },
+                                            "title": "Edit"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "889ec7aa-f176-44fd-bc45-ab9e83e99b7f",
+                                                        "title": "Save in local disk or XMind cloud"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "2fdefba8-d99f-4ada-8122-c143d5b5bc06",
+                                                        "title": "Save in templates for next use",
+                                                        "width": 500
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "299e27f2-b5e7-429e-bf40-1cc783c18418",
+                                                        "image": {
+                                                            "height": 50,
+                                                            "src": "xap:resources/697bdc1dffb9601660370d35cfce359e5ce87c30015a35a9c0cf413e124ec755.png",
+                                                            "width": 50
+                                                        },
+                                                        "notes": {
+                                                            "html": {
+                                                                "content": {
+                                                                    "paragraphs": [
+                                                                        {
+                                                                            "spans": [
+                                                                                {
+                                                                                    "text": "no biggerplate?"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "plain": {
+                                                                "content": "no biggerplate?\n"
+                                                            }
+                                                        },
+                                                        "title": "Save to Evernote"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "2aa92eb1-e08a-4dac-93b5-65c0d78022fa",
+                                            "numbering": {
+                                                "numberFormat": "org.xmind.numbering.none"
+                                            },
+                                            "structureClass": "org.xmind.ui.logic.right",
+                                            "title": "Save"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "7446d573-e426-4539-9248-32681540f6fc",
+                                                        "title": "HTML"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "84622a61-4484-434b-a7c4-a6fab1791684",
+                                                        "title": "Text Document"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "b0192adf-ccb8-4e61-b727-f607762506c3",
+                                                        "title": "Image"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "3a56d967-1126-4a11-8855-72a70242eb19",
+                                                        "title": "SVG "
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "1b20cd07-da4c-46ee-9cfe-55e6bd4c6070",
+                                                        "title": "Freemind"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "fb0d7021-1674-4b2d-94cb-762341068ca7",
+                                                        "title": "XMind 2008 Workbook"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "404b964c-2126-4864-90e7-8228262f0d57",
+                                                        "markers": [
+                                                            {
+                                                                "markerId": "symbol-info"
+                                                            }
+                                                        ],
+                                                        "title": "More formats in Pro features",
+                                                        "width": 500
+                                                    }
+                                                ]
+                                            },
+                                            "id": "fca088f2-9c7f-4187-9daf-c3757b9725e3",
+                                            "numbering": {
+                                                "numberFormat": "org.xmind.numbering.none"
+                                            },
+                                            "structureClass": "org.xmind.ui.logic.right",
+                                            "title": "Export"
+                                        }
+                                    ]
+                                },
+                                "id": "d07bc07a-55e4-4cee-b79f-e549712966c7",
+                                "labels": [
+                                    "Only 2 shortcuts needed"
+                                ],
+                                "numbering": {
+                                    "numberFormat": "org.xmind.numbering.arabic",
+                                    "suffix": "."
+                                },
+                                "title": "Start Your XMind Journey"
+                            },
+                            {
+                                "boundaries": [
+                                    {
+                                        "id": "1110f147-f60b-4fd1-a1a1-a37d692cb056",
+                                        "range": "(0,0)",
+                                        "title": ""
+                                    },
+                                    {
+                                        "id": "32ed63e1-c940-4c7f-a43e-f591660b0c9a",
+                                        "range": "(4,7)",
+                                        "title": "error boundary"
+                                    }
+                                ],
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "8dbc89c2-0b35-4a8d-b3be-02de2480fd5a",
+                                                                    "title": "Lines between two topics"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "1c5d7fe5-d0a2-4ac2-b06a-b72cf792febc",
+                                                                    "title": "Display certain connection between topics",
+                                                                    "width": 500
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "f8cc2005-efeb-45e8-8dbc-a7825ea2e434",
+                                                        "image": {
+                                                            "height": 26,
+                                                            "src": "xap:resources/6837b860d18817e60dcf9c36b9e0a614a74801342d3a7285173c3614e83b9563.png",
+                                                            "width": 26
+                                                        },
+                                                        "title": "Relationship"
+                                                    },
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "dac08091-a9cc-4985-85ce-a554c5c603bc",
+                                                                    "title": "Emphasize selected topics"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "3ad7c204-321a-44a5-8ff4-a7c59fc5743c",
+                                                                    "title": "Differentiated by different shapes and colors",
+                                                                    "width": 500
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "b392972e-2732-4c37-9d57-bff78c5d177c",
+                                                        "image": {
+                                                            "height": 26,
+                                                            "src": "xap:resources/6769eec524e7ad587be893aa7cde00d16309a195ecb8ccef064c4fcb15f3caea.png",
+                                                            "width": 26
+                                                        },
+                                                        "title": "Boundary"
+                                                    },
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "246dae94-a973-4ec8-bb4a-71379fd40f2e",
+                                                                    "title": "Sum up key points",
+                                                                    "width": 500
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "0c9360b5-84f1-47da-b77e-1beafe7eb6a2",
+                                                                    "title": "Quick grasp of the main idea"
+                                                                }
+                                                            ],
+                                                            "summary": [
+                                                                {
+                                                                    "children": {
+                                                                        "attached": [
+                                                                            {
+                                                                                "children": {},
+                                                                                "id": "0d6646de-553d-40e4-b2e4-29ccf54433c4",
+                                                                                "title": "Point 1"
+                                                                            },
+                                                                            {
+                                                                                "children": {},
+                                                                                "id": "1f522817-53b3-486c-bdae-d2a6a2a60096",
+                                                                                "title": "Point 2"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "77770b3d-5232-446c-a612-cf62fa91c7fd",
+                                                                    "title": "Summary"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "1ef8f84e-5dd5-41bc-a3c4-ed26132caa54",
+                                                        "image": {
+                                                            "height": 26,
+                                                            "src": "xap:resources/f4cf32b6e145299f21638c96153aab02d76c99a8303720dff9a6f5170f4c6fbd.png",
+                                                            "width": 26
+                                                        },
+                                                        "summaries": [
+                                                            {
+                                                                "id": "9bfb7236-ff1e-4ce8-bdd1-6c52f7f8ff1d",
+                                                                "range": "(0,1)",
+                                                                "topicId": "77770b3d-5232-446c-a612-cf62fa91c7fd"
+                                                            }
+                                                        ],
+                                                        "title": "Summary"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "1716e47e-b92b-4ba8-bd56-ac28c13fee5a",
+                                            "title": "Build the connection"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "53ca4066-2266-4d90-b4c2-29b5374852d7",
+                                                                    "markers": [
+                                                                        {
+                                                                            "markerId": "priority-1"
+                                                                        }
+                                                                    ],
+                                                                    "title": "Task Priority"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "5d50510e-27a2-4518-aab2-57345e1bf772",
+                                                                    "markers": [
+                                                                        {
+                                                                            "markerId": "smiley-laugh"
+                                                                        }
+                                                                    ],
+                                                                    "title": "Faces"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "2d0229e8-0667-4656-b3e8-69b27c36cb6e",
+                                                                    "markers": [
+                                                                        {
+                                                                            "markerId": "task-start"
+                                                                        }
+                                                                    ],
+                                                                    "title": "Task Progress"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "975e74c3-527c-4a55-bd7e-440b195376c8",
+                                                                    "markers": [
+                                                                        {
+                                                                            "markerId": "flag-red"
+                                                                        }
+                                                                    ],
+                                                                    "title": "Flags"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "1267b2c6-cd46-4f55-bea1-37e78e38fd83",
+                                                                    "title": "More..."
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "5eaf8329-8151-43cc-9ea7-4d1e71ee5920",
+                                                        "markers": [
+                                                            {
+                                                                "markerId": "smiley-laugh"
+                                                            },
+                                                            {
+                                                                "markerId": "priority-1"
+                                                            },
+                                                            {
+                                                                "markerId": "task-start"
+                                                            },
+                                                            {
+                                                                "markerId": "flag-red"
+                                                            }
+                                                        ],
+                                                        "structureClass": "org.xmind.ui.tree.right",
+                                                        "title": "Enrich map contents"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "ffdbc73f-e4a1-44ff-9c1c-d52f56ac6709",
+                                            "image": {
+                                                "align": "top",
+                                                "height": 26,
+                                                "src": "xap:resources/422b572478c0166b31dc66693ebc28a8322a80c9f6e0008f3550e3a6ae98e804.png",
+                                                "width": 26
+                                            },
+                                            "title": "Markers"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {
+                                                            "callout": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "322ed180-0b8a-4494-a14e-e140c4838a18",
+                                                                    "position": {
+                                                                        "x": 128,
+                                                                        "y": 0
+                                                                    },
+                                                                    "title": "callout"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "a42e705f-b422-468d-a989-e6b77192c2d3",
+                                                        "title": "Highlight important information"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "a5aeff10-0d21-4170-8c50-92441c22b4ba",
+                                                        "labels": [
+                                                            "Add labels to selected topics"
+                                                        ],
+                                                        "title": "Labels"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "d7a93e8c-260d-4284-be53-665ed8912cb7",
+                                                        "notes": {
+                                                            "html": {
+                                                                "content": {
+                                                                    "paragraphs": [
+                                                                        {
+                                                                            "spans": [
+                                                                                {
+                                                                                    "text": "Detail notes"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "plain": {
+                                                                "content": "Detail notes"
+                                                            }
+                                                        },
+                                                        "title": "Notes"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "5b413b1f-d391-4317-af7e-47838c97dba0",
+                                                        "title": "Comments"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "07fbb6a7-9509-477e-8ae9-d1ebe4298e7e",
+                                                        "title": "Hyperlinks"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "a4ae8fd6-7eaa-4d6b-b2cc-765f50ee85bd",
+                                                        "title": "Attachment"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "dd1f142c-b85e-4d54-9972-2b2e0211c926",
+                                                        "title": "Audio notes"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "3c4e51e1-6eb1-4bcf-885d-a97b42e15ae7",
+                                            "title": "Quotes"
+                                        }
+                                    ],
+                                    "summary": [
+                                        {
+                                            "children": {},
+                                            "id": "e361afcc-4b14-4f49-afc5-4397eaa3a274",
+                                            "title": "All these functions can be found on the toolbar",
+                                            "width": 500
+                                        }
+                                    ]
+                                },
+                                "id": "1ed6a08c-5a25-4c5d-991c-31bd5e6be934",
+                                "summaries": [
+                                    {
+                                        "id": "cf7cf63b-5511-47aa-8c2e-3f5a7179294e",
+                                        "range": "(0,4)",
+                                        "topicId": "e361afcc-4b14-4f49-afc5-4397eaa3a274"
+                                    }
+                                ],
+                                "title": "Basic Features"
+                            },
+                            {
+                                "boundaries": [
+                                    {
+                                        "id": "8fe0c892-7e3c-41c4-8e0d-37667f9a80af",
+                                        "range": "(0,2)",
+                                        "title": "Press these keys while dragging topics"
+                                    }
+                                ],
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "branch": "folded",
+                                                        "children": {},
+                                                        "id": "8ac614b8-60c9-4b66-9eb5-686aa27b91a6",
+                                                        "title": "Move selected topic to a new position as floating topics"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "92c8d510-6033-422b-90e5-153c12360522",
+                                            "title": "Shift"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "branch": "folded",
+                                                        "children": {},
+                                                        "id": "449f16af-54fb-40ff-89d8-9363ab145f66",
+                                                        "title": "Move selected main topics to  a new position as desired"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "e8564760-3a08-4ec3-89f6-cdd5f1b0a167",
+                                            "title": "Alt (Command on Mac)"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "branch": "folded",
+                                                        "children": {},
+                                                        "id": "1025811d-9735-446a-a4f8-b66c44206c46",
+                                                        "title": "Duplicate topics to a new position"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "fb3b8595-b4e4-43a8-b17d-dc2a90991dd8",
+                                            "title": "Ctrl(Option on Mac)"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "5e05dcfe-597f-4f5c-9270-767b456ec56b",
+                                                        "title": "After choosing topics, extend / collapse all topics",
+                                                        "width": 500
+                                                    }
+                                                ]
+                                            },
+                                            "id": "04fb1134-505a-4bf1-9784-ce1b421717d4",
+                                            "title": "\"/\" & \"Shift + *\""
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "ab8c671a-c707-452c-9de6-321a98011590",
+                                            "title": "More shortcuts in \"Key Assists\" of \"Help\" menu",
+                                            "width": 500
+                                        }
+                                    ]
+                                },
+                                "id": "c5b349f9-9258-43a1-a2dd-654b24c22b55",
+                                "markers": [
+                                    {
+                                        "markerId": "star-red"
+                                    }
+                                ],
+                                "title": "Useful Shortcuts"
+                            },
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "e6d8eb68-526f-4974-a4d9-8f799de3d2b0",
+                                                        "title": "1.Choose topics to align",
+                                                        "width": 500
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "c4931ea9-9bdd-40eb-bbf1-8fc2498e1658",
+                                                        "title": "2.Choose \"Modify -- Align Floating Topics\" in Menu",
+                                                        "width": 500
+                                                    }
+                                                ]
+                                            },
+                                            "id": "9448011f-02a9-456e-ac4c-99799154d47a",
+                                            "title": "Alignment"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "c31cf3b2-6629-4d63-a472-efc80d970020",
+                                                        "title": "1.Right click the topic and choose \"Drill Down\"/ Choose \"View -- Drill Down\" in Menu",
+                                                        "width": 500
+                                                    },
+                                                    {
+                                                        "children": {
+                                                            "detached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "a1b44390-024d-4e64-9b82-fafbe903dc9c",
+                                                                    "position": {
+                                                                        "x": 6,
+                                                                        "y": 78
+                                                                    },
+                                                                    "title": "Focus on certain topic or branch"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "a0365094-c0c5-4439-aaba-8206f2acb0ac",
+                                                                    "position": {
+                                                                        "x": 1,
+                                                                        "y": 180
+                                                                    },
+                                                                    "title": "Readers can concentrate on reading"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "40271135-3d3e-4a90-b0b9-bff510eb2262",
+                                                                    "position": {
+                                                                        "x": -3,
+                                                                        "y": 130
+                                                                    },
+                                                                    "title": "A new mind map will be spread from the chosen topic while drilling down",
+                                                                    "width": 634
+                                                                }
+                                                            ]
+                                                        },
+                                                        "extensions": [
+                                                            {
+                                                                "content": [
+                                                                    {
+                                                                        "content": "0",
+                                                                        "name": "right-number"
+                                                                    }
+                                                                ],
+                                                                "provider": "org.xmind.ui.map.unbalanced"
+                                                            }
+                                                        ],
+                                                        "id": "b32d7e20-fa7b-423b-ba2d-ac34ea5f0967",
+                                                        "title": "2.Click the blue button"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "6e625e8b-a5cf-49ea-a9df-80ee4e22ccca",
+                                            "title": "Drill Down"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "b3978716-09ee-4060-9bf1-591c874227fc",
+                                                        "title": "Press F7"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "85494545-0805-4cc5-881c-51356f72ba15",
+                                            "notes": {
+                                                "html": {
+                                                    "content": {
+                                                        "paragraphs": [
+                                                            {
+                                                                "spans": [
+                                                                    {
+                                                                        "text": "Mapshot lets you share either the whole or a part of a map with someone, without requiring them to have XMind installed."
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "spans": [
+                                                                    {
+                                                                        "text": "You can choose the area beyond the screen size. (different from screen shot  :) )"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                "plain": {
+                                                    "content": "Mapshot lets you share either the whole or a part of a map with someone, without requiring them to have XMind installed.\nYou can choose the area beyond the screen size. (different from screen shot  :) )"
+                                                }
+                                            },
+                                            "title": "Mapshot"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "116ba297-e567-4cf9-a9be-b2e3548950d8",
+                                                        "title": "Merge multiple maps"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "3a4d8229-d626-4c53-a070-3b7681fdce30",
+                                            "title": "Merge"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "62287c6d-5f00-4f92-aecc-6d82720b758a",
+                                                        "title": "Open Overview in the right corner of the sheet",
+                                                        "width": 500
+                                                    }
+                                                ]
+                                            },
+                                            "id": "5b22d34c-1ee2-4d89-b9e3-31e420455939",
+                                            "title": "Overview"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "b0244d58-b15f-4442-a73f-6d9864266664",
+                                                        "title": "Choose \"Modify -- Allow Free Position\" in Menu"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "89fa71a7-7dc6-4ddd-9d2a-660090fdc2ef",
+                                            "title": "Free Position"
+                                        }
+                                    ]
+                                },
+                                "id": "4317b1f8-ced8-46c7-8679-c8c840b2fabf",
+                                "title": "Practical Tips"
+                            }
+                        ]
+                    },
+                    "id": "0f268d76-225c-47de-831a-812eadcfcc64",
+                    "markers": [
+                        {
+                            "markerId": "symbol-question"
+                        }
+                    ],
+                    "title": "How to use XMIND"
+                },
+                {
+                    "children": {},
+                    "id": "6ad4dd95-9df4-45d1-bbd0-c8e84523da63",
+                    "markers": [
+                        {
+                            "markerId": "people-red"
+                        }
+                    ],
+                    "position": {
+                        "x": -216,
+                        "y": -306
+                    },
+                    "structureClass": "org.xmind.ui.logic.left",
+                    "title": "XMIND Pro Features"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "extensions": [
+                                                {
+                                                    "content": [
+                                                        {
+                                                            "content": "0",
+                                                            "name": "right-number"
+                                                        }
+                                                    ],
+                                                    "provider": "org.xmind.ui.map.unbalanced"
+                                                }
+                                            ],
+                                            "id": "113abcb2-61cb-4ab3-b016-a32fb4859733",
+                                            "title": "Create presentation in walk through mode",
+                                            "width": 500
+                                        },
+                                        {
+                                            "children": {},
+                                            "extensions": [
+                                                {
+                                                    "content": [
+                                                        {
+                                                            "content": "0",
+                                                            "name": "right-number"
+                                                        }
+                                                    ],
+                                                    "provider": "org.xmind.ui.map.unbalanced"
+                                                }
+                                            ],
+                                            "id": "b2402c75-cd1d-4cf7-a515-e79d9859ba83",
+                                            "title": "Create multiple presentation slides to different audiences",
+                                            "width": 500
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "c1782fb7-a507-4a4f-b189-1e8ea7b82b0b",
+                                            "title": "Display task orders and durations by infographic tables and time series",
+                                            "width": 500
+                                        }
+                                    ]
+                                },
+                                "id": "7119e658-0b67-4a14-9a18-e8cb8e7f0a5c",
+                                "title": "Presentation"
+                            },
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "id": "d1a0c593-4018-4e01-9a42-2122a77c40cb",
+                                            "title": "Manage markers, labels and Clip Art"
+                                        }
+                                    ]
+                                },
+                                "id": "04c9a8de-bb7f-4386-a1a0-a5b702bc988a",
+                                "title": "Resource Manager"
+                            },
+                            {
+                                "boundaries": [
+                                    {
+                                        "id": "b4182e1e-d89e-459e-b6cf-e3256b2a8245",
+                                        "range": "(1,1)",
+                                        "title": ""
+                                    },
+                                    {
+                                        "id": "0583ed08-1e55-4a73-aeac-b7200eed71de",
+                                        "range": "(0,0)",
+                                        "title": ""
+                                    }
+                                ],
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "boundaries": [
+                                                            {
+                                                                "id": "a9e5b747-8834-4a2f-b9b8-c85d4f96d9a0",
+                                                                "range": "(1,5)",
+                                                                "title": ""
+                                                            }
+                                                        ],
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "b2db7926-410f-4db2-9123-a310e78860b9",
+                                                                    "title": "HTML"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "eb13f9eb-22de-4fee-8e21-413a47a2bda9",
+                                                                    "title": "Microsoft Word"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "7ea9f283-7b64-44af-b52b-e0ebdd0fc69d",
+                                                                    "title": "OPML"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "51bcee79-650b-499f-acdc-45259ea8bbe3",
+                                                                    "title": "Open Document Text"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "1eb2f20b-864b-48cf-8055-0ff3be6d4cad",
+                                                                    "title": "PDF Document"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "41d5cb1b-b52d-494e-b35e-a1d8e313b3da",
+                                                                    "title": "RTF"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "f12f1842-bd2e-4def-b630-d40d2472ad1f",
+                                                                    "title": "Text Document"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "52c2ac38-3c0d-44a5-9d57-d05571630b7a",
+                                                        "title": "Document"
+                                                    },
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "1c833564-1213-43ae-b4dc-94ecbada6b13",
+                                                                    "title": "Mircrosoft Project"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "aaf4cb63-eb05-46cb-9830-8b3057bc2621",
+                                                        "title": "Gantt Chart",
+                                                        "width": 500
+                                                    },
+                                                    {
+                                                        "boundaries": [
+                                                            {
+                                                                "id": "100f3813-b0b2-4ac1-b253-bc7862c63791",
+                                                                "range": "(1,1)",
+                                                                "title": ""
+                                                            }
+                                                        ],
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "4bbb5787-b1b9-408e-81cf-c13759233ccd",
+                                                                    "title": "Image",
+                                                                    "width": 500
+                                                                },
+                                                                {
+                                                                    "children": {
+                                                                        "attached": [
+                                                                            {
+                                                                                "children": {},
+                                                                                "extensions": [
+                                                                                    {
+                                                                                        "content": [
+                                                                                            {
+                                                                                                "content": "11096",
+                                                                                                "name": "duration"
+                                                                                            },
+                                                                                            {
+                                                                                                "content": "04:05:01 PM, Oct 26 2016",
+                                                                                                "name": "record-time"
+                                                                                            },
+                                                                                            {
+                                                                                                "content": "15528",
+                                                                                                "name": "file-size"
+                                                                                            }
+                                                                                        ],
+                                                                                        "provider": "org.xmind.ui.audionotes",
+                                                                                        "resourceRefs": [
+                                                                                            "xap:resources/ef1e6b5a382602148c4af66a998504e8a1a55257c9407ffdfe5d744789b45f62.mp3"
+                                                                                        ]
+                                                                                    }
+                                                                                ],
+                                                                                "id": "6a85f87a-c889-4b7a-a0a9-3856d2d98a2e",
+                                                                                "labels": [
+                                                                                    "Add audio notes to a selected topic"
+                                                                                ],
+                                                                                "title": "Audio Notes"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "56fdea26-95e6-445b-b666-3c2f2114da55",
+                                                                    "title": "PDF Map",
+                                                                    "width": 500
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "3b6ea5fc-42ca-4904-a381-b086f4b27280",
+                                                                    "title": "SVG"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "4e3c31f6-7f55-4eb7-a76d-3c624c3c04de",
+                                                        "title": "Image",
+                                                        "width": 500
+                                                    },
+                                                    {
+                                                        "boundaries": [
+                                                            {
+                                                                "id": "27208668-de55-4ca0-be45-86a9292102b6",
+                                                                "range": "(1,1)",
+                                                                "title": ""
+                                                            }
+                                                        ],
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "73e702b8-f956-45fe-8936-52f13548b5dd",
+                                                                    "title": "FreeMind"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "1782efc6-1eb7-4ebe-86f9-a5ac523580d6",
+                                                                    "title": "Mindjet MindManager Map",
+                                                                    "width": 500
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "79217985-2aba-4991-b09a-42912f618658",
+                                                                    "title": "XMind 2008 Workbook",
+                                                                    "width": 500
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "5a472515-3d57-4471-bd93-ee926d40c116",
+                                                                    "title": "Secure your important XMind files"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "3c94b328-13aa-4577-aa8a-db073b5bafdb",
+                                                        "title": "Other Mind Map Formats",
+                                                        "width": 500
+                                                    },
+                                                    {
+                                                        "boundaries": [
+                                                            {
+                                                                "id": "2d7d97e2-4f65-459d-9b17-158709a52682",
+                                                                "range": "(0,0)",
+                                                                "title": ""
+                                                            }
+                                                        ],
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "44782a0f-e0c3-45d4-bd9e-07cf3c8017fb",
+                                                                    "title": "Microsoft PowerPoint"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "73271918-012c-4c08-acd6-bd689ab496d8",
+                                                                    "title": "OpenDocument Presentation"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "3be540cb-6fcd-400e-bf58-9ec33e551ebe",
+                                                        "title": "Presentation",
+                                                        "width": 500
+                                                    },
+                                                    {
+                                                        "boundaries": [
+                                                            {
+                                                                "id": "9e8791e2-a19d-484e-ba72-c9bf9792addc",
+                                                                "range": "(0,2)",
+                                                                "title": ""
+                                                            }
+                                                        ],
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "db2fcaf7-374f-437e-b3eb-81c4f06f4ac1",
+                                                                    "title": "CSV File",
+                                                                    "width": 500
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "a9ced642-ca8b-4942-b1a8-d9b8b2afc43c",
+                                                                    "title": "Microsoft Excel"
+                                                                },
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "1f5c22e2-5076-4906-baa4-0b006062676c",
+                                                                    "title": "OpenDocument Spreadsheet"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "510472b0-8e6b-48a0-8abc-57e65a707090",
+                                                        "title": "Spread Sheet",
+                                                        "width": 500
+                                                    }
+                                                ]
+                                            },
+                                            "id": "c89cabbf-a3cd-4a4c-abea-0f2ad5d23b3c",
+                                            "markers": [
+                                                {
+                                                    "markerId": "arrow-up-left"
+                                                }
+                                            ],
+                                            "title": "Export",
+                                            "width": 500
+                                        },
+                                        {
+                                            "boundaries": [
+                                                {
+                                                    "id": "89115974-6797-40f9-8a83-44cbb1660e77",
+                                                    "range": "(1,1)",
+                                                    "title": ""
+                                                }
+                                            ],
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "e13c1d3d-070f-48af-a9c7-5c891be12a12",
+                                                        "title": "FreeMind ",
+                                                        "width": 500
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "541bb839-661e-419d-a8cd-40d9827ceb55",
+                                                        "title": "Microsoft Word"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "ab82cab9-8a1f-4d70-a409-9d982e158046",
+                                                        "title": "Mindjet MindManager"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "6c301c85-cf0d-431f-b2a3-8f4a77a7b27b",
+                                                        "title": "OPML"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "b0d9d1c4-b003-4724-82a5-59515ec9146f",
+                                                        "title": "XMind 2008 Workbook",
+                                                        "width": 500
+                                                    }
+                                                ]
+                                            },
+                                            "id": "e19bec1f-6b56-40af-84d6-a8d3725c0f90",
+                                            "markers": [
+                                                {
+                                                    "markerId": "arrow-down-right"
+                                                }
+                                            ],
+                                            "title": "Import",
+                                            "width": 500
+                                        }
+                                    ]
+                                },
+                                "id": "103b0ca8-2173-4af3-b82e-95bee73d70c2",
+                                "labels": [
+                                    "Choose \"File -- Import/Export\" in Menu"
+                                ],
+                                "title": "Import/Export",
+                                "width": 500
+                            },
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "id": "3d7c490c-f5d4-4b2e-b102-1b0bba49a27c",
+                                            "title": "Copy and paste modified styles of certain topic to the others",
+                                            "width": 500
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "ee2d6c0d-d328-429e-bd3a-3fdb98df5583",
+                                            "title": "Remove Styles",
+                                            "width": 500
+                                        }
+                                    ]
+                                },
+                                "id": "cc1a6cdd-0f2b-4758-af1f-3ccf3cbf7111",
+                                "title": "Modify Styles",
+                                "width": 500
+                            },
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "id": "c5947a72-0998-4bc2-91ca-6154e1cc24e5",
+                                            "title": "Enlightened by more excellent mind map templates from XMind.net",
+                                            "width": 500
+                                        }
+                                    ]
+                                },
+                                "id": "ac06e7ea-a8f2-44e7-8ebb-7662c9e27083",
+                                "title": "Selected Mind Maps",
+                                "width": 500
+                            },
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "id": "0c721691-cf3e-4b88-80cd-a17971310383",
+                                            "image": {
+                                                "height": 383,
+                                                "src": "xap:resources/fc90a53533a33591efe5d3eeffa7c38086f29ab760baa5ae9264c4cbcb9da1a1.png",
+                                                "width": 400
+                                            },
+                                            "title": "Share your maps to more users"
+                                        }
+                                    ]
+                                },
+                                "id": "47ba397b-5589-41e0-bd52-178f842970e6",
+                                "image": {
+                                    "height": 32,
+                                    "src": "xap:resources/241fa87b79b1b2d6abaecf84e1a2c9560ac731eb867782bbd7e18e8c1954c3f5.png",
+                                    "width": 42
+                                },
+                                "structureClass": "org.xmind.ui.tree.left",
+                                "title": "Share",
+                                "width": 500
+                            }
+                        ]
+                    },
+                    "id": "4105cc4c-ccb7-4a7e-bb2d-a437af26b454",
+                    "position": {
+                        "x": -343,
+                        "y": 453
+                    },
+                    "title": "More Instructions",
+                    "width": 500
+                }
+            ],
+            "detached": [
+                {
+                    "children": {},
+                    "id": "44743724-9b04-4f54-a20c-2064c60cba25",
+                    "markers": [
+                        {
+                            "markerId": "c_simbol-right"
+                        }
+                    ],
+                    "position": {
+                        "x": 93,
+                        "y": 293
+                    },
+                    "structureClass": "org.xmind.ui.tree.right",
+                    "title": "Double click the background to create floating topics",
+                    "width": 182
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "575e78f2-7ab0-4f80-8e0f-83accd22319c",
+                                "title": "sharing xmind map between different devices",
+                                "width": 500
+                            }
+                        ]
+                    },
+                    "id": "73cfa068-7e31-4b0e-839a-d3a56dccdddb",
+                    "image": {
+                        "height": 32,
+                        "src": "xap:resources/760cdcc8150ec855bbe4f3f300b2beda3250dc808c208be6a8e026b46a448f8e.png",
+                        "width": 42
+                    },
+                    "position": {
+                        "x": 9,
+                        "y": -608
+                    },
+                    "title": "Cloud",
+                    "width": 500
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {
+                                    "attached": []
+                                },
+                                "id": "8ea90181-20b4-4e96-a4ec-c1d426dff70b",
+                                "title": "Generate thoughts within idea factory"
+                            },
+                            {
+                                "children": {},
+                                "id": "26146f25-d970-4a3f-8839-0d0b08dabca7",
+                                "title": "Brainstorming with pre-set alarm",
+                                "width": 500
+                            }
+                        ]
+                    },
+                    "id": "69f69d53-8594-46db-8146-72503bf7f010",
+                    "image": {
+                        "height": 32,
+                        "src": "xap:resources/e388a9f3623fba676068229c4aa5b796dbc7471acad543c9269578bab469dc6d.png",
+                        "width": 42
+                    },
+                    "position": {
+                        "x": -486,
+                        "y": -443
+                    },
+                    "title": "Brainstorming"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "b03063d5-e2c7-4855-9c8f-0efc33390acf",
+                                "title": "\tCreate slide-based presentation"
+                            },
+                            {
+                                "children": {},
+                                "id": "b2e10168-b7f4-4b8f-9cda-93fd39f677b4",
+                                "title": "Enter walk through mode to enable more participants to present your mind map ideas",
+                                "width": 214
+                            }
+                        ]
+                    },
+                    "id": "b0ce8e52-6f8f-4b29-8694-fc8ed40c3ce4",
+                    "image": {
+                        "height": 26,
+                        "src": "xap:resources/ed4939a06fe107d5076dffbfab4f0e9b754c375d3b7b313687ac5d185b1735a4.png",
+                        "width": 26
+                    },
+                    "position": {
+                        "x": -294,
+                        "y": -551
+                    },
+                    "title": "Presentation"
+                },
+                {
+                    "children": {},
+                    "id": "1f7af708-3383-4cdd-989b-87ccd3a603df",
+                    "image": {
+                        "height": 26,
+                        "src": "xap:resources/ee32da8a2cf1937d354ec45d730b4672267f5bb431e3c13cbeac8ac06fe9b547.png",
+                        "width": 26
+                    },
+                    "position": {
+                        "x": -162,
+                        "y": -652
+                    },
+                    "title": "Gantt Chart"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {
+                                    "attached": []
+                                },
+                                "id": "7daa5768-3aa3-4b68-b351-a15d6b3fed15",
+                                "title": "Add process to and manage tasks under specific topics",
+                                "width": 500
+                            }
+                        ]
+                    },
+                    "id": "db1a167c-c49b-47c8-9ff0-0526ebf26d39",
+                    "image": {
+                        "height": 16,
+                        "src": "xap:resources/17c4ef7a5aa366fa073c0ac0970a51307dc8521d927cf41c797d6d4b18d99082.png",
+                        "width": 16
+                    },
+                    "position": {
+                        "x": -43,
+                        "y": -720
+                    },
+                    "title": "Task Info",
+                    "width": 500
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "ccd58030-2fd0-4a14-be38-afc51b6b9388",
+                                "title": "search your targeted information in current mind map anytime",
+                                "width": 164
+                            }
+                        ]
+                    },
+                    "id": "05942951-7fc6-426f-bb2b-71af57e17e8d",
+                    "image": {
+                        "height": 26,
+                        "src": "xap:resources/afa96efd556f2d19549e4912c1353c38bd5d56c89bed230c9a6e4c253d9e2cab.png",
+                        "width": 26
+                    },
+                    "position": {
+                        "x": 60,
+                        "y": -275
+                    },
+                    "title": "Search",
+                    "width": 500
+                },
+                {
+                    "children": {},
+                    "id": "8bf726d1-aa6d-4db5-a844-175f698f3b34",
+                    "image": {
+                        "height": 16,
+                        "src": "xap:resources/db0e1e9b890f62aa67e8683b12c93c855018ab7a3313891b7aaad19b50c41135.png",
+                        "width": 16
+                    },
+                    "position": {
+                        "x": 54,
+                        "y": -449
+                    },
+                    "title": "Advanced Filter",
+                    "width": 500
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "8e2e567c-62b4-407d-a6bc-9d634cac9176",
+                                "image": {
+                                    "height": 26,
+                                    "src": "xap:resources/84f2d94b0676a9c00b640b424d953bc8e7e958004cf24315e8231323061e7889.png",
+                                    "width": 26
+                                },
+                                "structureClass": "org.xmind.ui.logic.left",
+                                "title": "Clip Art"
+                            },
+                            {
+                                "children": {},
+                                "id": "5612e761-8794-4699-96c4-90840d3e0e72",
+                                "image": {
+                                    "height": 16,
+                                    "src": "xap:resources/7ad293ab038d78bc002c3012c5ad49efc9e8580261e22255dc353a8d0c767cb8.png",
+                                    "width": 16
+                                },
+                                "structureClass": "org.xmind.ui.tree.left",
+                                "title": "Iconfinder"
+                            }
+                        ]
+                    },
+                    "id": "eecd7c3a-d5bd-4cfc-846a-cae9f39d1c68",
+                    "position": {
+                        "x": -512,
+                        "y": -321
+                    },
+                    "title": "Image"
+                },
+                {
+                    "children": {},
+                    "id": "b72d322d-39c4-44e4-825d-db45ff790c85",
+                    "position": {
+                        "x": -319,
+                        "y": -135
+                    },
+                    "title": "Audio Notes"
+                },
+                {
+                    "children": {},
+                    "id": "34581e53-3d38-4630-8c06-9ee560f00b17",
+                    "markers": [
+                        {
+                            "markerId": "flag-red"
+                        }
+                    ],
+                    "position": {
+                        "x": -1344,
+                        "y": 410
+                    },
+                    "style": {
+                        "properties": {
+                            "fo:font-size": "16pt",
+                            "shape-class": "org.xmind.topicShape.circle"
+                        },
+                        "type": "topic"
+                    },
+                    "title": "Pro Features"
+                },
+                {
+                    "children": {},
+                    "id": "8ab430d1-fbe7-496f-91a0-4a6eda48fc89",
+                    "position": {
+                        "x": -412,
+                        "y": -216
+                    },
+                    "title": "Set Password"
+                },
+                {
+                    "children": {},
+                    "id": "752af8ba-dd08-49c6-acb4-aa88e2b81225",
+                    "position": {
+                        "x": 443,
+                        "y": -900
+                    },
+                    "title": "find and navigate to selected information that are marked, labeled or assigned",
+                    "width": 193
+                }
+            ]
+        },
+        "extensions": [
+            {
+                "content": [
+                    {
+                        "content": "-1",
+                        "name": "right-number"
+                    }
+                ],
+                "provider": "org.xmind.ui.map.unbalanced"
+            },
+            {
+                "content": [
+                    {
+                        "content": [
+                            {
+                                "attrs": {
+                                    "id": "30pq5otpk3f7b0v7a96dnns1p1"
+                                },
+                                "content": "Group 1",
+                                "name": "group"
+                            },
+                            {
+                                "attrs": {
+                                    "id": "7f0mui2srjj43p6rj06qdn84d5"
+                                },
+                                "content": "Group 2",
+                                "name": "group"
+                            }
+                        ],
+                        "name": "groups"
+                    }
+                ],
+                "provider": "org.xmind.ui.ideafactory"
+            }
+        ],
+        "id": "1c192d76-8b61-455e-bdd0-8e6192375793",
+        "structureClass": "org.xmind.ui.map",
+        "title": "Welcome to XMIND"
+    },
+    "settings": {
+        "info-items/info-item": [
+            {
+                "mode": "card",
+                "type": "org.xmind.ui.infoItem.label"
+            },
+            {
+                "mode": "card",
+                "type": "org.xmind.ui.infoItem.notes"
+            },
+            {
+                "mode": "icon",
+                "type": "org.xmind.ui.infoItem.hyperlink"
+            },
+            {
+                "mode": "icon",
+                "type": "org.xmind.ui.infoItem.AudioNotes"
+            },
+            {
+                "mode": "icon",
+                "type": "org.xmind.ui.infoItem.taskInfo"
+            }
+        ]
+    },
+    "theme": {
+        "boundary": {
+            "properties": {
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Georgia",
+                "fo:font-size": "10pt",
+                "fo:font-style": "italic",
+                "line-color": "#77933C",
+                "line-pattern": "dot",
+                "line-width": "3pt",
+                "shape-class": "org.xmind.boundaryShape.roundedRect",
+                "svg:fill": "#C3D69B",
+                "svg:opacity": ".2"
+            },
+            "type": "boundary"
+        },
+        "calloutTopic": {
+            "properties": {
+                "border-line-color": "#F1BD51",
+                "border-line-width": "2pt",
+                "fo:font-family": "Open Sans",
+                "svg:fill": "#FBF09C"
+            },
+            "type": "topic"
+        },
+        "centralTopic": {
+            "properties": {
+                "border-line-color": "#558ED5",
+                "border-line-width": "0pt",
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Open Sans",
+                "line-class": "org.xmind.branchConnection.curve",
+                "line-color": "#558ED5",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.topicShape.roundedRect",
+                "svg:fill": "#6441A4"
+            },
+            "type": "topic"
+        },
+        "floatingTopic": {
+            "properties": {
+                "border-line-width": "0pt",
+                "fo:color": "#17375E",
+                "fo:font-family": "Open Sans",
+                "fo:font-weight": "normal",
+                "line-color": "#558ED5",
+                "svg:fill": "#DCE6F2"
+            },
+            "type": "topic"
+        },
+        "mainTopic": {
+            "properties": {
+                "border-line-color": "#558ED5",
+                "border-line-width": "0pt",
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Open Sans",
+                "line-class": "org.xmind.branchConnection.curve",
+                "line-color": "#558ED5",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.topicShape.roundedRect",
+                "svg:fill": "#969DA5"
+            },
+            "type": "topic"
+        },
+        "map": {
+            "properties": {
+                "color-gradient": "none",
+                "line-tapered": "none",
+                "multi-line-colors": "none",
+                "svg:fill": "#FFFFFF"
+            },
+            "type": "map"
+        },
+        "relationship": {
+            "properties": {
+                "arrow-end-class": "org.xmind.arrowShape.triangle",
+                "fo:color": "#595959",
+                "fo:font-family": "Georgia",
+                "fo:font-size": "10pt",
+                "fo:font-style": "italic",
+                "fo:font-weight": "normal",
+                "fo:text-decoration": "none",
+                "line-color": "#77933C",
+                "line-pattern": "dash",
+                "line-width": "3pt"
+            },
+            "type": "relationship"
+        },
+        "subTopic": {
+            "properties": {
+                "border-line-color": "#558ED5",
+                "border-line-width": "3pt",
+                "fo:font-family": "Open Sans",
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "line-color": "#558ED5",
+                "line-width": "1pt"
+            },
+            "type": "topic"
+        },
+        "summary": {
+            "properties": {
+                "line-color": "#C3D69B",
+                "line-width": "5pt",
+                "shape-class": "org.xmind.summaryShape.square"
+            },
+            "type": "summary"
+        },
+        "summaryTopic": {
+            "properties": {
+                "border-line-width": "0pt",
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Georgia",
+                "fo:font-size": "10pt",
+                "fo:font-style": "italic",
+                "shape-class": "org.xmind.topicShape.roundedRect",
+                "svg:fill": "#77933C"
+            },
+            "type": "topic"
+        }
+    }
+}

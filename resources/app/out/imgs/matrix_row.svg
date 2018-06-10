@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="29px" viewBox="0 0 53 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Matrix_Row</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="edit-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Matrix_Row" transform="translate(-21.000000, -15.000000)">
+            <rect id="Rectangle-4-Copy-4" x="0" y="0" width="94" height="58"></rect>
+            <g id="Group-45" transform="translate(21.000000, 15.000000)">
+                <rect id="Rectangle-33" fill="#E4E9EC" x="-2.42583731e-14" y="-1.3067325e-13" width="52" height="28" rx="1"></rect>
+                <path d="M1,0 L51,0 C51.5522847,-1.01453063e-16 52,0.44771525 52,1 L52,10 L0,10 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" id="Rectangle-33" fill="#FF9971"></path>
+                <path d="M52.5586009,22.272782 L0.24146371,22.272782 M0.24146371,16.1983869 L52.5586009,16.1983869" id="Rectangle-33-Copy" stroke="#FFFFFF" stroke-width="0.6"></path>
+                <path d="M34.971994,16.1983869 L34.971994,28.3471771 M17.6670948,28.3471771 L17.6670948,16.1983869" id="Rectangle-34" stroke="#FFFFFF" stroke-width="0.6"></path>
+            </g>
+        </g>
+    </g>
+</svg>

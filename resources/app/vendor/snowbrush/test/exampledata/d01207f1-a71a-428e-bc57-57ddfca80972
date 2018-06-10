@@ -1,0 +1,1161 @@
+{
+    "id": "d01207f1-a71a-428e-bc57-57ddfca80972",
+    "legend": {
+        "position": {
+            "x": 411,
+            "y": 422
+        }
+    },
+    "relationships": [
+        {
+            "controlPoints": {
+                "0": {
+                    "x": -84.99994342012178,
+                    "y": -83
+                },
+                "1": {
+                    "x": 301.56301459846713,
+                    "y": -37.91980743408203
+                }
+            },
+            "end1Id": "08329e1a-9b4a-45d8-a878-2e1760a57bc9",
+            "end2Id": "b99bd23f-91f4-484c-b030-103bd02dd23d",
+            "id": "01f60b56-5a4f-419a-bd40-7fbf47f95337",
+            "title": "呵呵呵呵饿坏"
+        }
+    ],
+    "rootTopic": {
+        "children": {
+            "attached": [
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "a669671e-bdc3-4b62-87bd-162a4d55bb41",
+                                "title": "Subtopic 1"
+                            },
+                            {
+                                "children": {},
+                                "id": "b1714d63-7cf0-4a39-bc08-ec09cd0dc6f8",
+                                "title": "这里是测试2"
+                            },
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {
+                                                                        "attached": [
+                                                                            {
+                                                                                "children": {},
+                                                                                "id": "9979a48f-8764-42d5-ba63-4fb7eef7658e",
+                                                                                "title": "Subtopic 1"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "comments": [
+                                                                        {
+                                                                            "author": "Bruce",
+                                                                            "content": "here is the comment",
+                                                                            "creationTime": 1457954892542
+                                                                        }
+                                                                    ],
+                                                                    "extensions": [
+                                                                        {
+                                                                            "content": [
+                                                                                {
+                                                                                    "content": "1",
+                                                                                    "name": "right-number"
+                                                                                }
+                                                                            ],
+                                                                            "provider": "org.xmind.ui.map.unbalanced"
+                                                                        }
+                                                                    ],
+                                                                    "id": "3ee6f79b-aea3-4488-820e-f976584fca1c",
+                                                                    "notes": {
+                                                                        "plain": {
+                                                                            "content": "呵呵"
+                                                                        }
+                                                                    },
+                                                                    "title": "Subtopic 1"
+                                                                },
+                                                                {
+                                                                    "children": {
+                                                                        "attached": [
+                                                                            {
+                                                                                "children": {},
+                                                                                "comments": [
+                                                                                    {
+                                                                                        "author": "Bruce",
+                                                                                        "content": "呵呵呵呵",
+                                                                                        "creationTime": 1457954693717
+                                                                                    },
+                                                                                    {
+                                                                                        "author": "Bruce",
+                                                                                        "content": "comment you",
+                                                                                        "creationTime": 1457938636246
+                                                                                    },
+                                                                                    {
+                                                                                        "author": "Bruce",
+                                                                                        "content": "呵呵呵呵",
+                                                                                        "creationTime": 1457954664433
+                                                                                    }
+                                                                                ],
+                                                                                "id": "6968958a-e49c-4f93-91e6-6b6d166988f9",
+                                                                                "title": "嘿嘿3"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "extensions": [
+                                                                        {
+                                                                            "content": [
+                                                                                {
+                                                                                    "content": "1",
+                                                                                    "name": "right-number"
+                                                                                }
+                                                                            ],
+                                                                            "provider": "org.xmind.ui.map.unbalanced"
+                                                                        }
+                                                                    ],
+                                                                    "id": "32ef0135-36b7-4d20-8854-735d6d3487fb",
+                                                                    "notes": {
+                                                                        "plain": {
+                                                                            "content": "Here is note[Original Notes]Here is note"
+                                                                        }
+                                                                    },
+                                                                    "title": "申城2"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "extensions": [
+                                                            {
+                                                                "content": [
+                                                                    {
+                                                                        "content": "1",
+                                                                        "name": "right-number"
+                                                                    }
+                                                                ],
+                                                                "provider": "org.xmind.ui.map.unbalanced"
+                                                            }
+                                                        ],
+                                                        "id": "08329e1a-9b4a-45d8-a878-2e1760a57bc9",
+                                                        "title": "深沉1\t"
+                                                    }
+                                                ]
+                                            },
+                                            "extensions": [
+                                                {
+                                                    "content": [
+                                                        {
+                                                            "content": "1",
+                                                            "name": "right-number"
+                                                        }
+                                                    ],
+                                                    "provider": "org.xmind.ui.map.unbalanced"
+                                                }
+                                            ],
+                                            "id": "93fbd505-be83-4ce6-b221-d43f0351e679",
+                                            "title": "lalalal1"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "83261491-e656-4bc4-82c1-fc314ed3d0b5",
+                                            "title": "hehehe2"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "b91886ea-f4ac-4a21-af2b-b68dd5ea7edf",
+                                            "title": "heiheihei"
+                                        },
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "7930ff1b-7f36-4b3a-8eca-5e5dbbbbad5b",
+                                                        "title": "XMind界面框架.mindnode"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "5fa5091d-02a8-498e-b201-e227c16ab16c",
+                                            "markers": [
+                                                {
+                                                    "markerId": "priority-1"
+                                                }
+                                            ],
+                                            "title": "lalalalalalalalalalalalal"
+                                        }
+                                    ],
+                                    "summary": [
+                                        {
+                                            "children": {},
+                                            "id": "49b6fc29-8cb1-4567-8d08-c283caa9c135",
+                                            "title": "这里是summary"
+                                        }
+                                    ]
+                                },
+                                "extensions": [
+                                    {
+                                        "content": [
+                                            {
+                                                "content": "1",
+                                                "name": "right-number"
+                                            }
+                                        ],
+                                        "provider": "org.xmind.ui.map.unbalanced"
+                                    }
+                                ],
+                                "id": "036e52c6-fe70-4586-b9ab-65f760f6c892",
+                                "summaries": [
+                                    {
+                                        "id": "cbdd5466-ed6d-4b70-89ff-96260a183de8",
+                                        "range": "(0,3)",
+                                        "topicId": "49b6fc29-8cb1-4567-8d08-c283caa9c135"
+                                    }
+                                ],
+                                "title": "还是3"
+                            },
+                            {
+                                "children": {},
+                                "extensions": [
+                                    {
+                                        "content": [
+                                            {
+                                                "content": "20284",
+                                                "name": "duration"
+                                            },
+                                            {
+                                                "content": "04:19:43 PM, Mar 14 2016",
+                                                "name": "record-time"
+                                            },
+                                            {
+                                                "content": "29496",
+                                                "name": "file-size"
+                                            }
+                                        ],
+                                        "provider": "org.xmind.ui.audionotes",
+                                        "resourceRefs": [
+                                            "xap:resources/24da2333f534599fba3dc00a50abbc0e25be2712e5875384b6387ae50502aeb9.mp3"
+                                        ]
+                                    }
+                                ],
+                                "id": "05c4f668-6986-4a9b-94f7-5df122b1d6b1",
+                                "title": "Audio 1"
+                            },
+                            {
+                                "boundaries": [
+                                    {
+                                        "id": "6364425f-1c3c-44e1-828e-919e654bfc7c",
+                                        "range": "(0,1)",
+                                        "title": "呵呵呵呵"
+                                    }
+                                ],
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "extensions": [
+                                                {
+                                                    "content": [
+                                                        {
+                                                            "content": "17546",
+                                                            "name": "duration"
+                                                        },
+                                                        {
+                                                            "content": "04:22:57 PM, Mar 14 2016",
+                                                            "name": "record-time"
+                                                        },
+                                                        {
+                                                            "content": "21600",
+                                                            "name": "file-size"
+                                                        }
+                                                    ],
+                                                    "provider": "org.xmind.ui.audionotes",
+                                                    "resourceRefs": [
+                                                        "xap:resources/6775210490c30b84647365d858f6005e033a8babfe651122005c4b7a595e0f30.mp3"
+                                                    ]
+                                                }
+                                            ],
+                                            "id": "5a7f4741-d31e-432f-bec3-ce1c7f057d40",
+                                            "title": "Audio 1"
+                                        },
+                                        {
+                                            "children": {},
+                                            "extensions": [
+                                                {
+                                                    "content": [
+                                                        {
+                                                            "content": "80951",
+                                                            "name": "duration"
+                                                        },
+                                                        {
+                                                            "content": "04:24:33 PM, Mar 14 2016",
+                                                            "name": "record-time"
+                                                        },
+                                                        {
+                                                            "content": "107088",
+                                                            "name": "file-size"
+                                                        }
+                                                    ],
+                                                    "provider": "org.xmind.ui.audionotes",
+                                                    "resourceRefs": [
+                                                        "xap:resources/2a50623d3513f677b15c3bad99446646d3d17fef8f50e15370416fb7914b5aa4.mp3"
+                                                    ]
+                                                }
+                                            ],
+                                            "id": "f25d1369-b9bc-4121-baa1-ffb2943383c8",
+                                            "title": "zhelishiheheheheheheheheheheh"
+                                        }
+                                    ]
+                                },
+                                "extensions": [
+                                    {
+                                        "content": [
+                                            {
+                                                "content": "12629",
+                                                "name": "duration"
+                                            },
+                                            {
+                                                "content": "04:20:30 PM, Mar 14 2016",
+                                                "name": "record-time"
+                                            },
+                                            {
+                                                "content": "15336",
+                                                "name": "file-size"
+                                            }
+                                        ],
+                                        "provider": "org.xmind.ui.audionotes",
+                                        "resourceRefs": [
+                                            "xap:resources/e57ba80ae64462ae9f90a12005873c291ca5bdb934c29055273c25f421fe789c.mp3"
+                                        ]
+                                    }
+                                ],
+                                "id": "a54626a5-ac55-4108-b307-7483804921ce",
+                                "title": "Audio 2hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+                            }
+                        ]
+                    },
+                    "extensions": [
+                        {
+                            "content": [
+                                {
+                                    "content": "1",
+                                    "name": "right-number"
+                                }
+                            ],
+                            "provider": "org.xmind.ui.map.unbalanced"
+                        }
+                    ],
+                    "id": "9d581449-eb41-486f-86ec-6ea10c7357d1",
+                    "title": "test1"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "boundaries": [
+                                    {
+                                        "id": "b768f78d-f17f-43d5-ae45-14de25390f90",
+                                        "range": "(0,2)",
+                                        "title": ""
+                                    }
+                                ],
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {},
+                                            "extensions": [
+                                                {
+                                                    "content": [
+                                                        {
+                                                            "content": "0",
+                                                            "name": "right-number"
+                                                        }
+                                                    ],
+                                                    "provider": "org.xmind.ui.map.unbalanced"
+                                                }
+                                            ],
+                                            "id": "28e04093-9ec5-4e37-b4f0-59290b7c2427",
+                                            "title": "呵呵4"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "01b37365-5328-4c7e-b7e4-ef8eb70b28ec",
+                                            "title": "baby"
+                                        },
+                                        {
+                                            "children": {},
+                                            "id": "f468be73-9211-4459-9df0-9b5e30014ec8",
+                                            "title": "hengheng"
+                                        }
+                                    ]
+                                },
+                                "extensions": [
+                                    {
+                                        "content": [
+                                            {
+                                                "content": "1",
+                                                "name": "right-number"
+                                            }
+                                        ],
+                                        "provider": "org.xmind.ui.map.unbalanced"
+                                    }
+                                ],
+                                "id": "9bbddc87-4484-4314-8d12-fa0aa3e486f6",
+                                "title": "Level 3"
+                            }
+                        ],
+                        "callout": [
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {},
+                                                        "id": "10965899-5ea8-4abe-a551-da5ee567a42b",
+                                                        "title": "Subtopic 1"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "b7103bf9-821b-43cb-82f5-42f17ac18d54",
+                                                        "title": "Subtopic 2"
+                                                    },
+                                                    {
+                                                        "children": {},
+                                                        "id": "d7740a4a-b118-4fe3-99b4-9703498207ff",
+                                                        "title": "Subtopic 3"
+                                                    },
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {
+                                                                        "attached": [
+                                                                            {
+                                                                                "children": {
+                                                                                    "attached": [
+                                                                                        {
+                                                                                            "children": {
+                                                                                                "attached": [
+                                                                                                    {
+                                                                                                        "children": {
+                                                                                                            "attached": [
+                                                                                                                {
+                                                                                                                    "children": {
+                                                                                                                        "attached": [
+                                                                                                                            {
+                                                                                                                                "children": {},
+                                                                                                                                "id": "36a140cf-02e1-49f0-9714-bf19d87ada69",
+                                                                                                                                "title": "Subtopic 1"
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    },
+                                                                                                                    "id": "a991bf3e-0740-4693-929f-7727db06bfa9",
+                                                                                                                    "title": "Subtopic 1"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        "id": "a67d4073-579c-4d1c-8c65-e545960410ae",
+                                                                                                        "title": "Subtopic 1"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            "id": "10594152-f6b5-42a3-9980-eb648b848020",
+                                                                                            "title": "Subtopic 1"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                "id": "89ea003a-8288-4098-8512-5f39f7b87e5d",
+                                                                                "title": "Subtopic 1"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "91b4f44b-6589-4ac4-bb5e-3d15169fe9d3",
+                                                                    "structureClass": "org.xmind.ui.timeline.horizontal",
+                                                                    "title": "Subtopic 1"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "bb846fdc-40a5-4369-9ac9-01c228bb88f4",
+                                                        "title": "Subtopic 4"
+                                                    }
+                                                ]
+                                            },
+                                            "extensions": [
+                                                {
+                                                    "content": [
+                                                        {
+                                                            "content": "2",
+                                                            "name": "right-number"
+                                                        }
+                                                    ],
+                                                    "provider": "org.xmind.ui.map.unbalanced"
+                                                }
+                                            ],
+                                            "id": "d24aaae2-f8c9-4a23-96a2-ceef2e14e656",
+                                            "title": "Subtopic 1"
+                                        }
+                                    ]
+                                },
+                                "extensions": [
+                                    {
+                                        "content": [
+                                            {
+                                                "content": "1",
+                                                "name": "right-number"
+                                            }
+                                        ],
+                                        "provider": "org.xmind.ui.map.unbalanced"
+                                    }
+                                ],
+                                "id": "33f3c3e8-8fdd-4ed8-a3ce-359252e79519",
+                                "position": {
+                                    "x": 126,
+                                    "y": 181
+                                },
+                                "title": "Callout"
+                            }
+                        ]
+                    },
+                    "extensions": [
+                        {
+                            "content": [
+                                {
+                                    "content": "1",
+                                    "name": "right-number"
+                                }
+                            ],
+                            "provider": "org.xmind.ui.map.unbalanced"
+                        }
+                    ],
+                    "id": "31cf0361-f625-4072-b43c-cd639b1bf36e",
+                    "title": "2test"
+                },
+                {
+                    "children": {},
+                    "id": "74f20890-9f1d-4b6f-b8ef-5f18a9ae3561",
+                    "title": "obtest"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "b99bd23f-91f4-484c-b030-103bd02dd23d",
+                                "title": "Subtopic 2"
+                            },
+                            {
+                                "children": {},
+                                "id": "74ceff93-60c4-4ecc-a7e6-bf959ae784c7",
+                                "title": "Subtopic 3"
+                            },
+                            {
+                                "children": {},
+                                "id": "9f8b5252-6f54-4b7e-972d-904572794781",
+                                "markers": [
+                                    {
+                                        "markerId": "priority-2"
+                                    }
+                                ],
+                                "title": "Subtopic 4"
+                            },
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "children": {},
+                                                                    "id": "36324ef1-037c-48c4-a6df-7994903c49d8",
+                                                                    "title": "Subtopic 1"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "8f50c9b5-307a-4dd2-9b2e-66cfc03cecc3",
+                                                        "title": "Subtopic 1"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "07ae331c-4e22-4160-93c4-d1275205ede2",
+                                            "title": "Subtopic 1"
+                                        }
+                                    ]
+                                },
+                                "id": "9c4beb41-ff55-463d-ae0a-fe33b0bbd432",
+                                "markers": [
+                                    {
+                                        "markerId": "priority-3"
+                                    }
+                                ],
+                                "numbering": {
+                                    "numberFormat": "org.xmind.numbering.arabic"
+                                },
+                                "title": "Subtopic 1"
+                            },
+                            {
+                                "children": {},
+                                "id": "a598bbde-4af3-4a49-b6c2-b900dc976f3b",
+                                "title": "Subtopic 5"
+                            }
+                        ]
+                    },
+                    "id": "96aff019-0399-419f-bb0e-3fb1735ecfe1",
+                    "title": "Floating Topic"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "12857bf4-f014-4f72-90cf-5b7687f747db",
+                                "title": "Subtopic 1"
+                            },
+                            {
+                                "children": {},
+                                "id": "27063e88-116d-46e0-9209-fc50670037b3",
+                                "title": "Subtopic 2"
+                            },
+                            {
+                                "children": {},
+                                "id": "d1fe7454-1645-4f58-bc8f-6aca576f61a8",
+                                "title": "Subtopic 3"
+                            }
+                        ]
+                    },
+                    "id": "b9f47848-74fb-472b-bc0c-05a22d133089",
+                    "title": "Main Topic 5"
+                },
+                {
+                    "children": {},
+                    "id": "08ec66ff-35a6-4a90-9a71-0db7342a4529",
+                    "title": "Main Topic 6"
+                },
+                {
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {},
+                                "id": "9d921a89-7ad2-4a6f-9305-78b0d4ef2bdb",
+                                "title": "Subtopic 1"
+                            },
+                            {
+                                "children": {},
+                                "id": "5a54bd4c-930c-4498-83d5-db8730a60f62",
+                                "title": "Subtopic 2"
+                            },
+                            {
+                                "children": {},
+                                "id": "5afe5790-d8a8-4ac0-87be-1864ff11fd08",
+                                "title": "Subtopic 3"
+                            },
+                            {
+                                "children": {},
+                                "id": "7b2ed48d-c230-40c1-a2bd-0c902243d1e7",
+                                "title": "Subtopic 4"
+                            }
+                        ]
+                    },
+                    "id": "db042d2a-4477-49b2-bdc8-81be442c5707",
+                    "title": "Main Topic 7"
+                }
+            ],
+            "detached": [
+                {
+                    "branch": "folded",
+                    "children": {
+                        "attached": [
+                            {
+                                "branch": "folded",
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "branch": "folded",
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "branch": "folded",
+                                                        "children": {
+                                                            "attached": [
+                                                                {
+                                                                    "branch": "folded",
+                                                                    "children": {
+                                                                        "attached": [
+                                                                            {
+                                                                                "branch": "folded",
+                                                                                "children": {},
+                                                                                "extensions": [
+                                                                                    {
+                                                                                        "content": [
+                                                                                            {
+                                                                                                "content": "hehe",
+                                                                                                "name": "assigned-to"
+                                                                                            }
+                                                                                        ],
+                                                                                        "provider": "org.xmind.ui.taskInfo"
+                                                                                    }
+                                                                                ],
+                                                                                "id": "68dbbb64-12be-4e2b-8991-2a06af6d6b64",
+                                                                                "title": "Subtopic 1"
+                                                                            },
+                                                                            {
+                                                                                "branch": "folded",
+                                                                                "children": {},
+                                                                                "extensions": [
+                                                                                    {
+                                                                                        "content": [
+                                                                                            {
+                                                                                                "content": "lalalal",
+                                                                                                "name": "assigned-to"
+                                                                                            }
+                                                                                        ],
+                                                                                        "provider": "org.xmind.ui.taskInfo"
+                                                                                    }
+                                                                                ],
+                                                                                "id": "7d692c46-e558-4210-97de-599b47e389bb",
+                                                                                "title": "Subtopic 2"
+                                                                            },
+                                                                            {
+                                                                                "branch": "folded",
+                                                                                "children": {},
+                                                                                "extensions": [
+                                                                                    {
+                                                                                        "content": [
+                                                                                            {
+                                                                                                "content": "hehe",
+                                                                                                "name": "assigned-to"
+                                                                                            }
+                                                                                        ],
+                                                                                        "provider": "org.xmind.ui.taskInfo"
+                                                                                    }
+                                                                                ],
+                                                                                "id": "67a33d10-db1b-4216-a07a-55b08a9d84e2",
+                                                                                "title": "Subtopic 3"
+                                                                            },
+                                                                            {
+                                                                                "branch": "folded",
+                                                                                "children": {},
+                                                                                "extensions": [
+                                                                                    {
+                                                                                        "content": [
+                                                                                            {
+                                                                                                "content": "lheiheiehi",
+                                                                                                "name": "assigned-to"
+                                                                                            }
+                                                                                        ],
+                                                                                        "provider": "org.xmind.ui.taskInfo"
+                                                                                    }
+                                                                                ],
+                                                                                "id": "9ee0d0a7-2b34-4b77-ba04-df50f7c0ebe1",
+                                                                                "title": "Subtopic 4"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "extensions": [
+                                                                        {
+                                                                            "content": [
+                                                                                {
+                                                                                    "content": "1",
+                                                                                    "name": "right-number"
+                                                                                }
+                                                                            ],
+                                                                            "provider": "org.xmind.ui.map.unbalanced"
+                                                                        }
+                                                                    ],
+                                                                    "id": "cc14eab4-2280-4e59-9ef5-a178ca096ba2",
+                                                                    "title": "Subtopic 1"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "extensions": [
+                                                            {
+                                                                "content": [
+                                                                    {
+                                                                        "content": "1",
+                                                                        "name": "right-number"
+                                                                    }
+                                                                ],
+                                                                "provider": "org.xmind.ui.map.unbalanced"
+                                                            }
+                                                        ],
+                                                        "id": "9082ea79-993e-4b98-bf75-d3dbe79248cd",
+                                                        "title": "Subtopic 1"
+                                                    },
+                                                    {
+                                                        "branch": "folded",
+                                                        "children": {},
+                                                        "id": "8d3ff215-a3fe-4c3a-9da9-503d2291bb63",
+                                                        "title": "Subtopic 2"
+                                                    },
+                                                    {
+                                                        "branch": "folded",
+                                                        "children": {},
+                                                        "id": "a1152495-26d4-4808-bc91-10b8a200829a",
+                                                        "title": "Subtopic 3"
+                                                    },
+                                                    {
+                                                        "branch": "folded",
+                                                        "children": {},
+                                                        "id": "4a82211e-9cf6-4f39-9646-881bfb8ce080",
+                                                        "title": "Subtopic 4"
+                                                    }
+                                                ]
+                                            },
+                                            "extensions": [
+                                                {
+                                                    "content": [
+                                                        {
+                                                            "content": "1",
+                                                            "name": "right-number"
+                                                        }
+                                                    ],
+                                                    "provider": "org.xmind.ui.map.unbalanced"
+                                                }
+                                            ],
+                                            "id": "7050e8da-ed4c-433e-adde-2d2a1a4519e4",
+                                            "title": "Subtopic 1"
+                                        }
+                                    ]
+                                },
+                                "extensions": [
+                                    {
+                                        "content": [
+                                            {
+                                                "content": "1",
+                                                "name": "right-number"
+                                            }
+                                        ],
+                                        "provider": "org.xmind.ui.map.unbalanced"
+                                    }
+                                ],
+                                "id": "099260ea-f75c-4757-82cb-1ba3e9503850",
+                                "title": "Subtopic 1"
+                            },
+                            {
+                                "branch": "folded",
+                                "children": {},
+                                "id": "04a861c2-6008-43f4-98cb-dd2e897ceb91",
+                                "title": "Subtopic 2"
+                            },
+                            {
+                                "branch": "folded",
+                                "children": {},
+                                "id": "390a7966-114d-4ddb-9848-c9b480d0aaea",
+                                "title": "Subtopic 3"
+                            },
+                            {
+                                "branch": "folded",
+                                "children": {},
+                                "id": "ff90ffc2-e53d-4085-9a49-8f452b194001",
+                                "title": "Subtopic 4"
+                            },
+                            {
+                                "branch": "folded",
+                                "children": {},
+                                "id": "e9fd6d75-c95e-4558-9f3c-4d45ce1cb7b7",
+                                "title": "Subtopic 5"
+                            }
+                        ]
+                    },
+                    "extensions": [
+                        {
+                            "content": [
+                                {
+                                    "content": "1",
+                                    "name": "right-number"
+                                }
+                            ],
+                            "provider": "org.xmind.ui.map.unbalanced"
+                        }
+                    ],
+                    "id": "53996924-68bf-492b-ba5d-2f4016f50836",
+                    "position": {
+                        "x": -267.5,
+                        "y": 688
+                    },
+                    "title": "Floating Topic"
+                },
+                {
+                    "branch": "folded",
+                    "children": {
+                        "attached": [
+                            {
+                                "branch": "folded",
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "branch": "folded",
+                                            "children": {
+                                                "attached": [
+                                                    {
+                                                        "branch": "folded",
+                                                        "children": {},
+                                                        "id": "5b22fe40-1921-4293-8001-fd1a4789175d",
+                                                        "title": "Subtopic 1"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "d373a617-8a64-428a-b747-7265c4fc8047",
+                                            "title": "Subtopic 1"
+                                        }
+                                    ]
+                                },
+                                "id": "3db7f6b6-5e25-41c3-8e24-a397c0c2e1a7",
+                                "title": "Subtopic 1"
+                            },
+                            {
+                                "branch": "folded",
+                                "children": {},
+                                "id": "599a23bf-558a-4ce8-bdf1-bac21fa719ec",
+                                "title": "Subtopic 2"
+                            },
+                            {
+                                "branch": "folded",
+                                "children": {},
+                                "id": "4febb2e4-2630-4509-8844-f0c1258b438d",
+                                "title": "Subtopic 3"
+                            },
+                            {
+                                "branch": "folded",
+                                "children": {},
+                                "id": "ff5c9ab6-991f-41f8-9f92-30785e41b06c",
+                                "title": "Subtopic 4"
+                            },
+                            {
+                                "branch": "folded",
+                                "children": {},
+                                "id": "3eaa60e2-3d53-40e7-a576-b59313458ee7",
+                                "title": "Subtopic 5"
+                            }
+                        ]
+                    },
+                    "id": "8cbae5bd-790d-419a-aa69-c0a73ce97d7b",
+                    "position": {
+                        "x": -418,
+                        "y": -592
+                    },
+                    "title": "Floating Topic",
+                    "structureClass": "org.xmind.ui.map.floating"
+                },
+                {
+                    "branch": "folded",
+                    "children": {
+                        "attached": [
+                            {
+                                "children": {
+                                    "attached": [
+                                        {
+                                            "branch": "folded",
+                                            "children": {},
+                                            "id": "f2d12388-fea3-49cd-9d3a-8cadd5b03578",
+                                            "labels": [
+                                                "Label 1"
+                                            ],
+                                            "title": "Subtopic 1"
+                                        }
+                                    ]
+                                },
+                                "id": "5fe6cfd0-98cf-41e9-81be-061e5d00d8e3",
+                                "title": "Subtopic 1"
+                            }
+                        ]
+                    },
+                    "id": "56de2b4c-fb52-4415-9072-b0e085f42da5",
+                    "position": {
+                        "x": 434,
+                        "y": -670
+                    },
+                    "structureClass": "org.xmind.ui.spreadsheet",
+                    "title": "Floating Topic matrix"
+                }
+            ]
+        },
+        "extensions": [
+            {
+                "content": [
+                    {
+                        "content": "2",
+                        "name": "right-number"
+                    }
+                ],
+                "provider": "org.xmind.ui.map.unbalanced"
+            }
+        ],
+        "id": "f5c258e7-a956-4f88-bc71-bbbf43400159",
+        "structureClass": "org.xmind.ui.map.unbalanced",
+        "style": {
+            "properties": {
+                "border-line-color": "#F4A51C",
+                "border-line-width": "0pt",
+                "fo:color": "#1F1400",
+                "fo:font-family": "Roboto",
+                "fo:font-size": "16pt",
+                "fo:text-transform": "uppercase",
+                "line-color": "#558ED5",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.topicShape.ellipse",
+                "svg:fill": "#F4A51C"
+            },
+            "type": "topic"
+        },
+        "title": "超长的topic啊啊啊啊啊啊",
+        "width": 90
+    },
+    "settings": {
+        "infoItems/infoItem": [
+            {
+                "mode": "icon",
+                "type": "label"
+            },
+            {
+                "mode": "card",
+                "type": "note"
+            },
+            {
+                "mode": "card",
+                "type": "href"
+            },
+            {
+                "mode": "card",
+                "type": "task"
+            }
+        ]
+    },
+    "theme": {
+        "boundary": {
+            "properties": {
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Raleway",
+                "fo:font-size": "10pt",
+                "fo:font-style": "italic",
+                "fo:font-weight": "normal",
+                "line-color": "#3F1640",
+                "line-pattern": "dash",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.boundaryShape.scallops",
+                "svg:fill": "#3F1640",
+                "svg:opacity": ".2"
+            },
+            "type": "boundary"
+        },
+        "calloutTopic": {
+            "properties": {
+                "border-line-color": "#A297A3",
+                "border-line-width": "0pt",
+                "callout-shape-class": "org.xmind.calloutTopicShape.balloon.rectangle",
+                "fo:font-family": "Raleway",
+                "fo:font-style": "italic",
+                "svg:fill": "#B980FF"
+            },
+            "type": "topic"
+        },
+        "centralTopic": {
+            "properties": {
+                "border-line-width": "0pt",
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Verdana",
+                "fo:font-size": "20pt",
+                "fo:font-weight": "normal",
+                "line-class": "org.xmind.branchConnection.curve",
+                "line-color": "#522353",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.topicShape.roundedRect",
+                "svg:fill": "#512252"
+            },
+            "type": "topic"
+        },
+        "floatingTopic": {
+            "properties": {
+                "border-line-color": "#413D72",
+                "border-line-width": "1pt",
+                "fo:color": "#413D72",
+                "fo:font-family": "Verdana",
+                "fo:font-size": "15pt",
+                "fo:font-style": "italic",
+                "fo:font-weight": "bold",
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "line-color": "#413D72",
+                "line-width": "1pt",
+                "shape-class": "org.xmind.topicShape.roundedRect",
+                "svg:fill": "none"
+            },
+            "type": "topic"
+        },
+        "mainTopic": {
+            "properties": {
+                "border-line-width": "0pt",
+                "fo:color": "#FFFFFF",
+                "fo:font-family": "Verdana",
+                "fo:font-size": "16pt",
+                "svg:fill": "#535186"
+            },
+            "type": "topic"
+        },
+        "map": {
+            "properties": {
+                "line-tapered": "tapered",
+                "svg:fill": "#FDF8FD"
+            },
+            "type": "map"
+        },
+        "relationship": {
+            "properties": {
+                "arrow-begin-class": "org.xmind.arrowShape.none",
+                "arrow-end-class": "org.xmind.arrowShape.triangle",
+                "fo:color": "#BF1E1B",
+                "fo:font-family": "Raleway",
+                "fo:font-size": "11pt",
+                "fo:font-style": "italic",
+                "fo:font-weight": "bold",
+                "line-color": "#525085",
+                "line-pattern": "dash",
+                "line-width": "2pt",
+                "shape-class": "org.xmind.relationshipShape.curved"
+            },
+            "type": "relationship"
+        },
+        "subTopic": {
+            "properties": {
+                "fo:color": "#522353",
+                "fo:font-family": "Verdana",
+                "fo:font-size": "10pt",
+                "svg:fill": "none"
+            },
+            "type": "topic"
+        },
+        "summary": {
+            "properties": {
+                "line-color": "#5A50AD",
+                "line-width": "4pt",
+                "shape-class": "org.xmind.summaryShape.curly"
+            },
+            "type": "summary"
+        },
+        "summaryTopic": {
+            "properties": {
+                "border-line-width": "0pt",
+                "fo:color": "#BF1E1B",
+                "fo:font-family": "Raleway",
+                "fo:font-size": "11pt",
+                "fo:font-style": "italic",
+                "fo:font-weight": "bold",
+                "line-class": "org.xmind.branchConnection.roundedElbow",
+                "line-color": "#5A50AD",
+                "shape-class": "org.xmind.topicShape.ellipse",
+                "svg:fill": "none"
+            },
+            "type": "topic"
+        }
+    }
+}

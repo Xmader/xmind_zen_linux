@@ -1,0 +1,487 @@
+@import "util.scss";
+@import "modules/dropdown.scss";
+$topbarHeight: 54px;
+$headerColor: #29333e;
+$leftMargin: 36px;
+$rightMargin: 36px;
+$spacing: 16px;
+$imgWidth: 42px;
+$imgHeight: 42px;
+$menuWidth: 40px;
+$menuHeight: 40px;
+$margin: 24px;
+
+@mixin headerIcon($url, $width: $menuWidth, $height: $menuHeight){
+  background-image: url($url);
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: $width;
+  height: $height;
+}
+
+#top-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 56px;
+  background-color: #f1f1f1;
+  z-index: 1;
+  box-shadow: 0 1px 0 0 #dedfe0;
+
+  .header {
+    min-width: 320px;
+    width: 100%;
+    height: $menuHeight;
+    margin: 8px auto;
+
+    > div {
+      & > * {
+          float: left;
+      }
+      height: 100%;
+      &.left {
+        float: left;
+
+        .logo {
+          @include headerIcon($url: '../images/cloudlogo.svg');
+          @include hiddenText();
+          margin: 0 $margin;
+        }
+
+        .sheet {
+          width: 260px;
+          height: $menuHeight;
+          background-color: rgba(0,0,0,0.05);
+          border-radius: 3px;
+
+          > * {
+            float: left;
+          }
+
+          .sheet-name {
+            p,input {
+              width: 226px;
+              padding: 10px;
+              display: block;
+              font-size: 16px;
+              color: #333;
+            }
+            .sheet-name-current {
+              @include oneLineEllipsis;
+            }
+            .sheet-name-edit {
+              border: 0 none;
+              line-height: 20px;
+              background-color: transparent;
+              display: none;
+              outline: none;
+              &:focus {
+                  border-radius: 3px;
+                  box-shadow: inset 0 0 4px 0 #1c69d9;
+              }
+            }
+          }
+
+          .more-sheets {
+            height: 100%;
+            .dropdown-wrapper {
+              margin-top: 5px;
+            }
+            .more-sheets-icon {
+              width: 34px;
+              height: 100%;
+              display: block;
+              cursor: pointer;
+              position: relative;
+              &:after {
+                  content: "";
+                  width: 0;
+                  height: 0;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  margin-top: -5px;
+                  margin-left: -3px;
+                  border-width: 9px 5px;
+                  border-style: solid;
+                  border-color: #888 transparent transparent transparent;
+              }
+            }
+          }
+        }
+        .ss-shortcut-menu {
+          display: none;
+        }
+        .shortcut-menu {
+          margin-left: 24px;
+          list-style: none;
+
+          & > * {
+              float: left;
+          }
+
+          .menu {
+            margin: 0 12px;
+
+            &.has-sub-menu {
+              position: relative;
+              &:after{
+                content: "";
+                display: block;
+                position: absolute;
+                top: 50%;
+                margin-top: -3px;
+                left: 100%;
+                width: 0;
+                height: 0;
+                border-width: 6px 3px;
+                border-style: solid;
+                border-color: #888 transparent transparent transparent;
+              }
+            }
+            & > a {
+              display: block;
+              text-indent: -10000px;
+              overflow: hidden;
+              &:hover {
+                  background-color: rgba(0,0,0,0.1);
+                  border-radius: 50%;
+              }
+            }
+            &.menu-undo a{
+              @include headerIcon($url: '../images/actionicons/undo.svg');
+            }
+            &.menu-redo a{
+              @include headerIcon($url: '../images/actionicons/redo.svg');
+            }
+            &.menu-topic a{
+              @include headerIcon($url: '../images/actionicons/topic.svg');
+            }
+            &.menu-relationship a{
+              @include headerIcon($url: '../images/actionicons/relationship.svg');
+            }
+            &.menu-boundary a{
+              @include headerIcon($url: '../images/actionicons/boundary.svg');
+            }
+            &.menu-summary a{
+              @include headerIcon($url: '../images/actionicons/summary.svg');
+            }
+            &.menu-marker a{
+              @include headerIcon($url: '../images/actionicons/marker.svg');
+            }
+            &.menu-more a{
+              @include headerIcon($url: '../images/actionicons/more.svg');
+            }
+            &.press a{
+                background-color: rgba(0,0,0,0.2);
+                border-radius: 50%;
+            }
+            &.disabled a{
+                opacity: 0.3;
+                cursor: not-allowed;
+            }
+
+            // below is submenu
+            .menu-subtopic i{
+              @include headerIcon($url: '../images/actionicons/subtopic.svg', $width: 20px, $height: 20px);
+            }
+            .menu-topicafter i{
+              @include headerIcon($url: '../images/actionicons/topicafter.svg', $width: 20px, $height: 20px);
+            }
+            .menu-label i{
+              @include headerIcon($url: '../images/actionicons/label.svg', $width: 20px, $height: 20px);
+            }
+            .menu-image i{
+              @include headerIcon($url: '../images/actionicons/image.svg', $width: 20px, $height: 20px);
+            }
+            .menu-link i{
+              @include headerIcon($url: '../images/actionicons/link.svg', $width: 20px, $height: 20px);
+            }
+            .menu-notes i{
+              @include headerIcon($url: '../images/actionicons/notes.svg', $width: 20px, $height: 20px);
+            }
+          }
+        }
+      }
+      &.right {
+        float: right;
+
+        .sync-icon {
+          width: 22px;
+          line-height: 50px;
+        }
+
+        & > *{
+          float: right;
+          height: 100%;
+        }
+        .menu {
+          a {
+            display: block;
+            text-indent: -10000px;
+            margin: 0 24px;
+            border-radius: 3px;
+            overflow: hidden;
+            border: 0.5px solid #acacac;
+            &:hover {
+                background-color: rgba(0,0,0,0.1);
+            }
+          }
+          &.menu-format a{
+            @include headerIcon($url: '../images/actionicons/format.svg');
+          }
+          &.press a{
+              background-image: url('../images/actionicons/formatselected.svg');
+              background-color: #595959;
+              border: 0 none;
+          }
+          & a.select{
+              background-image: url('../images/actionicons/formatselected.svg');
+              background-color: #737373;
+              border: 0 none;
+          }
+          &.disabled a{
+              opacity: 0.3;
+              cursor: not-allowed;
+          }
+        }
+        .sync-text {
+            margin-right: 8px;
+            font-size: 14px;
+            line-height: $menuHeight;
+            color: #000;
+        }
+      }
+
+      @media screen and (max-width: 1140px) {
+        &.left {
+          .sheet {
+            width: auto;
+            background-color: transparent;
+            border-radius: 0;
+
+            .sheet-name {
+              display: none;
+            }
+
+            .more-sheets {
+              .more-sheets-icon {
+                @include headerIcon("../images/actionicons/sheet.svg");
+                &:hover {
+                  background-color: rgba(0,0,0,0.1);
+                  border-radius: 50%;
+                }
+                &.press {
+                  background-color: rgba(0,0,0,0.2);
+                  border-radius: 50%;
+                }
+                &:after {
+                  display: none;
+                }
+              }
+            }
+          }
+
+          .shortcut-menu {
+            margin-left: 12px;
+          }
+        }
+      }
+
+      @media screen and (max-width: 910px) {
+        &.right {
+          .sync-text {
+            display: none;
+          }
+        }
+      }
+
+      @media screen and (max-width: 760px) {
+
+        &.left {
+          position: relative;
+          float: none;
+          width: 100%; 
+
+          .shortcut-menu {
+            display: none;
+          }
+          .sheet{
+            width: 260px;
+            background-color: rgba(0,0,0,0.05);
+            border-radius: 3px;
+
+            .sheet-name {
+              display: block;
+            }
+            .more-sheets {
+              .more-sheets-icon {
+                width: 34px;
+                height: 100%;
+                background: none;
+                &:hover {
+                  background-color: transparent;
+                  border-radius: 0;
+                }
+                &.press {
+                  background-color: transparent;
+                  border-radius: 0;
+                }
+                &:after {
+                  display: block;
+                }
+              }
+            }
+          }
+          .ss-shortcut-menu {
+            display: block;
+            position: absolute;
+            right: 0;
+
+            & > * {
+              float: left;
+            }
+
+            .menu {
+              margin: 0 12px;
+
+              &.has-sub-menu {
+                position: relative;
+                &:after{
+                  content: "";
+                  display: block;
+                  position: absolute;
+                  top: 50%;
+                  margin-top: -3px;
+                  left: 100%;
+                  width: 0;
+                  height: 0;
+                  border-width: 6px 3px;
+                  border-style: solid;
+                  border-color: #888 transparent transparent transparent;
+                }
+              }
+              & > a {
+                display: block;
+                text-indent: -10000px;
+                overflow: hidden;
+                &:hover {
+                  background-color: rgba(0,0,0,0.1);
+                  border-radius: 50%;
+                }
+              }
+              &.menu-undo a{
+                @include headerIcon($url: '../images/actionicons/undo.svg');
+              }
+              &.menu-redo a{
+                @include headerIcon($url: '../images/actionicons/redo.svg');
+              }
+              &.menu-more {
+                margin-right: 30px;
+                a {
+                  @include headerIcon($url: '../images/actionicons/more.svg');
+                }
+              }
+              &.press a{
+                background-color: rgba(0,0,0,0.2);
+                border-radius: 50%;
+              }
+              &.disabled a{
+                opacity: 0.3;
+                cursor: not-allowed;
+              }
+
+              // below is submenu
+              .menu-subtopic i{
+                @include headerIcon($url: '../images/actionicons/subtopic.svg', $width: 20px, $height: 20px);
+                background-size: contain;
+              }
+              .menu-topicafter i{
+                @include headerIcon($url: '../images/actionicons/topicafter.svg', $width: 20px, $height: 20px);
+                background-size: contain;
+              }
+              .menu-relationship i{
+                @include headerIcon($url: '../images/actionicons/relationship.svg', $width: 20px, $height: 20px);
+                background-size: contain;
+              }
+              .menu-boundary i{
+                @include headerIcon($url: '../images/actionicons/boundary.svg', $width: 20px, $height: 20px);
+                background-size: contain;
+              }
+              .menu-summary i{
+                @include headerIcon($url: '../images/actionicons/summary.svg', $width: 20px, $height: 20px);
+                background-size: contain;
+              }
+            }
+          }
+        }
+        &.right {
+          display: none;
+        }
+      }
+
+      @media screen and (max-width: 580px) {
+        &.left {
+          .sheet {
+            width: auto;
+            background-color: transparent;
+            border-radius: 0;
+            position: absolute;
+            right: 224px;
+
+            .sheet-name {
+              display: none;
+            }
+
+            .more-sheets {
+              .more-sheets-icon {
+                @include headerIcon("../images/actionicons/sheet.svg");
+                &:hover {
+                  background-color: rgba(0,0,0,0.1);
+                  border-radius: 50%;
+                }
+                &.press {
+                  background-color: rgba(0,0,0,0.2);
+                  border-radius: 50%;
+                }
+                &:after {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        &.left {
+          .logo {
+            margin: 0 16px;
+          }
+          .sheet {
+            right: 198px;
+          }
+          .ss-shortcut-menu {
+            .menu {
+              margin: 0 8px;
+            }
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      margin: 4px 0;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    height: 48px;
+  }
+}
+
+// for side panel
+@media screen and (max-width: 760px) {
+  .side-panel {
+    display: none;
+  }
+}
