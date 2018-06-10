@@ -1,6 +1,6 @@
 # Xmind Zen for Linux
 
-> Xmind Zen 在Linux系统上的移植版本, 默认已经去除了导出时的弹窗和水印。
+> Xmind Zen 在Linux系统上的移植版本, 默认已经去除了去掉右上角的激活按钮、导出时的弹窗和水印。
 
 ## 下载
 
