@@ -11527,6 +11527,7 @@ samll {
   border-radius: 4px;
   top: 2px;
   cursor: default;
+  display: none !important;
 }
 .evaluation-text.win32 {
   right: 135px;
