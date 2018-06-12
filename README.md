@@ -4,7 +4,8 @@
 
 ## 下载
 
-[点我进入版本发布和下载页面](https://coding.net/u/xmader/p/xmind_zen_linux/git/releases)
+[点击下载](https://coding.net/u/xmader/p/xmind_zen_linux/git/archive/master)
+<!-- [点我进入版本发布和下载页面](https://coding.net/u/xmader/p/xmind_zen_linux/git/releases) -->
 
 ## 已知问题
 
