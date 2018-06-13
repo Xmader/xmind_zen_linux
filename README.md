@@ -9,7 +9,15 @@
 
 ## 已知问题
 
-* 在Linux系统上运行时，无法显示托盘图标
+* 无法直接发送邮件分享Xmind 工作簿
+<!-- `os.tmpdir()`错误，未在`/tmp`后加上`/` -->
+
+* 在Linux系统上运行时，有时无法显示任务栏图标
+<!-- ```js
+e.icon=require('path').join(__dirname, 'icon.png')
+icon:require('path').join(__dirname, 'icon.png')
+new u.BrowserWindow({icon:require('path').join(__dirname, 'icon.png')}),
+``` -->
 
 ## 备注
 
