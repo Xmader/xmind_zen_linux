@@ -2,7 +2,7 @@
 
 ## Download
 
-[Download](https://github.com/Xmader/xmind_zen_linux/releases/)
+[Releases](https://github.com/Xmader/xmind_zen_linux/releases/)
 
 ## Known Problems
 
@@ -14,6 +14,6 @@
 
 ## With Special Thanks to
 
-* [Xmind Zen](https://www.xmind.cn/zen/)
+* [Xmind Zen](https://www.xmind.net/zen/)
 
 * [Electron](https://electronjs.org/)
