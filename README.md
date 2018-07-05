@@ -18,7 +18,7 @@ $ ./xmind
 
 ## Notes
 
-`Xmind Zen for Linux` runs successfully on `Ubuntu Budgie 18.04 LTS (64bit)`
+`Xmind Zen for Linux` runs successfully on `Ubuntu Budgie 18.04 LTS (64bit)` and so on.
 
 ## With Special Thanks to
 
