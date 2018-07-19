@@ -4,7 +4,9 @@
 
 ## Download
 
-[Releases](https://github.com/Xmader/xmind_zen_linux/releases/)
+~~[Releases](https://github.com/Xmader/xmind_zen_linux/releases/)~~
+
+Xmind Zen Linux version is now released officially, this project will not be updated any more, please use the [official version](https://www.xmind.net/zen/).
 
 ## Usage
 
